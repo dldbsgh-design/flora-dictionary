@@ -4,8 +4,19 @@ import { dirname, join } from "node:path";
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
+const HTTP_URL = /^https?:///;
+
+function checkUrls(at, label, urls, errs) {
+  for (const u of urls) {
+    if (u && !HTTP_URL.test(String(u))) errs.push(`${at}: ${label} must start with http:// or https://: ${u}`);
+  }
+}
+
 function checkCommon(kind, e, errs) {
   const at = `${kind} "${e.id}"`;
+  checkUrls(at, "source", e.sources ?? [], errs);
+  for (const m of e.meanings ?? []) checkUrls(at, "meaning source", m.sources ?? [], errs);
+  if (e.photo) checkUrls(at, "photo url", [e.photo.source, e.photo.licenseUrl], errs);
   if (!Array.isArray(e.sources) || e.sources.length === 0) {
     errs.push(`${at}: missing sources`);
   }

@@ -103,3 +103,13 @@ test("meaningVerified needs ≥2 distinct hostnames", () => {
   assert.equal(meaningVerified({ sources: [] }), false);
   assert.equal(meaningVerified({}), false);
 });
+
+test("non-http(s) URLs in sources, meanings and photo are errors", () => {
+  const bad = "javascript:alert(1)";
+  const photo = (over) => ({ file: "x.jpg", author: "a", license: "CC", licenseUrl: "", source: "https://c.org", ...over });
+  assert.ok(run([flower({ sources: [bad] })]).some((e) => e.includes(bad)));
+  assert.ok(run([flower({ meanings: [{ text: "t", region: "r", sources: [bad] }] })]).some((e) => e.includes(bad)));
+  assert.ok(run([flower({ photo: photo({ source: bad }) })]).some((e) => e.includes(bad)));
+  assert.ok(run([flower({ photo: photo({ licenseUrl: bad }) })]).some((e) => e.includes(bad)));
+  assert.deepEqual(run([flower({ photo: photo({}) })]), []);
+});
