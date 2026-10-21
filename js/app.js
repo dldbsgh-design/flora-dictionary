@@ -6,6 +6,9 @@ import { renderCover, renderPage, renderDetail, renderMood, renderNotFound } fro
 const PER_PAGE = 4;
 const GANADA = ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ", "기타"];
 const enc = encodeURIComponent;
+const SITE = "꽃과 향의 사전";
+const pageNo = (x) => Math.trunc(Number(x)) || 1;
+let pageTitle = SITE;
 
 const app = document.getElementById("app");
 const store = { vocab: {}, flowers: [], scents: [] };
@@ -52,12 +55,13 @@ function listPage(part, { key, label, n }) {
     entries = group.entries;
   }
   const pages = paginate(entries, PER_PAGE);
-  const page = clampPage(Number(n) || 1, pages.length);
+  const page = clampPage(pageNo(n), pages.length);
   const shown = pages[page - 1] || [];
   const activeTab = label != null ? label : shown.length ? chosung(shown[0].name) : null;
+  pageTitle = `${PARTS[part].label}${activeTab ? ` · ${activeTab}` : ""} — p.${page} · ${SITE}`;
   return renderPage({
     part,
-    title: label,
+    title: label != null ? label : PARTS[part].label,
     range: rangeOf(shown),
     entries: shown,
     page,
@@ -70,13 +74,18 @@ function listPage(part, { key, label, n }) {
 }
 
 export function route(hash) {
+  pageTitle = `찾을 수 없어요 · ${SITE}`;
   const segs = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
-  if (segs.length === 0) return renderCover(store.vocab.moods);
+  if (segs.length === 0) {
+    pageTitle = SITE;
+    return renderCover(store.vocab.moods);
+  }
   const [head, kind, a, b, c] = segs;
 
   if (head === "mood" && segs.length === 2) {
     const word = safeDecode(kind);
     if (word == null) return renderNotFound();
+    pageTitle = `${word} · ${SITE}`;
     return renderMood(word, byMood(word, sortKo(store.flowers), sortKo(store.scents)));
   }
   if (!PARTS[head]) return renderNotFound();
@@ -94,14 +103,18 @@ export function route(hash) {
   if (kind === "e" && segs.length === 3) {
     const id = safeDecode(a);
     const entry = id == null ? null : findEntry(id, store[part]);
-    return entry ? renderDetail(entry, part, store) : renderNotFound();
+    if (!entry) return renderNotFound();
+    pageTitle = `${entry.name} · ${SITE}`;
+    return renderDetail(entry, part, store);
   }
   return renderNotFound();
 }
 
 function show() {
   app.innerHTML = route(location.hash);
+  document.title = pageTitle;
   window.scrollTo(0, 0);
+  document.querySelector(".tab.on")?.scrollIntoView({ inline: "center", block: "nearest" });
 }
 
 async function start() {
