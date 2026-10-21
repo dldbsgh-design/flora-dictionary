@@ -32,6 +32,16 @@ function meaningText(m) {
   return `${esc(m.text)}${flag}`;
 }
 
+// One item per distinct text; a verified copy wins over an unverified one.
+function dedupeMeanings(meanings) {
+  const byText = new Map();
+  for (const m of meanings) {
+    const prev = byText.get(m.text);
+    if (!prev || (!meaningVerified(prev) && meaningVerified(m))) byText.set(m.text, m);
+  }
+  return [...byText.values()];
+}
+
 function tags(entry, part) {
   const out = [];
   for (const key of PARTS[part].tagKeys) {
@@ -53,10 +63,10 @@ function akaLine(entry, part) {
   return items.length ? `<p class="aka">${items.map(esc).join(" · ")}</p>` : "";
 }
 
-export function renderEntry(entry, part) {
-  const meanings = part === "flowers" ? list(entry.meanings) : [];
+export function renderEntry(entry, part, { showMeanings = true } = {}) {
+  const meanings = part === "flowers" && showMeanings ? dedupeMeanings(list(entry.meanings)) : [];
   const meaningLine = meanings.length
-    ? `<p class="meaning"><b>꽃말</b> ${meanings.map(meaningText).join(", ")}</p>`
+    ? `<p class="meaning"><b>꽃말</b> ${meanings.map(meaningText).join(" · ")}</p>`
     : "";
   const blurb = part === "flowers" ? entry.note : entry.description;
   return `<article class="entry">
@@ -82,7 +92,7 @@ function renderTabs(tabs, activeTab) {
   if (!tabs || !tabs.length) return "";
   const items = tabs.map((t) => {
     const on = t.label === activeTab;
-    return `<a class="tab${on ? " on" : ""}" href="${esc(t.href)}"${on ? ` aria-current="true"` : ""}>${esc(t.label)}</a>`;
+    return `<a class="tab${on ? " on" : ""}" href="${esc(t.href)}"${on ? ` aria-current="page"` : ""}>${esc(t.label)}</a>`;
   });
   return `<nav class="tabs" aria-label="색인">${items.join("")}</nav>`;
 }
@@ -90,7 +100,7 @@ function renderTabs(tabs, activeTab) {
 function renderModes(modes) {
   if (!modes || !modes.length) return "";
   return `<nav class="modes" aria-label="찾아보기">${modes.map((m) =>
-    `<a href="${esc(m.href)}"${m.active ? ` class="on" aria-current="true"` : ""}>${esc(m.label)}</a>`).join("")}</nav>`;
+    `<a href="${esc(m.href)}"${m.active ? ` class="on" aria-current="page"` : ""}>${esc(m.label)}</a>`).join("")}</nav>`;
 }
 
 export function renderPage({ part, title, range, entries, page, pageCount, tabs, activeTab, modes, base }) {
@@ -142,7 +152,7 @@ export function renderDetail(entry, part, data) {
     <a class="masthead" href="#/${esc(part)}">${esc(MASTHEAD[part] || PARTS[part].label)}</a>
     <span class="range">${esc(entry.name)}</span>
   </header>
-  ${renderEntry(entry, part)}
+  ${renderEntry(entry, part, { showMeanings: false })}
   <dl class="facts">${facts.filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
   ${meanings.length ? `<h3>꽃말</h3><ul class="meanings">${meanings.map((m) =>
     `<li>${meaningText(m)}${m.region ? ` <span class="region">${esc(m.region)}</span>` : ""}<br><small>${sourceList(m.sources)}</small></li>`).join("")}</ul>` : ""}

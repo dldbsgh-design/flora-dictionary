@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  esc, renderEntry, renderPage, renderMood, renderNotFound,
+  esc, renderEntry, renderPage, renderDetail, renderMood, renderNotFound,
 } from "../js/render.js";
 
 function flower(over = {}) {
@@ -88,4 +88,51 @@ test("renderMood with no matches shows the empty message", () => {
 
 test("renderNotFound links back to the cover", () => {
   assert.match(renderNotFound(), /href="#\/"/);
+});
+
+test("meaning text containing a comma renders as one item, joined with ' · '", () => {
+  const html = renderEntry(flower({
+    meanings: [
+      { text: "사랑, 기다림", region: "한국", sources: ["https://a.com/x", "https://b.org/y"] },
+      { text: "순결", region: "한국", sources: ["https://a.com/x"] },
+    ],
+  }), "flowers");
+  assert.match(html, /사랑, 기다림 · 순결 <span class="unverified">확인 필요<\/span>/);
+  assert.equal((html.match(/class="unverified"/g) || []).length, 1);
+});
+
+test("same meaning text verified and unverified renders once without the badge", () => {
+  const html = renderEntry(flower({
+    meanings: [
+      { text: "순결", region: "일본", sources: ["https://a.com/x"] },
+      { text: "순결", region: "한국", sources: ["https://a.com/x", "https://b.org/y"] },
+    ],
+  }), "flowers");
+  assert.equal((html.match(/순결/g) || []).length, 1);
+  assert.doesNotMatch(html, /확인 필요/);
+});
+
+test("detail page shows 꽃말 only in the regional section", () => {
+  const f = flower({ meanings: [{ text: "순결", region: "한국", sources: ["https://a.com/x"] }] });
+  const html = renderDetail(f, "flowers", { flowers: [f], scents: [] });
+  assert.doesNotMatch(html, /<b>꽃말<\/b>/);
+  assert.equal((html.match(/꽃말/g) || []).length, 1);
+  assert.match(html, /<h3>꽃말<\/h3>/);
+});
+
+test("active tab and mode links use aria-current=\"page\"", () => {
+  const html = renderPage({
+    part: "flowers", title: "ㄴ", range: "ㄴ — ㄴ", entries: [flower()], page: 1, pageCount: 1,
+    tabs: [{ label: "ㄴ", href: "#/x" }], activeTab: "ㄴ",
+    modes: [{ label: "가나다", href: "#/flowers", active: true }],
+  });
+  assert.equal((html.match(/aria-current="page"/g) || []).length, 2);
+  assert.doesNotMatch(html, /aria-current="true"/);
+});
+
+test("default list page has an h1", () => {
+  const html = renderPage({
+    part: "flowers", title: "꽃", range: "ㄴ — ㄴ", entries: [flower()], page: 1, pageCount: 1,
+  });
+  assert.match(html, /<h1 class="section">꽃<\/h1>/);
 });
