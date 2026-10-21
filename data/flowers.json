@@ -27,7 +27,7 @@
         "sources": ["https://limo.media/articles/-/26697"]
       }
     ],
-    "pairs": ["nigella-damascena"],
+    "pairs": ["nigella-damascena", "anemone-coronaria", "prunus-mume", "camellia-japonica"],
     "scents": [],
     "photo": {
       "file": "images/flowers/helleborus-niger.jpg",
@@ -82,7 +82,7 @@
         "sources": ["https://www.organicgardener.com.au/love-in-a-mist/"]
       }
     ],
-    "pairs": ["helleborus-niger", "scabiosa-atropurpurea", "oxypetalum-coeruleum"],
+    "pairs": ["helleborus-niger", "scabiosa-atropurpurea", "oxypetalum-coeruleum", "papaver-rhoeas", "calendula", "thalictrum"],
     "scents": [],
     "photo": {
       "file": "images/flowers/nigella-damascena.jpg",
@@ -132,7 +132,7 @@
         "sources": ["https://m.cafe.daum.net/16300/6iqS/1441"]
       }
     ],
-    "pairs": ["nigella-damascena", "pycnosorus-globosus"],
+    "pairs": ["nigella-damascena", "pycnosorus-globosus", "lavandula-angustifolia", "eryngium"],
     "scents": [],
     "photo": {
       "file": "images/flowers/scabiosa-atropurpurea.jpg",
@@ -167,7 +167,7 @@
         "sources": ["https://oggi.jp/7695896", "https://www.choge-blog.com/?p=90921"]
       }
     ],
-    "pairs": ["nigella-damascena", "pycnosorus-globosus"],
+    "pairs": ["nigella-damascena", "pycnosorus-globosus", "delphinium"],
     "scents": [],
     "photo": {
       "file": "images/flowers/oxypetalum-coeruleum.jpg",
@@ -207,7 +207,7 @@
         "sources": ["https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"]
       }
     ],
-    "pairs": ["oxypetalum-coeruleum", "scabiosa-atropurpurea"],
+    "pairs": ["oxypetalum-coeruleum", "scabiosa-atropurpurea", "limonium-sinuatum"],
     "scents": [],
     "photo": {
       "file": "images/flowers/pycnosorus-globosus.jpg",
@@ -218,5 +218,2600 @@
     },
     "sources": ["https://en.wikipedia.org/wiki/Pycnosorus_globosus", "https://species.wikimedia.org/wiki/Pycnosorus_globosus"],
     "checked": "2026-10-21"
+  },
+  {
+    "id": "rosa",
+    "name": "장미",
+    "latin": "Rosa",
+    "aka": [],
+    "family": "장미과",
+    "origin": "북반구의 온대와 한대 지방",
+    "note": "장미속 식물로 관상용 외에 장미차, 화전, 향수와 화장품 원료로 쓰이며, 열매인 로즈힙에는 비타민 C가 많다. 하이브리드 티 장미는 늦봄부터 첫서리까지 핀다.",
+    "colors": ["빨강", "흰색", "노랑", "주황", "분홍", "자주", "파랑"],
+    "seasons": ["봄", "여름", "가을"],
+    "moods": ["우아함", "관능", "강렬함"],
+    "meanings": [
+      {
+        "text": "순수 (흰색)",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/장미", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "열렬한 사랑 (빨강)",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/장미"]
+      },
+      {
+        "text": "사랑과 아름다움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/bara/", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0103.html"]
+      },
+      {
+        "text": "애정 (빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/bara/", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0103.html"]
+      },
+      {
+        "text": "순수 (흰색)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/bara/"]
+      },
+      {
+        "text": "사랑 (빨강)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://hananokotoba.com/bara/"]
+      }
+    ],
+    "pairs": ["gypsophila", "lavandula-angustifolia", "paeonia-lactiflora", "delphinium", "lilium", "chamelaucium-uncinatum"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/장미", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/bara/", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0103.html", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/rosa.jpg",
+      "author": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_rubiginosa_1.jpg"
+    }
+  },
+  {
+    "id": "tulipa",
+    "name": "튤립",
+    "latin": "Tulipa",
+    "aka": [],
+    "family": "백합과",
+    "origin": "남동 유럽에서 튀르키예, 코카서스를 거쳐 중앙아시아에 이르는 지역",
+    "note": "가을에 심는 내한성 구근초로 보통 4~5월에 꽃이 핀다. 화단, 화분, 절화용으로 쓰인다. 꽃색은 빨강, 주황, 분홍, 노랑, 보라, 흰색 등이며 순수한 파랑은 없다.",
+    "colors": ["빨강", "분홍", "주황", "보라", "노랑", "흰색"],
+    "seasons": ["봄"],
+    "moods": ["명랑", "따뜻함", "축하"],
+    "meanings": [
+      {
+        "text": "사랑의 고백 (빨강)",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.kbmaeil.com/article/201510160143369"]
+      },
+      {
+        "text": "실연 (흰색)",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.kbmaeil.com/article/201510160143369"]
+      },
+      {
+        "text": "영원한 사랑 (보라)",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.kbmaeil.com/article/201510160143369"]
+      },
+      {
+        "text": "배려",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6678032", "https://hananokotoba.com/tulip/"]
+      },
+      {
+        "text": "영원한 사랑 (보라)",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6678032"]
+      },
+      {
+        "text": "사랑의 고백 (빨강)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/tulip/"]
+      }
+    ],
+    "pairs": ["narcissus", "hyacinthus-orientalis", "myosotis", "ranunculus-asiaticus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Tulip", "https://ko.wikipedia.org/wiki/튤립", "https://oggi.jp/6678032", "https://hananokotoba.com/tulip/", "https://namu.wiki/w/꽃말", "https://www.kbmaeil.com/article/201510160143369", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/tulipa.jpg",
+      "author": "Dina L",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+    }
+  },
+  {
+    "id": "lilium",
+    "name": "백합",
+    "latin": "Lilium",
+    "aka": [],
+    "family": "백합과",
+    "origin": "아시아, 유럽, 북아메리카의 한랭지에서 온난지까지",
+    "note": "백합속 식물로 파랑이나 검은 보라색 계열을 뺀 거의 모든 색이 있다. 한랭지형은 5월 무렵, 난지형은 8월 무렵 핀다.",
+    "colors": ["흰색", "분홍", "노랑", "주황"],
+    "seasons": ["봄", "여름"],
+    "moods": ["순수", "우아함", "고요함"],
+    "meanings": [
+      {
+        "text": "순결",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/백합속", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "순수",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/백합속", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "순결 (흰색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lily/", "https://greensnap.co.jp/columns/lily_language"]
+      },
+      {
+        "text": "위엄",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lily/", "https://greensnap.co.jp/columns/lily_language"]
+      },
+      {
+        "text": "순수",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"]
+      }
+    ],
+    "pairs": ["gypsophila", "rosa", "dianthus-caryophyllus", "polianthes-tuberosa"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/백합속", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/lily/", "https://greensnap.co.jp/columns/lily_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/lilium.jpg",
+      "author": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lilium_candidum_1.jpg"
+    }
+  },
+  {
+    "id": "freesia",
+    "name": "프리지아",
+    "latin": "Freesia",
+    "aka": ["향설란"],
+    "family": "붓꽃과",
+    "origin": "남아프리카",
+    "note": "알뿌리로 키우는 여러해살이풀로 온상 재배하면 12월부터 꽃이 핀다. 주로 관상용으로 재배한다.",
+    "colors": ["흰색", "노랑", "연분홍", "빨강", "자주", "보라"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["명랑", "순수", "따뜻함"],
+    "meanings": [
+      {
+        "text": "천진난만",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/프리지어", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "영원한 우정",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/프리지어", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "친애의 정",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/freesia/", "https://greensnap.co.jp/columns/freesia_language"]
+      },
+      {
+        "text": "순결 (빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/freesia/", "https://greensnap.co.jp/columns/freesia_language"]
+      },
+      {
+        "text": "동경 (보라)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/freesia/", "https://greensnap.co.jp/columns/freesia_language"]
+      },
+      {
+        "text": "우정",
+        "region": "영미권",
+        "sources": ["https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/freesia/"]
+      }
+    ],
+    "pairs": ["ranunculus-asiaticus", "narcissus", "lathyrus-odoratus"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/프리지어", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/freesia/", "https://greensnap.co.jp/columns/freesia_language", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/freesia.jpg",
+      "author": "The original uploader was Jeantosti at English Wikipedia .",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Freesia.jpg"
+    }
+  },
+  {
+    "id": "narcissus",
+    "name": "수선화",
+    "latin": "Narcissus",
+    "aka": [],
+    "family": "수선화과",
+    "origin": "유럽, 지중해, 북아프리카, 중동에서 한국과 중국까지",
+    "note": "겨울철부터 5월 무렵까지 피며 나팔수선화 계통은 3~4월에 핀다. 화단, 화분, 꽃꽂이용으로 많이 쓴다.",
+    "colors": ["노랑", "흰색"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["고독", "우수", "섬세함"],
+    "meanings": [
+      {
+        "text": "고결",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/수선화", "https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "자기애",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://sgsg.hankyung.com/article/2023012768381"]
+      },
+      {
+        "text": "자존",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/수선화"]
+      },
+      {
+        "text": "자만",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suisen/", "https://greensnap.co.jp/columns/narcissus_language"]
+      },
+      {
+        "text": "다시 한번 사랑해 주세요 (노랑)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suisen/", "https://greensnap.co.jp/columns/narcissus_language"]
+      },
+      {
+        "text": "존중",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"]
+      }
+    ],
+    "pairs": ["tulipa", "freesia", "hyacinthus-orientalis", "forsythia-koreana", "fritillaria-meleagris"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/수선화", "https://namu.wiki/w/꽃말", "https://sgsg.hankyung.com/article/2023012768381", "https://hananokotoba.com/suisen/", "https://greensnap.co.jp/columns/narcissus_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/narcissus.jpg",
+      "author": "Agadez",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Narcissus_pseudonarcissus_flower_%E2%80%93_front.jpg"
+    }
+  },
+  {
+    "id": "hyacinthus-orientalis",
+    "name": "히아신스",
+    "latin": "Hyacinthus orientalis",
+    "aka": [],
+    "family": "비짜루과",
+    "origin": "지중해 연안과 소아시아",
+    "note": "3월 하순에 향기가 강한 꽃이 피며, 향료의 원료로도 쓰이고 관상용으로 널리 재배한다.",
+    "colors": ["흰색", "노랑", "분홍", "빨강", "파랑", "보라"],
+    "seasons": ["봄"],
+    "moods": ["향수", "섬세함", "맑음"],
+    "meanings": [
+      {
+        "text": "마음의 기쁨",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "슬픔 (보라)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/hyacinth/", "https://greensnap.co.jp/columns/hyacinth_language"]
+      },
+      {
+        "text": "변치 않는 사랑 (파랑)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/hyacinth/", "https://greensnap.co.jp/columns/hyacinth_language"]
+      },
+      {
+        "text": "질투 (빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/hyacinth/", "https://greensnap.co.jp/columns/hyacinth_language"]
+      },
+      {
+        "text": "변함없음 (파랑)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"]
+      },
+      {
+        "text": "슬픔 (보라)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://hananokotoba.com/hyacinth/"]
+      }
+    ],
+    "pairs": ["tulipa", "narcissus", "myosotis", "viola"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/히아신스", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/hyacinth/", "https://greensnap.co.jp/columns/hyacinth_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/hyacinthus-orientalis.jpg",
+      "author": "Plantman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hyacinth_flower.jpg"
+    }
+  },
+  {
+    "id": "ranunculus-asiaticus",
+    "name": "라넌큘러스",
+    "latin": "Ranunculus asiaticus",
+    "aka": [],
+    "family": "미나리아재비과",
+    "origin": "지중해 동부, 남서아시아, 남동유럽(크레타·카르파토스·로도스), 북동아프리카",
+    "note": "미나리아재비속의 Ranunculus asiaticus로, 지름 3~5cm의 꽃이 빨강에서 분홍, 노랑, 흰색까지 다양하게 핀다. 일본 원예 사이트는 개화기를 3~5월로 소개한다.",
+    "colors": ["빨강", "분홍", "노랑", "흰색", "주황", "보라"],
+    "seasons": ["봄"],
+    "moods": ["우아함", "섬세함", "따뜻함"],
+    "meanings": [
+      {
+        "text": "매력",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://kbmaeil.com/article/201410240112916", "https://www.wikitree.co.kr/articles/260895"]
+      },
+      {
+        "text": "매혹",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://kbmaeil.com/article/201410240112916"]
+      },
+      {
+        "text": "눈부신 매력",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ranunculus/", "https://greensnap.co.jp/columns/ranunculus_language"]
+      },
+      {
+        "text": "매력",
+        "region": "영미권",
+        "sources": ["https://www.floraqueen.com/blog/ranunculus-flower", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/ranunculus/"]
+      }
+    ],
+    "pairs": ["tulipa", "freesia", "anemone-coronaria", "lathyrus-odoratus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Ranunculus_asiaticus", "https://ko.wikipedia.org/wiki/라넌큘러스", "https://hananokotoba.com/ranunculus/", "https://greensnap.co.jp/columns/ranunculus_language", "https://www.floraqueen.com/blog/ranunculus-flower", "https://namu.wiki/w/꽃말", "https://kbmaeil.com/article/201410240112916", "https://www.wikitree.co.kr/articles/260895", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/ranunculus-asiaticus.jpg",
+      "author": "SuperJew",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Persian_Buttercup_01.jpg"
+    }
+  },
+  {
+    "id": "anemone-coronaria",
+    "name": "아네모네",
+    "latin": "Anemone coronaria",
+    "aka": [],
+    "family": "미나리아재비과",
+    "origin": "지중해 지역",
+    "note": "4~5월에 피는 구근 식물로 화단과 화분에 심는다. 가을(9~10월)에 알뿌리를 심는다.",
+    "colors": ["파랑", "빨강", "자주", "분홍", "흰색", "보라"],
+    "seasons": ["봄"],
+    "moods": ["고독", "몽환", "우수"],
+    "meanings": [
+      {
+        "text": "기다림",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "덧없는 사랑",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/anemone/", "https://greensnap.co.jp/columns/anemone_language"]
+      },
+      {
+        "text": "사랑의 괴로움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/anemone/", "https://greensnap.co.jp/columns/anemone_language"]
+      },
+      {
+        "text": "희망 (흰색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/anemone/", "https://greensnap.co.jp/columns/anemone_language"]
+      },
+      {
+        "text": "당신을 믿고 기다립니다 (보라)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/anemone/", "https://greensnap.co.jp/columns/anemone_language"]
+      },
+      {
+        "text": "버림받음",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://hananokotoba.com/anemone/"]
+      }
+    ],
+    "pairs": ["ranunculus-asiaticus", "fritillaria-meleagris", "helleborus-niger"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/아네모네", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/anemone/", "https://greensnap.co.jp/columns/anemone_language", "https://www.almanac.com/flower-meanings-language-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/anemone-coronaria.jpg",
+      "author": "Zachi Evenor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Anemone-coronaria-2016-Zachi-Evenor.jpg"
+    }
+  },
+  {
+    "id": "lathyrus-odoratus",
+    "name": "스위트피",
+    "latin": "Lathyrus odoratus",
+    "aka": [],
+    "family": "콩과",
+    "origin": "시칠리아, 이탈리아 남부, 에게해 섬들",
+    "note": "연리초속의 한해살이 식물로 야생종은 보라색 꽃이 피고, 재배 품종은 파랑, 분홍, 보라, 흰색 등 다양하다. 영어 위키백과는 한여름에 핀다고 하고 일본 원예 사이트는 4~6월에 핀다고 소개한다.",
+    "colors": ["보라", "분홍", "흰색", "파랑", "빨강"],
+    "seasons": ["봄", "여름"],
+    "moods": ["섬세함", "향수", "순수"],
+    "meanings": [
+      {
+        "text": "우아한 추억",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/스위트피"]
+      },
+      {
+        "text": "추억",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "출발",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sweetpea/", "https://greensnap.co.jp/columns/sweetpea_language", "https://oggi.jp/6672107"]
+      },
+      {
+        "text": "이별",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sweetpea/", "https://greensnap.co.jp/columns/sweetpea_language", "https://oggi.jp/6672107"]
+      },
+      {
+        "text": "상냥한 추억",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sweetpea/", "https://greensnap.co.jp/columns/sweetpea_language", "https://oggi.jp/6672107"]
+      },
+      {
+        "text": "작별",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/sweetpea/"]
+      }
+    ],
+    "pairs": ["freesia", "ranunculus-asiaticus", "gypsophila", "paeonia-lactiflora"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Lathyrus_odoratus", "https://ko.wikipedia.org/wiki/스위트피", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/sweetpea/", "https://greensnap.co.jp/columns/sweetpea_language", "https://oggi.jp/6672107", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/lathyrus-odoratus.jpg",
+      "author": "Aftabbanoori",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sweet_Pea-7.jpg"
+    }
+  },
+  {
+    "id": "convallaria-majalis",
+    "name": "은방울꽃",
+    "latin": "Convallaria majalis",
+    "aka": ["향수화"],
+    "family": "비짜루과",
+    "origin": "한국, 일본, 중국, 동시베리아",
+    "note": "5월경 산지 숲속에서 하얀 종 모양 꽃이 아래로 늘어져 핀다. 관상용으로 심으며 전체에 독이 있다.",
+    "colors": ["흰색", "분홍"],
+    "seasons": ["봄"],
+    "moods": ["순수", "섬세함", "맑음"],
+    "meanings": [
+      {
+        "text": "행복의 방문",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "틀림없이 행복해진다",
+        "region": "한국",
+        "sources": ["https://sports.khan.co.kr/article/201812101839003/amp"]
+      },
+      {
+        "text": "다시 행복이 찾아온다",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suzuran/", "https://greensnap.co.jp/columns/lilyofthevalley_language"]
+      },
+      {
+        "text": "순수",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suzuran/", "https://greensnap.co.jp/columns/lilyofthevalley_language"]
+      },
+      {
+        "text": "겸손",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suzuran/", "https://greensnap.co.jp/columns/lilyofthevalley_language"]
+      },
+      {
+        "text": "행복의 귀환",
+        "region": "영미권",
+        "sources": ["https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://www.farmersalmanac.com/may-flower-lore", "https://hananokotoba.com/suzuran/"]
+      }
+    ],
+    "pairs": ["myosotis", "paeonia-lactiflora", "astrantia-major"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/은방울꽃", "https://namu.wiki/w/꽃말", "https://sports.khan.co.kr/article/201812101839003/amp", "https://hananokotoba.com/suzuran/", "https://greensnap.co.jp/columns/lilyofthevalley_language", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://www.farmersalmanac.com/may-flower-lore"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/convallaria-majalis.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Convallaria_majalis_inflorescence_-_Keila.jpg"
+    }
+  },
+  {
+    "id": "myosotis",
+    "name": "물망초",
+    "latin": "Myosotis",
+    "aka": [],
+    "family": "지치과",
+    "origin": "유럽",
+    "note": "5~6월에 하늘색 꽃이 피며 대부분 관상용으로 심는다. 독일어 이름 Vergissmeinnicht에서 꽃말이 유래했다.",
+    "colors": ["하늘색", "분홍", "흰색"],
+    "seasons": ["봄", "여름"],
+    "moods": ["그리움", "맑음", "순수"],
+    "meanings": [
+      {
+        "text": "나를 잊지 마세요",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/물망초", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "진실한 사랑",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "진실한 사랑",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/wasurenagusa/", "https://greensnap.co.jp/columns/forget-me-not_language"]
+      },
+      {
+        "text": "나를 잊지 마세요",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/wasurenagusa/", "https://greensnap.co.jp/columns/forget-me-not_language"]
+      },
+      {
+        "text": "진실한 사랑",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/wasurenagusa/"]
+      }
+    ],
+    "pairs": ["tulipa", "hyacinthus-orientalis", "convallaria-majalis", "viola", "bellis-perennis"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/물망초", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://hananokotoba.com/wasurenagusa/", "https://greensnap.co.jp/columns/forget-me-not_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/myosotis.jpg",
+      "author": "Sedum Tauno Erik",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Myosotis_arvensis_ois.JPG"
+    }
+  },
+  {
+    "id": "viola",
+    "name": "제비꽃",
+    "latin": "Viola",
+    "aka": [],
+    "family": "제비꽃과",
+    "origin": "한국, 동시베리아, 중국, 일본",
+    "note": "4~5월에 피는 여러해살이풀이다. 어린순은 나물로 먹고 한방에서는 약재로 쓴다.",
+    "colors": ["보라", "자주", "흰색", "노랑", "분홍", "파랑"],
+    "seasons": ["봄"],
+    "moods": ["소박함", "순수", "섬세함"],
+    "meanings": [
+      {
+        "text": "겸손",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "성실",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "겸허",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sumire/", "https://greensnap.co.jp/columns/violet_language"]
+      },
+      {
+        "text": "성실",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sumire/", "https://greensnap.co.jp/columns/violet_language"]
+      },
+      {
+        "text": "작은 행복",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sumire/", "https://greensnap.co.jp/columns/violet_language"]
+      },
+      {
+        "text": "충실",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/sumire/"]
+      }
+    ],
+    "pairs": ["hyacinthus-orientalis", "myosotis", "bellis-perennis"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/제비꽃", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/sumire/", "https://greensnap.co.jp/columns/violet_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/viola.jpg",
+      "author": "Just plain Bill",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Bratsche.jpg"
+    }
+  },
+  {
+    "id": "prunus-mume",
+    "name": "매화",
+    "latin": "Prunus mume",
+    "aka": [],
+    "family": "장미과",
+    "origin": "중국 양쯔강 유역 일대에서 기원해 일본, 한국, 베트남으로 전해졌다",
+    "note": "3~4월에 잎이 나기 전에 꽃이 피고 열매는 6~7월에 익는다. 꽃은 흰색, 분홍, 빨강의 여러 농도로 피며 식용, 관상용, 약용으로 쓰고 열매로 매실주를 담근다.",
+    "colors": ["흰색", "분홍", "빨강"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["우아함", "고요함", "단단함"],
+    "meanings": [
+      {
+        "text": "충실",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/매화나무"]
+      },
+      {
+        "text": "고결",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "인내",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "고결",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ume/", "https://greensnap.co.jp/columns/plum_language"]
+      },
+      {
+        "text": "충실",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ume/", "https://greensnap.co.jp/columns/plum_language"]
+      },
+      {
+        "text": "인내",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ume/", "https://greensnap.co.jp/columns/plum_language"]
+      }
+    ],
+    "pairs": ["camellia-japonica", "helleborus-niger"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Prunus_mume", "https://ko.wikipedia.org/wiki/매화나무", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://hananokotoba.com/ume/", "https://greensnap.co.jp/columns/plum_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/prunus-mume.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prunus_mume.JPG"
+    }
+  },
+  {
+    "id": "prunus-serrulata",
+    "name": "벚꽃",
+    "latin": "Prunus serrulata",
+    "aka": [],
+    "family": "장미과",
+    "origin": "일본, 중국, 한국, 베트남에 야생하며(Prunus serrulata 기준) 벚나무류는 북반구에 널리 분포하고 동아시아에 종이 많다",
+    "note": "벚나무속 벚나무아속 식물의 꽃이며 열매는 버찌라 한다. 흰색에서 분홍빛까지 이어지는 꽃이 일본 기준 3~4월에 핀다. 한국에서는 껍질로 활을 만들고 목재는 장식품에 썼다.",
+    "colors": ["흰색", "연분홍", "분홍"],
+    "seasons": ["봄"],
+    "moods": ["섬세함", "몽환", "그리움"],
+    "meanings": [
+      {
+        "text": "삶의 아름다움과 덧없음",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "고결",
+        "region": "일본",
+        "sources": ["https://www.hibiyakadan.com/item/LIFESTYLE_Z_0110.html"]
+      },
+      {
+        "text": "뛰어난 미인",
+        "region": "일본",
+        "sources": ["https://www.hibiyakadan.com/item/LIFESTYLE_Z_0110.html", "https://hananokotoba.com/sakura/"]
+      },
+      {
+        "text": "정신의 아름다움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/sakura/"]
+      }
+    ],
+    "pairs": ["rhododendron-mucronulatum", "forsythia-koreana", "magnolia-kobus"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/벚나무", "https://en.wikipedia.org/wiki/Cherry_blossom", "https://en.wikipedia.org/wiki/Prunus_serrulata", "https://namu.wiki/w/꽃말", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0110.html", "https://hananokotoba.com/sakura/"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/prunus-serrulata.jpg",
+      "author": "TANAKA Juuyoh (田中十洋)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sakura_and_Moss_Pink_-_%E6%A1%9C(%E3%81%95%E3%81%8F%E3%82%89)%E3%81%A8%E8%8A%9D%E6%A1%9C(%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89).jpg"
+    }
+  },
+  {
+    "id": "rhododendron-mucronulatum",
+    "name": "진달래",
+    "latin": "Rhododendron mucronulatum",
+    "aka": [],
+    "family": "진달래과",
+    "origin": "한국, 중국, 일본, 몽골 북부, 우수리",
+    "note": "4월에 잎보다 먼저 자홍색~홍색 꽃이 핀다. 꽃으로 화전과 진달래술(두견주)을 만든다.",
+    "colors": ["자주", "분홍"],
+    "seasons": ["봄"],
+    "moods": ["그리움", "소박함", "따뜻함"],
+    "meanings": [
+      {
+        "text": "절제",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "사랑의 기쁨",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "절도와 삼감 (일본에서는 ツツジ 전체의 꽃말)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/tsutsuji/", "https://greensnap.co.jp/columns/azalea_language"]
+      }
+    ],
+    "pairs": ["prunus-serrulata", "forsythia-koreana", "jeffersonia-dubia"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/진달래", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://hananokotoba.com/tsutsuji/", "https://greensnap.co.jp/columns/azalea_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/rhododendron-mucronulatum.jpg",
+      "author": "Tae Hoon Kang",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Korea-Jindallae-Rhododendron_mucronulatum-01.jpg"
+    }
+  },
+  {
+    "id": "forsythia-koreana",
+    "name": "개나리",
+    "latin": "Forsythia koreana",
+    "aka": [],
+    "family": "물푸레나무과",
+    "origin": "한반도 특산종",
+    "note": "이른 봄 잎보다 먼저 노란 꽃이 핀다. 열매를 연교라 하여 약으로 쓴다.",
+    "colors": ["노랑"],
+    "seasons": ["봄"],
+    "moods": ["명랑", "생명력", "소박함"],
+    "meanings": [
+      {
+        "text": "희망",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "깊은 사랑",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "기대 (일본에서는 レンギョウ 전체의 꽃말)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/rengyou/", "https://greensnap.co.jp/columns/forsythia_language"]
+      },
+      {
+        "text": "희망 (일본에서는 レンギョウ 전체의 꽃말)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/rengyou/", "https://greensnap.co.jp/columns/forsythia_language"]
+      }
+    ],
+    "pairs": ["narcissus", "prunus-serrulata", "rhododendron-mucronulatum", "magnolia-kobus"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/개나리", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://hananokotoba.com/rengyou/", "https://greensnap.co.jp/columns/forsythia_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/forsythia-koreana.jpg",
+      "author": "용천(김성기)",
+      "license": "CC BY 2.0 kr",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Forsythia_koreana.jpg"
+    }
+  },
+  {
+    "id": "magnolia-kobus",
+    "name": "목련",
+    "latin": "Magnolia kobus",
+    "aka": ["북향화"],
+    "family": "목련과",
+    "origin": "한국과 일본",
+    "note": "3월 말 잎이 나기 전에 향기로운 흰 꽃이 핀다. 꽃봉오리는 한약재 신이로 쓴다.",
+    "colors": ["흰색"],
+    "seasons": ["봄"],
+    "moods": ["고요함", "우아함", "순수"],
+    "meanings": [
+      {
+        "text": "자연애",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/목련"]
+      },
+      {
+        "text": "고귀함",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "고귀함",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers"]
+      }
+    ],
+    "pairs": ["prunus-serrulata", "forsythia-koreana", "camellia-japonica"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/목련", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://www.almanac.com/flower-meanings-language-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/magnolia-kobus.jpg",
+      "author": "Bruce Marlin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Magnolia_kobus_borealis.jpg"
+    }
+  },
+  {
+    "id": "camellia-japonica",
+    "name": "동백",
+    "latin": "Camellia japonica",
+    "aka": ["산다화"],
+    "family": "차나무과",
+    "origin": "대한민국 남부, 일본, 중국 (문서는 실제 원산지를 중국으로 설명)",
+    "note": "10월 초부터 이듬해 4월까지 붉은색, 흰색, 분홍색 꽃이 핀다. 씨로 동백기름을 짜고 꽃은 차로도 쓴다.",
+    "colors": ["빨강", "흰색", "분홍"],
+    "seasons": ["가을", "겨울", "봄"],
+    "moods": ["강렬함", "단단함", "고독"],
+    "meanings": [
+      {
+        "text": "청렴",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/꽃말"]
+      },
+      {
+        "text": "그 누구보다 그대를 사랑합니다",
+        "region": "한국",
+        "sources": ["https://www.incheon.go.kr/moo/MOO030101/1944794"]
+      },
+      {
+        "text": "조신한 상냥함",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/tsubaki/", "https://oggi.jp/6660048"]
+      },
+      {
+        "text": "긍지",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/tsubaki/", "https://oggi.jp/6660048"]
+      },
+      {
+        "text": "내 마음속의 불꽃 (빨강)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://hananokotoba.com/tsubaki/", "https://oggi.jp/6660048"]
+      },
+      {
+        "text": "그리움 (분홍)",
+        "region": "영미권",
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://hananokotoba.com/tsubaki/", "https://oggi.jp/6660048"]
+      }
+    ],
+    "pairs": ["prunus-mume", "magnolia-kobus", "helleborus-niger"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/동백나무", "https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794", "https://hananokotoba.com/tsubaki/", "https://oggi.jp/6660048", "https://www.almanac.com/flower-meanings-language-flowers"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/camellia-japonica.jpg",
+      "author": "PumpkinSky",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Camellia_japonica_NBG.jpg"
+    }
+  },
+  {
+    "id": "helianthus-annuus",
+    "name": "해바라기",
+    "latin": "Helianthus annuus",
+    "aka": ["Common sunflower"],
+    "family": "국화과",
+    "origin": "북아메리카 중서부와 멕시코 북부 원산",
+    "note": "키가 약 3m까지 자라는 한해살이풀로, 꽃처럼 보이는 큰 꽃차례는 지름이 7.5~12.5cm이고 수많은 작은 꽃으로 이루어진다. 여름에 피며 씨앗으로 기름을 짜고 간식으로도 먹는다.",
+    "colors": ["노랑", "주황", "빨강"],
+    "seasons": ["여름"],
+    "moods": ["명랑", "생명력", "따뜻함"],
+    "meanings": [
+      {
+        "text": "일편단심",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/해바라기"]
+      },
+      {
+        "text": "당신만을 바라본다",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/himawari/", "https://oggi.jp/6761089"]
+      },
+      {
+        "text": "숭배",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/himawari/", "https://oggi.jp/6761089"]
+      },
+      {
+        "text": "애모",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/himawari/"]
+      },
+      {
+        "text": "숭배·애모",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/himawari/"]
+      },
+      {
+        "text": "거짓된 부",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/himawari/"]
+      }
+    ],
+    "pairs": ["cosmos-bipinnatus", "gerbera", "calendula", "dahlia"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Common_sunflower", "https://ko.wikipedia.org/wiki/해바라기"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/helianthus-annuus.jpg",
+      "author": "böhringer friedrich",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Sonnenblume_Helianthus_1.JPG"
+    }
+  },
+  {
+    "id": "hydrangea-macrophylla",
+    "name": "수국",
+    "latin": "Hydrangea macrophylla",
+    "aka": ["Bigleaf hydrangea"],
+    "family": "수국과",
+    "origin": "일본 해안 지대 원산 (동아시아)",
+    "note": "키 3m 안팎으로 자라는 갈잎 떨기나무로, 크고 둥근 꽃송이를 피운다. 토양이 산성이면 푸른빛, 알칼리성이면 분홍·붉은빛을 띠는 경향이 있다.",
+    "colors": ["파랑", "분홍", "빨강", "보라", "흰색"],
+    "seasons": ["여름"],
+    "moods": ["몽환", "우수", "섬세함"],
+    "meanings": [
+      {
+        "text": "냉담, 무정",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/수국", "https://namu.wiki/w/수국"]
+      },
+      {
+        "text": "변덕",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/수국", "https://namu.wiki/w/수국"]
+      },
+      {
+        "text": "진심",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/수국", "https://namu.wiki/w/수국"]
+      },
+      {
+        "text": "변덕",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ajisai/", "https://greensnap.co.jp/columns/hydrangea_language", "https://ja.wikipedia.org/wiki/アジサイ"]
+      },
+      {
+        "text": "인내",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ajisai/", "https://greensnap.co.jp/columns/hydrangea_language"]
+      },
+      {
+        "text": "관용(흰색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/ajisai/", "https://greensnap.co.jp/columns/hydrangea_language"]
+      }
+    ],
+    "pairs": ["hydrangea-serrata", "lavandula-angustifolia", "delphinium"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Hydrangea_macrophylla", "https://ko.wikipedia.org/wiki/수국"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/hydrangea-macrophylla.jpg",
+      "author": "belvedere04",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:(Natural)_Hydrangea_macrophylla,_Iwafune,_Isumi,_Chiba,_Japan_2.jpg"
+    }
+  },
+  {
+    "id": "lavandula-angustifolia",
+    "name": "라벤더",
+    "latin": "Lavandula angustifolia",
+    "aka": ["English lavender", "Common lavender"],
+    "family": "꿀풀과",
+    "origin": "지중해 연안 원산",
+    "note": "향이 강한 상록 관목으로, 가늘고 긴 줄기 끝에 이삭 모양으로 꽃이 핀다. 에센셜 오일과 허브, 향료로 쓰인다.",
+    "colors": ["보라", "흰색", "분홍"],
+    "seasons": ["봄"],
+    "moods": ["고요함", "위로", "신비"],
+    "meanings": [
+      {
+        "text": "침묵",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/라벤더", "https://namu.wiki/w/라벤더"]
+      },
+      {
+        "text": "나에게 대답해 주세요",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/라벤더"]
+      },
+      {
+        "text": "침묵",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lavender/", "https://greensnap.co.jp/columns/lavender_language"]
+      },
+      {
+        "text": "의혹",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lavender/", "https://greensnap.co.jp/columns/lavender_language"]
+      },
+      {
+        "text": "기대",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lavender/", "https://greensnap.co.jp/columns/lavender_language"]
+      },
+      {
+        "text": "헌신적인 사랑",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/lavender/"]
+      }
+    ],
+    "pairs": ["rosa", "hydrangea-macrophylla", "eryngium", "scabiosa-atropurpurea"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Lavandula_angustifolia", "https://ko.wikipedia.org/wiki/라벤더"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/lavandula-angustifolia.jpg",
+      "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg"
+    }
+  },
+  {
+    "id": "paeonia-lactiflora",
+    "name": "작약",
+    "latin": "Paeonia lactiflora",
+    "aka": ["Chinese peony"],
+    "family": "작약과",
+    "origin": "중앙·동아시아, 티베트 동부에서 중국 북부와 동시베리아에 걸쳐 분포",
+    "note": "50~70cm 높이의 여러해살이풀로, 5월 무렵 향기로운 컵 모양의 큰 꽃(지름 8~16cm)이 핀다. 절화용 작약의 주된 원종이다.",
+    "colors": ["흰색", "분홍", "빨강"],
+    "seasons": ["봄"],
+    "moods": ["우아함", "섬세함", "따뜻함"],
+    "meanings": [
+      {
+        "text": "수줍음, 부끄러움",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/작약"]
+      },
+      {
+        "text": "수줍음, 부끄러움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/shakuyaku/", "https://greensnap.co.jp/columns/chinese-peony_language"]
+      },
+      {
+        "text": "겸손",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/shakuyaku/", "https://greensnap.co.jp/columns/chinese-peony_language"]
+      },
+      {
+        "text": "행복한 결혼(흰색)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/chinese-peony_language"]
+      },
+      {
+        "text": "수줍음",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/shakuyaku/"]
+      },
+      {
+        "text": "연민",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/shakuyaku/"]
+      }
+    ],
+    "pairs": ["rosa", "lathyrus-odoratus", "convallaria-majalis", "aquilegia", "astilbe"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Paeonia_lactiflora", "https://ko.wikipedia.org/wiki/적작약"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/paeonia-lactiflora.jpg",
+      "author": "Ulf Eliasson",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lactiflora1b.UME.jpg"
+    }
+  },
+  {
+    "id": "dianthus-caryophyllus",
+    "name": "카네이션",
+    "latin": "Dianthus caryophyllus",
+    "aka": ["Carnation", "Clove pink"],
+    "family": "석죽과",
+    "origin": "지중해 연안 원산으로 추정 (오랜 재배로 정확한 원산지는 불분명)",
+    "note": "80cm 안팎으로 자라는 여러해살이풀로, 지름 3~5cm의 향기로운 꽃이 핀다. 정원 식물과 절화로 널리 재배되며 개량 품종은 흰색에서 붉은색, 녹색까지 색이 다양하다.",
+    "colors": ["빨강", "분홍", "흰색", "노랑", "초록", "자주"],
+    "seasons": ["봄", "여름"],
+    "moods": ["따뜻함", "축하", "향수"],
+    "meanings": [
+      {
+        "text": "어머니에 대한 사랑(빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/carnation/", "https://greensnap.co.jp/columns/carnation_language", "https://ja.wikipedia.org/wiki/カーネーション"]
+      },
+      {
+        "text": "나의 애정은 살아 있습니다(흰색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/carnation/", "https://greensnap.co.jp/columns/carnation_language"]
+      },
+      {
+        "text": "감사(분홍)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/carnation_language", "https://ja.wikipedia.org/wiki/カーネーション"]
+      },
+      {
+        "text": "순수한 사랑과 행운(흰색)",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/카네이션"]
+      },
+      {
+        "text": "깊은 사랑과 애정(진한 빨강)",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/카네이션"]
+      },
+      {
+        "text": "변덕(보라)",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/카네이션"]
+      }
+    ],
+    "pairs": ["lilium", "gypsophila", "eustoma-grandiflorum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Dianthus_caryophyllus", "https://ko.wikipedia.org/wiki/카네이션"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/dianthus-caryophyllus.jpg",
+      "author": "草花写真館",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:W_carnation4051.jpg"
+    }
+  },
+  {
+    "id": "gypsophila",
+    "name": "안개꽃",
+    "latin": "Gypsophila",
+    "aka": ["Baby's breath"],
+    "family": "석죽과",
+    "origin": "중부·동부 유럽의 건조한 초원 원산",
+    "note": "속명 Gypsophila 전체를 가리키는 이름으로, 꽃다발용 절화는 G. paniculata, 한국어 자료의 꽃말은 주로 G. elegans를 설명한 것이다. 1.2m까지 자라는 여러해살이풀로, 가지마다 작고 흰 꽃이 무더기로 핀다. 꽃다발에서 큰 꽃의 배경으로 널리 쓰이는 절화다.",
+    "colors": ["흰색", "연분홍"],
+    "seasons": ["여름"],
+    "moods": ["순수", "섬세함", "투명함"],
+    "meanings": [
+      {
+        "text": "맑은 마음",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/안개꽃", "https://namu.wiki/w/안개꽃"]
+      },
+      {
+        "text": "사랑의 성공",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/안개꽃", "https://namu.wiki/w/안개꽃"]
+      },
+      {
+        "text": "죽음",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/안개꽃", "https://namu.wiki/w/안개꽃"]
+      },
+      {
+        "text": "깨끗한 마음",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kasumisou/", "https://greensnap.co.jp/columns/gypsophila_language"]
+      },
+      {
+        "text": "행복",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kasumisou/", "https://greensnap.co.jp/columns/gypsophila_language"]
+      },
+      {
+        "text": "영원한 사랑",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/kasumisou/"]
+      }
+    ],
+    "pairs": ["rosa", "lilium", "lathyrus-odoratus", "dianthus-caryophyllus", "eustoma-grandiflorum", "limonium-sinuatum", "chrysanthemum-morifolium", "polianthes-tuberosa", "chamelaucium-uncinatum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Gypsophila_paniculata", "https://ko.wikipedia.org/wiki/안개꽃"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/gypsophila.jpg",
+      "author": "Stefan.lefnaer",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gypsophila_paniculata_sl17.jpg"
+    }
+  },
+  {
+    "id": "gerbera",
+    "name": "거베라",
+    "latin": "Gerbera",
+    "aka": [],
+    "family": "국화과",
+    "origin": "아프리카 원산 (영문판은 열대 아프리카, 국문판은 남아프리카)",
+    "note": "뿌리에서 잎이 방석처럼 둘러 나고, 꽃줄기 하나에 꽃머리 하나가 달린다. 정원용과 절화용으로 널리 재배되며 세계에서 다섯 번째로 많이 쓰이는 절화다.",
+    "colors": ["흰색", "노랑", "주황", "빨강", "분홍"],
+    "seasons": [],
+    "moods": ["명랑", "순수", "생명력"],
+    "meanings": [
+      {
+        "text": "신비",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/거베라", "https://namu.wiki/w/거베라"]
+      },
+      {
+        "text": "풀 수 없는 수수께끼",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/거베라"]
+      },
+      {
+        "text": "희망",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/gerbera/", "https://greensnap.co.jp/columns/gerbera_language"]
+      },
+      {
+        "text": "늘 앞으로 나아감",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/gerbera/", "https://greensnap.co.jp/columns/gerbera_language"]
+      },
+      {
+        "text": "숭고한 아름다움(분홍)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/gerbera/", "https://greensnap.co.jp/columns/gerbera_language"]
+      },
+      {
+        "text": "쾌활함",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/gerbera/"]
+      }
+    ],
+    "pairs": ["helianthus-annuus", "bellis-perennis", "dahlia"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Gerbera", "https://ko.wikipedia.org/wiki/거베라"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/gerbera.jpg",
+      "author": "Dmitry Makeev",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Unidentified_Gerbera.jpg"
+    }
+  },
+  {
+    "id": "bellis-perennis",
+    "name": "데이지",
+    "latin": "Bellis perennis",
+    "aka": ["Lawn daisy"],
+    "family": "국화과",
+    "origin": "서·중·북유럽 원산",
+    "note": "20cm 안팎의 여러해살이풀로, 잎이 땅에 붙어 방석처럼 퍼지고 잎 없는 줄기 끝에 흰 꽃잎과 노란 중심을 가진 꽃이 하나씩 핀다. 잔디밭에도 흔히 자라며 어린잎과 꽃은 먹을 수 있다.",
+    "colors": ["흰색", "분홍", "빨강"],
+    "seasons": ["봄", "여름", "가을"],
+    "moods": ["순수", "소박함", "명랑"],
+    "meanings": [
+      {
+        "text": "숨겨진 사랑",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/데이지_(식물)", "https://namu.wiki/w/데이지"]
+      },
+      {
+        "text": "겸손한 아름다움",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/데이지_(식물)", "https://namu.wiki/w/데이지"]
+      },
+      {
+        "text": "평화",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/daisy/", "https://greensnap.co.jp/columns/daisy_language"]
+      },
+      {
+        "text": "희망",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/daisy/", "https://greensnap.co.jp/columns/daisy_language"]
+      },
+      {
+        "text": "순결",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/daisy/", "https://greensnap.co.jp/columns/daisy_language"]
+      },
+      {
+        "text": "순결",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/daisy/"]
+      }
+    ],
+    "pairs": ["myosotis", "viola", "gerbera", "cosmos-bipinnatus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Bellis_perennis", "https://ko.wikipedia.org/wiki/데이지_(식물)"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/bellis-perennis.jpg",
+      "author": "Stefan.lefnaer",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bellis_perennis_sl1.jpg"
+    }
+  },
+  {
+    "id": "cosmos-bipinnatus",
+    "name": "코스모스",
+    "latin": "Cosmos bipinnatus",
+    "aka": ["Garden cosmos", "Mexican aster"],
+    "family": "국화과",
+    "origin": "멕시코 원산",
+    "note": "실처럼 가늘게 갈라진 잎을 가진 한해살이풀로, 분홍·보라·흰색 꽃잎에 노란 중심을 가진 꽃이 핀다. 높이는 60cm에서 2m까지 자란다.",
+    "colors": ["분홍", "보라", "흰색"],
+    "seasons": [],
+    "moods": ["맑음", "소박함", "그리움"],
+    "meanings": [
+      {
+        "text": "소녀의 순정",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/코스모스(꽃)"]
+      },
+      {
+        "text": "소녀의 진심",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/cosmos/", "https://oggi.jp/6661654"]
+      },
+      {
+        "text": "조화",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/cosmos/", "https://oggi.jp/6661654"]
+      },
+      {
+        "text": "겸허",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/cosmos/", "https://oggi.jp/6661654"]
+      },
+      {
+        "text": "애정(빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/cosmos/", "https://oggi.jp/6661654"]
+      },
+      {
+        "text": "평화",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/cosmos/"]
+      }
+    ],
+    "pairs": ["helianthus-annuus", "bellis-perennis", "dahlia", "helenium", "chrysanthemum-morifolium", "papaver-rhoeas", "hibiscus-syriacus", "nicotiana-alata", "gentiana-scabra"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Cosmos_bipinnatus", "https://ko.wikipedia.org/wiki/코스모스_(꽃)"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/cosmos-bipinnatus.jpg",
+      "author": "Joydeep",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cosmos_bipinnatus_pink,_Burdwan,_West_Bengal,_India_10_01_2013.jpg"
+    }
+  },
+  {
+    "id": "chrysanthemum-morifolium",
+    "name": "국화",
+    "latin": "Chrysanthemum × morifolium",
+    "aka": ["Florist's daisy"],
+    "family": "국화과",
+    "origin": "중국과 일본에 자생하는 종에서 유래, 중국에서 기원전 500년경부터 기록",
+    "note": "30~90cm의 여러해살이풀로, 낮이 짧아지면 꽃이 피기 시작하며 가을에 피는 국화를 따로 추국이라 부른다. 홑꽃과 겹꽃 등 수천 가지 품종이 있다.",
+    "colors": ["흰색", "노랑", "분홍", "보라", "초록", "자주"],
+    "seasons": ["가을"],
+    "moods": ["고요함", "단단함", "우아함"],
+    "meanings": [
+      {
+        "text": "고귀",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"]
+      },
+      {
+        "text": "고결",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"]
+      },
+      {
+        "text": "고상",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"]
+      },
+      {
+        "text": "당신을 사랑합니다(빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"]
+      },
+      {
+        "text": "진실(흰색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"]
+      },
+      {
+        "text": "쾌활함",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/kiku/"]
+      }
+    ],
+    "pairs": ["gypsophila", "dahlia", "cosmos-bipinnatus", "gentiana-scabra"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Chrysanthemum_%C3%97_morifolium", "https://ko.wikipedia.org/wiki/국화_(식물)"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/chrysanthemum-morifolium.jpg",
+      "author": "Aruna at Malayalam Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chrysanthemum.JPG"
+    }
+  },
+  {
+    "id": "iris",
+    "name": "붓꽃",
+    "latin": "Iris",
+    "aka": ["아이리스", "Iris"],
+    "family": "붓꽃과",
+    "origin": "북반구 온대 지역 (유럽, 아시아, 북아메리카)",
+    "note": "뿌리줄기나 구근에서 칼 모양의 잎이 나는 여러해살이풀로, 꽃은 아래로 처진 바깥 꽃잎 셋과 위로 선 안쪽 꽃잎 셋으로 이루어진다. 대부분 보라와 파랑 계열이며 종에 따라 2월부터 7월까지 핀다.",
+    "colors": ["보라", "파랑", "노랑", "분홍", "주황", "흰색"],
+    "seasons": ["봄", "여름"],
+    "moods": ["신비", "우아함", "맑음"],
+    "meanings": [
+      {
+        "text": "좋은 소식",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/iris/", "https://greensnap.co.jp/columns/iris_language"]
+      },
+      {
+        "text": "메시지",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/iris/", "https://greensnap.co.jp/columns/iris_language"]
+      },
+      {
+        "text": "희망",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/iris/", "https://greensnap.co.jp/columns/iris_language"]
+      },
+      {
+        "text": "좋은 소식",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/붓꽃"]
+      },
+      {
+        "text": "복수(노랑)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/iris_language"]
+      },
+      {
+        "text": "지혜",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/iris/"]
+      }
+    ],
+    "pairs": ["papaver-rhoeas", "aquilegia", "delphinium", "nymphaea-tetragona"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Iris_(plant)", "https://ko.wikipedia.org/wiki/붓꽃속", "https://namu.wiki/w/붓꽃"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/iris.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Iris_sanguinea_cultivar,_Wakehurst_Place,_UK_-_Diliff.jpg"
+    }
+  },
+  {
+    "id": "papaver-rhoeas",
+    "name": "개양귀비",
+    "latin": "Papaver rhoeas",
+    "aka": ["Corn poppy", "Common poppy"],
+    "family": "양귀비과",
+    "origin": "북아프리카와 온대 유라시아 원산",
+    "note": "70cm 안팎의 한해살이풀로, 줄기마다 지름 5~10cm의 꽃잎 네 장짜리 꽃이 하나씩 피며 꽃은 하루만 간다. 야생형은 밝은 빨강이고 밑동에 검은 점이 있다.",
+    "colors": ["빨강", "주황", "분홍", "노랑", "흰색"],
+    "seasons": ["봄", "여름"],
+    "moods": ["강렬함", "위로", "몽환"],
+    "meanings": [
+      {
+        "text": "위로(빨강)",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/개양귀비"]
+      },
+      {
+        "text": "잠, 망각(흰색)",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/개양귀비"]
+      },
+      {
+        "text": "위로(빨강)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cornpoppy_language", "https://greensnap.co.jp/columns/poppy_language"]
+      },
+      {
+        "text": "감사(빨강)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cornpoppy_language", "https://greensnap.co.jp/columns/poppy_language"]
+      },
+      {
+        "text": "망각, 잠(흰색)",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cornpoppy_language", "https://greensnap.co.jp/columns/poppy_language"]
+      }
+    ],
+    "pairs": ["iris", "cosmos-bipinnatus", "nigella-damascena"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Papaver_rhoeas", "https://ko.wikipedia.org/wiki/개양귀비", "https://greensnap.co.jp/columns/cornpoppy_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/papaver-rhoeas.jpg",
+      "author": "Kieran Roy Powell",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Papaver_rhoeas_Lincolnshire_2026.jpg"
+    }
+  },
+  {
+    "id": "eustoma-grandiflorum",
+    "name": "리시안셔스",
+    "latin": "Eustoma grandiflorum",
+    "aka": ["Lisianthus", "トルコギキョウ"],
+    "family": "용담과",
+    "origin": "미국 텍사스 일대를 중심으로 북아메리카 북부에서 멕시코 북부에 분포",
+    "note": "청록빛 잎과 종 모양의 큰 꽃을 가진 식물로, 한해살이·두해살이·여러해살이로 자랄 수 있다. 일본에서 품종 개량이 활발해 꽃 색이 다양하며 인기 있는 절화다.",
+    "colors": ["보라", "파랑", "분홍", "흰색", "노랑"],
+    "seasons": [],
+    "moods": ["우아함", "맑음", "섬세함"],
+    "meanings": [
+      {
+        "text": "변치 않는 사랑",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/리시안셔스"]
+      },
+      {
+        "text": "우아함",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lisianthus/", "https://greensnap.co.jp/columns/bellflower_language"]
+      },
+      {
+        "text": "청량한 아름다움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lisianthus/", "https://greensnap.co.jp/columns/bellflower_language"]
+      },
+      {
+        "text": "희망",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/lisianthus/", "https://greensnap.co.jp/columns/bellflower_language"]
+      },
+      {
+        "text": "감사",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/lisianthus/"]
+      }
+    ],
+    "pairs": ["dianthus-caryophyllus", "gypsophila", "limonium-sinuatum", "delphinium"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Eustoma_grandiflorum", "https://ja.wikipedia.org/wiki/トルコギキョウ"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/eustoma-grandiflorum.jpg",
+      "author": "Wasir kasab",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lisianthus_2025.jpg"
+    }
+  },
+  {
+    "id": "delphinium",
+    "name": "델피니움",
+    "latin": "Delphinium",
+    "aka": ["제비고깔"],
+    "family": "미나리아재비과",
+    "origin": "북반구 전역과 열대 아프리카의 높은 산",
+    "note": "약 300종의 한해살이·여러해살이 식물로, 꽃받침이 뒤로 길게 뻗은 꽃이 키 큰 꽃차례에 모여 핀다. 화단 뒤쪽을 채우는 정원 식물이자 절화로 쓰이며 모든 부분에 독이 있다.",
+    "colors": ["보라", "파랑", "흰색", "분홍", "빨강", "노랑", "주황"],
+    "seasons": ["봄", "여름"],
+    "moods": ["맑음", "고독", "신비"],
+    "meanings": [
+      {
+        "text": "청명",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/delphinium/", "https://greensnap.co.jp/columns/delphinium_language"]
+      },
+      {
+        "text": "당신은 행복을 퍼뜨립니다",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/delphinium_language"]
+      },
+      {
+        "text": "고귀",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/delphinium_language"]
+      },
+      {
+        "text": "너그러움",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/delphinium/"]
+      },
+      {
+        "text": "즐거움",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/delphinium/"]
+      }
+    ],
+    "pairs": ["rosa", "hydrangea-macrophylla", "iris", "eustoma-grandiflorum", "astilbe", "oxypetalum-coeruleum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Delphinium", "https://ko.wikipedia.org/wiki/델피니움"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/delphinium.jpg",
+      "author": "Ermell",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delphinium_elatum-20200616-RM-080831.jpg"
+    }
+  },
+  {
+    "id": "calendula",
+    "name": "금잔화",
+    "latin": "Calendula",
+    "aka": ["Pot marigold"],
+    "family": "국화과",
+    "origin": "남유럽 원산으로 추정 (오랜 재배로 정확한 원산지는 불분명)",
+    "note": "속명 Calendula 전체를 가리키는 이름으로, 흔한 정원·허브용은 C. officinalis, 한국어 자료는 C. arvensis를 설명한다. 80cm 안팎으로 자라는 향이 있는 풀로, 지름 4~7cm의 노랑에서 주황빛 꽃이 핀다. 꽃잎은 먹을 수 있고 오일과 추출물은 피부·화장품 제품에 쓰인다.",
+    "colors": ["노랑", "주황"],
+    "seasons": ["여름", "가을"],
+    "moods": ["따뜻함", "명랑", "우수"],
+    "meanings": [
+      {
+        "text": "이별의 슬픔",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/금잔화"]
+      },
+      {
+        "text": "겸손·인내",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/금잔화"]
+      },
+      {
+        "text": "이별의 슬픔",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kinsenka/", "https://greensnap.co.jp/columns/calendula_language"]
+      },
+      {
+        "text": "비탄",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kinsenka/", "https://greensnap.co.jp/columns/calendula_language"]
+      },
+      {
+        "text": "실망",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/kinsenka/", "https://greensnap.co.jp/columns/calendula_language"]
+      },
+      {
+        "text": "비탄·절망",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/kinsenka/"]
+      }
+    ],
+    "pairs": ["helianthus-annuus", "dahlia", "nigella-damascena", "helenium"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Calendula_officinalis", "https://ko.wikipedia.org/wiki/금잔화"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/calendula.jpg",
+      "author": "Betty Cai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Calendula_officinalis,_pot_marigold.JPG"
+    }
+  },
+  {
+    "id": "nelumbo-nucifera",
+    "name": "연꽃",
+    "latin": "Nelumbo nucifera",
+    "aka": ["Sacred lotus", "Indian lotus"],
+    "family": "연꽃과",
+    "origin": "동아시아에서 인도 북부와 중부에 이르는 아시아 넓은 지역 원산",
+    "note": "물에 사는 식물로 크고 둥근 방패 모양 잎과 지름 최대 35cm의 큰 꽃을 피운다. 7~8월경 꽃이 피며 뿌리줄기(연근)와 씨앗을 먹고 불교와 힌두교에서 신성한 꽃으로 여긴다.",
+    "colors": ["흰색", "노랑", "분홍", "빨강"],
+    "seasons": ["여름"],
+    "moods": ["고요함", "순수", "신비"],
+    "meanings": [
+      {
+        "text": "깨끗한 마음",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/연꽃"]
+      },
+      {
+        "text": "신성",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/연꽃"]
+      },
+      {
+        "text": "소원해진 사랑",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/연꽃"]
+      },
+      {
+        "text": "깨끗한 마음",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/lotus_language"]
+      },
+      {
+        "text": "신성",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/lotus_language"]
+      },
+      {
+        "text": "휴식",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/lotus_language"]
+      }
+    ],
+    "pairs": ["nymphaea-tetragona"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Nelumbo_nucifera", "https://ko.wikipedia.org/wiki/연꽃"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/nelumbo-nucifera.jpg",
+      "author": "T.Voekler",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sacred_lotus_Nelumbo_nucifera.jpg"
+    }
+  },
+  {
+    "id": "nymphaea-tetragona",
+    "name": "수련",
+    "latin": "Nymphaea tetragona",
+    "aka": ["Pygmy water-lily"],
+    "family": "수련과",
+    "origin": "수련속은 뉴질랜드와 북아메리카 태평양 연안을 뺀 거의 전 세계 민물에 분포",
+    "note": "물 위에 잎이 뜨고 꽃이 수면 위로 홀로 피는 물풀로, 한국의 수련(Nymphaea tetragona)은 6~7월에 흰 꽃이 핀다. 수련속에는 여러 색의 원예 품종이 있어 연못 식물로 재배된다.",
+    "colors": ["흰색", "노랑", "분홍", "주황", "파랑", "보라"],
+    "seasons": ["여름"],
+    "moods": ["고요함", "순수", "투명함"],
+    "meanings": [
+      {
+        "text": "결백",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/수련(식물)"]
+      },
+      {
+        "text": "신비",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/수련(식물)"]
+      },
+      {
+        "text": "청순한 마음",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suiren/", "https://greensnap.co.jp/columns/waterlily_language"]
+      },
+      {
+        "text": "신뢰",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suiren/", "https://greensnap.co.jp/columns/waterlily_language"]
+      },
+      {
+        "text": "믿음",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/suiren/", "https://greensnap.co.jp/columns/waterlily_language"]
+      },
+      {
+        "text": "맑은 마음",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/suiren/"]
+      }
+    ],
+    "pairs": ["nelumbo-nucifera", "iris"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Nymphaea", "https://ko.wikipedia.org/wiki/수련"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/nymphaea-tetragona.jpg",
+      "author": "Fernando Losada Rodríguez",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_alba.001_-_Breendonk.jpg"
+    }
+  },
+  {
+    "id": "dahlia",
+    "name": "달리아",
+    "latin": "Dahlia",
+    "aka": ["다알리아"],
+    "family": "국화과",
+    "origin": "멕시코와 중앙아메리카 원산",
+    "note": "덩이뿌리로 자라는 여러해살이풀로, 줄기마다 지름 5~30cm의 큰 꽃송이가 하나씩 핀다. 여름에서 가을에 걸쳐 피며 정원용으로 널리 재배된다.",
+    "colors": ["흰색", "노랑", "빨강", "보라"],
+    "seasons": ["여름", "가을"],
+    "moods": ["우아함", "강렬함", "축하"],
+    "meanings": [
+      {
+        "text": "화려함",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/dahlia/", "https://greensnap.co.jp/columns/dahlia_language"]
+      },
+      {
+        "text": "기품",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/dahlia/", "https://greensnap.co.jp/columns/dahlia_language"]
+      },
+      {
+        "text": "변덕",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/dahlia/", "https://greensnap.co.jp/columns/dahlia_language"]
+      },
+      {
+        "text": "당신의 사랑이 나를 행복하게 합니다",
+        "region": "한국",
+        "sources": ["https://namu.wiki/w/다알리아"]
+      },
+      {
+        "text": "품위",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/dahlia/"]
+      }
+    ],
+    "pairs": ["helianthus-annuus", "gerbera", "cosmos-bipinnatus", "chrysanthemum-morifolium", "calendula", "helenium"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Dahlia", "https://ko.wikipedia.org/wiki/다알리아"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/dahlia.jpg",
+      "author": "Augustus Binu : flickr",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dahlia_flower_-_colour.jpg"
+    }
+  },
+  {
+    "id": "hibiscus-syriacus",
+    "name": "무궁화",
+    "latin": "Hibiscus syriacus",
+    "aka": [],
+    "family": "아욱과",
+    "origin": "동아시아 원산",
+    "note": "2~4m까지 자라는 갈잎 떨기나무로, 나팔 모양의 큰 꽃이 7월부터 가을까지 피어난다. 꽃 하나는 하루만 피지만 새 꽃봉오리가 계속 이어진다. 대한민국의 나라꽃이다.",
+    "colors": ["흰색", "분홍", "빨강", "보라", "파랑"],
+    "seasons": ["여름", "가을"],
+    "moods": ["단단함", "소박함", "생명력"],
+    "meanings": [
+      {
+        "text": "무궁",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/무궁화", "https://namu.wiki/w/무궁화"]
+      },
+      {
+        "text": "신념",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/mukuge/", "https://greensnap.co.jp/columns/roseofsharon_language"]
+      },
+      {
+        "text": "새로운 아름다움",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/mukuge/", "https://greensnap.co.jp/columns/roseofsharon_language"]
+      },
+      {
+        "text": "설득",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/mukuge/"]
+      }
+    ],
+    "pairs": ["lychnis-cognata", "hydrangea-serrata", "cosmos-bipinnatus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Hibiscus_syriacus", "https://ko.wikipedia.org/wiki/무궁화"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/hibiscus-syriacus.jpg",
+      "author": "Eric Kounce TexasRaiser",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Syriacus.JPG"
+    }
+  },
+  {
+    "id": "jeffersonia-dubia",
+    "name": "깽깽이풀",
+    "latin": "Jeffersonia dubia",
+    "aka": [],
+    "family": "매자나무과",
+    "origin": "한국, 중국",
+    "note": "잎이 나오기 전에 꽃줄기 하나에 연한 보라색 꽃이 한 송이씩 핀다.",
+    "colors": ["보라"],
+    "seasons": ["봄"],
+    "moods": ["섬세함", "고요함"],
+    "meanings": [],
+    "pairs": ["rhododendron-mucronulatum", "hepatica-asiatica", "erythronium-japonicum"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/깽깽이풀"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/jeffersonia-dubia.jpg",
+      "author": "Dr. Alexey Yakovlev",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plagiorhegma_dubium_IMG_6495.jpg"
+    }
+  },
+  {
+    "id": "hepatica-asiatica",
+    "name": "노루귀",
+    "latin": "Hepatica asiatica",
+    "aka": [],
+    "family": "미나리아재비과",
+    "origin": "한국 전역에 분포",
+    "note": "3~4월, 잎이 돋기 전에 꽃줄기가 먼저 올라와 꽃이 핀다. 흰색, 분홍색, 보라색 등 꽃색이 다양하다.",
+    "colors": ["흰색", "분홍", "보라"],
+    "seasons": ["봄"],
+    "moods": ["섬세함", "순수", "새벽"],
+    "meanings": [
+      {
+        "text": "인내, 믿음, 신뢰",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      }
+    ],
+    "pairs": ["jeffersonia-dubia", "erythronium-japonicum", "lamprocapnos-spectabilis"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/노루귀", "https://namu.moe/w/꽃말"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/hepatica-asiatica.jpg",
+      "author": "Alpsdake",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Hepatica_asiatica,_Ryozensan_2009-3-16.jpg"
+    }
+  },
+  {
+    "id": "erythronium-japonicum",
+    "name": "얼레지",
+    "latin": "Erythronium japonicum",
+    "aka": ["가재무릇"],
+    "family": "백합과",
+    "origin": "한국, 일본의 높은 지대 산골짜기",
+    "note": "봄에 싹이 올라와 자주색 꽃이 피고, 꽃잎 밑부분에 W 모양 무늬가 있다. 6월 안에 꽃과 잎이 모두 진다.",
+    "colors": ["자주"],
+    "seasons": ["봄"],
+    "moods": ["우아함", "신비", "고독"],
+    "meanings": [
+      {
+        "text": "질투",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      },
+      {
+        "text": "쓸쓸함을 견디다",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      },
+      {
+        "text": "첫사랑",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/katakuri/"]
+      },
+      {
+        "text": "쓸쓸함을 견디다",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/katakuri/"]
+      }
+    ],
+    "pairs": ["jeffersonia-dubia", "hepatica-asiatica", "lamprocapnos-spectabilis"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/얼레지", "https://namu.moe/w/꽃말", "https://hananokotoba.com/katakuri/"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/erythronium-japonicum.jpg",
+      "author": "Kropsoq",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Erythronium_japonicum_2006_005.jpg"
+    }
+  },
+  {
+    "id": "lamprocapnos-spectabilis",
+    "name": "금낭화",
+    "latin": "Lamprocapnos spectabilis",
+    "aka": ["Dicentra spectabilis", "Bleeding heart"],
+    "family": "양귀비과",
+    "origin": "중국 원산으로 알려졌으나 지리산·설악산 등에서 야생 개체군이 발견되어 연구가 필요함",
+    "note": "5~9월 총상꽃차례에 분홍빛 붉은 꽃이 핀다. 흰색 변종(흰금낭화)도 있다.",
+    "colors": ["분홍", "흰색"],
+    "seasons": ["봄", "여름"],
+    "moods": ["섬세함", "그리움", "소박함"],
+    "meanings": [
+      {
+        "text": "당신을 따르겠습니다",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말", "https://kyeonggi.com/article/20260405580335", "https://www.etnews.com/201305090253?m=1"]
+      },
+      {
+        "text": "순종, 당신을 따르겠습니다",
+        "region": "일본",
+        "sources": ["https://horti.jp/22372"]
+      }
+    ],
+    "pairs": ["hepatica-asiatica", "erythronium-japonicum", "aquilegia", "fritillaria-meleagris"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/금낭화", "https://ja.wikipedia.org/wiki/ケマンソウ", "https://namu.moe/w/꽃말", "https://kyeonggi.com/article/20260405580335", "https://www.etnews.com/201305090253?m=1", "https://horti.jp/22372"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/lamprocapnos-spectabilis.jpg",
+      "author": "Wuzur",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dicentra-spectabilis.jpg"
+    }
+  },
+  {
+    "id": "aquilegia",
+    "name": "매발톱꽃",
+    "latin": "Aquilegia",
+    "aka": ["Columbine"],
+    "family": "미나리아재비과",
+    "origin": "북반구(유라시아와 북아메리카)",
+    "note": "꽃받침 다섯 장이 꽃잎처럼 보이고, 꽃잎마다 뒤쪽으로 뻗은 꿀주머니(거)가 있다. 봄부터 여름에 걸쳐 핀다.",
+    "colors": ["파랑", "보라", "노랑", "빨강"],
+    "seasons": ["봄", "여름"],
+    "moods": ["섬세함", "신비", "장난스러움"],
+    "meanings": [
+      {
+        "text": "어리석음",
+        "region": "영미권",
+        "sources": ["https://en.wikipedia.org/wiki/Aquilegia", "https://hananokotoba.com/odamaki/"]
+      },
+      {
+        "text": "승리의 결의(보라색)",
+        "region": "영미권",
+        "sources": ["https://en.wikipedia.org/wiki/Aquilegia", "https://hananokotoba.com/odamaki/"]
+      },
+      {
+        "text": "어리석음",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/odamaki/", "https://greensnap.co.jp/columns/aquilegia_language"]
+      },
+      {
+        "text": "승리의 결의(보라색)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/odamaki/", "https://greensnap.co.jp/columns/aquilegia_language"]
+      },
+      {
+        "text": "걱정되어 떨고 있다(빨강)",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/odamaki/", "https://greensnap.co.jp/columns/aquilegia_language"]
+      }
+    ],
+    "pairs": ["paeonia-lactiflora", "iris", "lamprocapnos-spectabilis", "astrantia-major", "thalictrum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Aquilegia", "https://ko.wikipedia.org/wiki/매발톱꽃", "https://hananokotoba.com/odamaki/", "https://greensnap.co.jp/columns/aquilegia_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/aquilegia.jpg",
+      "author": "Python (Peter Rühr)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wald-Akelei.JPG"
+    }
+  },
+  {
+    "id": "eryngium",
+    "name": "에린지움",
+    "latin": "Eryngium",
+    "aka": ["Sea holly"],
+    "family": "미나리과",
+    "origin": "지중해 서부, 남아메리카, 멕시코 등 전 세계에 분포",
+    "note": "가시 있는 잎과 돔 모양 산형꽃차례를 가진 풀로, 강철빛 푸른색 또는 흰색을 띤다. 관상용으로 키운다.",
+    "colors": ["파랑", "흰색"],
+    "seasons": ["여름"],
+    "moods": ["강렬함", "신비", "단단함"],
+    "meanings": [
+      {
+        "text": "비밀스러운 애정",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      },
+      {
+        "text": "비밀스러운 사랑, 숨겨진 사랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/eryngium_language", "https://horti.jp/57912"]
+      },
+      {
+        "text": "빛을 구하다",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/eryngium_language"]
+      },
+      {
+        "text": "독립",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/eryngium_language"]
+      },
+      {
+        "text": "감탄",
+        "region": "영미권",
+        "sources": ["https://en.wikipedia.org/wiki/Eryngium"]
+      }
+    ],
+    "pairs": ["lavandula-angustifolia", "astrantia-major", "scabiosa-atropurpurea"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Eryngium", "https://ja.wikipedia.org/wiki/エリンギウム", "https://namu.moe/w/꽃말", "https://greensnap.co.jp/columns/eryngium_language", "https://horti.jp/57912"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/eryngium.jpg",
+      "author": "The original uploader was Ramin Nakisa at English Wikipedia .",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:EryngiumBourgatii.jpg"
+    }
+  },
+  {
+    "id": "astilbe",
+    "name": "아스틸베",
+    "latin": "Astilbe",
+    "aka": [],
+    "family": "범의귀과",
+    "origin": "아시아와 북아메리카의 산지 계곡과 숲",
+    "note": "고사리 같은 큰 잎과 깃털 모양의 빽빽한 꽃이삭이 특징인 내한성 여러해살이풀이다. 그늘과 습한 땅에서 잘 자란다.",
+    "colors": ["흰색", "분홍", "연분홍", "자주", "빨강"],
+    "seasons": ["봄", "여름"],
+    "moods": ["섬세함", "몽환", "우아함"],
+    "meanings": [
+      {
+        "text": "사랑의 방문",
+        "region": "일본",
+        "sources": ["https://ja.wikipedia.org/wiki/アスチルベ", "https://hananokotoba.com/astilbe/", "https://greensnap.co.jp/columns/astilbe_language"]
+      },
+      {
+        "text": "자유",
+        "region": "일본",
+        "sources": ["https://ja.wikipedia.org/wiki/アスチルベ", "https://hananokotoba.com/astilbe/", "https://greensnap.co.jp/columns/astilbe_language"]
+      },
+      {
+        "text": "섬세함",
+        "region": "일본",
+        "sources": ["https://ja.wikipedia.org/wiki/アスチルベ", "https://greensnap.co.jp/columns/astilbe_language"]
+      },
+      {
+        "text": "차분한 밝음",
+        "region": "일본",
+        "sources": ["https://ja.wikipedia.org/wiki/アスチルベ", "https://greensnap.co.jp/columns/astilbe_language"]
+      }
+    ],
+    "pairs": ["paeonia-lactiflora", "delphinium", "thalictrum", "hydrangea-serrata"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Astilbe", "https://ja.wikipedia.org/wiki/アスチルベ", "https://hananokotoba.com/astilbe/", "https://greensnap.co.jp/columns/astilbe_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/astilbe.jpg",
+      "author": "Kor!An (Андрей Корзун)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Astilbe_%27Rheinland%27_01.JPG"
+    }
+  },
+  {
+    "id": "helenium",
+    "name": "헬레니움",
+    "latin": "Helenium",
+    "aka": ["Sneezeweed"],
+    "family": "국화과",
+    "origin": "북·중·남아메리카",
+    "note": "노랑 또는 주황색의 데이지 비슷한 꽃이 핀다. 재배 품종은 늦여름부터 가을까지 꽃을 피운다.",
+    "colors": ["노랑", "주황"],
+    "seasons": ["여름", "가을"],
+    "moods": ["명랑", "따뜻함", "생명력"],
+    "meanings": [
+      {
+        "text": "눈물",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/helenium/", "https://greensnap.co.jp/columns/october_birthflower"]
+      },
+      {
+        "text": "좋은 기분",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/helenium/", "https://greensnap.co.jp/columns/october_birthflower"]
+      },
+      {
+        "text": "너그러운 마음",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/october_birthflower"]
+      }
+    ],
+    "pairs": ["cosmos-bipinnatus", "dahlia", "calendula", "nicotiana-alata"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Helenium", "https://hananokotoba.com/helenium/", "https://greensnap.co.jp/columns/october_birthflower"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/helenium.jpg",
+      "author": "Agnes Monkelbaan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bloem_van_een_Helenium._03-07-2021_(actm.).jpg"
+    }
+  },
+  {
+    "id": "polianthes-tuberosa",
+    "name": "투베로즈",
+    "latin": "Polianthes tuberosa",
+    "aka": ["Tuberose"],
+    "family": "아스파라거스과",
+    "origin": "멕시코 중남부(야생에서는 사라짐)",
+    "note": "순백색 꽃이 피며 향이 강해 17세기부터 향수 원료로 증류되었고 하와이 레이에도 쓰인다.",
+    "colors": ["흰색"],
+    "seasons": ["여름", "가을"],
+    "moods": ["관능", "우아함", "향수"],
+    "meanings": [
+      {
+        "text": "위험한 쾌락",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      },
+      {
+        "text": "위험한 쾌락",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/tuberose/", "https://greensnap.co.jp/columns/tuberose_language"]
+      },
+      {
+        "text": "위험한 즐거움",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/tuberose_language", "https://horti.jp/6838"]
+      },
+      {
+        "text": "위험한 관계",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/tuberose_language", "https://horti.jp/6838"]
+      },
+      {
+        "text": "모험",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/tuberose_language"]
+      },
+      {
+        "text": "위험한 쾌락",
+        "region": "영미권",
+        "sources": ["https://www.flower.style/flowers-we-love/tuberose", "https://boisdejasmin.com/?p=1001"]
+      }
+    ],
+    "pairs": ["lilium", "gypsophila"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Polianthes_tuberosa", "https://ja.wikipedia.org/wiki/チューベローズ", "https://namu.moe/w/꽃말", "https://hananokotoba.com/tuberose/", "https://greensnap.co.jp/columns/tuberose_language", "https://horti.jp/6838", "https://www.flower.style/flowers-we-love/tuberose", "https://boisdejasmin.com/?p=1001"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/polianthes-tuberosa.jpg",
+      "author": "SKsiddhartthan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuberose_flower.jpg"
+    }
+  },
+  {
+    "id": "fritillaria-meleagris",
+    "name": "프리틸라리아 멜레아그리스",
+    "latin": "Fritillaria meleagris",
+    "aka": ["Snake's head fritillary", "Chess flower", "Guinea-hen flower", "Chequered lily", "コバンユリ"],
+    "family": "백합과",
+    "origin": "유럽과 서아시아",
+    "note": "3~5월에 고개를 숙인 종 모양 꽃이 핀다. 보라색 체크무늬가 특징이며 드물게 순백색도 있다.",
+    "colors": ["보라", "흰색"],
+    "seasons": ["봄"],
+    "moods": ["신비", "우수", "섬세함"],
+    "meanings": [],
+    "pairs": ["anemone-coronaria", "lamprocapnos-spectabilis", "narcissus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Fritillaria_meleagris", "https://ja.wikipedia.org/wiki/バイモ属"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/fritillaria-meleagris.jpg",
+      "author": "Michael Apel",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fritillaria_meleagris_MichaD.jpg"
+    }
+  },
+  {
+    "id": "nicotiana-alata",
+    "name": "니코티아나",
+    "latin": "Nicotiana alata",
+    "aka": ["Flowering tobacco"],
+    "family": "가지과",
+    "origin": "",
+    "note": "흰색, 노랑, 분홍, 진홍, 연두 등 다양한 색으로 피며, 흔한 품종은 늦은 오후나 저녁에 열려 밤새 향기를 낸다.",
+    "colors": ["흰색", "노랑", "분홍", "빨강", "초록"],
+    "seasons": ["여름", "가을"],
+    "moods": ["몽환", "향수", "새벽"],
+    "meanings": [],
+    "pairs": ["helenium", "limonium-sinuatum", "cosmos-bipinnatus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Nicotiana_alata", "https://ja.wikipedia.org/wiki/ハナタバコ"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/nicotiana-alata.jpg",
+      "author": "Carl E Lewis",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nicotiana_alata1By_Carl_E_Lewis.jpg"
+    }
+  },
+  {
+    "id": "limonium-sinuatum",
+    "name": "스타티스",
+    "latin": "Limonium sinuatum",
+    "aka": ["Statice", "Sea lavender", "スターチス"],
+    "family": "갯질경이과",
+    "origin": "지중해 연안",
+    "note": "종이처럼 바삭한 꽃이 여름에 피며 드라이플라워로 널리 쓰인다. 흰색, 분홍, 보라, 노랑 등 색이 다양하다.",
+    "colors": ["흰색", "분홍", "보라", "노랑"],
+    "seasons": ["봄", "여름"],
+    "moods": ["단단함", "향수", "명랑"],
+    "meanings": [
+      {
+        "text": "영원한 사랑",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말", "https://82cook.com/entiz/read.php?num=17058"]
+      },
+      {
+        "text": "변하지 않는 마음",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6724399", "https://hananokotoba.com/statice/", "https://greensnap.co.jp/columns/statice_language", "https://horti.jp/9747"]
+      },
+      {
+        "text": "끊이지 않는 기억",
+        "region": "일본",
+        "sources": ["https://hananokotoba.com/statice/", "https://greensnap.co.jp/columns/statice_language", "https://horti.jp/9747"]
+      },
+      {
+        "text": "영구불변(분홍색)",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6724399", "https://hananokotoba.com/statice/", "https://greensnap.co.jp/columns/statice_language", "https://horti.jp/9747"]
+      },
+      {
+        "text": "기억",
+        "region": "영미권",
+        "sources": ["https://hananokotoba.com/statice/"]
+      }
+    ],
+    "pairs": ["gypsophila", "eustoma-grandiflorum", "nicotiana-alata", "chamelaucium-uncinatum", "pycnosorus-globosus"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Limonium_sinuatum", "https://oggi.jp/6724399", "https://namu.moe/w/꽃말", "https://82cook.com/entiz/read.php?num=17058", "https://hananokotoba.com/statice/", "https://greensnap.co.jp/columns/statice_language", "https://horti.jp/9747"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/limonium-sinuatum.jpg",
+      "author": "Nevit Dilmen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Tema_Nezahat_Gokyigit_Park_1060783_20080513133708.JPG"
+    }
+  },
+  {
+    "id": "astrantia-major",
+    "name": "아스트란티아",
+    "latin": "Astrantia major",
+    "aka": ["Great masterwort"],
+    "family": "미나리과",
+    "origin": "유럽 남·중부, 캅카스, 아나톨리아",
+    "note": "6~9월경 붉은빛 또는 흰색 포엽에 싸인 작은 연녹백색 꽃이 모여 핀다.",
+    "colors": ["분홍", "빨강", "흰색"],
+    "seasons": ["여름", "가을"],
+    "moods": ["섬세함", "소박함", "우아함"],
+    "meanings": [
+      {
+        "text": "지성, 사랑의 갈증",
+        "region": "일본",
+        "sources": ["https://horti.jp/57774"]
+      }
+    ],
+    "pairs": ["convallaria-majalis", "aquilegia", "eryngium", "thalictrum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Astrantia_major", "https://horti.jp/57774"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/astrantia-major.jpg",
+      "author": "Nathan MacInnes",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Closeup_of_Astrantia_Major_flower.jpg"
+    }
+  },
+  {
+    "id": "chamelaucium-uncinatum",
+    "name": "왁스플라워",
+    "latin": "Chamelaucium uncinatum",
+    "aka": ["Geraldton wax"],
+    "family": "도금양과",
+    "origin": "서호주 특산",
+    "note": "흰색 또는 분홍색 꽃이 피며 절화 후에도 오래 가서 꽃꽂이용으로 인기가 높다. 잎은 감귤 향이 난다.",
+    "colors": ["흰색", "분홍", "보라"],
+    "seasons": ["봄", "여름"],
+    "moods": ["섬세함", "명랑", "순수"],
+    "meanings": [
+      {
+        "text": "마음속 생각의 전부",
+        "region": "일본",
+        "sources": ["https://www.hibiyakadan.com/ext/hanakotoba/m03.html"]
+      }
+    ],
+    "pairs": ["limonium-sinuatum", "gypsophila", "rosa"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Chamelaucium_uncinatum", "https://ja.wikipedia.org/wiki/ワックスフラワー", "https://www.hibiyakadan.com/ext/hanakotoba/m03.html"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/chamelaucium-uncinatum.jpg",
+      "author": "Peripitus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chamelaucium_uncinatum_in_flower.JPG"
+    }
+  },
+  {
+    "id": "thalictrum",
+    "name": "꿩의다리",
+    "latin": "Thalictrum",
+    "aka": ["Meadow-rue"],
+    "family": "미나리아재비과",
+    "origin": "북반구 온대 지역",
+    "note": "꽃잎이 없는 작은 꽃이 빽빽이 모여 피며, 흰색·노랑·분홍·연보라의 수술이 눈에 띈다. 그늘지고 습한 곳에서 자란다.",
+    "colors": ["흰색", "노랑", "분홍", "보라"],
+    "seasons": ["여름"],
+    "moods": ["섬세함", "몽환", "투명함"],
+    "meanings": [],
+    "pairs": ["aquilegia", "astilbe", "astrantia-major", "nigella-damascena", "hydrangea-serrata"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Thalictrum", "https://ko.wikipedia.org/wiki/꿩의다리", "https://ja.wikipedia.org/wiki/カラマツソウ属"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/thalictrum.jpg",
+      "author": "Kurt Stüber",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Thalictrum_flavum0.jpg"
+    }
+  },
+  {
+    "id": "gentiana-scabra",
+    "name": "용담",
+    "latin": "Gentiana scabra",
+    "aka": ["龍膽"],
+    "family": "용담과",
+    "origin": "한국, 일본, 만주, 동시베리아",
+    "note": "8~10월에 종 모양의 자주색(또는 노란색) 꽃이 핀다.",
+    "colors": ["자주", "노랑"],
+    "seasons": ["가을"],
+    "moods": ["우수", "고독", "맑음"],
+    "meanings": [
+      {
+        "text": "당신이 슬플 때 나는 사랑한다",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/용담", "https://www.metroseoul.co.kr/article/2014110600090"]
+      },
+      {
+        "text": "애수",
+        "region": "한국",
+        "sources": ["https://ko.wikipedia.org/wiki/용담"]
+      },
+      {
+        "text": "슬픈 그대가 좋아",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      },
+      {
+        "text": "정의",
+        "region": "한국",
+        "sources": ["https://namu.moe/w/꽃말"]
+      }
+    ],
+    "pairs": ["cosmos-bipinnatus", "chrysanthemum-morifolium"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/용담", "https://namu.moe/w/꽃말", "https://www.metroseoul.co.kr/article/2014110600090"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/gentiana-scabra.jpg",
+      "author": "Alpsdake",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gentiana_scabra_var._buergeri_(flower).JPG"
+    }
+  },
+  {
+    "id": "lychnis-cognata",
+    "name": "동자꽃",
+    "latin": "Lychnis cognata",
+    "aka": [],
+    "family": "석죽과",
+    "origin": "한반도 높은 산의 깊은 숲과 초원",
+    "note": "주황색 꽃이 여름(6~8월)에 핀다.",
+    "colors": ["주황"],
+    "seasons": ["여름"],
+    "moods": ["명랑", "소박함", "따뜻함"],
+    "meanings": [],
+    "pairs": ["hibiscus-syriacus", "hydrangea-serrata"],
+    "scents": [],
+    "sources": ["https://ko.wikipedia.org/wiki/동자꽃"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/lychnis-cognata.jpg",
+      "author": "Marco Schmidt",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lychnis_cognata_MS3982.JPG"
+    }
+  },
+  {
+    "id": "hydrangea-serrata",
+    "name": "산수국",
+    "latin": "Hydrangea serrata",
+    "aka": ["Mountain hydrangea"],
+    "family": "수국과",
+    "origin": "한국과 일본의 산지",
+    "note": "높이 약 1.2m의 낙엽 관목으로 여름에서 가을까지 파랑 또는 분홍 꽃이 핀다. 수국보다 추위에 강하다.",
+    "colors": ["파랑", "분홍"],
+    "seasons": ["여름"],
+    "moods": ["맑음", "섬세함", "고요함"],
+    "meanings": [
+      {
+        "text": "소녀의 사랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/hydrangea_language"]
+      },
+      {
+        "text": "간절한 사랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/hydrangea_language"]
+      }
+    ],
+    "pairs": ["hydrangea-macrophylla", "hibiscus-syriacus", "astilbe", "lychnis-cognata", "thalictrum"],
+    "scents": [],
+    "sources": ["https://en.wikipedia.org/wiki/Hydrangea_serrata", "https://ja.wikipedia.org/wiki/ヤマアジサイ", "https://greensnap.co.jp/columns/hydrangea_language"],
+    "checked": "2026-10-21",
+    "photo": {
+      "file": "images/flowers/hydrangea-serrata.jpg",
+      "author": "Schorle",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bois_des_Moutiers_2017_14.jpg"
+    }
   }
 ]
