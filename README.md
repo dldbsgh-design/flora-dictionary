@@ -45,7 +45,7 @@ GitHub Pages라는 무료 서비스를 사용합니다. 아래 순서대로 하�
 
 1. **GitHub 계정을 만듭니다.** https://github.com 에서 가입하세요.
 2. **빈 저장소(프로젝트 보관함)를 만듭니다.** 이름은 `flora-dictionary`로 하고, 공개(Public)로 설정합니다. "Add a README file"은 **체크하지 마세요.** (이미 README가 있기 때문입니다.)
-3. **저장소 주소를 Claude에게 알려 주세요.** 그러면 Claude가 `git remote add origin …`과 `git push -u origin main`을 실행해 파일을 올려 줍니다. 이때 브라우저에 GitHub 로그인 창이 한 번 나타납니다. 로그인해 주세요.
+3. **저장소 주소를 Claude에게 알려 주세요.** 그러면 Claude가 작업 내용을 먼저 main 브랜치에 합친 뒤 `git remote add origin …`과 `git push -u origin main`을 실행해 파일을 올려 줍니다. 이때 브라우저에 GitHub 로그인 창이 한 번 나타납니다. 로그인해 주세요.
 4. GitHub의 저장소 화면에서 **Settings → Pages**로 갑니다. **Branch**는 `main`, 폴더는 `/ (root)`로 고르고 **Save**를 누릅니다.
 5. 몇 분 뒤 같은 화면에 사이트 주소가 나타납니다. 주소는 `https://<내 GitHub 이름>.github.io/flora-dictionary/` 모양입니다. 이 주소를 저장해 두세요.
 
