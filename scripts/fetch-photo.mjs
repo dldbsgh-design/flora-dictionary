@@ -6,6 +6,19 @@ const USER_AGENT = "flora-dictionary/1.0 (personal study site)";
 const ALLOWED_LICENSE = /^(CC0|Public domain|PD-.*|CC BY(-SA)?( .*)?)$/i;
 const PARTS = ["flowers", "scents"];
 
+function decodeEntities(s) {
+  const named = { amp: "&", lt: "<", gt: ">", quot: '"' };
+  return s.replace(/&(?:#x([0-9a-f]+)|#(\d+)|(amp|lt|gt|quot));/gi, (m, hex, dec, name) => {
+    if (name) return named[name.toLowerCase()];
+    const cp = hex ? parseInt(hex, 16) : parseInt(dec, 10);
+    try {
+      return String.fromCodePoint(cp);
+    } catch {
+      return m;
+    }
+  });
+}
+
 export function parseImageInfo(apiJson) {
   const page = Object.values(apiJson?.query?.pages ?? {})[0];
   const info = page?.imageinfo?.[0];
@@ -17,8 +30,9 @@ export function parseImageInfo(apiJson) {
     throw new Error(`license not allowed: "${license}"`);
   }
 
-  const author = String(meta.Artist?.value ?? "")
-    .replace(/<[^>]*>/g, "")
+  const author = decodeEntities(
+    String(meta.Artist?.value ?? "").replace(/<[^>]*>/g, " "),
+  )
     .replace(/\s+/g, " ")
     .trim();
   if (!author) throw new Error("author is empty");

@@ -17,6 +17,19 @@ test("parses the real Commons fixture", () => {
   assert.match(p.source, /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
 });
 
+test("decodes entities and spaces tags in the author", () => {
+  for (const [raw, want] of [
+    ["A &amp; B", "A & B"],
+    ["O&#039;Neil", "O'Neil"],
+    ["Name<br>Other", "Name Other"],
+    ["&lt;x&gt; &quot;q&quot; &#39;s&#39; &#65;&#x42;", '<x> "q" \'s\' AB'],
+  ]) {
+    const json = fixture();
+    firstInfo(json).extmetadata.Artist.value = raw;
+    assert.equal(parseImageInfo(json).author, want, raw);
+  }
+});
+
 test("rejects a non-free license", () => {
   const json = fixture();
   firstInfo(json).extmetadata.LicenseShortName.value = "All rights reserved";
