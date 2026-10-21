@@ -2,7 +2,7 @@
 import http from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, join, normalize, resolve, sep } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const PORT = Number(process.argv[2] || process.env.PORT) || 8080;
@@ -18,12 +18,21 @@ const MIME = {
   ".svg": "image/svg+xml",
 };
 
+// A path is servable unless any segment is a dot-name (.git, .superpowers, ..).
+export function isServable(path) {
+  return !path.split("/").some((seg) => seg.startsWith("."));
+}
+
 const server = http.createServer(async (req, res) => {
   let path;
   try {
     path = decodeURIComponent(new URL(req.url, "http://x").pathname);
   } catch {
     res.writeHead(400).end("bad request");
+    return;
+  }
+  if (!isServable(path)) {
+    res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" }).end("not found");
     return;
   }
   if (path.endsWith("/")) path += "index.html";
@@ -44,4 +53,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => console.log(`serving ${ROOT} at http://localhost:${PORT}/`));
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  server.listen(PORT, "127.0.0.1", () => console.log(`serving ${ROOT} at http://localhost:${PORT}/`));
+}
