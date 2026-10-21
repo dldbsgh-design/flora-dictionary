@@ -982,7 +982,7 @@
         "sources": ["https://namu.wiki/w/꽃말", "https://www.incheon.go.kr/moo/MOO030101/1944794"]
       },
       {
-        "text": "절도와 삼감 (일본에서는 ツツジ 전체의 꽃말)",
+        "text": "절도와 삼감 (일본: ツツジ 전체의 꽃말)",
         "region": "일본",
         "sources": ["https://hananokotoba.com/tsutsuji/", "https://greensnap.co.jp/columns/azalea_language"]
       }
@@ -1022,12 +1022,12 @@
         "sources": ["https://namu.wiki/w/꽃말"]
       },
       {
-        "text": "기대 (일본에서는 レンギョウ 전체의 꽃말)",
+        "text": "기대 (일본: レンギョウ 전체의 꽃말)",
         "region": "일본",
         "sources": ["https://hananokotoba.com/rengyou/", "https://greensnap.co.jp/columns/forsythia_language"]
       },
       {
-        "text": "희망 (일본에서는 レンギョウ 전체의 꽃말)",
+        "text": "희망 (일본: レンギョウ 전체의 꽃말)",
         "region": "일본",
         "sources": ["https://hananokotoba.com/rengyou/", "https://greensnap.co.jp/columns/forsythia_language"]
       }
@@ -1421,7 +1421,7 @@
     "aka": ["Baby's breath"],
     "family": "석죽과",
     "origin": "중부·동부 유럽의 건조한 초원 원산",
-    "note": "속명 Gypsophila 전체를 가리키는 이름으로, 꽃다발용 절화는 G. paniculata, 한국어 자료의 꽃말은 주로 G. elegans를 설명한 것이다. 1.2m까지 자라는 여러해살이풀로, 가지마다 작고 흰 꽃이 무더기로 핀다. 꽃다발에서 큰 꽃의 배경으로 널리 쓰이는 절화다.",
+    "note": "속명 Gypsophila는 여러 종을 아우르는 이름이다. 꽃다발용 절화는 G. paniculata이고, 한국어로 알려진 꽃말은 주로 G. elegans에 관한 것이다. 1.2m까지 자라는 여러해살이풀로, 가지마다 작고 흰 꽃이 무더기로 핀다. 꽃다발에서 큰 꽃의 배경으로 널리 쓰이는 절화다.",
     "colors": ["흰색", "연분홍"],
     "seasons": ["여름"],
     "moods": ["순수", "섬세함", "투명함"],
@@ -1475,7 +1475,7 @@
     "latin": "Gerbera",
     "aka": [],
     "family": "국화과",
-    "origin": "아프리카 원산 (영문판은 열대 아프리카, 국문판은 남아프리카)",
+    "origin": "아프리카 (열대 아프리카~남아프리카)",
     "note": "뿌리에서 잎이 방석처럼 둘러 나고, 꽃줄기 하나에 꽃머리 하나가 달린다. 정원용과 절화용으로 널리 재배되며 세계에서 다섯 번째로 많이 쓰이는 절화다.",
     "colors": ["흰색", "노랑", "주황", "빨강", "분홍"],
     "seasons": [],
@@ -1901,7 +1901,7 @@
     "aka": ["Pot marigold"],
     "family": "국화과",
     "origin": "남유럽 원산으로 추정 (오랜 재배로 정확한 원산지는 불분명)",
-    "note": "속명 Calendula 전체를 가리키는 이름으로, 흔한 정원·허브용은 C. officinalis, 한국어 자료는 C. arvensis를 설명한다. 80cm 안팎으로 자라는 향이 있는 풀로, 지름 4~7cm의 노랑에서 주황빛 꽃이 핀다. 꽃잎은 먹을 수 있고 오일과 추출물은 피부·화장품 제품에 쓰인다.",
+    "note": "속명 Calendula는 여러 종을 아우르는 이름이다. 흔한 정원·허브용은 C. officinalis이고, 한국어로 소개되는 것은 C. arvensis다. 80cm 안팎으로 자라는 향이 있는 풀로, 지름 4~7cm의 노랑에서 주황빛 꽃이 핀다. 꽃잎은 먹을 수 있고 오일과 추출물은 피부·화장품 제품에 쓰인다.",
     "colors": ["노랑", "주황"],
     "seasons": ["여름", "가을"],
     "moods": ["따뜻함", "명랑", "우수"],
