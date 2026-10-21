@@ -263,7 +263,7 @@
       }
     ],
     "pairs": ["gypsophila", "lavandula-angustifolia", "paeonia-lactiflora", "delphinium", "lilium", "chamelaucium-uncinatum"],
-    "scents": [],
+    "scents": ["rose"],
     "sources": ["https://ko.wikipedia.org/wiki/장미", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/bara/", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0103.html", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
     "checked": "2026-10-21",
     "photo": {
@@ -848,7 +848,7 @@
       }
     ],
     "pairs": ["hyacinthus-orientalis", "myosotis", "bellis-perennis"],
-    "scents": [],
+    "scents": ["violet-leaf"],
     "sources": ["https://ko.wikipedia.org/wiki/제비꽃", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/sumire/", "https://greensnap.co.jp/columns/violet_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
     "checked": "2026-10-21",
     "photo": {
@@ -1293,7 +1293,7 @@
       }
     ],
     "pairs": ["rosa", "hydrangea-macrophylla", "eryngium", "scabiosa-atropurpurea"],
-    "scents": [],
+    "scents": ["lavender"],
     "sources": ["https://en.wikipedia.org/wiki/Lavandula_angustifolia", "https://ko.wikipedia.org/wiki/라벤더", "https://namu.wiki/w/라벤더", "https://hananokotoba.com/lavender/", "https://greensnap.co.jp/columns/lavender_language"],
     "checked": "2026-10-21",
     "photo": {
@@ -1733,7 +1733,7 @@
       }
     ],
     "pairs": ["papaver-rhoeas", "aquilegia", "delphinium", "nymphaea-tetragona"],
-    "scents": [],
+    "scents": ["orris"],
     "sources": ["https://en.wikipedia.org/wiki/Iris_(plant)", "https://ko.wikipedia.org/wiki/붓꽃속", "https://namu.wiki/w/붓꽃", "https://hananokotoba.com/iris/", "https://greensnap.co.jp/columns/iris_language"],
     "checked": "2026-10-21",
     "photo": {
@@ -2517,7 +2517,7 @@
       }
     ],
     "pairs": ["lilium", "gypsophila"],
-    "scents": [],
+    "scents": ["tuberose"],
     "sources": ["https://en.wikipedia.org/wiki/Polianthes_tuberosa", "https://ja.wikipedia.org/wiki/チューベローズ", "https://namu.moe/w/꽃말", "https://hananokotoba.com/tuberose/", "https://greensnap.co.jp/columns/tuberose_language", "https://horti.jp/6838", "https://www.flower.style/flowers-we-love/tuberose", "https://boisdejasmin.com/?p=1001"],
     "checked": "2026-10-21",
     "photo": {
