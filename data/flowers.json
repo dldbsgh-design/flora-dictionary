@@ -36,7 +36,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Helleborus_niger_Kaiser.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Helleborus_niger"],
+    "sources": ["https://en.wikipedia.org/wiki/Helleborus_niger", "https://oggi.jp/6607560", "https://limo.media/articles/-/26697"],
     "checked": "2026-10-21"
   },
   {
@@ -91,7 +91,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:2007-10-25Nigella_damascena_10.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Nigella_damascena"],
+    "sources": ["https://en.wikipedia.org/wiki/Nigella_damascena", "https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language", "https://allabout.co.jp/gm/gc/299077/3/", "https://www.organicgardener.com.au/love-in-a-mist/"],
     "checked": "2026-10-21"
   },
   {
@@ -141,7 +141,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_maritima_%22pincushion_flowers%22.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Scabiosa_atropurpurea"],
+    "sources": ["https://en.wikipedia.org/wiki/Scabiosa_atropurpurea", "https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language", "https://m.cafe.daum.net/16300/6iqS/1441"],
     "checked": "2026-10-21"
   },
   {
@@ -176,7 +176,7 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Oxypetalum_caeruleum0.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Oxypetalum_coeruleum"],
+    "sources": ["https://en.wikipedia.org/wiki/Oxypetalum_coeruleum", "https://oggi.jp/7695896", "https://www.choge-blog.com/?p=90921", "https://lifestyle.assist-all.co.jp/?p=71098"],
     "checked": "2026-10-21"
   },
   {
@@ -216,7 +216,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Pycnosorus_globosus_flowerhead1_(17796565360).jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Pycnosorus_globosus", "https://species.wikimedia.org/wiki/Pycnosorus_globosus"],
+    "sources": ["https://en.wikipedia.org/wiki/Pycnosorus_globosus", "https://species.wikimedia.org/wiki/Pycnosorus_globosus", "https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"],
     "checked": "2026-10-21"
   },
   {
@@ -254,7 +254,7 @@
       {
         "text": "순수 (흰색)",
         "region": "영미권",
-        "sources": ["https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers", "https://hananokotoba.com/bara/"]
+        "sources": ["https://www.almanac.com/flower-meanings-language-flowers"]
       },
       {
         "text": "사랑 (빨강)",
@@ -428,7 +428,7 @@
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/freesia.jpg",
-      "author": "The original uploader was Jeantosti at English Wikipedia .",
+      "author": "Jean Tosti",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Freesia.jpg"
@@ -853,10 +853,10 @@
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/viola.jpg",
-      "author": "Just plain Bill",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "source": "https://commons.wikimedia.org/wiki/File:Bratsche.jpg"
+      "author": "E-190",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Viola_mandshurica_(200704).jpg"
     }
   },
   {
@@ -953,10 +953,10 @@
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/prunus-serrulata.jpg",
-      "author": "TANAKA Juuyoh (田中十洋)",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Sakura_and_Moss_Pink_-_%E6%A1%9C(%E3%81%95%E3%81%8F%E3%82%89)%E3%81%A8%E8%8A%9D%E6%A1%9C(%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89).jpg"
+      "author": "Kropsoq",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Prunus_serrulata_2005_spring_025.jpg"
     }
   },
   {
@@ -1184,7 +1184,7 @@
     ],
     "pairs": ["cosmos-bipinnatus", "gerbera", "calendula", "dahlia"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Common_sunflower", "https://ko.wikipedia.org/wiki/해바라기"],
+    "sources": ["https://en.wikipedia.org/wiki/Common_sunflower", "https://ko.wikipedia.org/wiki/해바라기", "https://namu.wiki/w/해바라기", "https://hananokotoba.com/himawari/", "https://oggi.jp/6761089"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/helianthus-annuus.jpg",
@@ -1239,7 +1239,7 @@
     ],
     "pairs": ["hydrangea-serrata", "lavandula-angustifolia", "delphinium"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Hydrangea_macrophylla", "https://ko.wikipedia.org/wiki/수국"],
+    "sources": ["https://en.wikipedia.org/wiki/Hydrangea_macrophylla", "https://ko.wikipedia.org/wiki/수국", "https://namu.wiki/w/수국", "https://hananokotoba.com/ajisai/", "https://greensnap.co.jp/columns/hydrangea_language", "https://ja.wikipedia.org/wiki/アジサイ"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/hydrangea-macrophylla.jpg",
@@ -1294,14 +1294,14 @@
     ],
     "pairs": ["rosa", "hydrangea-macrophylla", "eryngium", "scabiosa-atropurpurea"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Lavandula_angustifolia", "https://ko.wikipedia.org/wiki/라벤더"],
+    "sources": ["https://en.wikipedia.org/wiki/Lavandula_angustifolia", "https://ko.wikipedia.org/wiki/라벤더", "https://namu.wiki/w/라벤더", "https://hananokotoba.com/lavender/", "https://greensnap.co.jp/columns/lavender_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/lavandula-angustifolia.jpg",
-      "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "source": "https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg"
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_-_lavender_-_Lavendel_-_01.jpg"
     }
   },
   {
@@ -1349,7 +1349,7 @@
     ],
     "pairs": ["rosa", "lathyrus-odoratus", "convallaria-majalis", "aquilegia", "astilbe"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Paeonia_lactiflora", "https://ko.wikipedia.org/wiki/적작약"],
+    "sources": ["https://en.wikipedia.org/wiki/Paeonia_lactiflora", "https://ko.wikipedia.org/wiki/적작약", "https://namu.wiki/w/작약", "https://hananokotoba.com/shakuyaku/", "https://greensnap.co.jp/columns/chinese-peony_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/paeonia-lactiflora.jpg",
@@ -1404,7 +1404,7 @@
     ],
     "pairs": ["lilium", "gypsophila", "eustoma-grandiflorum"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Dianthus_caryophyllus", "https://ko.wikipedia.org/wiki/카네이션"],
+    "sources": ["https://en.wikipedia.org/wiki/Dianthus_caryophyllus", "https://ko.wikipedia.org/wiki/카네이션", "https://hananokotoba.com/carnation/", "https://greensnap.co.jp/columns/carnation_language", "https://ja.wikipedia.org/wiki/カーネーション"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/dianthus-caryophyllus.jpg",
@@ -1459,7 +1459,7 @@
     ],
     "pairs": ["rosa", "lilium", "lathyrus-odoratus", "dianthus-caryophyllus", "eustoma-grandiflorum", "limonium-sinuatum", "chrysanthemum-morifolium", "polianthes-tuberosa", "chamelaucium-uncinatum"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Gypsophila_paniculata", "https://ko.wikipedia.org/wiki/안개꽃"],
+    "sources": ["https://en.wikipedia.org/wiki/Gypsophila_paniculata", "https://ko.wikipedia.org/wiki/안개꽃", "https://namu.wiki/w/안개꽃", "https://hananokotoba.com/kasumisou/", "https://greensnap.co.jp/columns/gypsophila_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/gypsophila.jpg",
@@ -1514,7 +1514,7 @@
     ],
     "pairs": ["helianthus-annuus", "bellis-perennis", "dahlia"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Gerbera", "https://ko.wikipedia.org/wiki/거베라"],
+    "sources": ["https://en.wikipedia.org/wiki/Gerbera", "https://ko.wikipedia.org/wiki/거베라", "https://namu.wiki/w/거베라", "https://hananokotoba.com/gerbera/", "https://greensnap.co.jp/columns/gerbera_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/gerbera.jpg",
@@ -1569,7 +1569,7 @@
     ],
     "pairs": ["myosotis", "viola", "gerbera", "cosmos-bipinnatus"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Bellis_perennis", "https://ko.wikipedia.org/wiki/데이지_(식물)"],
+    "sources": ["https://en.wikipedia.org/wiki/Bellis_perennis", "https://ko.wikipedia.org/wiki/데이지_(식물)", "https://namu.wiki/w/데이지", "https://hananokotoba.com/daisy/", "https://greensnap.co.jp/columns/daisy_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/bellis-perennis.jpg",
@@ -1624,7 +1624,7 @@
     ],
     "pairs": ["helianthus-annuus", "bellis-perennis", "dahlia", "helenium", "chrysanthemum-morifolium", "papaver-rhoeas", "hibiscus-syriacus", "nicotiana-alata", "gentiana-scabra"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Cosmos_bipinnatus", "https://ko.wikipedia.org/wiki/코스모스_(꽃)"],
+    "sources": ["https://en.wikipedia.org/wiki/Cosmos_bipinnatus", "https://ko.wikipedia.org/wiki/코스모스_(꽃)", "https://namu.wiki/w/코스모스(꽃)", "https://hananokotoba.com/cosmos/", "https://oggi.jp/6661654"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/cosmos-bipinnatus.jpg",
@@ -1679,7 +1679,7 @@
     ],
     "pairs": ["gypsophila", "dahlia", "cosmos-bipinnatus", "gentiana-scabra"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Chrysanthemum_%C3%97_morifolium", "https://ko.wikipedia.org/wiki/국화_(식물)"],
+    "sources": ["https://en.wikipedia.org/wiki/Chrysanthemum_%C3%97_morifolium", "https://ko.wikipedia.org/wiki/국화_(식물)", "https://hananokotoba.com/kiku/", "https://greensnap.co.jp/columns/chrysanthemum_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/chrysanthemum-morifolium.jpg",
@@ -1734,7 +1734,7 @@
     ],
     "pairs": ["papaver-rhoeas", "aquilegia", "delphinium", "nymphaea-tetragona"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Iris_(plant)", "https://ko.wikipedia.org/wiki/붓꽃속", "https://namu.wiki/w/붓꽃"],
+    "sources": ["https://en.wikipedia.org/wiki/Iris_(plant)", "https://ko.wikipedia.org/wiki/붓꽃속", "https://namu.wiki/w/붓꽃", "https://hananokotoba.com/iris/", "https://greensnap.co.jp/columns/iris_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/iris.jpg",
@@ -1784,7 +1784,7 @@
     ],
     "pairs": ["iris", "cosmos-bipinnatus", "nigella-damascena"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Papaver_rhoeas", "https://ko.wikipedia.org/wiki/개양귀비", "https://greensnap.co.jp/columns/cornpoppy_language"],
+    "sources": ["https://en.wikipedia.org/wiki/Papaver_rhoeas", "https://ko.wikipedia.org/wiki/개양귀비", "https://greensnap.co.jp/columns/cornpoppy_language", "https://namu.wiki/w/개양귀비", "https://greensnap.co.jp/columns/poppy_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/papaver-rhoeas.jpg",
@@ -1834,7 +1834,7 @@
     ],
     "pairs": ["dianthus-caryophyllus", "gypsophila", "limonium-sinuatum", "delphinium"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Eustoma_grandiflorum", "https://ja.wikipedia.org/wiki/トルコギキョウ"],
+    "sources": ["https://en.wikipedia.org/wiki/Eustoma_grandiflorum", "https://ja.wikipedia.org/wiki/トルコギキョウ", "https://namu.wiki/w/리시안셔스", "https://hananokotoba.com/lisianthus/", "https://greensnap.co.jp/columns/bellflower_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/eustoma-grandiflorum.jpg",
@@ -1884,7 +1884,7 @@
     ],
     "pairs": ["rosa", "hydrangea-macrophylla", "iris", "eustoma-grandiflorum", "astilbe", "oxypetalum-coeruleum"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Delphinium", "https://ko.wikipedia.org/wiki/델피니움"],
+    "sources": ["https://en.wikipedia.org/wiki/Delphinium", "https://ko.wikipedia.org/wiki/델피니움", "https://hananokotoba.com/delphinium/", "https://greensnap.co.jp/columns/delphinium_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/delphinium.jpg",
@@ -1939,7 +1939,7 @@
     ],
     "pairs": ["helianthus-annuus", "dahlia", "nigella-damascena", "helenium"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Calendula_officinalis", "https://ko.wikipedia.org/wiki/금잔화"],
+    "sources": ["https://en.wikipedia.org/wiki/Calendula_officinalis", "https://ko.wikipedia.org/wiki/금잔화", "https://namu.wiki/w/금잔화", "https://hananokotoba.com/kinsenka/", "https://greensnap.co.jp/columns/calendula_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/calendula.jpg",
@@ -1994,7 +1994,7 @@
     ],
     "pairs": ["nymphaea-tetragona"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Nelumbo_nucifera", "https://ko.wikipedia.org/wiki/연꽃"],
+    "sources": ["https://en.wikipedia.org/wiki/Nelumbo_nucifera", "https://ko.wikipedia.org/wiki/연꽃", "https://namu.wiki/w/연꽃", "https://greensnap.co.jp/columns/lotus_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/nelumbo-nucifera.jpg",
@@ -2049,14 +2049,14 @@
     ],
     "pairs": ["nelumbo-nucifera", "iris"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Nymphaea", "https://ko.wikipedia.org/wiki/수련"],
+    "sources": ["https://en.wikipedia.org/wiki/Nymphaea", "https://ko.wikipedia.org/wiki/수련", "https://namu.wiki/w/수련(식물)", "https://hananokotoba.com/suiren/", "https://greensnap.co.jp/columns/waterlily_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/nymphaea-tetragona.jpg",
-      "author": "Fernando Losada Rodríguez",
+      "author": "Dinkun Chen",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_alba.001_-_Breendonk.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_tetragona_(91).jpg"
     }
   },
   {
@@ -2092,14 +2092,14 @@
         "sources": ["https://namu.wiki/w/다알리아"]
       },
       {
-        "text": "품위",
+        "text": "위엄",
         "region": "영미권",
         "sources": ["https://hananokotoba.com/dahlia/"]
       }
     ],
     "pairs": ["helianthus-annuus", "gerbera", "cosmos-bipinnatus", "chrysanthemum-morifolium", "calendula", "helenium"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Dahlia", "https://ko.wikipedia.org/wiki/다알리아"],
+    "sources": ["https://en.wikipedia.org/wiki/Dahlia", "https://ko.wikipedia.org/wiki/다알리아", "https://hananokotoba.com/dahlia/", "https://greensnap.co.jp/columns/dahlia_language", "https://namu.wiki/w/다알리아"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/dahlia.jpg",
@@ -2144,7 +2144,7 @@
     ],
     "pairs": ["lychnis-cognata", "hydrangea-serrata", "cosmos-bipinnatus"],
     "scents": [],
-    "sources": ["https://en.wikipedia.org/wiki/Hibiscus_syriacus", "https://ko.wikipedia.org/wiki/무궁화"],
+    "sources": ["https://en.wikipedia.org/wiki/Hibiscus_syriacus", "https://ko.wikipedia.org/wiki/무궁화", "https://namu.wiki/w/무궁화", "https://hananokotoba.com/mukuge/", "https://greensnap.co.jp/columns/roseofsharon_language"],
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/hibiscus-syriacus.jpg",
@@ -2382,7 +2382,7 @@
     "checked": "2026-10-21",
     "photo": {
       "file": "images/flowers/eryngium.jpg",
-      "author": "The original uploader was Ramin Nakisa at English Wikipedia .",
+      "author": "Ramin Nakisa",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:EryngiumBourgatii.jpg"
