@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "helleborus-niger",
+    "name": "헬레보루스 니게르",
+    "latin": "Helleborus niger",
+    "aka": ["크리스마스로즈", "Christmas rose"],
+    "family": "미나리아재비과",
+    "origin": "알프스 동부와 남부, 아펜니노 산맥, 디나르알프스 북부",
+    "note": "한겨울 눈 속에서 고개를 숙이고 피는 흰 꽃. 이름은 장미지만 장미과가 아니라 미나리아재비과다.",
+    "colors": ["흰색", "연분홍"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["고요함", "순수", "위로"],
+    "meanings": [
+      {
+        "text": "추억",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6607560", "https://limo.media/articles/-/26697"]
+      },
+      {
+        "text": "나를 잊지 말아요",
+        "region": "일본",
+        "sources": ["https://oggi.jp/6607560", "https://limo.media/articles/-/26697"]
+      },
+      {
+        "text": "위로",
+        "region": "일본",
+        "sources": ["https://limo.media/articles/-/26697"]
+      }
+    ],
+    "pairs": ["nigella-damascena"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/helleborus-niger.jpg",
+      "author": "Robert Hundsdorfer",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Helleborus_niger_Kaiser.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Helleborus_niger"],
+    "checked": "2026-10-21"
+  },
+  {
+    "id": "nigella-damascena",
+    "name": "니겔라 다마스케나",
+    "latin": "Nigella damascena",
+    "aka": ["흑종초", "안개 속의 사랑", "Love-in-a-mist"],
+    "family": "미나리아재비과",
+    "origin": "남유럽, 북아프리카, 서남아시아",
+    "note": "실처럼 가는 잎이 안개처럼 꽃을 감싼다. 꽃이 지면 부풀어 오른 열매에서 검은 씨가 나온다.",
+    "colors": ["하늘색", "흰색"],
+    "seasons": ["여름"],
+    "moods": ["몽환", "섬세함", "투명함"],
+    "meanings": [
+      {
+        "text": "당혹",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language"]
+      },
+      {
+        "text": "꿈속의 사랑",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language"]
+      },
+      {
+        "text": "남몰래 품은 기쁨",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language"]
+      },
+      {
+        "text": "미래",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language", "https://allabout.co.jp/gm/gc/299077/3/"]
+      },
+      {
+        "text": "꿈에서 만나요",
+        "region": "일본",
+        "sources": ["https://allabout.co.jp/gm/gc/299077/3/"]
+      },
+      {
+        "text": "당혹, 나를 어리둥절하게 해요, 사랑에 열려 있음, 키스해 줘요",
+        "region": "영미권",
+        "sources": ["https://www.organicgardener.com.au/love-in-a-mist/"]
+      }
+    ],
+    "pairs": ["helleborus-niger", "scabiosa-atropurpurea", "oxypetalum-coeruleum"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/nigella-damascena.jpg",
+      "author": "Wildfeuer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2007-10-25Nigella_damascena_10.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Nigella_damascena"],
+    "checked": "2026-10-21"
+  },
+  {
+    "id": "scabiosa-atropurpurea",
+    "name": "스카비오사",
+    "latin": "Scabiosa atropurpurea",
+    "aka": ["서양체꽃", "Pincushion flower", "Mourning bride"],
+    "family": "인동과",
+    "origin": "남유럽",
+    "note": "바늘꽂이를 닮은 둥근 꽃송이가 가는 줄기 끝에서 흔들린다. 짙은 자주부터 흰색까지 색이 다양하다.",
+    "colors": ["보라", "자주", "흰색", "분홍"],
+    "seasons": ["여름", "가을"],
+    "moods": ["우수", "섬세함", "그리움"],
+    "meanings": [
+      {
+        "text": "모든 것을 잃었다",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language"]
+      },
+      {
+        "text": "미망인",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language"]
+      },
+      {
+        "text": "불행한 사랑",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language"]
+      },
+      {
+        "text": "슬픔에 잠긴 신부",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language"]
+      },
+      {
+        "text": "이루어질 수 없는 사랑",
+        "region": "한국",
+        "sources": ["https://m.cafe.daum.net/16300/6iqS/1441"]
+      }
+    ],
+    "pairs": ["nigella-damascena", "pycnosorus-globosus"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/scabiosa-atropurpurea.jpg",
+      "author": "Rouibi Dhia Eddine Nadjm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_maritima_%22pincushion_flowers%22.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Scabiosa_atropurpurea"],
+    "checked": "2026-10-21"
+  },
+  {
+    "id": "oxypetalum-coeruleum",
+    "name": "블루스타",
+    "latin": "Oxypetalum coeruleum",
+    "aka": ["트위디아", "Tweedia"],
+    "family": "협죽도과",
+    "origin": "남아메리카 (브라질 남부에서 우루과이)",
+    "note": "별 모양의 맑은 하늘색 꽃. 결혼식 부케에 자주 쓰인다.",
+    "colors": ["하늘색"],
+    "seasons": ["여름"],
+    "moods": ["맑음", "순수", "축하"],
+    "meanings": [
+      {
+        "text": "행복한 사랑",
+        "region": "일본",
+        "sources": ["https://oggi.jp/7695896", "https://www.choge-blog.com/?p=90921", "https://lifestyle.assist-all.co.jp/?p=71098"]
+      },
+      {
+        "text": "서로 믿는 마음",
+        "region": "일본",
+        "sources": ["https://oggi.jp/7695896", "https://www.choge-blog.com/?p=90921"]
+      }
+    ],
+    "pairs": ["nigella-damascena", "pycnosorus-globosus"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/oxypetalum-coeruleum.jpg",
+      "author": "Kurt Stüber [1]",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Oxypetalum_caeruleum0.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Oxypetalum_coeruleum"],
+    "checked": "2026-10-21"
+  },
+  {
+    "id": "pycnosorus-globosus",
+    "name": "빌리버튼",
+    "latin": "Pycnosorus globosus",
+    "aka": ["크라스페디아", "Billy buttons"],
+    "family": "국화과",
+    "origin": "오스트레일리아 (뉴사우스웨일스, 퀸즐랜드, 사우스오스트레일리아, 빅토리아)",
+    "note": "가는 줄기 끝에 노란 공이 하나씩 달린다. 꽃집에서는 Craspedia globosa라는 이름으로도 팔리며 말려도 색이 오래간다.",
+    "colors": ["노랑"],
+    "seasons": ["여름"],
+    "moods": ["명랑", "장난스러움", "따뜻함"],
+    "meanings": [
+      {
+        "text": "영원한 행복",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"]
+      },
+      {
+        "text": "마음의 문을 두드린다",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"]
+      },
+      {
+        "text": "개성적",
+        "region": "일본",
+        "sources": ["https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"]
+      }
+    ],
+    "pairs": ["oxypetalum-coeruleum", "scabiosa-atropurpurea"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/pycnosorus-globosus.jpg",
+      "author": "Harry Rose from South West Rocks, Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pycnosorus_globosus_flowerhead1_(17796565360).jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Pycnosorus_globosus"],
+    "checked": "2026-10-21"
+  }
+]
