@@ -1,7 +1,6 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
-import { meaningVerified } from "../js/logic.js";
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -54,6 +53,23 @@ function checkIds(kind, list, errs) {
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const SCENT_LINK = /\[\[([^|\]]+)\|[^\]]+\]\]/g;
 const BLOCK_TYPES = ["p", "analogy"];
+// A well-formed link: label without "**", "|", "[" or "]".
+const CLEAN_LINK = /\[\[[^|\[\]]+\|[^|\[\]*]+\]\]/g;
+
+/** Text whose markup is not well formed: stray [[ / ]], or an odd number of "**" once links are removed. */
+function badMarkup(text) {
+  const rest = String(text ?? "").replace(CLEAN_LINK, "");
+  return rest.includes("[[") || rest.includes("]]") || (rest.split("**").length - 1) % 2 === 1;
+}
+
+/** Site of a URL for the two-source rule: hostname minus "www.", reduced to its last two labels. */
+function siteOf(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "").split(".").slice(-2).join(".");
+  } catch {
+    return null;
+  }
+}
 
 function checkLesson(l, { scentIds, stages, byId }, errs) {
   const at = `lesson "${l.id}"`;
@@ -91,7 +107,8 @@ function checkLesson(l, { scentIds, stages, byId }, errs) {
         if (!urlOf.has(n)) errs.push(`${at}: cite ${n} has no source`);
         used.add(n);
       }
-      if (b.key && !meaningVerified({ sources: cites.map((n) => urlOf.get(n)).filter(Boolean) })) {
+      if (badMarkup(b.text)) errs.push(`${at}: malformed markup in "${sec.heading}": ${b.text}`);
+      if (b.key && new Set(cites.map((n) => siteOf(urlOf.get(n))).filter(Boolean)).size < 2) {
         errs.push(`${at}: key block in "${sec.heading}" needs cites on 2 distinct hosts`);
       }
       for (const [, id] of String(b.text ?? "").matchAll(SCENT_LINK)) {

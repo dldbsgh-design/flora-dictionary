@@ -270,6 +270,7 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .lessons a { text-decoration: none; }
 .lessons a:hover { text-decoration: underline; }
 .lesson section, .lesson .needs, .lesson .sources { max-width: 36em; }
+.lesson { overflow-wrap: anywhere; }
 .lesson p { line-height: 1.9; margin: 0 0 14px; }
 .lesson h2 { font-size: 18px; margin: 28px 0 10px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
 .lesson h3 { font-size: 15px; margin: 28px 0 6px; }

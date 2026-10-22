@@ -197,3 +197,17 @@ test("validate() includes lesson errors when lessons are given", () => {
   const errs = validate({ flowers: [], scents: [], vocab: { ...vocab, stages }, lessons: [lesson({ stage: "초급" })] });
   assert.ok(errs.some((e) => e.includes("stage")));
 });
+
+test("leftover or crossing markup in lesson text → error", () => {
+  for (const text of ["열린 **굵게", "[[calone]]", "[[calone|a]b]]", "[[calone|a**b]] **c**", "남은 ]] 괄호"]) {
+    assert.ok(lerrs([lesson({ sections: block({ text }) })]).some((e) => e.includes("markup")), text);
+  }
+  assert.deepEqual(lerrs([lesson({ sections: block({ text: "**굵게** 그리고 [[calone|칼론]]" }) })]), []);
+});
+
+test("key block: subdomains of one site count as one host", () => {
+  const wiki = [{ n: 1, url: "https://en.wikipedia.org/wiki/A", title: "A" }, { n: 2, url: "https://ko.wikipedia.org/wiki/B", title: "B" }];
+  assert.ok(lerrs([lesson({ sources: wiki, sections: block({ key: true, cites: [1, 2] }) })]).some((e) => e.includes("2 distinct")));
+  const www = [{ n: 1, url: "https://www.iff.com/a", title: "A" }, { n: 2, url: "https://iff.com/b", title: "B" }];
+  assert.ok(lerrs([lesson({ sources: www, sections: block({ key: true, cites: [1, 2] }) })]).length > 0);
+});
