@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { validate } from "../scripts/validate.mjs";
+import { validate, validateLessons } from "../scripts/validate.mjs";
 import { meaningVerified } from "../js/logic.js";
 
 const vocab = {
@@ -112,4 +112,88 @@ test("non-http(s) URLs in sources, meanings and photo are errors", () => {
   assert.ok(run([flower({ photo: photo({ source: bad }) })]).some((e) => e.includes(bad)));
   assert.ok(run([flower({ photo: photo({ licenseUrl: bad }) })]).some((e) => e.includes(bad)));
   assert.deepEqual(run([flower({ photo: photo({}) })]), []);
+});
+
+test("entry source 'http:foo' (no //) is an error", () => {
+  const errs = run([flower({ sources: ["http:foo"] })]);
+  assert.ok(errs.some((e) => e.includes("http:foo")));
+});
+
+// Lessons (향 공부)
+const stages = ["입문", "기초", "중급", "심화", "전문"];
+const lessonOpts = { scentIds: new Set(["calone"]), stages };
+
+const lesson = (over = {}) => ({
+  id: "l1", no: 1, stage: "입문", title: "제목", needs: [],
+  sections: [{ heading: "소제목", blocks: [{ type: "p", text: "본문", cites: [1] }] }],
+  sources: [{ n: 1, url: "https://a.com/x", title: "자료" }],
+  written: "2026-10-23", checked: "2026-10-23", ...over,
+});
+const block = (b) => [{ heading: "소제목", blocks: [{ type: "p", text: "본문", cites: [1], ...b }] }];
+const two = [{ n: 1, url: "https://a.com/x", title: "A" }, { n: 2, url: "https://b.org/y", title: "B" }];
+const lerrs = (lessons) => validateLessons(lessons, lessonOpts);
+
+test("valid lesson has no errors", () => {
+  assert.deepEqual(lerrs([lesson()]), []);
+});
+
+test("lesson stage not in vocab → error mentioning stage", () => {
+  assert.ok(lerrs([lesson({ stage: "초급" })]).some((e) => e.includes("stage")));
+});
+
+test("duplicate lesson id and duplicate no → errors", () => {
+  assert.ok(lerrs([lesson(), lesson({ no: 2 })]).some((e) => e.includes("duplicate") && e.includes("l1")));
+  assert.ok(lerrs([lesson(), lesson({ id: "l2" })]).some((e) => e.includes("duplicate") && e.includes("no")));
+});
+
+test("lesson id must be a lowercase slug", () => {
+  assert.ok(lerrs([lesson({ id: "Bad Id" })]).length > 0);
+});
+
+test("block without cites → error mentioning cites", () => {
+  assert.ok(lerrs([lesson({ sections: block({ cites: [] }) })]).some((e) => e.includes("cites")));
+});
+
+test("cite to missing source → error mentioning it", () => {
+  assert.ok(lerrs([lesson({ sections: block({ cites: [1, 9] }) })]).some((e) => e.includes("9")));
+});
+
+test("key block needs cites on two distinct hosts", () => {
+  const same = [{ n: 1, url: "https://a.com/x", title: "A" }, { n: 2, url: "https://a.com/z", title: "A2" }];
+  assert.ok(lerrs([lesson({ sources: same, sections: block({ key: true, cites: [1, 2] }) })]).length > 0);
+  assert.deepEqual(lerrs([lesson({ sources: two, sections: block({ key: true, cites: [1, 2] }) })]), []);
+});
+
+test("unknown scent link → error mentioning the id; known one is fine", () => {
+  assert.ok(lerrs([lesson({ sections: block({ text: "[[nope|라벨]]" }) })]).some((e) => e.includes("nope")));
+  assert.deepEqual(lerrs([lesson({ sections: block({ text: "[[calone|칼론]]" }) })]), []);
+});
+
+test("needs must point to an earlier existing lesson", () => {
+  assert.ok(lerrs([lesson({ needs: ["ghost"] })]).length > 0);
+  const later = lesson({ id: "l2", no: 2 });
+  assert.ok(lerrs([lesson({ needs: ["l2"] }), later]).length > 0);
+  assert.deepEqual(lerrs([lesson(), lesson({ id: "l2", no: 2, needs: ["l1"] })]), []);
+});
+
+test("unused source → error", () => {
+  assert.ok(lerrs([lesson({ sources: two })]).some((e) => e.includes("2")));
+});
+
+test("lesson source url must be http(s)", () => {
+  assert.ok(lerrs([lesson({ sources: [{ n: 1, url: "ftp://x", title: "A" }] })]).some((e) => e.includes("ftp://x")));
+});
+
+test("lesson written/checked must be YYYY-MM-DD", () => {
+  assert.ok(lerrs([lesson({ written: "어제" })]).some((e) => e.includes("written")));
+  assert.ok(lerrs([lesson({ checked: "2026/10/23" })]).some((e) => e.includes("checked")));
+});
+
+test("block type must be p or analogy", () => {
+  assert.ok(lerrs([lesson({ sections: block({ type: "quiz" }) })]).length > 0);
+});
+
+test("validate() includes lesson errors when lessons are given", () => {
+  const errs = validate({ flowers: [], scents: [], vocab: { ...vocab, stages }, lessons: [lesson({ stage: "초급" })] });
+  assert.ok(errs.some((e) => e.includes("stage")));
 });
