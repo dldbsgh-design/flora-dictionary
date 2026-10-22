@@ -210,6 +210,7 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
   text-decoration: none;
 }
 .volume:hover { background: var(--ink); color: var(--paper); outline-color: var(--paper); }
+.volume[href="#/study"] .vol-title { font-size: 38px; white-space: nowrap; padding: 13px 0; }
 .vol-no { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; }
 .vol-title { font-size: 64px; font-weight: 700; line-height: 1.25; }
 .vol-sub { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; }
@@ -301,9 +302,10 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
   .name { font-size: 19px; }
   .latin { display: block; margin-left: 0; }
   .title { margin-top: 48px; }
-  .volumes { gap: 16px; }
-  .volume { width: 130px; }
-  .vol-title { font-size: 52px; }
+  .volumes { gap: 12px; flex-wrap: wrap; }
+  .volume { width: 104px; }
+  .vol-title { font-size: 44px; }
+  .volume[href="#/study"] .vol-title { font-size: 26px; padding: 11px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

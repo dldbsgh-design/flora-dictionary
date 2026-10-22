@@ -187,6 +187,7 @@ export function renderCover(moods) {
   <div class="volumes">
     <a class="volume" href="#/flowers"><span class="vol-no">제1권</span><span class="vol-title">꽃</span><span class="vol-sub">FLORA</span></a>
     <a class="volume" href="#/scents"><span class="vol-no">제2권</span><span class="vol-title">향</span><span class="vol-sub">ESSENCE</span></a>
+    <a class="volume" href="#/study"><span class="vol-no">제3권</span><span class="vol-title">향 공부</span><span class="vol-sub">STUDY</span></a>
   </div>
   <h2 class="vol-head">분위기로 찾기</h2>
   <p class="moods">${words}</p>

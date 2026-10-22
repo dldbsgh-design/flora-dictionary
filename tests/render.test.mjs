@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  esc, renderEntry, renderPage, renderDetail, renderMood, renderNotFound,
+  esc, renderCover, renderEntry, renderPage, renderDetail, renderMood, renderNotFound,
 } from "../js/render.js";
 
 function flower(over = {}) {
@@ -135,4 +135,9 @@ test("default list page has an h1", () => {
     part: "flowers", title: "꽃", range: "ㄴ — ㄴ", entries: [flower()], page: 1, pageCount: 1,
   });
   assert.match(html, /<h1 class="section">꽃<\/h1>/);
+});
+
+test("cover lists 제3권 향 공부 linking to #/study", () => {
+  const html = renderCover(["고요함"]);
+  assert.match(html, /<a class="volume" href="#\/study"><span class="vol-no">제3권<\/span><span class="vol-title">향 공부<\/span><span class="vol-sub">STUDY<\/span><\/a>/);
 });

@@ -2,6 +2,7 @@
 import { PARTS } from "./parts.js";
 import { chosung, sortKo, paginate, groupBy, byMood, findEntry, clampPage } from "./logic.js";
 import { renderCover, renderPage, renderDetail, renderMood, renderNotFound } from "./render.js";
+import { renderStudyIndex, renderLesson, neighbors } from "./study.js";
 
 const PER_PAGE = 4;
 const GANADA = ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ", "기타"];
@@ -11,7 +12,7 @@ const pageNo = (x) => Math.trunc(Number(x)) || 1;
 let pageTitle = SITE;
 
 const app = document.getElementById("app");
-const store = { vocab: {}, flowers: [], scents: [] };
+const store = { vocab: {}, flowers: [], scents: [], lessons: [] };
 
 async function getJSON(path) {
   const res = await fetch(path);
@@ -73,6 +74,20 @@ function listPage(part, { key, label, n }) {
   });
 }
 
+function studyPage(segs) {
+  if (segs.length === 1) {
+    pageTitle = `향 공부 · ${SITE}`;
+    return renderStudyIndex(store.lessons, store.vocab.stages || []);
+  }
+  const id = segs.length === 2 ? safeDecode(segs[1]) : null;
+  const found = id == null ? null : neighbors(store.lessons, id);
+  if (!found) return renderNotFound();
+  const { lesson, prev, next } = found;
+  const needs = (lesson.needs || []).map((n) => store.lessons.find((l) => l.id === n)).filter(Boolean);
+  pageTitle = `${lesson.title} · 향 공부 · ${SITE}`;
+  return renderLesson(lesson, { prev, next, needs, scentIds: new Set(store.scents.map((s) => s.id)) });
+}
+
 export function route(hash) {
   pageTitle = `찾을 수 없어요 · ${SITE}`;
   const segs = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
@@ -88,6 +103,7 @@ export function route(hash) {
     pageTitle = `${word} · ${SITE}`;
     return renderMood(word, byMood(word, sortKo(store.flowers), sortKo(store.scents)));
   }
+  if (head === "study") return studyPage(segs);
   if (!PARTS[head]) return renderNotFound();
   const part = head;
 
@@ -125,6 +141,7 @@ async function start() {
     ]);
     store.vocab = vocab;
     keys.forEach((k, i) => { store[k] = lists[i]; });
+    store.lessons = await getJSON("data/lessons.json").catch((err) => { console.error(err); return []; });
   } catch (err) {
     app.innerHTML = `<div class="sheet"><p class="empty">사전을 불러오지 못했어요. 새로고침해 주세요.</p></div>`;
     console.error(err);
