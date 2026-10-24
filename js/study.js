@@ -90,7 +90,7 @@ function block(b, scentIds) {
 export function renderLesson(lesson, { prev, next, needs, scentIds, vol = SCENT }) {
   const needLine = needs && needs.length
     ? `<p class="needs">먼저 읽으면 좋은 글: ${needs.map((l) =>
-      `<a href="${esc(lessonHref(vol, l.id))}">${esc(l.title)}</a>`).join(" · ")}</p>`
+      `<a href="${esc(lessonHref(l.subject && l.subject !== "향" ? MUSIC : SCENT, l.id))}">${esc(l.title)}</a>`).join(" · ")}</p>`
     : "";
   const sections = (lesson.sections || []).map((s, i) =>
     `<section>

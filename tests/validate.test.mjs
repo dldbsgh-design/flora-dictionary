@@ -284,3 +284,7 @@ test("validate() checks the routine against vocal lessons", () => {
   assert.deepEqual(validate({ flowers: [], scents: [], vocab: v, lessons: [vocal], routine: routine() }), []);
   assert.ok(validate({ flowers: [], scents: [], vocab: v, lessons: [], routine: routine() }).some((e) => e.includes("from")));
 });
+
+test("listen item without url → error", () => {
+  assert.ok(lerrs([lesson({ listen: [{ title: "예시" }] })]).some((e) => e.includes("listen")));
+});

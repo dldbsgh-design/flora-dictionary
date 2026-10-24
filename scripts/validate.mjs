@@ -121,6 +121,7 @@ function checkLesson(l, { scentIds, stages, subjects, byId }, errs) {
   }
   for (const item of l.listen ?? []) {
     if (!String(item.title ?? "").trim()) errs.push(`${at}: listen item has no title`);
+    if (!String(item.url ?? "").trim()) errs.push(`${at}: listen item "${item.title}" has no url`);
   }
   checkUrls(at, "listen url", (l.listen ?? []).map((item) => item.url), errs);
   const urlOf = sourceMap(at, l.sources, errs);

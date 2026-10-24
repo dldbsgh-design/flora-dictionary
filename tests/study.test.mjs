@@ -170,3 +170,12 @@ test("routine text is escaped", () => {
   assert.doesNotMatch(html, /<i>|<s>|<b>x/);
   assert.match(html, /a&lt;b/);
 });
+
+test("needs links point to each needed lesson's own volume", () => {
+  const scent = lesson({ id: "what-is-perfume", title: "향수" });
+  const music = renderLesson(lesson({ id: "c1", subject: "작곡" }), opts({ vol: MUSIC, needs: [scent] }));
+  assert.match(music, /먼저 읽으면 좋은 글: <a href="#\/study\/what-is-perfume">향수<\/a>/);
+  const vocal = lesson({ id: "v1", subject: "보컬", title: "목소리" });
+  const scentPage = renderLesson(lesson({ id: "s2", no: 2 }), opts({ needs: [vocal] }));
+  assert.match(scentPage, /<a href="#\/music\/v1">목소리<\/a>/);
+});
