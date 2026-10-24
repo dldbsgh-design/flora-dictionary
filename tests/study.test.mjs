@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { inline, renderStudyIndex, renderLesson, neighbors } from "../js/study.js";
+import { inline, renderStudyIndex, renderLesson, neighbors, renderMusicIndex, renderRoutine, SCENT, MUSIC } from "../js/study.js";
 
 const stages = ["입문", "기초", "중급", "심화", "전문"];
 const scentIds = new Set(["calone"]);
@@ -94,4 +94,79 @@ test("neighbors returns prev/next by no, null for unknown id", () => {
   assert.equal(n.next.id, "c");
   assert.equal(neighbors(ls, "a").prev, null);
   assert.equal(neighbors(ls, "nope"), null);
+});
+
+test("music vol links use #/music", () => {
+  const l2 = lesson({ id: "c2", no: 2, subject: "작곡" });
+  const html = renderLesson(lesson({ subject: "작곡" }), opts({ next: l2, vol: MUSIC }));
+  assert.match(html, /href="#\/music">MUSIC · 음악 공부/);
+  assert.match(html, /href="#\/music\/c2"/);
+  assert.match(html, /href="#\/music">목차/);
+  assert.doesNotMatch(html, /#\/study/);
+});
+
+test("scent vol default still links #/study", () => {
+  assert.equal(SCENT.base, "#/study");
+  assert.match(renderLesson(lesson(), opts()), /href="#\/study">STUDY · 향 공부/);
+});
+
+test("listen list renders before 출처 with escaped titles", () => {
+  const html = renderLesson(lesson({ listen: [{ title: "<재즈>", url: "https://c.org/a", note: "처음 30초" }] }), opts());
+  assert.match(html, /<h3>들어 볼 예시<\/h3><ul class="listen"><li><a href="https:\/\/c\.org\/a" target="_blank" rel="noopener">&lt;재즈&gt;<\/a> — 처음 30초<\/li><\/ul>/);
+  assert.ok(html.indexOf("들어 볼 예시") < html.indexOf("<h3>출처"));
+  assert.doesNotMatch(renderLesson(lesson(), opts()), /들어 볼 예시/);
+});
+
+const msubjects = ["작곡", "작사", "보컬"];
+test("music index groups by subject then stage and always links the routine", () => {
+  const ls = [lesson({ id: "v1", subject: "보컬", title: "목소리" }), lesson({ id: "c1", subject: "작곡", title: "소리" }), lesson({ id: "c2", no: 2, subject: "작곡", stage: "기초", title: "구조" })];
+  const html = renderMusicIndex(ls, { subjects: msubjects, stages });
+  assert.ok(html.indexOf("작곡") < html.indexOf("보컬"));
+  assert.doesNotMatch(html, /<h2 class="vol-head">작사/);
+  assert.ok(html.indexOf("<h3>입문") < html.indexOf("<h3>기초"));
+  assert.match(html, /href="#\/music\/c1">제1강 소리/);
+  assert.match(html, /href="#\/music\/routine">오늘의 연습 순서 →/);
+});
+
+test("music index empty shows 첫 글을 준비하고 있어요 and the routine link", () => {
+  const html = renderMusicIndex([], { subjects: msubjects, stages });
+  assert.match(html, /첫 글을 준비하고 있어요/);
+  assert.match(html, /href="#\/music\/routine"/);
+});
+
+const slots = ["준비 운동", "호흡", "발성", "음정", "마무리"];
+const routine = (over = {}) => ({
+  checked: "2026-10-25", minutes: "10–15분",
+  cautions: [{ text: "아프면 멈춰요", cites: [1] }],
+  steps: [
+    { slot: "발성", title: "허밍", how: "입을 닫고", amount: "1분", cites: [1], from: "v1" },
+    { slot: "호흡", title: "숨 고르기", how: "천천히", amount: "3번", cites: [1], from: "v1" },
+  ],
+  sources: [{ n: 1, url: "https://a.com/x", title: "자료" }], ...over,
+});
+const ropts = { slots, scentIds, lessons: [lesson({ id: "v1", subject: "보컬", title: "목소리가 나는 원리" })] };
+
+test("routine renders slots in vocab order with cautions first", () => {
+  const html = renderRoutine(routine(), ropts);
+  assert.match(html, /<h1 class="section">오늘의 연습 순서<\/h1>/);
+  assert.match(html, /전체 10–15분/);
+  assert.ok(html.indexOf("목을 지키는 약속") < html.indexOf("호흡 · 숨 고르기"));
+  assert.ok(html.indexOf("호흡 · 숨 고르기") < html.indexOf("발성 · 허밍"));
+  assert.match(html, /<p class="amount">3번<\/p>/);
+  assert.match(html, /배운 글: <a href="#\/music\/v1">목소리가 나는 원리<\/a>/);
+  assert.match(html, /확인한 날: 2026-10-25/);
+  assert.match(html, /href="#\/music">← 음악 공부 목차/);
+});
+
+test("routine with no steps shows 보컬 첫 글과 함께 연습 순서가 생겨요", () => {
+  const html = renderRoutine({ checked: "2026-10-25", minutes: "", cautions: [], steps: [], sources: [] }, ropts);
+  assert.match(html, /보컬 첫 글과 함께 연습 순서가 생겨요/);
+  assert.doesNotMatch(html, /목을 지키는 약속/);
+  assert.doesNotMatch(html, /전체/);
+});
+
+test("routine text is escaped", () => {
+  const html = renderRoutine(routine({ cautions: [{ text: "<b>x</b>", cites: [1] }], steps: [{ slot: "호흡", title: "<i>", how: "a<b", amount: "<s>", cites: [1], from: "v1" }] }), ropts);
+  assert.doesNotMatch(html, /<i>|<s>|<b>x/);
+  assert.match(html, /a&lt;b/);
 });

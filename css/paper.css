@@ -277,6 +277,13 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .lesson .needs { font-size: 14px; color: var(--muted); margin-top: 4px; }
 .analogy .as { font-style: italic; color: var(--muted); }
 .cite { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-left: 2px; }
+.listen { padding-left: 22px; font-size: 14px; max-width: 36em; }
+.listen li { margin-bottom: 6px; }
+.routine-link { margin: 4px 0 16px; font-size: 15px; }
+.cautions { border: 1px solid var(--ink); padding: 4px 16px 6px; margin: 16px 0 8px; max-width: 36em; }
+.cautions h2 { border-bottom: 0; margin: 10px 0 6px; }
+.routine .step .amount { font-family: var(--mono); font-size: 13px; color: var(--muted); margin-top: -6px; }
+.routine .step .from { font-size: 14px; color: var(--muted); }
 .sources { padding-left: 22px; font-size: 13px; }
 .sources li { margin-bottom: 6px; overflow-wrap: anywhere; }
 
