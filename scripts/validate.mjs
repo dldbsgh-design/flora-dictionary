@@ -71,10 +71,44 @@ function siteOf(url) {
   }
 }
 
-function checkLesson(l, { scentIds, stages, byId }, errs) {
+/** Map source n -> url, reporting duplicate numbers, missing titles and non-http(s) urls. */
+function sourceMap(at, sources, errs) {
+  const urlOf = new Map();
+  for (const src of sources ?? []) {
+    if (urlOf.has(src.n)) errs.push(`${at}: duplicate source n ${src.n}`);
+    urlOf.set(src.n, src.url);
+    if (!String(src.title ?? "").trim()) errs.push(`${at}: source ${src.n} has no title`);
+  }
+  checkUrls(at, "source", (sources ?? []).map((src) => src.url), errs);
+  return urlOf;
+}
+
+/** One cited piece of text: cites exist, markup is well formed, key text spans 2 sites, scent links are known. */
+function checkCited(at, where, text, cites, key, { urlOf, used, scentIds }, errs) {
+  if (!String(text ?? "").trim()) errs.push(`${at}: empty text in "${where}"`);
+  if (!cites || cites.length === 0) errs.push(`${at}: no cites in "${where}"`);
+  for (const n of cites ?? []) {
+    if (!urlOf.has(n)) errs.push(`${at}: cite ${n} has no source`);
+    used.add(n);
+  }
+  if (badMarkup(text)) errs.push(`${at}: malformed markup in "${where}": ${text}`);
+  if (key && new Set((cites ?? []).map((n) => siteOf(urlOf.get(n))).filter(Boolean)).size < 2) {
+    errs.push(`${at}: key block in "${where}" needs cites on 2 distinct hosts`);
+  }
+  for (const [, id] of String(text ?? "").matchAll(SCENT_LINK)) {
+    if (!scentIds.has(id)) errs.push(`${at}: unknown scent link "${id}"`);
+  }
+}
+
+function reportUnused(at, urlOf, used, errs) {
+  for (const n of urlOf.keys()) if (!used.has(n)) errs.push(`${at}: source ${n} is never cited`);
+}
+
+function checkLesson(l, { scentIds, stages, subjects, byId }, errs) {
   const at = `lesson "${l.id}"`;
   if (!SLUG.test(String(l.id ?? ""))) errs.push(`${at}: id must be a lowercase slug`);
   if (!Number.isInteger(l.no) || l.no < 1) errs.push(`${at}: no must be a positive integer`);
+  if (!subjects.includes(l.subject)) errs.push(`${at}: subject "${l.subject}" not in vocab.subjects`);
   if (!stages.includes(l.stage)) errs.push(`${at}: stage "${l.stage}" not in vocab.stages`);
   if (!String(l.title ?? "").trim()) errs.push(`${at}: title is empty`);
   for (const f of ["written", "checked"]) {
@@ -83,56 +117,65 @@ function checkLesson(l, { scentIds, stages, byId }, errs) {
   for (const id of l.needs ?? []) {
     const dep = byId.get(id);
     if (!dep) errs.push(`${at}: unknown needs "${id}"`);
-    else if (!(dep.no < l.no)) errs.push(`${at}: needs "${id}" is not an earlier lesson`);
+    else if (dep.subject === l.subject && !(dep.no < l.no)) errs.push(`${at}: needs "${id}" is not an earlier lesson`);
   }
-  const sources = l.sources ?? [];
-  const urlOf = new Map();
-  for (const src of sources) {
-    if (urlOf.has(src.n)) errs.push(`${at}: duplicate source n ${src.n}`);
-    urlOf.set(src.n, src.url);
-    if (!String(src.title ?? "").trim()) errs.push(`${at}: source ${src.n} has no title`);
+  for (const item of l.listen ?? []) {
+    if (!String(item.title ?? "").trim()) errs.push(`${at}: listen item has no title`);
   }
-  checkUrls(at, "source", sources.map((src) => src.url), errs);
+  checkUrls(at, "listen url", (l.listen ?? []).map((item) => item.url), errs);
+  const urlOf = sourceMap(at, l.sources, errs);
   const used = new Set();
+  const ctx = { urlOf, used, scentIds };
   if (!Array.isArray(l.sections) || l.sections.length === 0) errs.push(`${at}: no sections`);
   for (const sec of l.sections ?? []) {
     if (!String(sec.heading ?? "").trim()) errs.push(`${at}: section heading is empty`);
     if (!Array.isArray(sec.blocks) || sec.blocks.length === 0) errs.push(`${at}: section "${sec.heading}" has no blocks`);
     for (const b of sec.blocks ?? []) {
       if (!BLOCK_TYPES.includes(b.type)) errs.push(`${at}: block type "${b.type}" must be p or analogy`);
-      if (!String(b.text ?? "").trim()) errs.push(`${at}: block text is empty`);
-      const cites = b.cites ?? [];
-      if (cites.length === 0) errs.push(`${at}: block without cites in "${sec.heading}"`);
-      for (const n of cites) {
-        if (!urlOf.has(n)) errs.push(`${at}: cite ${n} has no source`);
-        used.add(n);
-      }
-      if (badMarkup(b.text)) errs.push(`${at}: malformed markup in "${sec.heading}": ${b.text}`);
-      if (b.key && new Set(cites.map((n) => siteOf(urlOf.get(n))).filter(Boolean)).size < 2) {
-        errs.push(`${at}: key block in "${sec.heading}" needs cites on 2 distinct hosts`);
-      }
-      for (const [, id] of String(b.text ?? "").matchAll(SCENT_LINK)) {
-        if (!scentIds.has(id)) errs.push(`${at}: unknown scent link "${id}"`);
-      }
+      checkCited(at, sec.heading, b.text, b.cites, b.key, ctx, errs);
     }
   }
-  for (const n of urlOf.keys()) if (!used.has(n)) errs.push(`${at}: source ${n} is never cited`);
+  reportUnused(at, urlOf, used, errs);
 }
 
-export function validateLessons(lessons, { scentIds, stages }) {
+export function validateLessons(lessons, { scentIds, stages, subjects }) {
   const errs = [];
   checkIds("lesson", lessons, errs);
   const nos = new Set();
   for (const l of lessons) {
-    if (nos.has(l.no)) errs.push(`duplicate lesson no ${l.no}`);
-    nos.add(l.no);
+    const key = `${l.subject}#${l.no}`;
+    if (nos.has(key)) errs.push(`duplicate lesson no ${l.no} in ${l.subject}`);
+    nos.add(key);
   }
   const byId = new Map(lessons.map((l) => [l.id, l]));
-  for (const l of lessons) checkLesson(l, { scentIds, stages: stages ?? [], byId }, errs);
+  for (const l of lessons) checkLesson(l, { scentIds, stages: stages ?? [], subjects: subjects ?? [], byId }, errs);
   return errs;
 }
 
-export function validate({ flowers, scents, vocab, lessons = [] }) {
+export function validateRoutine(routine, { slots, vocalIds, scentIds }) {
+  const errs = [];
+  const at = "routine";
+  if (typeof routine.checked !== "string" || !ISO_DATE.test(routine.checked)) errs.push(`${at}: checked must be YYYY-MM-DD`);
+  const steps = routine.steps ?? [];
+  if (steps.length && !String(routine.minutes ?? "").trim()) errs.push(`${at}: minutes is empty but there are steps`);
+  const urlOf = sourceMap(at, routine.sources, errs);
+  const used = new Set();
+  const ctx = { urlOf, used, scentIds };
+  for (const c of routine.cautions ?? []) checkCited(at, "cautions", c.text, c.cites, false, ctx, errs);
+  const seen = new Set();
+  for (const st of steps) {
+    if (!(slots ?? []).includes(st.slot)) errs.push(`${at}: slot "${st.slot}" not in vocab.slots`);
+    else if (seen.has(st.slot)) errs.push(`${at}: slot "${st.slot}" appears twice`);
+    seen.add(st.slot);
+    for (const f of ["title", "amount"]) if (!String(st[f] ?? "").trim()) errs.push(`${at}: step "${st.slot}" has no ${f}`);
+    if (!vocalIds.has(st.from)) errs.push(`${at}: step "${st.slot}" from "${st.from}" is not a 보컬 lesson`);
+    checkCited(at, st.slot, st.how, st.cites, false, ctx, errs);
+  }
+  reportUnused(at, urlOf, used, errs);
+  return errs;
+}
+
+export function validate({ flowers, scents, vocab, lessons = [], routine = null }) {
   const errs = [];
   const flowerIds = checkIds("flower", flowers, errs);
   const scentIds = checkIds("scent", scents, errs);
@@ -174,7 +217,11 @@ export function validate({ flowers, scents, vocab, lessons = [] }) {
     }
   }
 
-  errs.push(...validateLessons(lessons, { scentIds, stages: vocab.stages }));
+  errs.push(...validateLessons(lessons, { scentIds, stages: vocab.stages, subjects: vocab.subjects }));
+  if (routine) {
+    const vocalIds = new Set(lessons.filter((l) => l.subject === "보컬").map((l) => l.id));
+    errs.push(...validateRoutine(routine, { slots: vocab.slots, vocalIds, scentIds }));
+  }
   return errs;
 }
 
@@ -186,6 +233,7 @@ function main() {
     scents: load("scents.json"),
     vocab: load("vocab.json"),
     lessons: load("lessons.json"),
+    routine: load("routine.json"),
   });
   if (errs.length) {
     for (const e of errs) console.error(e);

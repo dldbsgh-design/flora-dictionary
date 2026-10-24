@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { validate, validateLessons } from "../scripts/validate.mjs";
+import { validate, validateLessons, validateRoutine } from "../scripts/validate.mjs";
 import { meaningVerified } from "../js/logic.js";
 
 const vocab = {
@@ -121,10 +121,11 @@ test("entry source 'http:foo' (no //) is an error", () => {
 
 // Lessons (향 공부)
 const stages = ["입문", "기초", "중급", "심화", "전문"];
-const lessonOpts = { scentIds: new Set(["calone"]), stages };
+const subjects = ["향", "작곡", "작사", "보컬"];
+const lessonOpts = { scentIds: new Set(["calone"]), stages, subjects };
 
 const lesson = (over = {}) => ({
-  id: "l1", no: 1, stage: "입문", title: "제목", needs: [],
+  id: "l1", no: 1, subject: "향", stage: "입문", title: "제목", needs: [],
   sections: [{ heading: "소제목", blocks: [{ type: "p", text: "본문", cites: [1] }] }],
   sources: [{ n: 1, url: "https://a.com/x", title: "자료" }],
   written: "2026-10-23", checked: "2026-10-23", ...over,
@@ -210,4 +211,76 @@ test("key block: subdomains of one site count as one host", () => {
   assert.ok(lerrs([lesson({ sources: wiki, sections: block({ key: true, cites: [1, 2] }) })]).some((e) => e.includes("2 distinct")));
   const www = [{ n: 1, url: "https://www.iff.com/a", title: "A" }, { n: 2, url: "https://iff.com/b", title: "B" }];
   assert.ok(lerrs([lesson({ sources: www, sections: block({ key: true, cites: [1, 2] }) })]).length > 0);
+});
+
+test("lesson subject must be in vocab.subjects", () => {
+  assert.ok(lerrs([lesson({ subject: "미술" })]).some((e) => e.includes("subject")));
+});
+
+test("no may repeat across subjects but not within one", () => {
+  assert.deepEqual(lerrs([lesson(), lesson({ id: "c1", subject: "작곡" })]), []);
+  assert.ok(lerrs([lesson({ id: "c1", subject: "작곡" }), lesson({ id: "c2", subject: "작곡" })]).some((e) => e.includes("duplicate")));
+});
+
+test("needs to same subject must be earlier, other subject is fine", () => {
+  const c2 = lesson({ id: "c2", no: 2, subject: "작곡" });
+  assert.ok(lerrs([lesson({ id: "c1", subject: "작곡", needs: ["c2"] }), c2]).length > 0);
+  assert.deepEqual(lerrs([lesson({ no: 5 }), lesson({ id: "c1", subject: "작곡", needs: ["l1"] })]), []);
+});
+
+test("listen items need http(s) url and title", () => {
+  const errs = lerrs([lesson({ listen: [{ title: "", url: "ftp://x" }] })]);
+  assert.ok(errs.some((e) => e.includes("ftp://x")));
+  assert.ok(errs.some((e) => e.includes("listen")));
+  assert.deepEqual(lerrs([lesson({ listen: [{ title: "예시", url: "https://c.org/a", note: "앞부분" }] })]), []);
+});
+
+// Routine (보컬 연습 순서)
+const slots = ["준비 운동", "호흡", "발성", "음정", "마무리"];
+const vocal = lesson({ id: "v1", subject: "보컬" });
+const ropts = { slots, vocalIds: new Set(["v1"]), scentIds: new Set(["calone"]) };
+const emptyRoutine = { checked: "2026-10-25", minutes: "", cautions: [], steps: [], sources: [] };
+const routine = (over = {}) => ({
+  checked: "2026-10-25", minutes: "10분",
+  cautions: [{ text: "아프면 멈춰요", cites: [1] }],
+  steps: [{ slot: "호흡", title: "숨 고르기", how: "천천히", amount: "3번", cites: [1], from: "v1" }],
+  sources: [{ n: 1, url: "https://a.com/x", title: "자료" }], ...over,
+});
+const rerrs = (r) => validateRoutine(r, ropts);
+
+test("valid empty routine has no errors", () => {
+  assert.deepEqual(rerrs(emptyRoutine), []);
+  assert.deepEqual(rerrs(routine()), []);
+});
+
+test("routine slot must be in vocab.slots and appear once", () => {
+  const step = routine().steps[0];
+  assert.ok(rerrs(routine({ steps: [{ ...step, slot: "춤" }] })).some((e) => e.includes("slot")));
+  assert.ok(rerrs(routine({ steps: [step, { ...step }] })).some((e) => e.includes("slot")));
+});
+
+test("routine step needs cites that exist and a from that is a vocal lesson", () => {
+  const step = routine().steps[0];
+  assert.ok(rerrs(routine({ steps: [{ ...step, cites: [] }] })).some((e) => e.includes("cites")));
+  assert.ok(rerrs(routine({ steps: [{ ...step, cites: [1, 7] }] })).some((e) => e.includes("7")));
+  assert.ok(rerrs(routine({ steps: [{ ...step, from: "l1" }] })).some((e) => e.includes("from")));
+});
+
+test("routine with steps needs minutes", () => {
+  assert.ok(rerrs(routine({ minutes: "" })).some((e) => e.includes("minutes")));
+});
+
+test("routine markup and source urls are checked", () => {
+  assert.ok(rerrs(routine({ cautions: [{ text: "열린 **굵게", cites: [1] }] })).some((e) => e.includes("markup")));
+  assert.ok(rerrs(routine({ sources: [{ n: 1, url: "ftp://x", title: "A" }] })).some((e) => e.includes("ftp://x")));
+});
+
+test("routine unused source → error", () => {
+  assert.ok(rerrs(routine({ sources: [...routine().sources, { n: 2, url: "https://b.org", title: "B" }] })).some((e) => e.includes("2")));
+});
+
+test("validate() checks the routine against vocal lessons", () => {
+  const v = { ...vocab, stages, subjects, slots };
+  assert.deepEqual(validate({ flowers: [], scents: [], vocab: v, lessons: [vocal], routine: routine() }), []);
+  assert.ok(validate({ flowers: [], scents: [], vocab: v, lessons: [], routine: routine() }).some((e) => e.includes("from")));
 });
