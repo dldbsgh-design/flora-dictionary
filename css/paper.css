@@ -210,7 +210,8 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
   text-decoration: none;
 }
 .volume:hover { background: var(--ink); color: var(--paper); outline-color: var(--paper); }
-.volume[href="#/study"] .vol-title { font-size: 38px; white-space: nowrap; padding: 13px 0; }
+.volume[href="#/study"] .vol-title, .volume[href="#/music"] .vol-title { font-size: 38px; white-space: nowrap; padding: 13px 0; }
+.volume[href="#/music"] .vol-title { font-size: 29px; padding: 17px 0; }
 .vol-no { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; }
 .vol-title { font-size: 64px; font-weight: 700; line-height: 1.25; }
 .vol-sub { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; }
@@ -313,7 +314,8 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
   .volumes { gap: 12px; flex-wrap: wrap; }
   .volume { width: 104px; }
   .vol-title { font-size: 44px; }
-  .volume[href="#/study"] .vol-title { font-size: 26px; padding: 11px 0; }
+  .volume[href="#/study"] .vol-title, .volume[href="#/music"] .vol-title { font-size: 26px; padding: 11px 0; }
+  .volume[href="#/music"] .vol-title { font-size: 20px; padding: 14px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

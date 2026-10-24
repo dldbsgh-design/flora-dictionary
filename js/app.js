@@ -2,7 +2,7 @@
 import { PARTS } from "./parts.js";
 import { chosung, sortKo, paginate, groupBy, byMood, findEntry, clampPage } from "./logic.js";
 import { renderCover, renderPage, renderDetail, renderMood, renderNotFound } from "./render.js";
-import { renderStudyIndex, renderLesson, neighbors } from "./study.js";
+import { renderStudyIndex, renderMusicIndex, renderLesson, renderRoutine, neighbors, SCENT, MUSIC } from "./study.js";
 
 const PER_PAGE = 4;
 const GANADA = ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ", "기타"];
@@ -12,7 +12,7 @@ const pageNo = (x) => Math.trunc(Number(x)) || 1;
 let pageTitle = SITE;
 
 const app = document.getElementById("app");
-const store = { vocab: {}, flowers: [], scents: [], lessons: [] };
+const store = { vocab: {}, flowers: [], scents: [], lessons: [], routine: null };
 
 async function getJSON(path) {
   const res = await fetch(path);
@@ -74,18 +74,32 @@ function listPage(part, { key, label, n }) {
   });
 }
 
-function studyPage(segs) {
+const VOLUMES = {
+  study: { vol: SCENT, label: "향 공부", owns: (l) => l.subject === "향" },
+  music: { vol: MUSIC, label: "음악 공부", owns: (l) => l.subject !== "향" },
+};
+
+function studyPage(head, segs) {
+  const { vol, label, owns } = VOLUMES[head];
+  const mine = store.lessons.filter(owns);
+  const scentIds = new Set(store.scents.map((s) => s.id));
   if (segs.length === 1) {
-    pageTitle = `향 공부 · ${SITE}`;
-    return renderStudyIndex(store.lessons, store.vocab.stages || []);
+    pageTitle = `${label} · ${SITE}`;
+    return head === "music"
+      ? renderMusicIndex(mine, { subjects: (store.vocab.subjects || []).filter((x) => x !== "향"), stages: store.vocab.stages || [] })
+      : renderStudyIndex(mine, store.vocab.stages || [], vol);
+  }
+  if (head === "music" && segs.length === 2 && segs[1] === "routine") {
+    pageTitle = `오늘의 연습 순서 · ${label} · ${SITE}`;
+    return renderRoutine(store.routine, { slots: store.vocab.slots || [], scentIds, lessons: mine });
   }
   const id = segs.length === 2 ? safeDecode(segs[1]) : null;
-  const found = id == null ? null : neighbors(store.lessons, id);
-  if (!found) return renderNotFound();
-  const { lesson, prev, next } = found;
+  const lesson = id == null ? null : mine.find((l) => l.id === id);
+  if (!lesson) return renderNotFound();
+  const { prev, next } = neighbors(mine.filter((l) => l.subject === lesson.subject), id);
   const needs = (lesson.needs || []).map((n) => store.lessons.find((l) => l.id === n)).filter(Boolean);
-  pageTitle = `${lesson.title} · 향 공부 · ${SITE}`;
-  return renderLesson(lesson, { prev, next, needs, scentIds: new Set(store.scents.map((s) => s.id)) });
+  pageTitle = `${lesson.title} · ${label} · ${SITE}`;
+  return renderLesson(lesson, { prev, next, needs, scentIds, vol });
 }
 
 export function route(hash) {
@@ -103,7 +117,7 @@ export function route(hash) {
     pageTitle = `${word} · ${SITE}`;
     return renderMood(word, byMood(word, sortKo(store.flowers), sortKo(store.scents)));
   }
-  if (head === "study") return studyPage(segs);
+  if (VOLUMES[head]) return studyPage(head, segs);
   if (!PARTS[head]) return renderNotFound();
   const part = head;
 
@@ -136,12 +150,17 @@ function show() {
 async function start() {
   try {
     const keys = Object.keys(PARTS);
+    const optional = (path, fallback) => getJSON(path).catch((err) => { console.error(err); return fallback; });
+    const lessons = optional("data/lessons.json", []);
+    const routine = optional("data/routine.json", null);
     const [vocab, ...lists] = await Promise.all([
       getJSON("data/vocab.json"), ...keys.map((k) => getJSON(PARTS[k].data)),
     ]);
     store.vocab = vocab;
     keys.forEach((k, i) => { store[k] = lists[i]; });
-    store.lessons = await getJSON("data/lessons.json").catch((err) => { console.error(err); return []; });
+    const loaded = await lessons;
+    store.lessons = Array.isArray(loaded) ? loaded : [];
+    store.routine = await routine;
   } catch (err) {
     app.innerHTML = `<div class="sheet"><p class="empty">사전을 불러오지 못했어요. 새로고침해 주세요.</p></div>`;
     console.error(err);

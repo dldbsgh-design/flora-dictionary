@@ -141,3 +141,8 @@ test("cover lists 제3권 향 공부 linking to #/study", () => {
   const html = renderCover(["고요함"]);
   assert.match(html, /<a class="volume" href="#\/study"><span class="vol-no">제3권<\/span><span class="vol-title">향 공부<\/span><span class="vol-sub">STUDY<\/span><\/a>/);
 });
+
+test("cover lists 제4권 음악 공부 linking to #/music", () => {
+  const html = renderCover(["고요함"]);
+  assert.match(html, /<a class="volume" href="#\/music"><span class="vol-no">제4권<\/span><span class="vol-title">음악 공부<\/span><span class="vol-sub">MUSIC<\/span><\/a>/);
+});
