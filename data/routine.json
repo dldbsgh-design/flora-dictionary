@@ -1,7 +1,129 @@
 {
   "checked": "2026-10-25",
-  "minutes": "",
-  "cautions": [],
-  "steps": [],
-  "sources": []
+  "minutes": "5–10분 (자료마다 달라요)",
+  "cautions": [
+    {
+      "text": "연습하다가 불편하거나 몸에 힘이 들어가면 바로 멈춰요. 숨이 모자라기 전에 멈추고, 아프거나 힘든데도 억지로 밀어붙이지 않아요.",
+      "cites": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "text": "목소리가 쉬었거나 지쳐 있을 때는 노래하지 않아요.",
+      "cites": [
+        3,
+        4
+      ]
+    },
+    {
+      "text": "소리를 지르거나 무리하게 크게 내지 않아요. 음높이는 편한 높이에서 하고, 절대 무리하지 않아요.",
+      "cites": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "text": "하루 내내 물을 충분히 마셔요.",
+      "cites": [
+        3,
+        4
+      ]
+    },
+    {
+      "text": "준비 운동을 너무 길게 하지 않아요. 준비 운동 시간은 자료마다 달라요. 마이애미 대학교 연구진은 연습을 시작하는 데 5~10분이면 충분해 보이고 너무 많이 하면 오히려 피로가 생길 수 있다고 했고, 한 문헌 고찰에서는 연구들이 권한 준비 운동 시간이 15~30분이었어요.",
+      "cites": [
+        5,
+        7
+      ]
+    },
+    {
+      "text": "아래 입술 떨기와 허밍은 영국 NHS 병원 안내문에서 왔어요. 입술 떨기 안내문은 목소리 문제가 있는 사람을 위한 자료이고, 처음에는 언어치료사와 함께 배우라고 해요. 이런 연습을 전문가의 지도 아래 하라고 권하는 전문가도 있어요.",
+      "cites": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "text": "쉰 목소리나 목소리 피로 같은 변화가 2주보다 오래가거나 증상이 계속되면, 혼자 판단하지 말고 의사(이비인후과)나 언어치료사를 찾아요.",
+      "cites": [
+        3,
+        4,
+        6
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "slot": "호흡",
+      "title": "소리 없이 숨 고르기",
+      "how": "코로 숨을 들이쉬고 입으로 소리 없이 내쉬어요.",
+      "amount": "숨이 부드럽고 일정한 리듬이 될 때까지",
+      "cites": [
+        1,
+        2
+      ],
+      "from": "how-voice-works"
+    },
+    {
+      "slot": "발성",
+      "title": "입술 떨기(립 트릴)",
+      "how": "코로 숨을 들이쉬고, 내쉬는 숨에 입술을 떨게 해요. 처음에는 소리 없이 숨으로만 해요. 입술이 잘 떨리지 않으면 손가락으로 양 볼을 살짝 밀어 입술이 조금 앞으로 나오게 해 봐요. 익숙해지면 편하고 일정한 높이로 목소리를 얹어요.",
+      "amount": "목소리를 얹은 입술 떨기 10번",
+      "cites": [
+        2
+      ],
+      "from": "how-voice-works"
+    },
+    {
+      "slot": "마무리",
+      "title": "편한 높이에서 허밍",
+      "how": "입술을 다문 채 코로 숨을 들이쉬고, 편한 높이에서 ‘음—’ 하고 허밍해요. 입술에 떨림이 느껴지는지 살펴요. 절대 무리하지 않아요. CUH 안내문은 허밍이 목소리를 풀고(warm up) 마무리하는(warm down) 데 도움이 된다고 해요.",
+      "amount": "10번",
+      "cites": [
+        1
+      ],
+      "from": "how-voice-works"
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "url": "https://www.cuh.nhs.uk/patient-information/humming-exercises/",
+      "title": "Humming exercises — Cambridge University Hospitals NHS"
+    },
+    {
+      "n": 2,
+      "url": "https://hey.nhs.uk/patient-leaflet/lip-trills",
+      "title": "Lip trills — Hull University Teaching Hospitals NHS"
+    },
+    {
+      "n": 3,
+      "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice",
+      "title": "Taking Care of Your Voice — NIDCD (미국 국립보건원)"
+    },
+    {
+      "n": 4,
+      "url": "https://my.clevelandclinic.org/health/body/24456-vocal-cords",
+      "title": "Vocal Cords — Cleveland Clinic"
+    },
+    {
+      "n": 5,
+      "url": "https://news.med.miami.edu/miller-school-researchers-study-ideal-vocal-warm-up-time-for-singers/",
+      "title": "Miller School Researchers Study Ideal Vocal Warm-up Time for Singers — University of Miami"
+    },
+    {
+      "n": 6,
+      "url": "https://theconversation.com/5-tips-to-take-the-best-care-of-your-voice-for-everyone-who-sings-from-a-speech-pathologist-193222",
+      "title": "5 tips to take the best care of your voice, from a speech pathologist — The Conversation (Sandra Rojas)"
+    },
+    {
+      "n": 7,
+      "url": "https://www.scielo.br/j/rcefac/a/47rW5K8NFbCgJSsYD4hNY4K/?lang=en",
+      "title": "Vocal warm-up and cool-down: systematic review — Revista CEFAC, 2016"
+    }
+  ]
 }
