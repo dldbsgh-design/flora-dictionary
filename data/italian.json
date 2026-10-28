@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "id": "arrivederci",
+    "name": "arrivederci",
+    "ipa": "ar.ri.veˈder.t͡ʃi",
+    "meanings": [
+      "안녕히 가세요",
+      "또 봐요"
+    ],
+    "note": "다시 만날 사람과 헤어질 때 쓴다. 더 공손하게 말할 때는 arrivederla라고 한다고 두 사전 모두 적고 있다.",
+    "related": [
+      "ciao"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/arrivederci/",
+      "https://en.wiktionary.org/wiki/arrivederci",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "buonanotte",
+    "name": "buonanotte",
+    "ipa": "ˌbwɔ.naˈnɔt.te",
+    "meanings": [
+      "잘 자요",
+      "안녕히 주무세요"
+    ],
+    "note": "늦은 저녁, 잠자리에 들기 전에 헤어질 때 하는 인사. 두 낱말로 띄어 buona notte라고도 쓴다.",
+    "related": [
+      "buonasera",
+      "buongiorno"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/buonanotte/",
+      "https://en.wiktionary.org/wiki/buonanotte",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "buonasera",
+    "name": "buonasera",
+    "ipa": "ˌbwɔ.naˈse.ra",
+    "meanings": [
+      "안녕하세요 (오후·저녁 인사)",
+      "안녕히 가세요 (오후·저녁에 헤어질 때)"
+    ],
+    "note": "만날 때와 헤어질 때 모두 쓴다. 오후와 저녁을 나누는 시각은 지역마다 다르다. Wiktionary는 많은 지역에서 오후 5시쯤이라고 적고, Treccani는 토스카나에서는 오후가 시작될 때부터 쓰기도 한다고 적는다.",
+    "related": [
+      "buongiorno",
+      "buonanotte"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/buonasera/",
+      "https://en.wiktionary.org/wiki/buonasera",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "buongiorno",
+    "name": "buongiorno",
+    "ipa": "ˌbwɔnˈd͡ʒor.no",
+    "meanings": [
+      "안녕하세요 (아침·낮 인사)",
+      "좋은 아침"
+    ],
+    "note": "Treccani는 주로 아침에, 만날 때와 헤어질 때 쓴다고 적는다. Wiktionary는 아주 이른 오후까지 쓰기도 한다고 적는다. 두 낱말로 띄어 buon giorno라고도 쓴다.",
+    "related": [
+      "buonasera",
+      "buonanotte"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/buongiorno1/",
+      "https://en.wiktionary.org/wiki/buongiorno",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "ciao",
+    "name": "ciao",
+    "ipa": "ˈt͡ʃa.o",
+    "meanings": [
+      "안녕 (만날 때)",
+      "안녕 (헤어질 때)"
+    ],
+    "note": "Treccani는 'tu'로 부르는 사이, 곧 친한 사이에서 쓰는 인사라고 적는다.",
+    "related": [
+      "arrivederci",
+      "salve"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/ciao/",
+      "https://en.wiktionary.org/wiki/ciao",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "grazie",
+    "name": "grazie",
+    "ipa": "ˈɡrat.t͡sje",
+    "meanings": [
+      "고마워요",
+      "감사합니다"
+    ],
+    "note": "고마움을 나타낼 때 쓴다. 대답은 prego.",
+    "related": [
+      "prego"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/grazie/",
+      "https://en.wiktionary.org/wiki/grazie",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "piacere",
+    "name": "piacere",
+    "ipa": "pjaˈt͡ʃe.re",
+    "meanings": [
+      "반가워요 (처음 소개받을 때)"
+    ],
+    "note": "Treccani는 'piacere di conoscerla'(당신을 알게 되어 기뻐요)를 줄인 말이라고 적는다. 명사로는 '기쁨, 즐거움'이라는 뜻의 남성 명사다.",
+    "examples": [
+      {
+        "it": "Piacere, Alberto.",
+        "ko": "반가워요, 알베르토예요."
+      }
+    ],
+    "related": [
+      "ciao"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/piacere1/",
+      "https://en.wiktionary.org/wiki/piacere",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "prego",
+    "name": "prego",
+    "ipa": "ˈprɛ.ɡo",
+    "meanings": [
+      "천만에요 (grazie에 대한 대답)",
+      "먼저 하세요, 들어오세요 (권할 때)"
+    ],
+    "note": "Treccani에 따르면 끝을 올려 'prego?'라고 하면 잘 못 들었을 때 '뭐라고요?'라는 뜻이 된다.",
+    "examples": [
+      {
+        "it": "Molte grazie! — Prego!",
+        "ko": "정말 고마워요! — 천만에요!"
+      }
+    ],
+    "related": [
+      "grazie"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/prego2/",
+      "https://en.wiktionary.org/wiki/prego",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "salve",
+    "name": "salve",
+    "ipa": "ˈsal.ve",
+    "meanings": [
+      "안녕하세요"
+    ],
+    "note": "사전마다 느낌을 다르게 설명한다. Treccani는 문어·종교적인 말부터 친근한 인사까지 두루 쓴다고 적고, Wiktionary는 인사로는 흔하지 않고 딱딱하게 느껴진다고 적는다.",
+    "related": [
+      "ciao",
+      "buongiorno"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/salve1/",
+      "https://en.wiktionary.org/wiki/salve",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  },
+  {
+    "id": "scusi",
+    "name": "scusi",
+    "ipa": "ˈsku.zi",
+    "meanings": [
+      "실례합니다 (말을 걸거나 부탁할 때)",
+      "죄송합니다 (작은 실례를 사과할 때)"
+    ],
+    "note": "동사 scusare(용서하다)의 형태. Wiktionary는 공손한 말씨라고 적는다.",
+    "examples": [
+      {
+        "it": "Scusi, che ore sono?",
+        "ko": "실례합니다, 몇 시예요?"
+      }
+    ],
+    "related": [
+      "prego"
+    ],
+    "pos": "감탄사",
+    "topics": [
+      "인사"
+    ],
+    "level": "A1",
+    "checked": "2026-10-29",
+    "sources": [
+      "https://www.treccani.it/vocabolario/scusare/",
+      "https://en.wiktionary.org/wiki/scusi",
+      "https://blogs.helsinki.fi/ceftrain/?p=119",
+      "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
+    ]
+  }
+]
