@@ -2,8 +2,9 @@
 import { meaningVerified, findEntry } from "./logic.js";
 import { PARTS } from "./parts.js";
 
-const MASTHEAD = { flowers: "FLORA · 꽃 사전", scents: "ESSENCE · 향 사전" };
+const SITE = "포트폴리오";
 const EMPTY_MOOD = "아직 이 단어에 맞는 항목이 없어요";
+const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳";
 
 export function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (c) => ({
@@ -14,12 +15,19 @@ export function esc(value) {
 const list = (v) => (Array.isArray(v) ? v : v == null || v === "" ? [] : [v]);
 const enc = encodeURIComponent;
 const entryHref = (part, id) => `#/${part}/e/${enc(id)}`;
+const labelOf = (part) => (PARTS[part] ? PARTS[part].label : part);
 
-function figure(entry) {
+/** Dictionary-style sense numbers: ① ② … then (21) (22) … */
+export function numbered(items) {
+  return items.map((html, i) => `<i class="no">${CIRCLED[i] || `(${i + 1})`}</i>${html}`).join(" ");
+}
+
+function figure(entry, part) {
+  if (part === "italian") return "";
   if (!entry.photo) {
-    return `<div class="plate" aria-hidden="true">${esc([...String(entry.name)][0] || "")}</div>`;
+    return `<div class="figure"><div class="plate" aria-hidden="true">${esc([...String(entry.name)][0] || "")}</div></div>`;
   }
-  return `<img class="photo" src="${esc(entry.photo.file)}" alt="${esc(entry.name)}" loading="lazy" width="72" height="72">`;
+  return `<div class="figure"><img class="photo" src="${esc(entry.photo.file)}" alt="${esc(entry.name)}" loading="lazy" width="64" height="64"></div>`;
 }
 
 function credit(photo) {
@@ -42,6 +50,11 @@ function dedupeMeanings(meanings) {
   return [...byText.values()];
 }
 
+function bracket(entry, part) {
+  const words = (PARTS[part].marks || []).flatMap((k) => list(entry[k]));
+  return words.length ? `<span class="br">【${words.map(esc).join(", ")}】</span> ` : "";
+}
+
 function tags(entry, part) {
   const out = [];
   for (const key of PARTS[part].tagKeys) {
@@ -55,30 +68,49 @@ function tags(entry, part) {
 }
 
 function subtitle(entry, part) {
-  return part === "flowers" ? entry.latin : entry.nameEn;
+  if (part === "flowers") return entry.latin;
+  if (part === "scents") return entry.nameEn;
+  return [entry.ipa ? `[${entry.ipa}]` : "", entry.say].filter(Boolean).join(" ");
 }
 
 function akaLine(entry, part) {
-  const items = part === "flowers" ? list(entry.aka) : list(entry.material);
-  return items.length ? `<p class="aka">${items.map(esc).join(" · ")}</p>` : "";
+  const items = part === "flowers" ? list(entry.aka)
+    : part === "scents" ? list(entry.material)
+      : entry.plural ? [`복수형 ${entry.plural}`] : [];
+  return items.length ? `<p class="aka">${items.map(esc).join(", ")}</p>` : "";
+}
+
+function example(ex) {
+  return `<i lang="it">${esc(ex.it)}</i> ${esc(ex.ko)}`;
+}
+
+function gloss(entry, part) {
+  if (part === "italian") {
+    return `<p class="gloss">${bracket(entry, part)}${numbered(list(entry.meanings).map(esc))}</p>`;
+  }
+  const blurb = part === "flowers" ? entry.note : entry.description;
+  const mark = bracket(entry, part);
+  return mark || blurb ? `<p class="gloss">${mark}${esc(blurb)}</p>` : "";
 }
 
 export function renderEntry(entry, part, { showMeanings = true } = {}) {
   const meanings = part === "flowers" && showMeanings ? dedupeMeanings(list(entry.meanings)) : [];
   const meaningLine = meanings.length
-    ? `<p class="meaning"><b>꽃말</b> ${meanings.map(meaningText).join(" · ")}</p>`
+    ? `<p class="meaning"><b>꽃말</b> ${numbered(meanings.map(meaningText))}</p>`
     : "";
-  const blurb = part === "flowers" ? entry.note : entry.description;
-  return `<article class="entry">
-  <div class="figure">${figure(entry)}</div>
+  const ex = part === "italian" && showMeanings && list(entry.examples)[0];
+  const sub = subtitle(entry, part);
+  return `<article class="entry${part === "italian" ? " word" : ""}">
   <div class="body">
-    <h2 class="name"><a href="${esc(entryHref(part, entry.id))}">${esc(entry.name)}</a>${subtitle(entry, part) ? ` <i class="latin">${esc(subtitle(entry, part))}</i>` : ""}</h2>
+    <h2 class="name"><a href="${esc(entryHref(part, entry.id))}"${part === "italian" ? ` lang="it"` : ""}>${esc(entry.name)}</a>${sub ? ` <i class="latin">${esc(sub)}</i>` : ""}</h2>
     ${akaLine(entry, part)}
+    ${gloss(entry, part)}
     ${meaningLine}
-    ${blurb ? `<p class="note">${esc(blurb)}</p>` : ""}
+    ${ex ? `<p class="example">${example(ex)}</p>` : ""}
     ${tags(entry, part)}
     ${credit(entry.photo)}
   </div>
+  ${figure(entry, part)}
 </article>`;
 }
 
@@ -103,63 +135,83 @@ function renderModes(modes) {
     `<a href="${esc(m.href)}"${m.active ? ` class="on" aria-current="page"` : ""}>${esc(m.label)}</a>`).join("")}</nav>`;
 }
 
+/** Running head: the book's name on the left (links to `href`), the page's span on the right. */
+export function runningHead(label, href, range) {
+  return `<header class="running">
+    <a class="masthead" href="${esc(href)}">${esc(label)}</a>
+    <span class="range">${esc(range)}</span>
+  </header>`;
+}
+
 export function renderPage({ part, title, range, entries, page, pageCount, tabs, activeTab, modes, base }) {
   const b = base || `#/${part}/p/`;
   return `<div class="sheet">
-  <header class="running">
-    <a class="masthead" href="#/">${esc(MASTHEAD[part] || PARTS[part].label)}</a>
-    <span class="range">${esc(range)}</span>
-  </header>
+  ${runningHead(labelOf(part), "#/", range)}
   ${renderModes(modes)}
   ${title ? `<h1 class="section">${esc(title)}</h1>` : ""}
   <div class="entries">${entries.length
     ? entries.map((e) => renderEntry(e, part)).join("\n")
     : `<p class="empty">아직 실린 항목이 없어요</p>`}</div>
   <footer class="folio">
-    ${pageLink("← 이전 장", page - 1, page > 1, b, "prev")}
-    <span class="pno">p. ${esc(page)}</span>
-    ${pageLink("다음 장 →", page + 1, page < pageCount, b, "next")}
+    ${pageLink("이전 장", page - 1, page > 1, b, "prev")}
+    <span class="pno">${esc(page)}</span>
+    ${pageLink("다음 장", page + 1, page < pageCount, b, "next")}
   </footer>
 </div>
 ${renderTabs(tabs, activeTab)}`;
 }
 
 function linkList(heading, ids, part, pool) {
-  const found = list(ids).map((id) => findEntry(id, pool)).filter(Boolean);
+  const found = list(ids).map((id) => findEntry(id, pool || [])).filter(Boolean);
   if (!found.length) return "";
   return `<h3>${heading}</h3><p class="links">${found.map((e) =>
-    `<a href="${esc(entryHref(part, e.id))}">${esc(e.name)}</a>`).join(" · ")}</p>`;
+    `<a href="${esc(entryHref(part, e.id))}">${esc(e.name)}</a>`).join(", ")}</p>`;
 }
 
 function sourceList(urls) {
   return list(urls).map((u) =>
-    `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(" · ");
+    `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ");
 }
 
 function hostOf(url) {
   try { return new URL(url).hostname; } catch { return url; }
 }
 
-export function renderDetail(entry, part, data) {
+function factList(facts) {
+  const shown = facts.filter(([, v]) => v);
+  return shown.length ? `<dl class="facts">${shown.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>` : "";
+}
+
+function detailBody(entry, part, data) {
+  if (part === "italian") {
+    const examples = list(entry.examples);
+    return `${factList([["품사", entry.pos], ["성", entry.gender], ["복수형", entry.plural], ["단계", entry.level]])}
+  ${entry.note ? `<p class="note">${esc(entry.note)}</p>` : ""}
+  ${examples.length ? `<h3>예문</h3><ul class="examples">${examples.map((ex) => `<li>${example(ex)}</li>`).join("")}</ul>` : ""}
+  ${linkList("함께 보면 좋은 단어", entry.related, part, data.italian)}
+  ${linkList("꽃 사전에서", entry.flowers, "flowers", data.flowers)}
+  ${linkList("향 사전에서", entry.scents, "scents", data.scents)}`;
+  }
   const own = part === "flowers" ? data.flowers : data.scents;
   const other = part === "flowers" ? "scents" : "flowers";
   const meanings = part === "flowers" ? list(entry.meanings) : [];
   const facts = part === "flowers"
     ? [["과", entry.family], ["원산지", entry.origin]]
     : [["원료", entry.material], ["계열", entry.family], ["구분", entry.kind]];
-  return `<div class="sheet detail">
-  <header class="running">
-    <a class="masthead" href="#/${esc(part)}">${esc(MASTHEAD[part] || PARTS[part].label)}</a>
-    <span class="range">${esc(entry.name)}</span>
-  </header>
-  ${renderEntry(entry, part, { showMeanings: false })}
-  <dl class="facts">${facts.filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+  return `${factList(facts)}
   ${meanings.length ? `<h3>꽃말</h3><ul class="meanings">${meanings.map((m) =>
     `<li>${meaningText(m)}${m.region ? ` <span class="region">${esc(m.region)}</span>` : ""}<br><small>${sourceList(m.sources)}</small></li>`).join("")}</ul>` : ""}
   ${linkList("어울리는 짝", entry.pairs, part, own)}
-  ${linkList(part === "flowers" ? "이 꽃의 향" : "이 향의 꽃", entry[other], other, data[other])}
+  ${linkList(part === "flowers" ? "이 꽃의 향" : "이 향의 꽃", entry[other], other, data[other])}`;
+}
+
+export function renderDetail(entry, part, data) {
+  return `<div class="sheet detail">
+  ${runningHead(labelOf(part), `#/${part}`, entry.name)}
+  ${renderEntry(entry, part, { showMeanings: false })}
+  ${detailBody(entry, part, data)}
   <p class="provenance"><small>출처: ${sourceList(entry.sources)}<br>확인한 날: ${esc(entry.checked)}</small></p>
-  <footer class="folio"><a href="#/${esc(part)}">← 목록으로</a><span></span><a href="#/">표지 →</a></footer>
+  <footer class="folio"><a href="#/${esc(part)}">목록으로</a><span></span><a href="#/">책장으로</a></footer>
 </div>`;
 }
 
@@ -171,36 +223,35 @@ export function renderMood(word, { flowers, scents }) {
     ? section("꽃", flowers, "flowers") + section("향", scents, "scents")
     : `<p class="empty">${EMPTY_MOOD}</p>`;
   return `<div class="sheet">
-  <header class="running"><a class="masthead" href="#/">PORTFOLIO</a><span class="range">분위기</span></header>
+  ${runningHead(SITE, "#/", "분위기")}
   <h1 class="section">${esc(word)}</h1>
   ${body}
-  <footer class="folio"><a href="#/">← 표지</a><span></span><span></span></footer>
+  <footer class="folio"><a href="#/">책장으로</a><span></span><span></span></footer>
 </div>`;
 }
 
-export function renderCover(moods) {
+// Spine heights cycle through a fixed, uneven list so the shelf looks hand-filled but never reshuffles.
+const HEIGHTS = [92, 86, 100, 96, 89, 94, 84, 98];
+
+/** books: [{ href, label, count, color, empty }] in shelf order. */
+export function renderCover(moods, books = []) {
+  const spines = books.map((bk, i) => `<a class="spine${bk.empty ? " empty" : ""}" href="${esc(bk.href)}" style="--cloth:${esc(bk.color)};--h:${HEIGHTS[i % HEIGHTS.length]}%">`
+    + `<span class="spine-title">${esc(bk.label)}</span><span class="spine-count">${esc(bk.empty ? "준비 중" : bk.count)}</span></a>`).join("");
   const words = list(moods).map((m) => `<a href="#/mood/${esc(enc(m))}">${esc(m)}</a>`).join("");
   return `<div class="sheet cover">
-  <header class="running"><span class="masthead">PORTFOLIO</span><span class="range">제1판</span></header>
   <h1 class="title">포트폴리오</h1>
-  <p class="lede">이름, 꽃말, 어울리는 향을 종이 사전처럼 넘겨 보세요.</p>
-  <div class="volumes">
-    <a class="volume" href="#/flowers"><span class="vol-no">제1권</span><span class="vol-title">꽃</span><span class="vol-sub">FLORA</span></a>
-    <a class="volume" href="#/scents"><span class="vol-no">제2권</span><span class="vol-title">향</span><span class="vol-sub">ESSENCE</span></a>
-    <a class="volume" href="#/study"><span class="vol-no">제3권</span><span class="vol-title">향 공부</span><span class="vol-sub">STUDY</span></a>
-    <a class="volume" href="#/music"><span class="vol-no">제4권</span><span class="vol-title">음악 공부</span><span class="vol-sub">MUSIC</span></a>
-  </div>
+  <p class="lede">한 권씩 꺼내 보는 나의 사전</p>
+  <nav class="shelf" aria-label="책장">${spines}</nav>
   <h2 class="vol-head">분위기로 찾기</h2>
   <p class="moods">${words}</p>
-  <p class="soon">더 많은 파트는 곧</p>
 </div>`;
 }
 
 export function renderNotFound() {
   return `<div class="sheet notfound">
-  <header class="running"><a class="masthead" href="#/">PORTFOLIO</a><span class="range">—</span></header>
+  ${runningHead(SITE, "#/", "")}
   <h1 class="section">찾을 수 없어요</h1>
   <p class="empty">주소가 가리키는 장이 이 사전에 없어요.</p>
-  <p><a href="#/">표지로 돌아가기</a></p>
+  <p><a href="#/">책장으로 돌아가기</a></p>
 </div>`;
 }

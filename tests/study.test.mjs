@@ -43,7 +43,7 @@ test("sections are numbered 1., 2.", () => {
 
 test("lesson shows header, sources and dates", () => {
   const html = renderLesson(lesson(), opts());
-  assert.match(html, /제1강 · 입문/);
+  assert.match(html, /제1강, 입문/);
   assert.match(html, /<h3>출처<\/h3>/);
   assert.match(html, /href="https:\/\/a\.com\/x" target="_blank" rel="noopener"/);
   assert.match(html, /쓴 날: 2026-10-23/);
@@ -54,10 +54,10 @@ test("first lesson has no 이전 글, last has no 다음 글", () => {
   const l2 = lesson({ id: "l2", no: 2, title: "노트" });
   const first = renderLesson(lesson(), opts({ next: l2 }));
   assert.doesNotMatch(first, /이전 글/);
-  assert.match(first, /href="#\/study\/l2"[^>]*>다음 글 →/);
+  assert.match(first, /href="#\/study\/l2"[^>]*>다음 글</);
   const last = renderLesson(l2, opts({ prev: lesson() }));
   assert.doesNotMatch(last, /다음 글/);
-  assert.match(last, /← 이전 글/);
+  assert.match(last, /rel="prev">이전 글</);
   assert.match(last, /href="#\/study">목차/);
 });
 
@@ -77,7 +77,7 @@ test("index groups by stage order and sorts by no", () => {
   const ls = [lesson({ id: "c", no: 3, stage: "기초", title: "셋" }), lesson({ id: "b", no: 2, title: "둘" }), lesson({ id: "a", no: 1, title: "하나" })];
   const html = renderStudyIndex(ls, stages);
   assert.ok(html.indexOf("입문") < html.indexOf("기초"));
-  assert.ok(html.indexOf("제1강 하나") < html.indexOf("제2강 둘"));
+  assert.ok(html.indexOf("제1강</span> 하나") < html.indexOf("제2강</span> 둘"));
   assert.match(html, /href="#\/study\/c"/);
   assert.doesNotMatch(html, /중급/);
 });
@@ -99,7 +99,7 @@ test("neighbors returns prev/next by no, null for unknown id", () => {
 test("music vol links use #/music", () => {
   const l2 = lesson({ id: "c2", no: 2, subject: "작곡" });
   const html = renderLesson(lesson({ subject: "작곡" }), opts({ next: l2, vol: MUSIC }));
-  assert.match(html, /href="#\/music">MUSIC · 음악 공부/);
+  assert.match(html, /href="#\/music">음악 공부/);
   assert.match(html, /href="#\/music\/c2"/);
   assert.match(html, /href="#\/music">목차/);
   assert.doesNotMatch(html, /#\/study/);
@@ -107,7 +107,7 @@ test("music vol links use #/music", () => {
 
 test("scent vol default still links #/study", () => {
   assert.equal(SCENT.base, "#/study");
-  assert.match(renderLesson(lesson(), opts()), /href="#\/study">STUDY · 향 공부/);
+  assert.match(renderLesson(lesson(), opts()), /href="#\/study">향 공부/);
 });
 
 test("listen list renders before 출처 with escaped titles", () => {
@@ -124,8 +124,8 @@ test("music index groups by subject then stage and always links the routine", ()
   assert.ok(html.indexOf("작곡") < html.indexOf("보컬"));
   assert.doesNotMatch(html, /<h2 class="vol-head">작사/);
   assert.ok(html.indexOf("<h3>입문") < html.indexOf("<h3>기초"));
-  assert.match(html, /href="#\/music\/c1">제1강 소리/);
-  assert.match(html, /href="#\/music\/routine">오늘의 연습 순서 →/);
+  assert.match(html, /href="#\/music\/c1"><span class="lno">제1강<\/span> 소리/);
+  assert.match(html, /href="#\/music\/routine">오늘의 연습 순서</);
 });
 
 test("music index empty shows 첫 글을 준비하고 있어요 and the routine link", () => {
@@ -150,12 +150,12 @@ test("routine renders slots in vocab order with cautions first", () => {
   const html = renderRoutine(routine(), ropts);
   assert.match(html, /<h1 class="section">오늘의 연습 순서<\/h1>/);
   assert.match(html, /전체 10–15분/);
-  assert.ok(html.indexOf("목을 지키는 약속") < html.indexOf("호흡 · 숨 고르기"));
-  assert.ok(html.indexOf("호흡 · 숨 고르기") < html.indexOf("발성 · 허밍"));
+  assert.ok(html.indexOf("목을 지키는 약속") < html.indexOf("호흡: 숨 고르기"));
+  assert.ok(html.indexOf("호흡: 숨 고르기") < html.indexOf("발성: 허밍"));
   assert.match(html, /<p class="amount">3번<\/p>/);
   assert.match(html, /배운 글: <a href="#\/music\/v1">목소리가 나는 원리<\/a>/);
   assert.match(html, /확인한 날: 2026-10-25/);
-  assert.match(html, /href="#\/music">← 음악 공부 목차/);
+  assert.match(html, /href="#\/music">음악 공부 목차/);
 });
 
 test("routine with no steps shows 보컬 첫 글과 함께 연습 순서가 생겨요", () => {

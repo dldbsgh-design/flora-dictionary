@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  esc, renderCover, renderEntry, renderPage, renderDetail, renderMood, renderNotFound,
+  esc, numbered, renderCover, renderEntry, renderPage, renderDetail, renderMood, renderNotFound,
 } from "../js/render.js";
 
 function flower(over = {}) {
@@ -63,12 +63,12 @@ test("page 1 of 1 disables both prev and next", () => {
     part: "flowers", title: "가나다", range: "ㄴ — ㄴ", entries: [flower()],
     page: 1, pageCount: 1, tabs: [{ label: "ㄴ", href: "#/flowers/by/chosung/%E3%84%B4/1" }], activeTab: "ㄴ",
   });
-  assert.match(html, /FLORA · 꽃 사전/);
-  assert.match(html, /p\. 1/);
+  assert.match(html, /<a class="masthead" href="#\/">꽃<\/a>/);
+  assert.match(html, /<span class="pno">1<\/span>/);
   const disabled = html.match(/aria-disabled="true"/g) || [];
   assert.equal(disabled.length, 2);
-  assert.match(html, /← 이전 장/);
-  assert.match(html, /다음 장 →/);
+  assert.match(html, />이전 장</);
+  assert.match(html, />다음 장</);
 });
 
 test("middle page links prev and next", () => {
@@ -90,14 +90,14 @@ test("renderNotFound links back to the cover", () => {
   assert.match(renderNotFound(), /href="#\/"/);
 });
 
-test("meaning text containing a comma renders as one item, joined with ' · '", () => {
+test("meaning text containing a comma renders as one numbered item", () => {
   const html = renderEntry(flower({
     meanings: [
       { text: "사랑, 기다림", region: "한국", sources: ["https://a.com/x", "https://b.org/y"] },
       { text: "순결", region: "한국", sources: ["https://a.com/x"] },
     ],
   }), "flowers");
-  assert.match(html, /사랑, 기다림 · 순결 <span class="unverified">확인 필요<\/span>/);
+  assert.match(html, /<i class="no">①<\/i>사랑, 기다림 <i class="no">②<\/i>순결 <span class="unverified">확인 필요<\/span>/);
   assert.equal((html.match(/class="unverified"/g) || []).length, 1);
 });
 
@@ -137,21 +137,56 @@ test("default list page has an h1", () => {
   assert.match(html, /<h1 class="section">꽃<\/h1>/);
 });
 
-test("cover lists 제3권 향 공부 linking to #/study", () => {
-  const html = renderCover(["고요함"]);
-  assert.match(html, /<a class="volume" href="#\/study"><span class="vol-no">제3권<\/span><span class="vol-title">향 공부<\/span><span class="vol-sub">STUDY<\/span><\/a>/);
+const shelf = [
+  { href: "#/study", label: "향 공부", count: "1강", color: "#3B6684", empty: false },
+  { href: "#/coding", label: "코딩 강의", count: "0강", color: "#3F4B58", empty: true },
+];
+
+test("cover shelf has one spine per book, in order, with its colour and count", () => {
+  const html = renderCover(["고요함"], shelf);
+  assert.match(html, /<a class="spine" href="#\/study" style="--cloth:#3B6684;[^"]*"><span class="spine-title">향 공부<\/span><span class="spine-count">1강<\/span><\/a>/);
+  assert.ok(html.indexOf("향 공부") < html.indexOf("코딩 강의"));
 });
 
-test("cover lists 제4권 음악 공부 linking to #/music", () => {
-  const html = renderCover(["고요함"]);
-  assert.match(html, /<a class="volume" href="#\/music"><span class="vol-no">제4권<\/span><span class="vol-title">음악 공부<\/span><span class="vol-sub">MUSIC<\/span><\/a>/);
+test("an empty book stands on the shelf as 준비 중 and still links", () => {
+  const html = renderCover([], shelf);
+  assert.match(html, /<a class="spine empty" href="#\/coding"[^>]*><span class="spine-title">코딩 강의<\/span><span class="spine-count">준비 중<\/span>/);
 });
 
 test("site shows the name 포트폴리오 on the cover and running heads", () => {
-  const cover = renderCover(["고요함"]);
+  const cover = renderCover(["고요함"], shelf);
   assert.match(cover, /<h1 class="title">포트폴리오<\/h1>/);
-  assert.match(cover, /<span class="masthead">PORTFOLIO<\/span>/);
-  assert.match(renderNotFound(), />PORTFOLIO</);
-  assert.match(renderMood("고요함", { flowers: [], scents: [] }), />PORTFOLIO</);
-  assert.doesNotMatch(cover + renderNotFound(), /꽃과 향의 사전|FLORA · ESSENCE/);
+  assert.match(renderNotFound(), /class="masthead" href="#\/">포트폴리오</);
+  assert.match(renderMood("고요함", { flowers: [], scents: [] }), /class="masthead" href="#\/">포트폴리오</);
+  assert.doesNotMatch(cover + renderNotFound(), /PORTFOLIO|FLORA/);
+});
+
+const word = (over = {}) => ({
+  id: "fiore", name: "fiore", say: "피오레", ipa: "ˈfjo.re", pos: "명사", gender: "남성", plural: "fiori",
+  meanings: ["꽃", "가장 좋은 부분"], examples: [{ it: "Un mazzo di fiori.", ko: "꽃 한 다발." }],
+  topics: ["자연과 꽃"], level: "A1", related: [], flowers: ["nigella-damascena"], scents: [],
+  sources: ["https://www.treccani.it/vocabolario/fiore/"], checked: "2026-10-29", ...over,
+});
+
+test("italian word: headword in lang=it, pronunciation, bracketed marks, numbered senses, first example", () => {
+  const html = renderEntry(word(), "italian");
+  assert.match(html, /<a href="#\/italian\/e\/fiore" lang="it">fiore<\/a> <i class="latin">\[ˈfjo\.re\] 피오레<\/i>/);
+  assert.match(html, /복수형 fiori/);
+  assert.match(html, /【명사, 남성, A1】/);
+  assert.match(html, /<i class="no">①<\/i>꽃 <i class="no">②<\/i>가장 좋은 부분/);
+  assert.match(html, /<i lang="it">Un mazzo di fiori\.<\/i> 꽃 한 다발\./);
+  assert.match(html, /<span class="tag">자연과 꽃<\/span>/);
+  assert.doesNotMatch(html, /class="figure"/);
+});
+
+test("italian detail links to the flower dictionary and lists all examples", () => {
+  const html = renderDetail(word({ examples: [{ it: "a", ko: "가" }, { it: "b", ko: "나" }] }), "italian", { italian: [], flowers: [flower()], scents: [] });
+  assert.match(html, /<h3>꽃 사전에서<\/h3><p class="links"><a href="#\/flowers\/e\/nigella-damascena">니겔라 다마스케나<\/a>/);
+  assert.equal((html.match(/<li><i lang="it">/g) || []).length, 2);
+  assert.match(html, /<dt>품사<\/dt><dd>명사<\/dd>/);
+});
+
+test("numbered goes past ⑳ with (21)", () => {
+  const html = numbered(Array.from({ length: 21 }, (_, i) => `m${i}`));
+  assert.match(html, /<i class="no">⑳<\/i>m19 <i class="no">\(21\)<\/i>m20/);
 });

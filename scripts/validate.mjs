@@ -1,6 +1,7 @@
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
+import { STUDIES } from "../js/parts.js";
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -52,14 +53,15 @@ function checkIds(kind, list, errs) {
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const SCENT_LINK = /\[\[([^|\]]+)\|[^\]]+\]\]/g;
-const BLOCK_TYPES = ["p", "analogy"];
+const BLOCK_TYPES = ["p", "analogy", "steps", "shortcut", "code"];
 // A well-formed link: label without "**", "|", "[" or "]".
 const CLEAN_LINK = /\[\[[^|\[\]]+\|[^|\[\]*]+\]\]/g;
 
-/** Text whose markup is not well formed: stray [[ / ]], or an odd number of "**" once links are removed. */
+/** Text whose markup is not well formed: stray [[ / ]], or an odd number of "**" or backticks once links are removed. */
 function badMarkup(text) {
   const rest = String(text ?? "").replace(CLEAN_LINK, "");
-  return rest.includes("[[") || rest.includes("]]") || (rest.split("**").length - 1) % 2 === 1;
+  const odd = (mark) => (rest.split(mark).length - 1) % 2 === 1;
+  return rest.includes("[[") || rest.includes("]]") || odd("**") || odd("`");
 }
 
 /** Site of a URL for the two-source rule: hostname minus "www.", reduced to its last two labels. */
@@ -104,6 +106,33 @@ function reportUnused(at, urlOf, used, errs) {
   for (const n of urlOf.keys()) if (!used.has(n)) errs.push(`${at}: source ${n} is never cited`);
 }
 
+/** One lesson block. p/analogy: cited text. steps: cited list of items. shortcut: keys + cited text. code: lang + text, cites optional. */
+function checkBlock(at, where, b, ctx, errs) {
+  if (!BLOCK_TYPES.includes(b.type)) {
+    errs.push(`${at}: block type "${b.type}" must be one of ${BLOCK_TYPES.join(", ")}`);
+    return;
+  }
+  if (b.type === "steps") {
+    const items = Array.isArray(b.items) ? b.items : [];
+    if (!items.length) errs.push(`${at}: steps in "${where}" has no items`);
+    for (const t of items) if (!String(t ?? "").trim()) errs.push(`${at}: empty step in "${where}"`);
+    checkCited(at, where, items.join(" "), b.cites, b.key, ctx, errs);
+    return;
+  }
+  if (b.type === "shortcut" && !String(b.keys ?? "").trim()) errs.push(`${at}: shortcut in "${where}" has no keys`);
+  if (b.type === "code") {
+    if (!String(b.lang ?? "").trim()) errs.push(`${at}: code in "${where}" has no lang`);
+    if (!String(b.text ?? "").trim()) errs.push(`${at}: empty code in "${where}"`);
+    if (b.caption != null && badMarkup(b.caption)) errs.push(`${at}: malformed markup in "${where}": ${b.caption}`);
+    for (const n of b.cites ?? []) {
+      if (!ctx.urlOf.has(n)) errs.push(`${at}: cite ${n} has no source`);
+      ctx.used.add(n);
+    }
+    return;
+  }
+  checkCited(at, where, b.text, b.cites, b.key, ctx, errs);
+}
+
 function checkLesson(l, { scentIds, stages, subjects, byId }, errs) {
   const at = `lesson "${l.id}"`;
   if (!SLUG.test(String(l.id ?? ""))) errs.push(`${at}: id must be a lowercase slug`);
@@ -131,10 +160,7 @@ function checkLesson(l, { scentIds, stages, subjects, byId }, errs) {
   for (const sec of l.sections ?? []) {
     if (!String(sec.heading ?? "").trim()) errs.push(`${at}: section heading is empty`);
     if (!Array.isArray(sec.blocks) || sec.blocks.length === 0) errs.push(`${at}: section "${sec.heading}" has no blocks`);
-    for (const b of sec.blocks ?? []) {
-      if (!BLOCK_TYPES.includes(b.type)) errs.push(`${at}: block type "${b.type}" must be p or analogy`);
-      checkCited(at, sec.heading, b.text, b.cites, b.key, ctx, errs);
-    }
+    for (const b of sec.blocks ?? []) checkBlock(at, sec.heading, b, ctx, errs);
   }
   reportUnused(at, urlOf, used, errs);
 }
@@ -176,7 +202,41 @@ export function validateRoutine(routine, { slots, vocalIds, scentIds }) {
   return errs;
 }
 
-export function validate({ flowers, scents, vocab, lessons = [], routine = null }) {
+const IT_REQUIRED = ["name", "pos", "level"];
+
+export function validateItalian(words, { vocab, flowerIds, scentIds }) {
+  const errs = [];
+  const ids = checkIds("word", words, errs);
+  for (const w of words) {
+    const at = `word "${w.id}"`;
+    checkCommon("word", w, errs);
+    if (!SLUG.test(String(w.id ?? ""))) errs.push(`${at}: id must be a lowercase slug`);
+    for (const f of IT_REQUIRED) if (!String(w[f] ?? "").trim()) errs.push(`${at}: ${f} is empty`);
+    checkVocab("word", w, "itPos", w.pos ? [w.pos] : [], vocab.itPos ?? [], errs);
+    checkVocab("word", w, "itGenders", w.gender ? [w.gender] : [], vocab.itGenders ?? [], errs);
+    checkVocab("word", w, "itLevels", w.level ? [w.level] : [], vocab.itLevels ?? [], errs);
+    checkVocab("word", w, "itTopics", w.topics, vocab.itTopics ?? [], errs);
+    const meanings = Array.isArray(w.meanings) ? w.meanings : [];
+    if (!meanings.length || meanings.some((m) => !String(m ?? "").trim())) errs.push(`${at}: meanings must be a list of non-empty texts`);
+    for (const ex of w.examples ?? []) {
+      if (!String(ex.it ?? "").trim() || !String(ex.ko ?? "").trim()) errs.push(`${at}: example needs both it and ko`);
+    }
+    for (const id of w.related ?? []) if (!ids.has(id)) errs.push(`${at}: unknown related word "${id}"`);
+    for (const id of w.flowers ?? []) if (!flowerIds.has(id)) errs.push(`${at}: unknown flower "${id}"`);
+    for (const id of w.scents ?? []) if (!scentIds.has(id)) errs.push(`${at}: unknown scent "${id}"`);
+  }
+  return errs;
+}
+
+/** Each lesson file may only hold subjects of the books that read it (lessons.json: 향 공부 + 음악 공부). */
+function checkFileSubjects(file, lessons, errs) {
+  const allowed = Object.values(STUDIES).filter((s) => s.data === file).flatMap((s) => s.subjects);
+  for (const l of lessons) {
+    if (!allowed.includes(l.subject)) errs.push(`lesson "${l.id}": subject "${l.subject}" does not belong in ${file}`);
+  }
+}
+
+export function validate({ flowers, scents, vocab, lessons = [], routine = null, italian = [], howto = [], coding = [] }) {
   const errs = [];
   const flowerIds = checkIds("flower", flowers, errs);
   const scentIds = checkIds("scent", scents, errs);
@@ -218,7 +278,10 @@ export function validate({ flowers, scents, vocab, lessons = [], routine = null 
     }
   }
 
-  errs.push(...validateLessons(lessons, { scentIds, stages: vocab.stages, subjects: vocab.subjects }));
+  errs.push(...validateItalian(italian, { vocab, flowerIds, scentIds }));
+  checkFileSubjects("data/howto.json", howto, errs);
+  checkFileSubjects("data/coding.json", coding, errs);
+  errs.push(...validateLessons([...lessons, ...howto, ...coding], { scentIds, stages: vocab.stages, subjects: vocab.subjects }));
   if (routine) {
     const vocalIds = new Set(lessons.filter((l) => l.subject === "보컬").map((l) => l.id));
     errs.push(...validateRoutine(routine, { slots: vocab.slots, vocalIds, scentIds }));
@@ -229,12 +292,16 @@ export function validate({ flowers, scents, vocab, lessons = [], routine = null 
 function main() {
   const dir = join(dirname(fileURLToPath(import.meta.url)), "..", "data");
   const load = (name) => JSON.parse(readFileSync(join(dir, name), "utf8"));
+  const loadOptional = (name) => (existsSync(join(dir, name)) ? load(name) : []);
   const errs = validate({
     flowers: load("flowers.json"),
     scents: load("scents.json"),
     vocab: load("vocab.json"),
     lessons: load("lessons.json"),
     routine: load("routine.json"),
+    italian: loadOptional("italian.json"),
+    howto: loadOptional("howto.json"),
+    coding: loadOptional("coding.json"),
   });
   if (errs.length) {
     for (const e of errs) console.error(e);

@@ -16,6 +16,9 @@ const MIME = {
   ".jpeg": "image/jpeg",
   ".png": "image/png",
   ".svg": "image/svg+xml",
+  ".webp": "image/webp",
+  ".webmanifest": "application/manifest+json; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
 };
 
 // A path is servable unless any segment is a dot-name (.git, .superpowers, ..).

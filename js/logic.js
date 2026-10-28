@@ -43,6 +43,19 @@ export function sortKo(entries) {
   });
 }
 
+/** First letter of a Latin-script word, accents folded, as "A".."Z"; anything else -> "기타". */
+export function initial(name) {
+  const c = String(name || "").normalize("NFD").charAt(0).toUpperCase();
+  return c >= "A" && c <= "Z" ? c : OTHER;
+}
+
+/** Copy sorted by name in a locale (e.g. "it"); "ko" (default) keeps sortKo's Hangul-first order. */
+export function sortBy(entries, locale = "ko") {
+  if (locale === "ko") return sortKo(entries);
+  const collator = new Intl.Collator(locale, { sensitivity: "base" });
+  return [...entries].sort((a, b) => collator.compare(a.name, b.name));
+}
+
 export function paginate(entries, perPage) {
   const pages = [];
   for (let i = 0; i < entries.length; i += perPage) {
@@ -53,6 +66,7 @@ export function paginate(entries, perPage) {
 
 function labelsOf(entry, key) {
   if (key === "chosung") return [chosung(entry.name)];
+  if (key === "initial") return [initial(entry.name)];
   const value = entry[key];
   if (Array.isArray(value)) return value;
   return value == null ? [] : [value];
