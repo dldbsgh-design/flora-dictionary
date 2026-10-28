@@ -171,7 +171,7 @@ export function renderMood(word, { flowers, scents }) {
     ? section("꽃", flowers, "flowers") + section("향", scents, "scents")
     : `<p class="empty">${EMPTY_MOOD}</p>`;
   return `<div class="sheet">
-  <header class="running"><a class="masthead" href="#/">FLORA · ESSENCE</a><span class="range">분위기</span></header>
+  <header class="running"><a class="masthead" href="#/">PORTFOLIO</a><span class="range">분위기</span></header>
   <h1 class="section">${esc(word)}</h1>
   ${body}
   <footer class="folio"><a href="#/">← 표지</a><span></span><span></span></footer>
@@ -181,8 +181,8 @@ export function renderMood(word, { flowers, scents }) {
 export function renderCover(moods) {
   const words = list(moods).map((m) => `<a href="#/mood/${esc(enc(m))}">${esc(m)}</a>`).join("");
   return `<div class="sheet cover">
-  <header class="running"><span class="masthead">FLORA · ESSENCE</span><span class="range">제1판</span></header>
-  <h1 class="title">꽃과 향의 사전</h1>
+  <header class="running"><span class="masthead">PORTFOLIO</span><span class="range">제1판</span></header>
+  <h1 class="title">포트폴리오</h1>
   <p class="lede">이름, 꽃말, 어울리는 향을 종이 사전처럼 넘겨 보세요.</p>
   <div class="volumes">
     <a class="volume" href="#/flowers"><span class="vol-no">제1권</span><span class="vol-title">꽃</span><span class="vol-sub">FLORA</span></a>
@@ -198,7 +198,7 @@ export function renderCover(moods) {
 
 export function renderNotFound() {
   return `<div class="sheet notfound">
-  <header class="running"><a class="masthead" href="#/">FLORA · ESSENCE</a><span class="range">—</span></header>
+  <header class="running"><a class="masthead" href="#/">PORTFOLIO</a><span class="range">—</span></header>
   <h1 class="section">찾을 수 없어요</h1>
   <p class="empty">주소가 가리키는 장이 이 사전에 없어요.</p>
   <p><a href="#/">표지로 돌아가기</a></p>

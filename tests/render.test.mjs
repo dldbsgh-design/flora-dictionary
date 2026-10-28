@@ -146,3 +146,12 @@ test("cover lists 제4권 음악 공부 linking to #/music", () => {
   const html = renderCover(["고요함"]);
   assert.match(html, /<a class="volume" href="#\/music"><span class="vol-no">제4권<\/span><span class="vol-title">음악 공부<\/span><span class="vol-sub">MUSIC<\/span><\/a>/);
 });
+
+test("site shows the name 포트폴리오 on the cover and running heads", () => {
+  const cover = renderCover(["고요함"]);
+  assert.match(cover, /<h1 class="title">포트폴리오<\/h1>/);
+  assert.match(cover, /<span class="masthead">PORTFOLIO<\/span>/);
+  assert.match(renderNotFound(), />PORTFOLIO</);
+  assert.match(renderMood("고요함", { flowers: [], scents: [] }), />PORTFOLIO</);
+  assert.doesNotMatch(cover + renderNotFound(), /꽃과 향의 사전|FLORA · ESSENCE/);
+});

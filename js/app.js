@@ -7,7 +7,7 @@ import { renderStudyIndex, renderMusicIndex, renderLesson, renderRoutine, neighb
 const PER_PAGE = 4;
 const GANADA = ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ", "기타"];
 const enc = encodeURIComponent;
-const SITE = "꽃과 향의 사전";
+const SITE = "포트폴리오";
 const pageNo = (x) => Math.trunc(Number(x)) || 1;
 let pageTitle = SITE;
 
