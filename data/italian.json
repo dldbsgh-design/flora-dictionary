@@ -269,5 +269,543 @@
       "https://blogs.helsinki.fi/ceftrain/?p=119",
       "https://logos.edu.iwate-u.ac.jp/jhoffice/class-4-communicative-ability-according-to-cefr/"
     ]
+  },
+  {
+    "id": "uno",
+    "name": "uno",
+    "ipa": "ˈu.no",
+    "meanings": [
+      "하나, 1"
+    ],
+    "note": "셀 때는 uno라고 한다. 명사 앞에서는 un이나 uno가 되고(Treccani·Wiktionary), Treccani에 따르면 여성형은 una이고 모음 앞에서는 un'로 줄일 수 있다. 두 사전 모두 부정관사(어떤, 한)로도 쓴다고 적는다. 21은 ventuno처럼 뒤에 붙지만, 11은 undici로 따로 생겼다.",
+    "examples": [
+      {
+        "it": "a pagina uno",
+        "ko": "1쪽에"
+      }
+    ],
+    "related": [
+      "undici"
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/uno/",
+      "https://en.wiktionary.org/wiki/uno",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "due",
+    "name": "due",
+    "ipa": "ˈdu.e",
+    "meanings": [
+      "둘, 2"
+    ],
+    "examples": [
+      {
+        "it": "ci sono stato due volte",
+        "ko": "거기에 두 번 가 봤다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/due/",
+      "https://en.wiktionary.org/wiki/due",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "tre",
+    "name": "tre",
+    "ipa": "ˈtre",
+    "meanings": [
+      "셋, 3"
+    ],
+    "note": "Wiktionary는 표준 발음을 ˈtre로, 북부 이탈리아 발음을 ˈtrɛ로 적는다.",
+    "examples": [
+      {
+        "it": "tre più tre fa sei",
+        "ko": "3 더하기 3은 6"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/tre/",
+      "https://en.wiktionary.org/wiki/tre",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "quattro",
+    "name": "quattro",
+    "ipa": "ˈkwat.tro",
+    "meanings": [
+      "넷, 4"
+    ],
+    "examples": [
+      {
+        "it": "i quattro punti cardinali",
+        "ko": "네 방위 (동서남북)"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/quattro/",
+      "https://en.wiktionary.org/wiki/quattro",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "cinque",
+    "name": "cinque",
+    "ipa": "ˈt͡ʃin.kwe",
+    "meanings": [
+      "다섯, 5"
+    ],
+    "note": "Treccani에 따르면 le cinque는 '5시'라는 뜻이다.",
+    "examples": [
+      {
+        "it": "le cinque dita della mano",
+        "ko": "손의 다섯 손가락"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/cinque/",
+      "https://en.wiktionary.org/wiki/cinque",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "sei",
+    "name": "sei",
+    "ipa": "ˈsɛj",
+    "meanings": [
+      "여섯, 6"
+    ],
+    "note": "Treccani에 따르면 학교 성적에서 6점(il sei)은 합격선(sufficienza)이다. 동사 essere의 '너는 ~이다'(sei)와 철자가 같다.",
+    "examples": [
+      {
+        "it": "sono già le sei",
+        "ko": "벌써 6시다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/sei/",
+      "https://en.wiktionary.org/wiki/sei",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "sette",
+    "name": "sette",
+    "ipa": "ˈsɛt.te",
+    "meanings": [
+      "일곱, 7"
+    ],
+    "examples": [
+      {
+        "it": "i sette giorni della settimana",
+        "ko": "일주일의 7일"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/sette/",
+      "https://en.wiktionary.org/wiki/sette",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "otto",
+    "name": "otto",
+    "ipa": "ˈɔt.to",
+    "meanings": [
+      "여덟, 8"
+    ],
+    "note": "Treccani: in quattro e quattr'otto는 '순식간에, 손쉽게'라는 관용 표현이다.",
+    "examples": [
+      {
+        "it": "un periodo di otto mesi",
+        "ko": "여덟 달 동안의 기간"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/otto/",
+      "https://en.wiktionary.org/wiki/otto",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "nove",
+    "name": "nove",
+    "ipa": "ˈnɔ.ve",
+    "meanings": [
+      "아홉, 9"
+    ],
+    "examples": [
+      {
+        "it": "un ragazzo di nove anni",
+        "ko": "아홉 살 소년"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/nove/",
+      "https://en.wiktionary.org/wiki/nove",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "dieci",
+    "name": "dieci",
+    "ipa": "ˈdjɛ.t͡ʃi",
+    "meanings": [
+      "열, 10"
+    ],
+    "note": "Wiktionary는 발음을 ˈdjɛ.t͡ʃi와 ˈdje.t͡ʃi 두 가지로 적는다.",
+    "examples": [
+      {
+        "it": "prendere dieci in matematica",
+        "ko": "수학에서 10점을 받다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dieci/",
+      "https://en.wiktionary.org/wiki/dieci",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "undici",
+    "name": "undici",
+    "ipa": "ˈun.di.t͡ʃi",
+    "meanings": [
+      "열하나, 11"
+    ],
+    "note": "Treccani에 따르면 축구 팀은 11명이라 l'undici가 '축구 팀'을 뜻하기도 한다.",
+    "examples": [
+      {
+        "it": "siamo rimasti in undici",
+        "ko": "우리는 열한 명이 남았다"
+      }
+    ],
+    "related": [
+      "uno"
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/undici/",
+      "https://en.wiktionary.org/wiki/undici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "dodici",
+    "name": "dodici",
+    "ipa": "ˈdo.di.t͡ʃi",
+    "meanings": [
+      "열둘, 12"
+    ],
+    "examples": [
+      {
+        "it": "i dodici apostoli",
+        "ko": "열두 사도"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dodici/",
+      "https://en.wiktionary.org/wiki/dodici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "tredici",
+    "name": "tredici",
+    "ipa": "ˈtre.di.t͡ʃi",
+    "meanings": [
+      "열셋, 13"
+    ],
+    "examples": [
+      {
+        "it": "mio figlio compie oggi tredici anni",
+        "ko": "내 아들은 오늘 열세 살이 된다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/tredici/",
+      "https://en.wiktionary.org/wiki/tredici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "quattordici",
+    "name": "quattordici",
+    "ipa": "kwatˈtor.di.t͡ʃi",
+    "meanings": [
+      "열넷, 14"
+    ],
+    "note": "Wiktionary는 발음을 kwatˈtor.di.t͡ʃi와 kwatˈtɔr.di.t͡ʃi 두 가지로 적는다.",
+    "examples": [
+      {
+        "it": "una scala di quattordici gradini",
+        "ko": "열네 칸짜리 계단"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/quattordici/",
+      "https://en.wiktionary.org/wiki/quattordici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "quindici",
+    "name": "quindici",
+    "ipa": "ˈkwin.di.t͡ʃi",
+    "meanings": [
+      "열다섯, 15"
+    ],
+    "note": "Treccani에 따르면 oggi a quindici는 '2주 뒤'라는 뜻이다.",
+    "examples": [
+      {
+        "it": "una ragazza di quindici anni",
+        "ko": "열다섯 살 소녀"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/quindici/",
+      "https://en.wiktionary.org/wiki/quindici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "sedici",
+    "name": "sedici",
+    "ipa": "ˈse.di.t͡ʃi",
+    "meanings": [
+      "열여섯, 16"
+    ],
+    "examples": [
+      {
+        "it": "un ragazzo di sedici anni",
+        "ko": "열여섯 살 소년"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/sedici/",
+      "https://en.wiktionary.org/wiki/sedici",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "diciassette",
+    "name": "diciassette",
+    "ipa": "di.t͡ʃasˈsɛt.te",
+    "meanings": [
+      "열일곱, 17"
+    ],
+    "note": "Treccani에 따르면 17은 민간에서 불길한 숫자로 여겨지기도 하며, 특히 금요일과 겹칠 때 그렇다.",
+    "examples": [
+      {
+        "it": "essere in diciassette a tavola",
+        "ko": "식탁에 열일곱 명이 앉다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/diciassette/",
+      "https://en.wiktionary.org/wiki/diciassette",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "diciotto",
+    "name": "diciotto",
+    "ipa": "diˈt͡ʃɔt.to",
+    "meanings": [
+      "열여덟, 18"
+    ],
+    "note": "모음 앞에서는 diciott'로 줄여 쓰기도 한다.",
+    "examples": [
+      {
+        "it": "avere diciott'anni",
+        "ko": "열여덟 살이다"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/diciotto/",
+      "https://en.wiktionary.org/wiki/diciotto",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "diciannove",
+    "name": "diciannove",
+    "ipa": "di.t͡ʃanˈnɔ.ve",
+    "meanings": [
+      "열아홉, 19"
+    ],
+    "examples": [
+      {
+        "it": "classe di diciannove alunni",
+        "ko": "학생 열아홉 명의 반"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/diciannove/",
+      "https://en.wiktionary.org/wiki/diciannove",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "venti",
+    "name": "venti",
+    "ipa": "ˈven.ti",
+    "meanings": [
+      "스물, 20"
+    ],
+    "note": "Treccani에 따르면 앞에 un을 붙인 un venti는 '스물쯤'이라는 뜻이다(보통은 una ventina).",
+    "examples": [
+      {
+        "it": "torno fra venti minuti",
+        "ko": "20분 뒤에 돌아올게"
+      }
+    ],
+    "pos": "형용사",
+    "topics": [
+      "숫자"
+    ],
+    "level": "A1",
+    "checked": "2026-10-30",
+    "sources": [
+      "https://www.treccani.it/vocabolario/venti/",
+      "https://en.wiktionary.org/wiki/venti",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
   }
 ]
