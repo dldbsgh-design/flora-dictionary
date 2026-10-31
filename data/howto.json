@@ -1,1 +1,317 @@
-[]
+[
+  {
+    "id": "ps-workspace",
+    "no": 1,
+    "subject": "포토샵",
+    "stage": "입문",
+    "title": "포토샵 화면 구성 둘러보기",
+    "version": "Photoshop 27.x (Windows, 2026년 Adobe 도움말 기준)",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "이 글이 기준으로 삼은 버전",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "프로그램은 버전이 바뀌면 화면도 조금씩 바뀌어요. 그래서 이 글은 어느 버전을 기준으로 썼는지 먼저 밝혀 둘게요. Adobe의 '지원되는 Photoshop 버전' 도움말(2026년 9월 갱신)에 따르면 지금의 현재 버전은 **27.x**이고, 바로 앞 버전은 26.x예요. 이 글은 이 무렵의 Adobe 도움말을 따라 썼어요. 메뉴와 단추 이름은 Adobe 영어 도움말에 적힌 그대로 영어로 적었어요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              6
+            ],
+            "items": [
+              "Windows에서는 메뉴에서 `Help > About Photoshop`을 고릅니다. (Mac에서는 `Photoshop > About Photoshop`이에요.)",
+              "열린 창에 내 Photoshop의 버전 번호가 나옵니다."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "작업 영역이란",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              9
+            ],
+            "text": "포토샵을 켜고 그림 파일을 열면 보이는 화면 전체를 **작업 영역**(workspace)이라고 해요. Adobe 도움말은 작업 영역을 패널, 도구, 창으로 이루어져 있고, 내 작업 방식에 맞게 배치를 바꿀 수 있는 화면이라고 설명해요. 포토샵 강좌 사이트 Photoshop Essentials도 작업 영역을 화면을 이루는 요소들을 미리 정해 둔 배치라고 설명하고, 어떤 패널을 화면에 보여 줄지와 그 패널들을 어떻게 늘어놓을지를 작업 영역이 정한다고 해요."
+          }
+        ]
+      },
+      {
+        "heading": "화면을 이루는 부분들",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "Adobe 도움말은 포토샵 화면을 여섯 부분으로 나눠 보여 줘요. **애플리케이션 바**(Application bar), **패널**(Panels), **도구 패널**(Tools panel), **문서 창**(Document window), **옵션 막대**(Options bar), 그리고 **알림**(Notifications) 아이콘이에요. Photoshop Essentials도 화면의 주요 부분으로 문서 창, 도구 막대(Toolbar), 옵션 막대, 메뉴 막대(Menu Bar), 패널을 꼽아요. 다만 Photoshop Essentials의 이 설명은 Photoshop CC와 CS6를 기준으로 쓴 글이라서, 지금 버전과 그림이나 이름이 조금 다를 수 있어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "화면 맨 위에는 **애플리케이션 바**가 있어요. Adobe 도움말에 따르면 여기에는 작업 영역을 바꾸는 단추, 메뉴, 그 밖의 조절 장치가 들어 있어요. Photoshop Essentials는 화면 맨 위 줄을 **메뉴 막대**라고 부르고, 여러 명령이 종류별로 묶여 있다고 설명해요. 예를 들어 `File` 메뉴에는 문서를 열고, 저장하고, 닫는 명령이 있고, `Layer` 메뉴에는 레이어를 다루는 명령이, `Filter` 메뉴에는 여러 필터가 있어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "**도구 패널**에는 그림을 만들고 고치는 도구들이 모여 있어요. Adobe 도움말은 도구들이 서로 관련된 기능끼리 묶여 있다고 설명해요. Photoshop Essentials에 따르면 도구 패널은 도구 막대(Toolbar)나 도구 상자(Toolbox)라고도 부르고, 화면 왼쪽에 있어요. 또 도구 패널의 한 칸에는 대부분 도구가 여러 개 겹쳐 들어 있어서, 아이콘을 누른 채로 있으면 그 자리에 숨어 있는 다른 도구들의 목록이 나온다고 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "**옵션 막대**는 지금 고른 도구의 설정을 보여 줘요. Adobe 도움말과 Photoshop Essentials 모두 이렇게 설명해요. Photoshop Essentials에 따르면 옵션 막대는 화면 위쪽, 문서 창 바로 위에 있고, 도구 패널에서 다른 도구를 고르면 옵션 막대의 내용도 그 도구에 맞게 바뀌어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "**문서 창**은 지금 작업하는 파일이 보이는 곳이에요. Adobe 도움말은 문서 창을 여러 개 묶거나 탭으로 늘어놓을 수 있다고 설명해요. Photoshop Essentials에 따르면 문서 창은 화면 가운데의 넓은 자리로, 그림을 보는 곳이자 고치는 곳이에요. 문서 창 위쪽의 탭에는 파일 이름과 파일 형식, 지금의 확대 비율이 나오고, 그림을 여러 개 열었을 때는 이 탭을 눌러 문서를 바꿔 볼 수 있어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              7
+            ],
+            "text": "**패널**은 작업을 살펴보고 고치는 데 쓰는 작은 창들이에요. Adobe 도움말은 패널을 서로 묶거나 쌓아 둘 수 있다고 설명해요. Photoshop Essentials에 따르면 패널은 화면 오른쪽에 모여 있고, 일마다 쓰는 패널이 따로 있어요. 이 사이트는 그중 가장 중요한 패널로 레이어를 더하고 지우고 다루는 **레이어 패널**(Layers panel)을 꼽아요. 또 서로 관련된 패널은 한 묶음으로 들어 있고, 묶음 위쪽의 탭을 누르면 다른 패널로 바꿔 볼 수 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "나머지 두 가지는 Adobe 도움말에서만 확인한 내용이에요. Adobe 도움말에 따르면 **알림** 아이콘은 튜토리얼, 새 기능, 계정에 관한 앱 안의 알림을 보여 줘요. 또 **상황별 작업 표시줄**(Contextual Task Bar)은 지금 쓰는 도구나 하는 일에 맞춰 다음에 할 만한 일을 보여 주는, 떠 있는 메뉴예요. 예를 들어 글자를 고칠 때는 이 표시줄에서 글자 정렬, 간격, 글꼴 모양을 바로 바꿀 수 있다고 해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              1,
+              7
+            ],
+            "text": "책상 위에서 그림을 그린다고 생각해 보세요. 가운데 놓인 종이가 문서 창이고, 왼쪽의 필통이 도구 패널이에요. 필통에서 연필 하나를 집으면 그 연필의 설정이 위쪽 옵션 막대에 나타나고, 오른쪽에 펼쳐 둔 여러 메모장이 패널이에요."
+          }
+        ]
+      },
+      {
+        "heading": "패널 열고 닫기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              3,
+              7
+            ],
+            "text": "처음 화면에는 패널이 몇 개만 나와 있어요. Photoshop Essentials에 따르면 처음에는 몇 개의 패널만 보이지만 포토샵에는 훨씬 많은 패널이 있고, 그 전체 목록은 메뉴 막대의 `Window` 메뉴에 있어요. Adobe 도움말도 패널을 더하고 빼는 일을 `Window` 메뉴에서 하라고 안내해요."
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              3,
+              8
+            ],
+            "items": [
+              "메뉴 막대에서 `Window`를 고릅니다.",
+              "화면에 더하고 싶은 패널 이름을 고릅니다.",
+              "패널이 작업 영역에 나타나고, 메뉴의 그 패널 이름 옆에 체크 표시가 생깁니다."
+            ]
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              3,
+              7,
+              8
+            ],
+            "items": [
+              "패널을 닫으려면 메뉴 막대에서 `Window`를 고릅니다.",
+              "닫고 싶은 패널의 이름을 고르면 작업 영역에서 사라집니다.",
+              "또는 패널의 탭을 오른쪽 클릭(Windows)하거나 Control 키를 누른 채 클릭(macOS)한 뒤 `Close`를 고릅니다."
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              8
+            ],
+            "text": "체크 표시는 조금 헷갈릴 수 있어요. Photoshop Essentials에 따르면 `Window` 메뉴의 체크 표시는 그 패널이 열려 있고, 자기 묶음 안에서 지금 앞에 나와 있는 패널이라는 뜻이에요. 그래서 같은 묶음에 함께 열려 있어도 뒤에 가려진 패널에는 체크 표시가 붙지 않는다고 해요."
+          }
+        ]
+      },
+      {
+        "heading": "패널을 한꺼번에 숨기기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "그림을 넓게 보고 싶을 때는 패널을 한꺼번에 숨길 수 있어요. Adobe 도움말은 패널을 숨기면 캔버스를 쓸 자리를 가장 넓게 만들 수 있다고 설명해요."
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "cites": [
+              2,
+              10
+            ],
+            "keys": "Tab",
+            "text": "도구 패널과 옵션 막대까지 포함해 모든 패널을 숨겨요. 한 번 더 누르면 다시 나타나요."
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "cites": [
+              2,
+              10
+            ],
+            "keys": "Shift+Tab",
+            "text": "도구 패널과 옵션 막대는 그대로 두고, 나머지 패널만 숨겨요. 한 번 더 누르면 다시 나타나요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "Adobe 도움말에 따르면 `Preferences > Workspace`에서 `Auto-Show Hidden Panels`가 켜져 있을 때는, 숨긴 패널을 잠깐 다시 볼 수 있어요. Windows에서는 프로그램 창의 가장자리, macOS에서는 모니터의 가장자리 가까이에 마우스를 가져가면 돼요."
+          }
+        ]
+      },
+      {
+        "heading": "작업 영역 바꾸기와 처음으로 되돌리기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              5,
+              9
+            ],
+            "text": "포토샵에는 일에 맞춰 미리 짜 둔 작업 영역이 여러 개 있어요. Adobe 도움말은 그림 그리기용 `Painting`, 사진용 `Photography` 같은 작업 영역을 예로 들고, 처음 정해진 기본 작업 영역은 `Essentials`라고 설명해요. Photoshop Essentials도 다른 작업 영역을 고른 적이 없다면 `Essentials`를 쓰고 있는 것이고, 이것은 여러 가지 일에 두루 맞는 작업 영역이라고 설명해요. 작업 영역을 바꾸면 화면에 나오는 패널과 그 배치가 바뀌어요."
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              4,
+              9
+            ],
+            "items": [
+              "애플리케이션 바에서 `Choose a workspace` 드롭다운 메뉴를 엽니다.",
+              "`Essentials`, `Photography` 같은 미리 짜 둔 작업 영역이나 내가 저장한 작업 영역 가운데 하나를 고릅니다.",
+              "메뉴 막대에서 `Window > Workspace`로 가서 목록에서 골라도 됩니다."
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              5
+            ],
+            "text": "패널을 이리저리 옮기다 보면 처음 모습으로 돌리고 싶을 때가 있어요. Adobe 도움말에 따르면 작업 영역은 마지막으로 늘어놓은 패널 배치를 그대로 보여 주지만, 원래의 배치로 되돌릴 수도 있어요."
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              5,
+              8
+            ],
+            "items": [
+              "애플리케이션 바에서 `Choose a workspace` 드롭다운 메뉴를 엽니다.",
+              "`Reset Essentials`처럼 `Reset` 뒤에 지금 작업 영역 이름이 붙은 항목을 고릅니다. 그 작업 영역의 패널이 처음 배치로 돌아갑니다."
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              5
+            ],
+            "text": "Adobe 도움말에 따르면 미리 짜 둔 작업 영역 전체(`Essentials`, `Photography` 등)를 한꺼번에 처음 배치로 돌릴 수도 있어요. Windows에서는 `Edit > Preferences > Workspace`, macOS에서는 `Photoshop > Settings > Workspace`로 가서 `Restore Default Workspaces`를 고르면 된다고 해요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/workspace-overview.html",
+        "title": "Adobe 도움말 — Workspace overview"
+      },
+      {
+        "n": 2,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/hide-show-panels.html",
+        "title": "Adobe 도움말 — Hide or show all panels"
+      },
+      {
+        "n": 3,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/add-remove-panels.html",
+        "title": "Adobe 도움말 — Add and remove panels"
+      },
+      {
+        "n": 4,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/switch-workspaces.html",
+        "title": "Adobe 도움말 — Switch workspaces"
+      },
+      {
+        "n": 5,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/restore-workspaces.html",
+        "title": "Adobe 도움말 — Restore workspaces"
+      },
+      {
+        "n": 6,
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/technical-requirements-installation/photoshop-supported-versions.html",
+        "title": "Adobe 도움말 — Supported Photoshop versions"
+      },
+      {
+        "n": 7,
+        "url": "https://www.photoshopessentials.com/basics/getting-know-photoshop-interface/",
+        "title": "Photoshop Essentials — Getting to know the Photoshop Interface"
+      },
+      {
+        "n": 8,
+        "url": "https://www.photoshopessentials.com/basics/managing-panels-photoshop-cc/",
+        "title": "Photoshop Essentials — Managing Panels In Photoshop"
+      },
+      {
+        "n": 9,
+        "url": "https://www.photoshopessentials.com/basics/photoshop-workspaces/",
+        "title": "Photoshop Essentials — How to use Workspaces in Photoshop CC"
+      },
+      {
+        "n": 10,
+        "url": "https://www.photoshopessentials.com/basics/photoshop-screen-modes-interface-tricks/",
+        "title": "Photoshop Essentials — Photoshop Screen Modes And Interface Tricks"
+      }
+    ],
+    "written": "2026-10-31",
+    "checked": "2026-10-31"
+  }
+]
