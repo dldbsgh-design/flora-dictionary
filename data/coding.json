@@ -1,1 +1,277 @@
-[]
+[
+  {
+    "id": "web-page-parts",
+    "no": 1,
+    "subject": "HTML과 CSS",
+    "stage": "입문",
+    "title": "웹 페이지는 무엇으로 이루어지나",
+    "version": "HTML Living Standard",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "웹 페이지를 만드는 세 가지 언어",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              4
+            ],
+            "text": "브라우저로 보는 웹 페이지는 보통 세 가지 언어로 만들어져요. 바로 **HTML**, **CSS**, **JavaScript**(자바스크립트)예요. MDN은 이 셋을 웹의 표준 기술이라고 부르고, 셋이 서로 맡은 일이 다르다고 설명해요. 이 글에서는 각 언어가 무슨 일을 하는지, 그리고 셋이 어떻게 한 페이지로 모이는지 살펴볼게요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              4
+            ],
+            "text": "**HTML**은 HyperText Markup Language의 줄임말이에요. MDN은 HTML을 웹의 가장 기본적인 구성 요소로, 웹 콘텐츠의 **의미와 구조**를 정하는 언어라고 설명해요. web.dev도 HTML을 웹에 표시되는 문서의 구조를 기술하는 표준 마크업 언어라고 정의해요. MDN에 따르면 **하이퍼텍스트**는 웹 페이지끼리 이어 주는 링크가 들어 있는 글이고, **마크업**은 글이나 그림 같은 내용에 표시를 달아 웹 브라우저에 보여 줄 수 있게 하는 것이에요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              5,
+              6
+            ],
+            "text": "**CSS**는 Cascading Style Sheets의 줄임말로, 페이지가 **어떻게 보일지**를 정하는 언어예요. MDN은 CSS로 HTML 요소가 브라우저에서 어떻게 보일지 정확하게 정할 수 있다고 설명하고, 글자 색과 크기, 여러 칸으로 나누는 배치, 애니메이션 같은 효과를 예로 들어요. web.dev는 HTML은 내용의 구조를 잡는 데 쓰고, 겉모습은 CSS의 영역이라고 말해요. W3C의 웹 표준 교육 자료도 CSS가 문서의 서식과 배치를 세밀하게 다룰 수 있게 해 준다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              6,
+              9
+            ],
+            "text": "**JavaScript**는 페이지가 **움직이고 반응하게** 만드는 언어예요. MDN은 웹 페이지가 정적인 정보를 보여 주는 데서 그치지 않고 무언가를 할 때, 예를 들어 내용이 때맞춰 바뀌거나 지도를 움직일 수 있을 때 대개 JavaScript가 쓰인다고 설명해요. W3C의 웹 표준 교육 자료도 JavaScript를 웹 페이지에 **동작**을 더하는 스크립트 언어라고 부르고, 입력한 내용을 확인하는 폼, 끌어다 놓기, 움직이는 메뉴를 예로 들어요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              4
+            ],
+            "text": "MDN은 이 세 기술을 서로 위에 차곡차곡 쌓이는 층 케이크에 빗대요. 맨 아래 HTML이 내용과 구조를 놓고, 그 위에 CSS가 모양을 입히고, 맨 위에 JavaScript가 동작을 더하는 식이에요."
+          }
+        ]
+      },
+      {
+        "heading": "HTML: 내용에 이름표 붙이기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              2,
+              3
+            ],
+            "text": "HTML은 여러 개의 **요소**(element)로 이루어져요. 요소는 내용의 한 부분을 감싸서 그 부분이 무엇인지 알려 줘요. 요소의 시작과 끝은 꺾쇠 괄호(`<`와 `>`)로 쓴 **태그**로 표시해요. 대부분의 요소는 **여는 태그**(예: `<p>`), 내용, **닫는 태그**(예: `</p>`)로 이루어져요. web.dev는 태그와 요소를 구분해서, 여는 태그와 닫는 태그, 그리고 그 사이의 내용 전체를 요소라고 부른다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              3
+            ],
+            "text": "어떤 요소에는 **속성**(attribute)이 붙어요. 속성은 요소에 대한 추가 정보나 설정이에요. web.dev에 따르면 속성은 여는 태그 안에만 써요. 또 그림을 넣는 `<img>`처럼 내용도 닫는 태그도 없는 요소가 있는데, MDN은 이런 요소를 **빈 요소**(empty 또는 void 요소)라고 불러요."
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "`<h1>`은 1단계(가장 높은 단계) 제목, `<p>`는 문단을 뜻하는 요소예요. `<img>`의 `src`와 `alt`는 속성이에요.",
+            "text": "<h1>오늘의 꽃</h1>\n<p>라벤더는 보라색 꽃이에요.</p>\n<img src=\"images/lavender.jpg\" alt=\"라벤더 사진\" />"
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              5
+            ],
+            "text": "이 코드는 \"이 글은 제목이고, 이 글은 문단이고, 여기에 그림이 들어간다\"는 것만 알려 줘요. 제목을 무슨 색으로 할지는 정하지 않아요. MDN은 CSS를 하나도 쓰지 않아도 제목이 보통 글보다 크게 보이는 것은 브라우저에 들어 있는 기본 스타일 때문이며, 이것은 HTML과는 상관이 없다고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "CSS: 모양 입히기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              5,
+              6
+            ],
+            "text": "CSS는 **규칙**(rule)을 모아 쓴 것이에요. 규칙은 먼저 꾸밀 HTML 요소를 고르고, 그 요소의 모양을 정해요. MDN은 규칙 맨 앞에서 요소를 고르는 부분을 **선택자**(selector)라고 부르고, W3C의 웹 표준 교육 자료도 CSS가 꾸밀 요소를 고르는 규칙의 체계로 움직인다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              5,
+              8
+            ],
+            "text": "선택자 뒤의 중괄호 `{ }` 안에는 **속성**(property)과 **값**(value)을 짝지어 써요. 아래 예에서 선택자는 `h1`, 속성은 `color`와 `font-size`, 값은 `purple`과 `2.5em`이에요. MDN에 따르면 CSS는 프로그래밍 언어도 마크업 언어도 아닌 **스타일 시트 언어**예요. MDN은 CSS를 꾸밀 HTML 요소를 고르고 그 요소의 스타일 속성에 값을 정해 모양을 정하는 언어라고 설명해요. 참고로 CSS의 속성(property)은 앞에서 본 HTML의 속성(attribute)과 이름만 같을 뿐 다른 것이에요."
+          },
+          {
+            "type": "code",
+            "lang": "css",
+            "caption": "모든 `<h1>` 제목을 보라색으로, 글자 크기를 `2.5em`으로 정하는 규칙이에요. `em`이 어떤 단위인지는 뒤의 CSS 글에서 다뤄요.",
+            "text": "h1 {\n  color: purple;\n  font-size: 2.5em;\n}"
+          }
+        ]
+      },
+      {
+        "heading": "JavaScript: 반응하게 만들기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              9
+            ],
+            "text": "MDN은 JavaScript를 웹사이트에 **상호작용**을 더하는 프로그래밍 언어라고 소개해요. 또 다른 프로그래밍 언어처럼 변수, 반복, 함수 같은 기능을 모두 갖춘 언어라고 설명해요. 이런 문법은 자바스크립트 과목에서 하나씩 배울 거예요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              4
+            ],
+            "text": "아래 코드는 페이지에서 `<h1>` 제목을 찾아서, 누군가 그 제목을 누르면 글자를 바꾸도록 해요. MDN의 JavaScript 소개 글에도 단추를 누르면 단추의 글자가 바뀌는 비슷한 예가 나와요. 지금은 한 줄 한 줄을 이해하지 않아도 괜찮아요. HTML이 만든 요소를 JavaScript가 찾아서 바꿀 수 있다는 점만 보면 돼요."
+          },
+          {
+            "type": "code",
+            "lang": "js",
+            "caption": "제목을 누르면 글자가 \"라벤더를 골랐어요!\"로 바뀌어요.",
+            "text": "const title = document.querySelector(\"h1\");\ntitle.addEventListener(\"click\", () => {\n  title.textContent = \"라벤더를 골랐어요!\";\n});"
+          }
+        ]
+      },
+      {
+        "heading": "세 언어를 한 페이지로 모으기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              7
+            ],
+            "text": "MDN에 따르면 웹사이트는 여러 개의 파일로 이루어져요. MDN은 웹사이트 프로젝트에 흔히 들어가는 것으로 첫 화면 내용을 담는 `index.html` 파일과, 그림을 넣는 `images` 폴더, CSS를 넣는 `styles` 폴더, JavaScript를 넣는 `scripts` 폴더를 들어요. 파일 이름 끝의 `.html` 같은 부분은 **확장자**예요. MDN은 확장자가 파일의 종류를 알려 주고, 컴퓨터가 파일 안에 어떤 내용이 있을지 알아보는 데 쓰인다고 설명해요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              7,
+              8,
+              9,
+              10
+            ],
+            "items": [
+              "`index.html` 파일에 HTML로 내용과 구조를 써요.",
+              "`styles` 폴더에 `style.css` 파일을 만들어 CSS 규칙을 써요.",
+              "`scripts` 폴더에 `main.js` 파일을 만들어 JavaScript 코드를 써요.",
+              "`index.html`의 `<head>` 안에 `<link>` 요소를 넣어 CSS 파일을 연결해요.",
+              "`index.html`의 `<head>` 안에 `<script>` 요소를 넣어 JavaScript 파일을 연결해요."
+            ]
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "앞의 HTML·CSS·JavaScript 예시를 묶은 `index.html`이에요. `<link>`가 CSS를, `<script>`가 JavaScript를 불러와요.",
+            "text": "<!doctype html>\n<html lang=\"ko\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>오늘의 꽃</title>\n    <link href=\"styles/style.css\" rel=\"stylesheet\" />\n    <script defer src=\"scripts/main.js\"></script>\n  </head>\n  <body>\n    <h1>오늘의 꽃</h1>\n    <p>라벤더는 보라색 꽃이에요.</p>\n  </body>\n</html>"
+          },
+          {
+            "type": "p",
+            "cites": [
+              10
+            ],
+            "text": "`<script>`에 붙인 `src` 속성은 불러올 스크립트 파일의 주소예요. `defer` 속성은 문서를 끝까지 읽은 뒤에 스크립트를 실행하라는 표시라고 MDN은 설명해요. 그래서 이 예시에서는 `<script>`가 `<h1>`보다 위에 있어도, 스크립트가 실행될 때는 `<h1>`이 이미 준비되어 있어요. 이 자세한 동작은 자바스크립트 과목에서 다시 다룰게요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "왜 굳이 파일을 나눌까요? W3C의 웹 표준 교육 자료는 내용(HTML), 모양(CSS), 동작(JavaScript)을 나누어 두는 것이 좋다고 말해요. 모양을 정하는 규칙이 한곳에 모여 있으면, 사이트 전체의 모양을 바꿀 때 그 한 곳만 고치면 되기 때문이에요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              8,
+              9
+            ],
+            "text": "지금 보고 있는 이 사전 사이트도 같은 방식으로 만들어져 있어요. 저장소에는 `index.html` 파일과 `css`, `js` 폴더가 있고, `index.html`은 `<link>`로 `css/paper.css`를, `<script>`로 `js/app.js`를 불러와요. 폴더 이름은 MDN 예시와 다르지만, MDN이 설명한 대로 `<link>`가 CSS를, `<script>`가 JavaScript를 페이지에 연결하는 구조는 같아요."
+          }
+        ]
+      },
+      {
+        "heading": "정리",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              4,
+              6
+            ],
+            "text": "정리하면, 웹 페이지는 내용과 구조를 정하는 **HTML**, 모양을 정하는 **CSS**, 동작을 더하는 **JavaScript**로 이루어져요. 보통 이 셋은 따로 파일에 쓰고, HTML 파일이 `<link>`와 `<script>`로 나머지를 불러와요. 다음 글에서는 HTML 태그를 더 자세히 보고, HTML 문서가 어떤 뼈대로 이루어지는지 살펴볼게요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "title": "HTML: HyperText Markup Language — MDN"
+      },
+      {
+        "n": 2,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content",
+        "title": "Creating the content — MDN"
+      },
+      {
+        "n": 3,
+        "url": "https://web.dev/learn/html/overview",
+        "title": "Overview of HTML — web.dev"
+      },
+      {
+        "n": 4,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
+        "title": "What is JavaScript? — MDN"
+      },
+      {
+        "n": 5,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS",
+        "title": "What is CSS? — MDN"
+      },
+      {
+        "n": 6,
+        "url": "https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript",
+        "title": "The web standards model - HTML CSS and JavaScript — W3C Wiki (Web Standards Curriculum)"
+      },
+      {
+        "n": 7,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files",
+        "title": "Dealing with files — MDN"
+      },
+      {
+        "n": 8,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
+        "title": "Styling the content — MDN"
+      },
+      {
+        "n": 9,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
+        "title": "Adding interactivity — MDN"
+      },
+      {
+        "n": 10,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script",
+        "title": "<script>: The Script element — MDN"
+      }
+    ],
+    "written": "2026-11-01",
+    "checked": "2026-11-01"
+  }
+]
