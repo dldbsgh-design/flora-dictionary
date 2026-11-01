@@ -2808,5 +2808,190 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Bois_des_Moutiers_2017_14.jpg"
     }
+  },
+  {
+    "id": "cyclamen-persicum",
+    "name": "시클라멘",
+    "latin": "Cyclamen persicum",
+    "aka": ["Florist's cyclamen", "Sowbread"],
+    "family": "앵초과",
+    "origin": "북아프리카에서 남동유럽을 거쳐 서아시아까지",
+    "note": "흰색에서 연분홍빛 꽃잎 밑동에 진분홍~자홍색 띠가 있다. 겨울에서 봄에 피며, 크리스마스 무렵 화분 선물로 인기가 있다.",
+    "colors": ["흰색", "연분홍", "분홍", "빨강"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["섬세함", "우아함", "순수"],
+    "meanings": [
+      {
+        "text": "삼감",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cyclamen_language", "https://www.pref.fukushima.lg.jp/sec/36035c/cyclamen.html"]
+      },
+      {
+        "text": "수줍음",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cyclamen_language", "https://www.pref.fukushima.lg.jp/sec/36035c/cyclamen.html"]
+      },
+      {
+        "text": "청순",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/cyclamen_language", "https://www.pref.nagano.lg.jp/kamichi/nosei-aec/r6/hinmokusyoukai-sikuramen.html"]
+      }
+    ],
+    "pairs": ["helleborus-niger", "camellia-japonica"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/cyclamen-persicum.jpg",
+      "author": "MathKnight and Zachi Evenor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cyclamen_persicum_-_Rakefet_2009.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Cyclamen_persicum", "https://ko.wikipedia.org/wiki/시클라멘", "https://greensnap.co.jp/columns/cyclamen_language", "https://www.pref.fukushima.lg.jp/sec/36035c/cyclamen.html", "https://www.pref.nagano.lg.jp/kamichi/nosei-aec/r6/hinmokusyoukai-sikuramen.html"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "galanthus-nivalis",
+    "name": "설강화",
+    "latin": "Galanthus nivalis",
+    "aka": ["Snowdrop", "Candlemas bells", "갈란투스 니발리스"],
+    "family": "수선화과",
+    "origin": "알바니아·오스트리아·이탈리아 등 유럽과 아르메니아",
+    "note": "고개 숙인 종 모양의 흰 꽃이 하나씩 달리고, 안쪽 꽃잎 바깥에 초록빛 V자 또는 U자 무늬가 있다. 북반구 온대에서 1~4월에 핀다.",
+    "colors": ["흰색"],
+    "seasons": ["겨울", "봄"],
+    "moods": ["순수", "위로", "고요함"],
+    "meanings": [
+      {
+        "text": "희망",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/snowdrop_language", "https://www.famitsu.com/article/202501/31912"]
+      },
+      {
+        "text": "위로",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/snowdrop_language", "https://www.famitsu.com/article/202501/31912"]
+      },
+      {
+        "text": "애틋한 사랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/snowdrop_language", "https://www.famitsu.com/article/202501/31912"]
+      }
+    ],
+    "pairs": ["helleborus-niger", "narcissus"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/galanthus-nivalis.jpg",
+      "author": "André Karwath aka Aka",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Galanthus_nivalis_close-up_aka.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Galanthus_nivalis", "https://ko.wikipedia.org/wiki/설강화", "https://greensnap.co.jp/columns/snowdrop_language", "https://www.famitsu.com/article/202501/31912"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "crocus-sativus",
+    "name": "사프란",
+    "latin": "Crocus sativus",
+    "aka": ["Saffron crocus", "Autumn crocus"],
+    "family": "붓꽃과",
+    "origin": "야생에서는 알려지지 않은 재배종. 그리스 본토 남부에서 재배화된 것으로 추정된다",
+    "note": "가을에 보라색 꽃이 피고, 꽃마다 세 갈래로 난 붉은색 또는 주황색 암술머리를 말려 향신료 사프란으로 쓴다.",
+    "colors": ["보라"],
+    "seasons": ["가을"],
+    "moods": ["따뜻함", "우아함", "명랑"],
+    "meanings": [
+      {
+        "text": "명랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/saffron_language", "https://www.veltra.com/jp/yokka/article/how-to-grow-saffron/"]
+      },
+      {
+        "text": "유쾌",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/saffron_language", "https://www.veltra.com/jp/yokka/article/how-to-grow-saffron/"]
+      }
+    ],
+    "pairs": ["dendranthema-zawadskii", "gentiana-scabra"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/crocus-sativus.jpg",
+      "author": "Zeynel Cebeci",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Crocus_sativus_-_Saffron_crocus_-_Safran_01.JPG"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Crocus_sativus", "https://ko.wikipedia.org/wiki/사프란", "https://greensnap.co.jp/columns/saffron_language", "https://www.veltra.com/jp/yokka/article/how-to-grow-saffron/"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "dendranthema-zawadskii",
+    "name": "구절초",
+    "latin": "Dendranthema zawadskii var. latilobum",
+    "aka": ["구일초", "선모초", "Korean Chrysanthemum"],
+    "family": "국화과",
+    "origin": "한국 전국, 일본·만주·중국",
+    "note": "높이 50~100cm의 여러해살이풀로, 9~11월에 연분홍 또는 흰 꽃이 핀다. 예로부터 부인병을 다스리는 약으로 쓰였다.",
+    "colors": ["흰색", "연분홍"],
+    "seasons": ["가을"],
+    "moods": ["소박함", "순수", "그리움"],
+    "meanings": [
+      {
+        "text": "어머니의 사랑",
+        "region": "한국",
+        "sources": ["https://www.seoul.co.kr/news/2006/10/19/20061019309001", "https://www.hangyo.com/news/article.html?no=105903"]
+      }
+    ],
+    "pairs": ["chrysanthemum-morifolium", "gentiana-scabra", "cosmos-bipinnatus", "crocus-sativus"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/dendranthema-zawadskii.jpg",
+      "author": "KENPEI",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_zawadskii_var_latilobum1.jpg"
+    },
+    "sources": ["https://ko.wikipedia.org/wiki/구절초", "https://encykorea.aks.ac.kr/Article/E0006021", "https://www.seoul.co.kr/news/2006/10/19/20061019309001", "https://www.hangyo.com/news/article.html?no=105903"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "myrtus-communis",
+    "name": "머틀",
+    "latin": "Myrtus communis",
+    "aka": ["Common myrtle", "ギンバイカ (銀梅花)", "Mirto"],
+    "family": "도금양과",
+    "origin": "지중해 연안 (남유럽, 북아프리카, 서아시아 등)",
+    "note": "흰색 또는 분홍빛이 도는 꽃잎 다섯 장에 수술이 많이 튀어나온 꽃이 핀다. 잎에는 향기로운 정유가 있고, 꽃은 결혼식 장식에 자주 쓰인다.",
+    "colors": ["흰색", "연분홍"],
+    "seasons": ["봄", "여름"],
+    "moods": ["순수", "우아함", "축하"],
+    "meanings": [
+      {
+        "text": "고귀한 아름다움",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/myrtle_language"]
+      },
+      {
+        "text": "사랑",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/myrtle_language"]
+      },
+      {
+        "text": "사랑의 속삭임",
+        "region": "일본",
+        "sources": ["https://greensnap.co.jp/columns/myrtle_language"]
+      }
+    ],
+    "pairs": ["lavandula-angustifolia", "gypsophila"],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/myrtus-communis.jpg",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Myrtus_communis_kz01.jpg"
+    },
+    "sources": ["https://en.wikipedia.org/wiki/Myrtus_communis", "https://ja.wikipedia.org/wiki/ギンバイカ", "https://ko.wikipedia.org/wiki/도금양과", "https://greensnap.co.jp/columns/myrtle_language"],
+    "checked": "2026-11-01"
   }
 ]

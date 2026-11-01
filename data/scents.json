@@ -812,5 +812,115 @@
     },
     "sources": ["https://edenbotanicals.com/beeswax-absolute.html"],
     "checked": "2026-10-22"
+  },
+  {
+    "id": "treemoss",
+    "name": "트리모스",
+    "nameEn": "Treemoss absolute",
+    "material": "트리모스 지의류 (Pseudevernia furfuracea)를 탄화수소 용매로 추출해 얻은 콘크리트에서 만든 앱솔루트",
+    "family": "이끼",
+    "notes": ["베이스"],
+    "description": "매우 건조하고 우디하며 흙내 나는 숲 바닥 같은 향에 뚜렷한 가죽과 해조 느낌이 있다.",
+    "moods": ["고요함", "고독", "단단함"],
+    "kind": "천연",
+    "pairs": ["patchouli", "vetiver", "cedarwood", "lavender", "labdanum", "clove"],
+    "flowers": [],
+    "photo": {
+      "file": "images/scents/treemoss.jpg",
+      "author": "Loup BT",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pseudevernia_furfuracea_105518122.jpg"
+    },
+    "sources": ["https://www.scentspiracy.com/fragrance-ingredients/p/mousse-arbre-abs", "https://www.thegoodscentscompany.com/odor/mossy.html"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "ambrette",
+    "name": "앰브레트 시드",
+    "nameEn": "Ambrette seed absolute",
+    "material": "앰브레트 (Abelmoschus moschatus) 씨앗 앱솔루트. 천연 머스크 화합물 암브레톨라이드를 지님",
+    "family": "머스크",
+    "notes": ["베이스"],
+    "description": "건조하고 우디한 머스크 향에 앰버, 건초, 담배 느낌이 있고, 달콤하고 파우더리한 플로럴 면모가 있다.",
+    "moods": ["따뜻함", "관능", "섬세함"],
+    "kind": "천연",
+    "pairs": [],
+    "flowers": [],
+    "photo": {
+      "file": "images/scents/ambrette.jpg",
+      "author": "M108t",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fruits_and_seeds_of_Abelmoschus_moschatus.jpg"
+    },
+    "sources": ["https://thegoodscentscompany.com/data/ab1029391.html", "https://www.givaudan.com/print/2738306"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "cade",
+    "name": "케이드",
+    "nameEn": "Cade oil",
+    "material": "지중해 향나무 케이드 (Juniperus oxycedrus)의 심재와 뿌리를 건류(열분해 증류)해 정제한 오일",
+    "family": "레더",
+    "notes": ["베이스"],
+    "description": "스모키하고 가죽 같으며 타르 같은 건조한 우디 향에 재, 그을린 소나무, 검은 흙의 뉘앙스가 있다.",
+    "moods": ["강렬함", "고독", "단단함"],
+    "kind": "천연",
+    "pairs": [],
+    "flowers": [],
+    "photo": {
+      "file": "images/scents/cade.jpg",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Juniperus_oxycedrus_kz01.jpg"
+    },
+    "sources": ["https://www.scentspiracy.com/fragrance-ingredients/p/cade-rectified-eo", "https://en.wikipedia.org/wiki/Cade_oil"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "cocoa",
+    "name": "코코아",
+    "nameEn": "Cocoa absolute",
+    "material": "발효·로스팅한 카카오 (Theobroma cacao) 콩을 용매 추출한 앱솔루트",
+    "family": "구르망",
+    "notes": ["베이스"],
+    "description": "진하고 쌉싸름하며 구수한 다크 초콜릿과 파우더리한 코코아 향에, 담배와 가죽 같은 동물적인 깊이가 있다.",
+    "moods": ["따뜻함", "관능", "신비"],
+    "kind": "천연",
+    "pairs": ["coffee", "vanilla"],
+    "flowers": [],
+    "photo": {
+      "file": "images/scents/cocoa.jpg",
+      "author": "Aude",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cocoa_beans_in_cocoa_pod_at_El_Trapiche,_Costa_Rica.jpg"
+    },
+    "sources": ["https://premierepeau.com/ko/pages/glossary-terms/cocoa-absolute", "https://thegoodscentscompany.com/data/ab1092811.html"],
+    "checked": "2026-11-01"
+  },
+  {
+    "id": "coffee",
+    "name": "커피",
+    "nameEn": "Coffee absolute",
+    "material": "로스팅한 아라비카 커피 (Coffea arabica) 원두를 용매 추출한 앱솔루트",
+    "family": "구르망",
+    "notes": ["미들"],
+    "description": "어둡고 쌉싸름한 로스팅 커피 향에 초콜릿·캐러멜의 은은한 뒷맛이 있고, 미묘한 훈연 향과 흙내음이 깔려 있다.",
+    "moods": ["따뜻함", "강렬함", "새벽"],
+    "kind": "천연",
+    "pairs": ["vanilla", "tonka-bean", "cocoa"],
+    "flowers": [],
+    "photo": {
+      "file": "images/scents/coffee.jpg",
+      "author": "MarkSweep",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg"
+    },
+    "sources": ["https://premierepeau.com/ko/pages/glossary-terms/coffee-absolute", "https://www.thegoodscentscompany.com/data/ab1604601.html"],
+    "checked": "2026-11-01"
   }
 ]
