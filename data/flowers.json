@@ -6,7 +6,7 @@
     "aka": ["크리스마스로즈", "Christmas rose"],
     "family": "미나리아재비과",
     "origin": "알프스 동부와 남부, 아펜니노 산맥, 디나르알프스 북부",
-    "note": "한겨울 눈 속에서 고개를 숙이고 피는 흰 꽃. 이름은 장미지만 장미과가 아니라 미나리아재비과다.",
+    "note": "한겨울에 고개를 숙이고 피는 흰 꽃. 이름은 장미지만 장미과가 아니라 미나리아재비과다.",
     "colors": ["흰색", "연분홍"],
     "seasons": ["겨울", "봄"],
     "moods": ["고요함", "순수", "위로"],
@@ -14,17 +14,17 @@
       {
         "text": "추억",
         "region": "일본",
-        "sources": ["https://oggi.jp/6607560", "https://limo.media/articles/-/26697"]
+        "sources": ["https://oggi.jp/6607560"]
       },
       {
         "text": "나를 잊지 말아요",
         "region": "일본",
-        "sources": ["https://oggi.jp/6607560", "https://limo.media/articles/-/26697"]
+        "sources": ["https://oggi.jp/6607560", "https://event.rakuten.co.jp/xmas/special/flower/"]
       },
       {
         "text": "위로",
         "region": "일본",
-        "sources": ["https://limo.media/articles/-/26697"]
+        "sources": ["https://event.rakuten.co.jp/xmas/special/flower/"]
       }
     ],
     "pairs": ["nigella-damascena", "anemone-coronaria", "prunus-mume", "camellia-japonica"],
@@ -36,8 +36,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Helleborus_niger_Kaiser.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Helleborus_niger", "https://oggi.jp/6607560", "https://limo.media/articles/-/26697"],
-    "checked": "2026-10-21"
+    "sources": ["https://en.wikipedia.org/wiki/Helleborus_niger", "https://oggi.jp/6607560", "https://event.rakuten.co.jp/xmas/special/flower/"],
+    "checked": "2026-11-01"
   },
   {
     "id": "nigella-damascena",
@@ -69,12 +69,7 @@
       {
         "text": "미래",
         "region": "일본",
-        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language", "https://allabout.co.jp/gm/gc/299077/3/"]
-      },
-      {
-        "text": "꿈에서 만나요",
-        "region": "일본",
-        "sources": ["https://allabout.co.jp/gm/gc/299077/3/"]
+        "sources": ["https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language"]
       },
       {
         "text": "당혹, 나를 어리둥절하게 해요, 사랑에 열려 있음, 키스해 줘요",
@@ -91,8 +86,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:2007-10-25Nigella_damascena_10.jpg"
     },
-    "sources": ["https://en.wikipedia.org/wiki/Nigella_damascena", "https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language", "https://allabout.co.jp/gm/gc/299077/3/", "https://www.organicgardener.com.au/love-in-a-mist/"],
-    "checked": "2026-10-21"
+    "sources": ["https://en.wikipedia.org/wiki/Nigella_damascena", "https://hanaprime.jp/language-flower/nigella/", "https://greensnap.co.jp/columns/nigella_language","https://www.organicgardener.com.au/love-in-a-mist/"],
+    "checked": "2026-11-01"
   },
   {
     "id": "scabiosa-atropurpurea",
@@ -142,7 +137,7 @@
       "source": "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_maritima_%22pincushion_flowers%22.jpg"
     },
     "sources": ["https://en.wikipedia.org/wiki/Scabiosa_atropurpurea", "https://hanaprime.jp/language-flower/scabious/", "https://greensnap.co.jp/columns/scabiosa_language", "https://m.cafe.daum.net/16300/6iqS/1441"],
-    "checked": "2026-10-21"
+    "checked": "2026-11-01"
   },
   {
     "id": "oxypetalum-coeruleum",
@@ -177,7 +172,7 @@
       "source": "https://commons.wikimedia.org/wiki/File:Oxypetalum_caeruleum0.jpg"
     },
     "sources": ["https://en.wikipedia.org/wiki/Oxypetalum_coeruleum", "https://oggi.jp/7695896", "https://www.choge-blog.com/?p=90921", "https://lifestyle.assist-all.co.jp/?p=71098"],
-    "checked": "2026-10-21"
+    "checked": "2026-11-01"
   },
   {
     "id": "pycnosorus-globosus",
@@ -217,7 +212,7 @@
       "source": "https://commons.wikimedia.org/wiki/File:Pycnosorus_globosus_flowerhead1_(17796565360).jpg"
     },
     "sources": ["https://en.wikipedia.org/wiki/Pycnosorus_globosus", "https://species.wikimedia.org/wiki/Pycnosorus_globosus", "https://hanaprime.jp/language-flower/craspedia/", "https://lovegreen.net/languageofflower/p271145/"],
-    "checked": "2026-10-21"
+    "checked": "2026-11-01"
   },
   {
     "id": "rosa",
@@ -265,7 +260,7 @@
     "pairs": ["gypsophila", "lavandula-angustifolia", "paeonia-lactiflora", "delphinium", "lilium", "chamelaucium-uncinatum"],
     "scents": ["rose"],
     "sources": ["https://ko.wikipedia.org/wiki/장미", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/bara/", "https://www.hibiyakadan.com/item/LIFESTYLE_Z_0103.html", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
-    "checked": "2026-10-21",
+    "checked": "2026-11-01",
     "photo": {
       "file": "images/flowers/rosa.jpg",
       "author": "Stan Shebs",
@@ -320,7 +315,7 @@
     "pairs": ["narcissus", "hyacinthus-orientalis", "myosotis", "ranunculus-asiaticus"],
     "scents": [],
     "sources": ["https://en.wikipedia.org/wiki/Tulip", "https://ko.wikipedia.org/wiki/튤립", "https://oggi.jp/6678032", "https://hananokotoba.com/tulip/", "https://namu.wiki/w/꽃말", "https://www.kbmaeil.com/article/201510160143369", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
-    "checked": "2026-10-21",
+    "checked": "2026-11-01",
     "photo": {
       "file": "images/flowers/tulipa.jpg",
       "author": "Dina L",
@@ -370,7 +365,7 @@
     "pairs": ["gypsophila", "rosa", "dianthus-caryophyllus", "polianthes-tuberosa"],
     "scents": [],
     "sources": ["https://ko.wikipedia.org/wiki/백합속", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/lily/", "https://greensnap.co.jp/columns/lily_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
-    "checked": "2026-10-21",
+    "checked": "2026-11-01",
     "photo": {
       "file": "images/flowers/lilium.jpg",
       "author": "Stan Shebs",
@@ -425,7 +420,7 @@
     "pairs": ["ranunculus-asiaticus", "narcissus", "lathyrus-odoratus"],
     "scents": [],
     "sources": ["https://ko.wikipedia.org/wiki/프리지어", "https://namu.wiki/w/꽃말", "https://hananokotoba.com/freesia/", "https://greensnap.co.jp/columns/freesia_language", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
-    "checked": "2026-10-21",
+    "checked": "2026-11-01",
     "photo": {
       "file": "images/flowers/freesia.jpg",
       "author": "Jean Tosti",
@@ -480,7 +475,7 @@
     "pairs": ["tulipa", "freesia", "hyacinthus-orientalis", "forsythia-koreana", "fritillaria-meleagris"],
     "scents": [],
     "sources": ["https://ko.wikipedia.org/wiki/수선화", "https://namu.wiki/w/꽃말", "https://sgsg.hankyung.com/article/2023012768381", "https://hananokotoba.com/suisen/", "https://greensnap.co.jp/columns/narcissus_language", "https://www.almanac.com/flower-meanings-language-flowers", "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/the-meaning-of-flowers"],
-    "checked": "2026-10-21",
+    "checked": "2026-11-01",
     "photo": {
       "file": "images/flowers/narcissus.jpg",
       "author": "Agadez",
