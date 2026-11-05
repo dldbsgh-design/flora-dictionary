@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-01",
+  "checked": "2026-11-05",
   "minutes": "5–10분 (자료마다 달라요)",
   "cautions": [
     {
@@ -55,6 +55,13 @@
       ]
     },
     {
+      "text": "아래 호흡 연습은 NHS Fife의 언어치료 안내에서 왔어요. 자기 정체성에 더 잘 맞는 목소리를 찾도록 돕는 자료의 한 부분이에요. 어지럽거나 머리가 띵하면 멈추고 평소 숨으로 돌아가요.",
+      "cites": [
+        8,
+        9
+      ]
+    },
+    {
       "text": "쉰 목소리나 목소리 피로 같은 변화가 2주보다 오래가거나 목소리에 문제가 있다고 생각되면, 혼자 판단하지 말고 의사(이비인후과)나 언어치료사를 찾아요.",
       "cites": [
         3,
@@ -66,19 +73,18 @@
   "steps": [
     {
       "slot": "호흡",
-      "title": "소리 없이 숨 고르기",
-      "how": "코로 숨을 들이쉬고 입으로 소리 없이 내쉬어요.",
-      "amount": "숨이 부드럽고 일정한 리듬이 될 때까지",
+      "title": "손을 얹고 숨 살피기",
+      "how": "한 손은 윗가슴에, 다른 손은 배에 올려요. 코로 길고 천천히 들이쉬고 입으로 내쉬어요. 폐를 아래부터 채운다고 생각하면서, 들이쉴 때 배와 갈비뼈가 올라오고 내쉴 때 내려가는 것을 느껴 봐요. 이 깊은 숨으로 상체에 들어간 긴장을 풀어요.",
+      "amount": "3~5번, 또는 이 호흡이 익숙해질 때까지",
       "cites": [
-        1,
-        2
+        8
       ],
-      "from": "how-voice-works"
+      "from": "breathing-for-singing"
     },
     {
       "slot": "발성",
       "title": "입술 떨기(립 트릴)",
-      "how": "코로 숨을 들이쉬고, 내쉬는 숨에 입술을 떨게 해요. 처음에는 소리 없이 숨으로만 해요. 입술이 잘 떨리지 않으면 손가락으로 양 볼을 살짝 밀어 입술이 조금 앞으로 나오게 해 봐요. 익숙해지면 편하고 일정한 높이로 목소리를 얹어요.",
+      "how": "먼저 코로 들이쉬고 입으로 소리 없이 내쉬면서 숨이 부드럽고 일정한 리듬이 될 때까지 골라요. 코로 숨을 들이쉬고, 내쉬는 숨에 입술을 떨게 해요. 처음에는 소리 없이 숨으로만 해요. 입술이 잘 떨리지 않으면 손가락으로 양 볼을 살짝 밀어 입술이 조금 앞으로 나오게 해 봐요. 익숙해지면 편하고 일정한 높이로 목소리를 얹어요.",
       "amount": "목소리를 얹은 입술 떨기 10번",
       "cites": [
         2
@@ -88,7 +94,7 @@
     {
       "slot": "마무리",
       "title": "편한 높이에서 허밍",
-      "how": "입술을 다문 채 코로 숨을 들이쉬고, 편한 높이에서 ‘음—’ 하고 허밍해요. 입술에 떨림이 느껴지는지 살펴요. 절대 무리하지 않아요. CUH 안내문은 허밍이 목소리를 풀고(warm up) 마무리하는(warm down) 데 도움이 된다고 해요.",
+      "how": "먼저 코로 들이쉬고 입으로 소리 없이 내쉬면서 숨이 부드럽고 일정한 리듬이 될 때까지 골라요. 입술을 다문 채 코로 숨을 들이쉬고, 편한 높이에서 ‘음—’ 하고 허밍해요. 입술에 떨림이 느껴지는지 살펴요. 절대 무리하지 않아요. CUH 안내문은 허밍이 목소리를 풀고(warm up) 마무리하는(warm down) 데 도움이 된다고 해요.",
       "amount": "10번",
       "cites": [
         1
@@ -131,6 +137,16 @@
       "n": 7,
       "url": "https://www.scielo.br/j/rcefac/a/47rW5K8NFbCgJSsYD4hNY4K/?lang=en",
       "title": "Vocal warm-up and cool-down: systematic review — Revista CEFAC, 2016"
+    },
+    {
+      "n": 8,
+      "url": "https://www.nhsfife.org/services/all-services/speech-and-language-therapy/supporting-you-to-find-your-authentic-voice/exploring-what-your-voice-can-do/tuning-into-your-breathing/",
+      "title": "Tuning into your breathing — NHS Fife"
+    },
+    {
+      "n": 9,
+      "url": "https://www.nhsfife.org/services/all-services/speech-and-language-therapy/supporting-you-to-find-your-authentic-voice/",
+      "title": "Supporting you to find your authentic voice — NHS Fife"
     }
   ]
 }
