@@ -807,5 +807,542 @@
       "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
       "https://www.ucc.ie/en/splaslang/cefrlevels/"
     ]
+  },
+  {
+    "id": "lunedi",
+    "name": "lunedì",
+    "ipa": "lu.neˈdi",
+    "meanings": [
+      "월요일"
+    ],
+    "examples": [
+      {
+        "it": "tornerò lunedì prossimo",
+        "ko": "오는 월요일에 돌아올 것이다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "lunedì",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/lunedi/",
+      "https://en.wiktionary.org/wiki/luned%C3%AC",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "martedi",
+    "name": "martedì",
+    "ipa": "mar.teˈdi",
+    "meanings": [
+      "화요일"
+    ],
+    "examples": [
+      {
+        "it": "il museo è aperto solo il martedì",
+        "ko": "그 박물관은 화요일에만 문을 연다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "martedì",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/martedi/",
+      "https://en.wiktionary.org/wiki/marted%C3%AC",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "mercoledi",
+    "name": "mercoledì",
+    "ipa": "mer.ko.leˈdi",
+    "meanings": [
+      "수요일"
+    ],
+    "examples": [
+      {
+        "it": "mercoledì delle Ceneri",
+        "ko": "재의 수요일"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "mercoledì",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/mercoledi/",
+      "https://en.wiktionary.org/wiki/mercoled%C3%AC",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "giovedi",
+    "name": "giovedì",
+    "ipa": "d͡ʒo.veˈdi",
+    "meanings": [
+      "목요일"
+    ],
+    "examples": [
+      {
+        "it": "partirò giovedì prossimo",
+        "ko": "오는 목요일에 떠날 것이다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "giovedì",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/giovedi/",
+      "https://en.wiktionary.org/wiki/gioved%C3%AC",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "venerdi",
+    "name": "venerdì",
+    "ipa": "ve.nerˈdi",
+    "meanings": [
+      "금요일"
+    ],
+    "examples": [
+      {
+        "it": "il venerdì l'ufficio è aperto al pubblico solo al mattino",
+        "ko": "금요일에 그 사무실은 오전에만 일반인에게 열려 있다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "venerdì",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/venerdi/",
+      "https://en.wiktionary.org/wiki/venerd%C3%AC",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "sabato",
+    "name": "sabato",
+    "ipa": "ˈsa.ba.to",
+    "meanings": [
+      "토요일"
+    ],
+    "examples": [
+      {
+        "it": "l'ufficio è aperto al pubblico anche il sabato",
+        "ko": "그 사무실은 토요일에도 일반인에게 열려 있다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "sabati",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/sabato/",
+      "https://en.wiktionary.org/wiki/sabato",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "domenica",
+    "name": "domenica",
+    "ipa": "doˈme.ni.ka",
+    "meanings": [
+      "일요일"
+    ],
+    "examples": [
+      {
+        "it": "domenica prossima faremo una gita",
+        "ko": "오는 일요일에 우리는 나들이를 갈 것이다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "domeniche",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/domenica/",
+      "https://en.wiktionary.org/wiki/domenica",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "gennaio",
+    "name": "gennaio",
+    "ipa": "d͡ʒenˈna.jo",
+    "meanings": [
+      "1월"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/gennaio/",
+      "https://en.wiktionary.org/wiki/gennaio",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "febbraio",
+    "name": "febbraio",
+    "ipa": "febˈbra.jo",
+    "meanings": [
+      "2월"
+    ],
+    "examples": [
+      {
+        "it": "febbraio febbraietto, mese corto e maledetto",
+        "ko": "2월, 짧고 저주받은 달 (속담)"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/febbraio/",
+      "https://en.wiktionary.org/wiki/febbraio",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "marzo",
+    "name": "marzo",
+    "ipa": "ˈmar.t͡so",
+    "meanings": [
+      "3월"
+    ],
+    "examples": [
+      {
+        "it": "marzo pazzo",
+        "ko": "미친 3월 (날씨가 자주 변덕스러워서 하는 말)"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/marzo/",
+      "https://en.wiktionary.org/wiki/marzo",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "aprile",
+    "name": "aprile",
+    "ipa": "aˈpri.le",
+    "meanings": [
+      "4월"
+    ],
+    "examples": [
+      {
+        "it": "d'aprile non ti scoprire",
+        "ko": "4월에는 옷을 벗지 마라 (속담)"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/aprile/",
+      "https://en.wiktionary.org/wiki/aprile",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "maggio",
+    "name": "maggio",
+    "ipa": "ˈmad.d͡ʒo",
+    "meanings": [
+      "5월"
+    ],
+    "examples": [
+      {
+        "it": "il primo maggio",
+        "ko": "5월 1일"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/maggio2/",
+      "https://en.wiktionary.org/wiki/maggio",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "giugno",
+    "name": "giugno",
+    "ipa": "ˈd͡ʒuɲ.ɲo",
+    "meanings": [
+      "6월"
+    ],
+    "examples": [
+      {
+        "it": "giugno, la falce in pugno",
+        "ko": "6월에는 손에 낫을 (속담)"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/giugno/",
+      "https://en.wiktionary.org/wiki/giugno",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "luglio",
+    "name": "luglio",
+    "ipa": "ˈluʎ.ʎo",
+    "meanings": [
+      "7월"
+    ],
+    "examples": [
+      {
+        "it": "rivoluzione di luglio",
+        "ko": "7월 혁명"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/luglio/",
+      "https://en.wiktionary.org/wiki/luglio",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "agosto",
+    "name": "agosto",
+    "ipa": "aˈɡos.to",
+    "meanings": [
+      "8월"
+    ],
+    "examples": [
+      {
+        "it": "tondo come la luna d'agosto",
+        "ko": "8월의 달처럼 둥근"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/agosto2/",
+      "https://en.wiktionary.org/wiki/agosto",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "settembre",
+    "name": "settembre",
+    "ipa": "setˈtɛm.bre",
+    "meanings": [
+      "9월"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/settembre/",
+      "https://en.wiktionary.org/wiki/settembre",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "ottobre",
+    "name": "ottobre",
+    "ipa": "otˈto.bre",
+    "meanings": [
+      "10월"
+    ],
+    "examples": [
+      {
+        "it": "frutti che maturano in ottobre",
+        "ko": "10월에 익는 과일"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/ottobre/",
+      "https://en.wiktionary.org/wiki/ottobre",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "novembre",
+    "name": "novembre",
+    "ipa": "noˈvɛm.bre",
+    "meanings": [
+      "11월"
+    ],
+    "examples": [
+      {
+        "it": "il 2 novembre, dedicato alla commemorazione dei defunti",
+        "ko": "죽은 이들을 기리는 날인 11월 2일"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/novembre/",
+      "https://en.wiktionary.org/wiki/novembre",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "dicembre",
+    "name": "dicembre",
+    "ipa": "diˈt͡ʃɛm.bre",
+    "meanings": [
+      "12월"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dicembre/",
+      "https://en.wiktionary.org/wiki/dicembre",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
+  },
+  {
+    "id": "ora",
+    "name": "ora",
+    "ipa": "ˈo.ra",
+    "meanings": [
+      "시간 (하루의 24분의 1, 60분)",
+      "시각"
+    ],
+    "note": "같은 철자의 부사 ora('지금')는 사전에 따로 실려 있다.",
+    "examples": [
+      {
+        "it": "che ora è?",
+        "ko": "몇 시예요?"
+      },
+      {
+        "it": "il viaggio dura circa tre ore",
+        "ko": "여행은 약 세 시간 걸린다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "ore",
+    "topics": [
+      "시간"
+    ],
+    "level": "A1",
+    "checked": "2026-11-06",
+    "sources": [
+      "https://www.treccani.it/vocabolario/ora2/",
+      "https://www.treccani.it/vocabolario/ora1/",
+      "https://en.wiktionary.org/wiki/ora",
+      "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
+      "https://www.ucc.ie/en/splaslang/cefrlevels/"
+    ]
   }
 ]
