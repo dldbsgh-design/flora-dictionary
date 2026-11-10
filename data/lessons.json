@@ -3481,5 +3481,693 @@
     ],
     "written": "2026-11-05",
     "checked": "2026-11-05"
+  },
+  {
+    "id": "chords-basics",
+    "no": 4,
+    "subject": "작곡",
+    "stage": "입문",
+    "title": "화음과 코드의 기초: 여러 음이 함께 울릴 때",
+    "needs": [
+      "sound-pitch-beat-rhythm",
+      "scales-and-keys",
+      "what-is-melody"
+    ],
+    "sections": [
+      {
+        "heading": "들어가며",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              4,
+              1,
+              8,
+              10,
+              22,
+              19
+            ],
+            "text": "지난 글에서는 음들이 한 줄로 차례차례 이어지는 멜로디를 배웠어요. 이번 글에서는 여러 음이 한꺼번에 울릴 때 생기는 소리를 다뤄요. 먼저 동시에 울리는 소리를 뜻하는 **화성**과, 그 단위가 되는 **화음**(코드)이 무엇인지 알아볼게요. 그다음 화음을 재는 자 역할을 하는 **음정**, 가장 기본이 되는 화음인 **3화음**과 그 네 가지 종류, 화음 이름을 짧게 적는 **코드 기호**, 음의 순서를 바꾸는 **자리바꿈**, 음을 하나씩 펼쳐 치는 **펼친화음**을 차례로 살펴봐요. 마지막으로 한 조 안에서 쓸 수 있는 화음들과 네 음짜리 화음인 **7화음**을 맛보기로 볼게요. 각 낱말의 뜻은 해당하는 부분에서 자세히 설명할게요."
+          }
+        ]
+      },
+      {
+        "heading": "화성: 동시에 울리는 소리",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              5
+            ],
+            "text": "**화성**(harmony)은 둘 이상의 음이 동시에 울리는 소리를 말해요. 브리태니커 백과사전은 화성을 동시에 들리는 둘 이상의 음의 소리라고 정의하고, 『Understanding Basic Music Theory』(Schmidt-Jones, LibreTexts)도 음악에서 하나보다 많은 음높이가 동시에 울리면 그 결과가 화성이라고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              6,
+              7
+            ],
+            "text": "음악을 가로와 세로로 나누어 보는 방법도 있어요. 브리태니커는 음악 소리에 가로 방향과 세로 방향이 있다고 보고, 멜로디와 리듬처럼 시간을 따라 나아가는 것은 가로 방향, 어느 한순간에 함께 울리는 소리 전체는 세로 방향이라고 설명해요. 그러면서 화성은 주로 세로 방향의 현상이지만, 화성들을 차례로 이어 가기 때문에 가로 방향의 면도 있다고 덧붙여요. 영어판 위키백과도 화성에는 동시에 울리는 음높이라는 세로 방향과, 시간에 따른 움직임이라는 가로 방향이 함께 있다고 설명해요. 한국어판 위키백과는 화음을 수직적인 것, 선율(멜로디)을 수평적으로 음이 진행하는 것으로 구분해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              7
+            ],
+            "text": "한국어판 위키백과에서는 화성이라는 말을 조금 다르게 써요. 같은 항목은 화성을 화음이 이어지면서 생기는 소리의 시간적인 흐름이라고 정의하고, 화음을 이어 가는 방법을 연구하는 분야를 **화성법** 또는 **화성학**이라고 부른다고 설명해요. 이렇게 화성이라는 낱말의 뜻은 자료마다 조금씩 달라요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              4,
+              5
+            ],
+            "text": "화성은 음악에 꼭 있어야 하는 것은 아니에요. 브리태니커는 멜로디와 리듬은 화성 없이도 있을 수 있고, 세계 음악의 대부분은 화성이 없는 음악이라고 설명해요. 『Understanding Basic Music Theory』도 화성이 음악의 기본 요소이긴 하지만 리듬이나 멜로디만큼 기본적이지는 않으며, 리듬만으로 또는 멜로디만으로 된 음악도 있을 수 있다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              5
+            ],
+            "text": "『Understanding Basic Music Theory』에 따르면 음악에서 멜로디가 아닌 부분은 모두 **반주**에 속해요. 리듬을 맡는 부분, 화성, 가장 낮은 소리 줄인 베이스 라인, 화음이 모두 반주에 들어간다고 해요. 지난 글에서 본 멜로디와 반주의 관계를 화성 쪽에서 다시 본 셈이에요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "화성이라는 영어 낱말 harmony의 뿌리도 알아 둘게요. 영어판 위키백과에 따르면 이 말은 '이음매, 일치, 어울림'을 뜻하는 그리스어 harmonia에서 왔고, 이 말은 '맞추다, 잇다'라는 뜻의 동사에서 나왔다고 해요."
+          }
+        ]
+      },
+      {
+        "heading": "화음이란 무엇일까요",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              2,
+              3
+            ],
+            "text": "**화음**(和音, chord)은 여러 음이 동시에 울려서 만들어지는 소리예요. 영어판 위키백과는 화음을 둘 이상의 음이 동시에 울리는 소리라고 정의하고, 한국어판 위키백과도 높이가 다른 두 개 이상의 음이 동시에 울릴 때 만들어지는 합성음이라고 정의해요. 그런데 브리태니커는 화음을 동시에 들리는 세 개 이상의 음이라고 정의해요. 몇 개의 음부터 화음이라고 부를지는 자료마다 달라요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "영어판 위키백과에 따르면 화음의 뜻도 시대에 따라 달라졌어요. 중세까지는 두 음의 어떤 조합이든 화성으로 보았고, 르네상스 시대에 들어서 세 음이 동시에 울리는 것이 화음의 실제 정의가 되었다고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              2
+            ],
+            "text": "chord라는 낱말의 뿌리도 볼게요. 영어판 위키백과에 따르면 이 말은 accord에서 와서 중세 영어에서 cord가 되었고, 원래는 '일치' 또는 '어울리는 소리'를 뜻했어요. 17세기에 줄을 뜻하는 cord와 헷갈리지 않도록 철자가 chord로 바뀌었다고 해요. 한국어판 위키백과도 chord가 중세 영어 cord에서 왔으며 본래 '일치'를 뜻하다가 '어울리는 소리'를 가리키게 되었다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              16
+            ],
+            "text": "이 글의 제목에 있는 '코드'는 이 영어 낱말 chord를 가리켜요. 한국어판 위키백과는 화음을 적는 방법 가운데 하나로 대중음악의 **코드 기호**를 소개하고, 영어판 위키백과는 코드 기호가 재즈와 대중음악에서 널리 쓰인다고 설명해요. 코드 기호는 아래에서 자세히 볼게요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3,
+              6,
+              1
+            ],
+            "text": "화음과 화성의 관계도 정리해 둘게요. 브리태니커는 화음을 함께 울리는 음들의 묶음이라고 하고, 영어판 위키백과의 화성 항목은 화성을 공부할 때 음들을 모아 화음을 만들고, 그 화음들을 다시 더 긴 진행으로 늘어놓는다고 설명해요. 영어판 위키백과의 화음 항목은 특정한 목적을 가지고 이어지는 화성들의 연속을 **코드 진행**(chord progression)이라고 부른다고 설명해요. 코드 진행은 뒤의 글에서 따로 다룰게요."
+          }
+        ]
+      },
+      {
+        "heading": "음정: 화음을 재는 자",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              8,
+              9,
+              4
+            ],
+            "text": "화음을 이해하려면 먼저 두 음 사이의 거리를 재는 법을 알아야 해요. 두 음의 높이 차이를 **음정**(interval)이라고 해요. 영어판 위키백과는 음정을 두 소리 사이의 음높이 차이라고 정의하고, 한국어판 위키백과도 음정을 두 음의 높이 차이, 곧 두 음 사이의 거리라고 설명해요. 브리태니커도 음정을 음과 음 사이의 거리라고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              8,
+              9
+            ],
+            "text": "음정은 두 음이 울리는 방식에 따라 두 가지로 나눠요. 두 음이 차례로 울리면 **선율적 음정**, 동시에 울리면 **화성적 음정**이라고 해요. 영어판 위키백과와 한국어판 위키백과가 모두 이렇게 구분하고, 영어판 위키백과는 화성적 음정의 예로 화음을 들어요. 지난 글에서 배운 멜로디 속 음의 움직임이 선율적 음정이고, 이번 글의 화음 속 음들 사이가 화성적 음정이에요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              8,
+              9,
+              4
+            ],
+            "text": "음정의 크기는 '몇 도'라고 불러요. 이때 세는 법이 조금 특별해요. 두 음의 음이름이 C, D, E, F, G, A, B의 순서에서 몇 칸에 걸쳐 있는지를, 아래 음을 1로 세어 양 끝을 모두 넣어서 셉니다. 영어판 위키백과는 셀 때 아래 음을 0이 아니라 1로 센다고 설명하고, 그래서 C에서 E까지는 C, D, E를 거치니 3도가 된다고 설명해요. 한국어판 위키백과도 같은 음끼리는 1도, C에서 E까지는 3도, 한 옥타브 위의 같은 음은 8도라고 설명해요. 브리태니커도 C에서 G까지의 5도는 피아노의 흰 건반 다섯 개에 걸치고, C에서 그 위 C까지의 옥타브는 흰 건반 여덟 개에 걸친다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              8,
+              9,
+              13
+            ],
+            "text": "같은 '3도'라도 크기가 조금 다른 것이 있어요. 첫 글과 지난 글에서 배운 **반음**의 개수로 재면, **장3도**는 반음 4개, **단3도**는 반음 3개, **완전5도**는 반음 7개예요. 영어판 위키백과와 한국어판 위키백과의 음정 항목이 모두 이 개수를 적고, 『Understanding Basic Music Theory』도 장3도를 반음 4개, 단3도를 반음 3개, 완전5도를 반음 7개로 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              9
+            ],
+            "text": "다만 한국어판 위키백과에 따르면 반음의 개수만으로 음정을 정확히 가르기는 어려워요. 같은 항목은 C♯과 E♭이 반음 2개 차이이지만 음이름으로 세면 3도에 걸쳐 있으므로, 장2도가 아니라 감3도로 본다는 예를 들어요. 음정의 이름은 반음의 개수와 음이름의 칸 수를 함께 보고 정해진다는 뜻이에요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              8,
+              9
+            ],
+            "text": "음정을 '몇 도'로 세는 방법은 계단에서 발을 딛는 칸을 세는 것과 같아요. 지금 서 있는 칸을 첫째 칸으로 세면, C에서 E로 갈 때는 C, D, E 세 칸을 딛게 되니 3도가 되는 셈이에요."
+          }
+        ]
+      },
+      {
+        "heading": "3화음: 세 음을 3도씩 쌓기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              11,
+              12,
+              3
+            ],
+            "text": "가장 기본이 되는 화음은 **3화음**(triad)이에요. 3화음은 세 음을 3도 간격으로 위로 쌓은 화음이에요. 영어판 위키백과는 3화음을 3도씩 세로로 쌓을 수 있는 세 음의 묶음이라고 정의하고, 한국어판 위키백과도 3화음을 근음에서 3도와 5도를 쌓아 만든 화음이라고 설명해요. 『Understanding Basic Music Theory』는 3화음을 3도로 만든 기본적인 세 음짜리 화음이라고 하고, 브리태니커도 서양의 전통 화성에서는 3도를 겹쳐 쌓아 화음을 만들며, 3도 두 개를 겹치면 5도에 걸친 기본 3화음이 된다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              10
+            ],
+            "text": "3화음은 가장 흔한 화음이에요. 영어판 위키백과의 화음 항목은 가장 흔한 화음이 세 음으로 된 3화음이라고 설명하고, 3화음 항목도 3화음이 서양 음악에서 가장 흔한 화음이라고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              12,
+              1
+            ],
+            "text": "3화음의 세 음에는 각각 이름이 있어요. 3화음을 3도씩 쌓아 놓았을 때 맨 아래에 오는 음을 **근음**(root), 근음에서 3도 위의 음을 **3음**(third), 근음에서 5도 위의 음을 **5음**(fifth)이라고 해요. 영어판 위키백과와 『Understanding Basic Music Theory』가 모두 이렇게 설명하고, 영어판 위키백과는 화음 속의 음정을 근음에서부터의 거리로 나타낸다고 덧붙여요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              12,
+              10
+            ],
+            "text": "근음은 화음의 이름이 되는 음이에요. 『Understanding Basic Music Theory』는 근음을 화음의 이름을 정하는 음이라고 설명하고, 영어판 위키백과는 음의 순서를 바꾸어도 근음은 바뀌지 않는다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              3,
+              14
+            ],
+            "text": "C에서 시작하는 3화음을 예로 볼게요. 브리태니커에 따르면 C–E(장3도) 위에 E–G(단3도)를 겹치면 C–E–G라는 3화음이 돼요. 영어판 위키백과의 장3화음 항목도 C 위의 장3화음이 C–E–G로 이루어진다고 설명해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              10,
+              12
+            ],
+            "text": "3화음을 쌓는 모습은 사다리를 한 칸씩 건너뛰며 오르는 것과 비슷해요. 근음에서 3도 위로 한 번, 다시 3도 위로 한 번 올라가면 3음과 5음에 닿아요."
+          }
+        ]
+      },
+      {
+        "heading": "3화음의 네 가지 종류",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              11,
+              13,
+              1
+            ],
+            "text": "3화음은 3도와 5도의 크기에 따라 네 가지로 나뉘어요. **장3화음**(major), **단3화음**(minor), **감3화음**(diminished), **증3화음**(augmented)이에요. 영어판 위키백과와 한국어판 위키백과의 3화음 항목이 모두 이 네 가지를 들고, 『Understanding Basic Music Theory』도 장3화음, 단3화음, 증3화음, 감3화음을 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              11,
+              13,
+              14
+            ],
+            "text": "**장3화음**은 근음 위에 장3도와 완전5도가 있는 3화음이에요. 반음으로 세면 근음에서 3음까지 4개, 근음에서 5음까지 7개예요. 3도 두 개로 보면 아래에 장3도(반음 4개), 그 위에 단3도(반음 3개)가 쌓인 모양이에요. 영어판 위키백과의 3화음 항목과 장3화음 항목, 한국어판 위키백과, 『Understanding Basic Music Theory』가 모두 장3화음을 근음 위의 장3도와 완전5도로 설명하고, 반음 개수는 영어판 위키백과의 3화음 항목과 『Understanding Basic Music Theory』에 나와요. C 위의 장3화음은 C–E–G예요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              11,
+              13,
+              15,
+              9
+            ],
+            "text": "**단3화음**은 근음 위에 단3도와 완전5도가 있는 3화음이에요. 반음으로 세면 근음에서 3음까지 3개, 근음에서 5음까지 7개예요. 3도 두 개로 보면 아래에 단3도, 그 위에 장3도가 쌓여서 장3화음과 순서가 반대예요. 여러 자료가 이렇게 설명하고, 영어판 위키백과의 단3화음 항목에 따르면 C 위의 단3화음은 C–E♭–G예요. 한국어판 위키백과의 음정 항목도 장3도인 도–미에서 미에 ♭을 붙이면 단3도가 된다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              11,
+              13
+            ],
+            "text": "**감3화음**은 근음 위에 단3도와 감5도가 있는 3화음이고, **증3화음**은 근음 위에 장3도와 증5도가 있는 3화음이에요. 『Understanding Basic Music Theory』에 따르면 감3화음은 단3도 두 개(반음 3개 + 3개), 증3화음은 장3도 두 개(반음 4개 + 4개)를 쌓은 것이에요. 그래서 근음에서 5음까지가 감3화음은 반음 6개, 증3화음은 반음 8개가 되고, 영어판 위키백과의 3화음 항목도 같은 개수를 적어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              13
+            ],
+            "text": "네 종류를 가르는 기준을 정리해 볼게요. 영어판 위키백과에 따르면 장3화음과 단3화음은 3음의 성질로, 감3화음과 증3화음은 5음의 성질로 정해진다고 해요. 『Understanding Basic Music Theory』도 장3화음과 단3화음은 둘 다 근음과 5음 사이가 완전5도이고, 근음과 3음 사이가 장3도인지 단3도인지로 갈린다고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "어울리는 소리와 긴장된 소리: 협화와 불협화",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              18,
+              6
+            ],
+            "text": "화음이 어떻게 들리는지를 말할 때 **협화**와 **불협화**라는 말을 써요. 『Understanding Basic Music Theory』는 동시에 울릴 때 잘 어울리게 들리는 음들을 협화(consonant)라고 하고, 협화하는 화음은 안정되게 느껴져서 음악이 다른 곳으로 움직일 필요가 없다고 설명해요. 같은 책은 불협화(dissonant)하는 음들이 거칠게 들리거나, 불안정하게 느껴져서 해결해 줄 화음 쪽으로 끌린다고 설명해요. 영어판 위키백과의 화성 항목도 협화하는 음의 관계는 더 듣기 좋고 편안한 느낌을, 불협화하는 관계는 거칠고 긴장된 느낌을 준다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              18,
+              6,
+              3
+            ],
+            "text": "불협화에서 그 뒤에 오리라 기대되는 협화로 옮겨 가는 것을 **해결**(resolution)이라고 해요. 『Understanding Basic Music Theory』가 이렇게 정의하고, 영어판 위키백과도 고전적인 조성 음악에서는 불협화가 보통 협화하는 소리로 옮겨 가는 해결을 필요로 한다고 설명해요. 브리태니커도 화음이 협화하면 쉼을, 불협화하면 다른 화음으로의 해결을 떠올리게 한다고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              2,
+              13
+            ],
+            "text": "네 가지 3화음을 이 기준으로 보면 이래요. 영어판 위키백과의 3화음 항목은 대중음악과 18세기 클래식 음악에서 장3화음과 단3화음은 협화하고 안정된 것으로, 감3화음과 증3화음은 불협화하고 불안정한 것으로 여겨진다고 설명해요. 한국어판 위키백과도 장3화음과 단3화음을 협화음으로 분류해요. 『Understanding Basic Music Theory』는 증3화음과 감3화음에는 완전5도가 없어서 불안정한 느낌이 들고, 보통 아껴서 쓴다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              14,
+              15
+            ],
+            "text": "장3화음과 단3화음의 느낌에 대한 표현도 있어요. 영어판 위키백과의 장3화음 항목은 Kamien의 음악 감상 교재를 인용해, 장3화음의 음색이 단3화음보다 '더 밝다'고 묘사되기도 한다고 적어요. 같은 위키백과의 단3화음 항목도 같은 교재를 인용해, 단3화음의 음색이 장3화음보다 '더 어둡다'고 묘사되기도 한다고 적어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              18
+            ],
+            "text": "어울림을 느끼는 기준이 모두에게 같지는 않아요. 『Understanding Basic Music Theory』는 어떤 소리를 좋아하는지는 부분적으로 문화에 따른 것이고, 무엇이 불쾌하게 불협화한지에 대한 생각도 수백 년 동안 크게 바뀌어 왔다고 설명해요. 그래서 이 책은 서양 음악에 한정해서 협화와 불협화를 다룬다고 밝혀요. 이 글의 설명도 서양 음악의 기준이에요."
+          }
+        ]
+      },
+      {
+        "heading": "코드 기호: 화음 이름을 짧게 적기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              16,
+              17
+            ],
+            "text": "악보에 음표를 하나하나 적지 않고 화음의 이름만 짧게 적는 방법이 있어요. 이것이 **코드 기호**(chord symbol)예요. 영어판 위키백과는 코드 기호가 화음의 근음과 종류, 덧붙이거나 바뀐 음, 베이스 음 같은 것을 나타낸다고 설명하고, 재즈와 대중음악의 리드 시트(lead sheet)나 코드 차트 같은 악보에서 곡의 코드 진행을 알려 주는 데 쓰인다고 설명해요. 『Understanding Basic Music Theory』도 화음 이름을 아는 것은 작곡가, 편곡자, 연주자가 자기가 읽고 쓰고 연주하는 화음에 대해 서로 이야기할 때 실제로 아주 쓸모 있다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              16,
+              15
+            ],
+            "text": "영어판 위키백과의 코드 기호 항목에 따르면 3화음은 이렇게 적어요. 장3화음은 근음의 글자만 써서 C처럼 적어요. 단3화음은 m, min, − 같은 표시를 붙여 Cm이나 C−처럼 적고, 감3화음은 dim이나 o를 붙여 Cdim이나 Co처럼, 증3화음은 aug나 +를 붙여 Caug나 C+처럼 적어요. 같은 위키백과의 단3화음 항목도 단3화음을 min, mi, m, − 같은 표시로 적는다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              17
+            ],
+            "text": "다만 코드 기호를 적는 방법은 하나로 정해져 있지 않아요. 『Understanding Basic Music Theory』에 따르면 화음의 이름을 붙이는 방법에는 널리 합의가 되어 있지만 코드 기호를 적는 방식은 여러 가지가 있어서, 기호만 보고는 헷갈릴 수 있다고 해요. 그래서 이 책은 헷갈릴 때 실제 음과 주변의 다른 기호를 보고 단서를 찾으라고 권해요."
+          }
+        ]
+      },
+      {
+        "heading": "자리바꿈: 맨 아래 음을 바꾸기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              12,
+              2
+            ],
+            "text": "같은 세 음이라도 어느 음을 맨 아래에 두느냐에 따라 화음의 모양이 달라져요. 근음이 맨 아래에 있으면 **기본 위치**(root position), 3음이 맨 아래에 있으면 **첫째 자리바꿈**(first inversion), 5음이 맨 아래에 있으면 **둘째 자리바꿈**(second inversion)이라고 해요. 영어판 위키백과와 『Understanding Basic Music Theory』가 모두 이렇게 설명하고, 한국어판 위키백과도 맨 아래 음이 근음이 아닌 경우를 **자리바꿈**이라고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              12
+            ],
+            "text": "『Understanding Basic Music Theory』에 따르면 음이름이 같으면 순서가 바뀌어도 같은 화음이고, 자리만 다른 것이에요. 같은 책은 어느 옥타브에서 연주하는지나 어떤 악기가 연주하는지는 상관이 없고, 오직 가장 낮은 음이 자리를 정한다고 설명해요. 또 자리를 알아내려면 음들을 다시 3도씩 쌓인 모양으로 늘어놓고 근음을 찾으면 된다고 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              16,
+              17
+            ],
+            "text": "코드 기호로는 자리바꿈을 빗금(/)으로 나타낼 수 있어요. 영어판 위키백과에 따르면 C/E처럼 빗금 뒤에 적은 글자가 맨 아래 음(베이스 음)을 뜻하고, C/E는 E가 맨 아래에 있는 C 장3화음, 곧 첫째 자리바꿈이라고 해요. 『Understanding Basic Music Theory』도 화음 이름 끝에 빗금과 음이름이 붙으면, 빗금 뒤의 음이 베이스 음이라고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "펼친화음: 음을 하나씩 차례로",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              22,
+              1,
+              5
+            ],
+            "text": "화음의 음들을 꼭 한꺼번에 칠 필요는 없어요. 화음의 음들을 동시에 치지 않고 하나씩 차례로 치는 것을 **펼친화음**(broken chord) 또는 **아르페지오**(arpeggio)라고 해요. 영어판 위키백과의 화음 항목은 아르페지오를 음들을 동시에 내지 않고 차례로 내는 펼친화음이라고 하고, 아르페지오 항목도 화음의 음들을 하나씩 차례로 올라가거나 내려가며 낸다고 설명하고, 『Understanding Basic Music Theory』도 화음의 음들을 따로따로, 그러나 화음으로 들릴 만큼 빠르게 이어서 칠 수 있으며 이것을 아르페지오라고 부른다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              22
+            ],
+            "text": "영어판 위키백과에 따르면 아르페지오라는 말은 '하프를 연주하다'라는 뜻의 이탈리아어 arpeggiare에서 왔어요. 같은 항목은 아르페지오 덕분에 트럼펫처럼 한 번에 한 음만 내는 악기도 화성을 드러낼 수 있고, 아르페지오가 앞에 나서는 부분이나 반주에서 멜로디를 꾸미는 데도 쓰인다고 설명해요. 예로 베토벤의 「월광 소나타」가 아르페지오로 시작해서 그것이 반주로 계속 이어진다고 소개해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              5
+            ],
+            "text": "음들이 차례로 울려도 귀는 화성을 느낄 수 있어요. 브리태니커에 따르면 차례로 울린 음들이 익숙한 화음의 음들을 떠올리게 하면, 귀는 그 음들이 함께 울렸을 때의 화성을 스스로 느낀다고 해요. 『Understanding Basic Music Theory』도 다른 음이 함께 울리지 않는 멜로디 하나만으로도 화성을 은근히 담고 있을 수 있다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "브리태니커에 따르면 화음을 멜로디처럼 풀어 놓은 펼친화음은 오랫동안 기악곡의 기본적인 동기 재료가 되어 왔다고 해요. 지난 글에서 배운 동기가 화음의 음들로 만들어지기도 한다는 뜻이에요."
+          }
+        ]
+      },
+      {
+        "heading": "조 안의 화음: 로마 숫자로 부르기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              19,
+              20
+            ],
+            "text": "지난 글에서 배운 조와 음계를 화음과 이어 볼게요. 『Understanding Basic Music Theory』는 그 조의 음계에 있는 음만으로 음계의 각 음 위에 3화음을 하나씩 쌓으면 그 조에서 쓸 수 있는 화음들을 알 수 있다고 설명해요. 이렇게 조의 음만으로 만든 화음을 영어로 **diatonic chord**(다이어토닉 코드)라고 불러요. 『Music Theory for the 21st-Century Classroom』(Hutchinson, LibreTexts)은 diatonic이 조표 안의 음들을 뜻한다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              19,
+              20
+            ],
+            "text": "이 화음들은 음계의 몇 번째 음 위에 쌓았는지에 따라 **로마 숫자**로 이름을 붙여요. 『Understanding Basic Music Theory』에 따르면 장3화음은 대문자 로마 숫자(I, IV, V 등), 단3화음은 소문자 로마 숫자(ii, iii, vi 등)로 적고, 감3화음은 소문자 로마 숫자 뒤에 작은 동그라미를 붙여(vii°처럼) 적어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              19,
+              20,
+              21
+            ],
+            "text": "장조에서 음계의 각 음 위에 쌓은 3화음의 종류는 언제나 같은 순서를 따라요. 첫째(I), 넷째(IV), 다섯째(V) 음 위의 화음은 장3화음, 둘째(ii), 셋째(iii), 여섯째(vi) 음 위의 화음은 단3화음, 일곱째(vii°) 음 위의 화음은 감3화음이에요. 『Understanding Basic Music Theory』가 이렇게 설명하고, 『Music Theory for the 21st-Century Classroom』도 장조의 3화음 종류가 '장-단-단-장-장-단-감'의 순서라고 설명해요. 영어판 위키백과의 주요 3화음 항목도 I, IV, V와 ii, iii, vi, vii°를 같은 표기로 적어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              19,
+              21
+            ],
+            "text": "다장조로 보면 이래요. 『Understanding Basic Music Theory』는 다장조의 I을 C 장3화음, IV를 F 장3화음, V를 G 장3화음, vii°를 B 감3화음이라고 설명해요. 영어판 위키백과의 주요 3화음 항목은 다장조의 I, IV, V를 C, F, G로, ii, iii, vi를 Dm, Em, Am으로 적어요. 코드 기호로 모두 늘어놓으면 C, Dm, Em, F, G, Am, Bdim이 돼요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              21,
+              2
+            ],
+            "text": "이 가운데 I, IV, V를 **주요 3화음**(primary triads)이라고 해요. 영어판 위키백과는 주요 3화음이 조성 음악에서 가장 중요한 3화음이며 화음의 기능을 분명하게 드러낸다고 설명하고, ii, iii, vi, vii°는 보조하거나 받쳐 주는 3화음으로 작용한다고 설명해요. 한국어판 위키백과도 I, IV, V를 주요 3화음, 나머지를 버금 3화음으로 나누고, 주요 3화음이 각각 **으뜸화음**(T), **버금딸림화음**(S), **딸림화음**(D)의 기능을 맡는다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              19
+            ],
+            "text": "『Understanding Basic Music Theory』에 따르면 대부분의 음악에서 가장 흔한 화음은 I이고, IV와 V도 매우 흔해요. 같은 책은 자연단음계로 된 단조에서는 i, iv, v가 단3화음, III, VI, VII가 장3화음, ii°가 감3화음이 된다고 설명해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              19,
+              20
+            ],
+            "text": "한 조 안의 화음들을 로마 숫자로 부르는 것은 반 학생들을 이름 대신 번호로 부르는 것과 비슷해요. 조가 바뀌어 근음의 이름이 달라져도, 장조라면 'I번'은 언제나 장3화음, 'ii번'은 언제나 단3화음이에요."
+          }
+        ]
+      },
+      {
+        "heading": "맛보기: 네 음으로 된 7화음",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              17,
+              2,
+              3
+            ],
+            "text": "3화음 위에 3도를 하나 더 쌓으면 네 음으로 된 화음이 돼요. 『Understanding Basic Music Theory』는 3화음에 근음에서 7도 위의 음을 더하면 **7화음**(seventh chord)이 된다고 설명하고, 한국어판 위키백과도 7화음을 3화음에 7도 음을 더한 네 음짜리 화음이라고 설명해요. 브리태니커도 3도를 하나 더 겹치면 C–E–G–B나 C–E–G–B♭ 같은 7화음이 생긴다고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              18
+            ],
+            "text": "한국어판 위키백과에 따르면 7화음은 모두 불협화음(안어울림화음)이고, 안정된 협화음(어울림화음)으로 진행해야 비로소 충족감을 얻는다고 해요. 『Understanding Basic Music Theory』도 해결의 예로 G 7화음이 C 장3화음으로 해결되는 경우를 들어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              19,
+              16
+            ],
+            "text": "『Understanding Basic Music Theory』에 따르면 서양 음악 대부분에서 음을 더한 화음 가운데 가장 흔한 것은 딸림음(V) 위의 7화음, 곧 V7이에요. 영어판 위키백과에 따르면 이런 딸림7화음은 코드 기호로 C7처럼 7을 붙여 적어요. 7화음의 여러 종류는 뒤의 화성 글에서 더 자세히 다룰게요."
+          }
+        ]
+      },
+      {
+        "heading": "정리",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              4,
+              1,
+              8,
+              10,
+              13,
+              18,
+              16,
+              12,
+              22,
+              19
+            ],
+            "text": "정리해 볼게요. **화성**은 둘 이상의 음이 동시에 울리는 소리이고, **화음**(코드)은 동시에 울리는 여러 음의 묶음이에요. 몇 개부터 화음이라 부를지는 자료마다 달라요. 두 음 사이의 거리인 **음정**은 양 끝을 모두 넣어 '몇 도'로 세고, 장3도는 반음 4개, 단3도는 반음 3개, 완전5도는 반음 7개예요. **3화음**은 근음 위에 3도씩 두 번 쌓은 세 음짜리 화음이고, 장3화음, 단3화음, 감3화음, 증3화음의 네 가지가 있어요. 서양 음악에서는 장3화음과 단3화음을 협화하고 안정된 소리로 여겨요. **코드 기호**는 C, Cm, Cdim, C+처럼 화음 이름을 짧게 적는 방법이고, 맨 아래 음을 바꾸는 **자리바꿈**은 C/E처럼 빗금으로 적을 수 있어요. 화음의 음을 하나씩 차례로 치는 것이 **펼친화음**이에요. 장조에서는 I, IV, V가 장3화음, ii, iii, vi가 단3화음, vii°가 감3화음이에요. 다음 글에서는 GarageBand를 처음 써 볼게요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://en.wikipedia.org/wiki/Chord_(music)",
+        "title": "Chord (music) — Wikipedia (영어)"
+      },
+      {
+        "n": 2,
+        "url": "https://ko.wikipedia.org/wiki/화음",
+        "title": "화음 — 위키백과 (한국어)"
+      },
+      {
+        "n": 3,
+        "url": "https://www.britannica.com/art/chord-music",
+        "title": "Chord — Britannica"
+      },
+      {
+        "n": 4,
+        "url": "https://www.britannica.com/art/harmony-music",
+        "title": "Harmony — Britannica"
+      },
+      {
+        "n": 5,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Understanding_Basic_Music_Theory_(Schmidt-Jones)/04%3A_Defintions/4.05%3A_Harmony",
+        "title": "4.5 Harmony — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 6,
+        "url": "https://en.wikipedia.org/wiki/Harmony",
+        "title": "Harmony — Wikipedia (영어)"
+      },
+      {
+        "n": 7,
+        "url": "https://ko.wikipedia.org/wiki/화성_(음악)",
+        "title": "화성 (음악) — 위키백과 (한국어)"
+      },
+      {
+        "n": 8,
+        "url": "https://en.wikipedia.org/wiki/Interval_(music)",
+        "title": "Interval (music) — Wikipedia (영어)"
+      },
+      {
+        "n": 9,
+        "url": "https://ko.wikipedia.org/wiki/음정",
+        "title": "음정 — 위키백과 (한국어)"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wikipedia.org/wiki/Triad_(music)",
+        "title": "Triad (music) — Wikipedia (영어)"
+      },
+      {
+        "n": 11,
+        "url": "https://ko.wikipedia.org/wiki/3화음",
+        "title": "3화음 — 위키백과 (한국어)"
+      },
+      {
+        "n": 12,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Understanding_Basic_Music_Theory_(Schmidt-Jones)/07%3A_Harmony_and_Form/7.01%3A_Triads",
+        "title": "7.1 Triads — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 13,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Understanding_Basic_Music_Theory_(Schmidt-Jones)/07:_Harmony_and_Form/7.02:_Naming_Triads",
+        "title": "7.2 Naming Triads — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wikipedia.org/wiki/Major_chord",
+        "title": "Major chord — Wikipedia (영어)"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wikipedia.org/wiki/Minor_chord",
+        "title": "Minor chord — Wikipedia (영어)"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wikipedia.org/wiki/Chord_names_and_symbols_(popular_music)",
+        "title": "Chord names and symbols (popular music) — Wikipedia (영어)"
+      },
+      {
+        "n": 17,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Understanding_Basic_Music_Theory_(Schmidt-Jones)/07:_Harmony_and_Form/7.04:_Beyond_Triads-_Naming_Other_Chords",
+        "title": "7.4 Beyond Triads: Naming Other Chords — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 18,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Understanding_Basic_Music_Theory_(Schmidt-Jones)/07%3A_Harmony_and_Form/7.03%3A__Consonance_and_Dissonance",
+        "title": "7.3 Consonance and Dissonance — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 19,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Understanding_Basic_Music_Theory_(Schmidt-Jones)/07:_Harmony_and_Form/7.05:_Beginning_Harmonic_Analysis",
+        "title": "7.5 Beginning Harmonic Analysis — Understanding Basic Music Theory (Schmidt-Jones), LibreTexts"
+      },
+      {
+        "n": 20,
+        "url": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Music_Theory_for_the_21st-Century_Classroom_(Hutchinson)/07%3A_Roman_Numerals_and_Cadences/7.02%3A_Diatonic_Chords_in_Major",
+        "title": "7.2 Diatonic Chords in Major — Music Theory for the 21st-Century Classroom (Hutchinson), LibreTexts"
+      },
+      {
+        "n": 21,
+        "url": "https://en.wikipedia.org/wiki/Primary_triad",
+        "title": "Primary triad — Wikipedia (영어)"
+      },
+      {
+        "n": 22,
+        "url": "https://en.wikipedia.org/wiki/Arpeggio",
+        "title": "Arpeggio — Wikipedia (영어)"
+      }
+    ],
+    "listen": [
+      {
+        "title": "Accordion chords-01.ogg — Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Accordion_chords-01.ogg",
+        "note": "아코디언으로 장3화음과 단3화음을 연주한 약 12초짜리 녹음이에요. 여러 음이 한꺼번에 울리는 화음의 소리를 들어 보세요. (만든 사람: Clngre, CC BY-SA 3.0 또는 GFDL 1.2 이상)"
+      }
+    ],
+    "written": "2026-11-10",
+    "checked": "2026-11-10"
   }
 ]
