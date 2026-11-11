@@ -53,7 +53,7 @@ function checkIds(kind, list, errs) {
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const SCENT_LINK = /\[\[([^|\]]+)\|[^\]]+\]\]/g;
-const BLOCK_TYPES = ["p", "analogy", "steps", "shortcut", "code"];
+const BLOCK_TYPES = ["p", "analogy", "steps", "shortcut", "code", "quiz", "it", "terms"];
 // A well-formed link: label without "**", "|", "[" or "]".
 const CLEAN_LINK = /\[\[[^|\[\]]+\|[^|\[\]*]+\]\]/g;
 
@@ -106,7 +106,7 @@ function reportUnused(at, urlOf, used, errs) {
   for (const n of urlOf.keys()) if (!used.has(n)) errs.push(`${at}: source ${n} is never cited`);
 }
 
-/** One lesson block. p/analogy: cited text. steps: cited list of items. shortcut: keys + cited text. code: lang + text, cites optional. */
+/** One lesson block. it: Italian sentence + Korean meaning, cited. terms: cited list of {it, ko}. quiz: question, 2–5 choices, 1-based answer, cited explanation. p/analogy: cited text. steps: cited list of items. shortcut: keys + cited text. code: lang + text, cites optional. */
 function checkBlock(at, where, b, ctx, errs) {
   if (!BLOCK_TYPES.includes(b.type)) {
     errs.push(`${at}: block type "${b.type}" must be one of ${BLOCK_TYPES.join(", ")}`);
@@ -117,6 +117,28 @@ function checkBlock(at, where, b, ctx, errs) {
     if (!items.length) errs.push(`${at}: steps in "${where}" has no items`);
     for (const t of items) if (!String(t ?? "").trim()) errs.push(`${at}: empty step in "${where}"`);
     checkCited(at, where, items.join(" "), b.cites, b.key, ctx, errs);
+    return;
+  }
+  if (b.type === "it") {
+    if (!String(b.it ?? "").trim() || !String(b.ko ?? "").trim()) errs.push(`${at}: it block in "${where}" needs both it and ko`);
+    checkCited(at, where, `${b.it ?? ""} ${b.ko ?? ""}`, b.cites, b.key, ctx, errs);
+    return;
+  }
+  if (b.type === "terms") {
+    const items = Array.isArray(b.items) ? b.items : [];
+    if (!items.length) errs.push(`${at}: terms in "${where}" has no items`);
+    for (const t of items) if (!String(t?.it ?? "").trim() || !String(t?.ko ?? "").trim()) errs.push(`${at}: term in "${where}" needs both it and ko`);
+    checkCited(at, where, items.map((t) => `${t?.it ?? ""} ${t?.ko ?? ""}`).join(" "), b.cites, b.key, ctx, errs);
+    return;
+  }
+  if (b.type === "quiz") {
+    const choices = Array.isArray(b.choices) ? b.choices : [];
+    if (!String(b.q ?? "").trim()) errs.push(`${at}: quiz in "${where}" has no question`);
+    if (choices.length < 2 || choices.length > 5) errs.push(`${at}: quiz in "${where}" needs 2 to 5 choices`);
+    for (const t of choices) if (!String(t ?? "").trim()) errs.push(`${at}: empty choice in "${where}"`);
+    if (!Number.isInteger(b.answer) || b.answer < 1 || b.answer > choices.length) errs.push(`${at}: quiz answer in "${where}" must be the number of a choice (1 = first)`);
+    if (!String(b.explain ?? "").trim()) errs.push(`${at}: quiz in "${where}" has no explain`);
+    checkCited(at, where, [b.q, ...choices, b.explain].join(" "), b.cites, b.key, ctx, errs);
     return;
   }
   if (b.type === "shortcut" && !String(b.keys ?? "").trim()) errs.push(`${at}: shortcut in "${where}" has no keys`);
@@ -236,7 +258,7 @@ function checkFileSubjects(file, lessons, errs) {
   }
 }
 
-export function validate({ flowers, scents, vocab, lessons = [], routine = null, italian = [], howto = [], coding = [] }) {
+export function validate({ flowers, scents, vocab, lessons = [], routine = null, italian = [], howto = [], coding = [], itstudy = [], exam = [] }) {
   const errs = [];
   const flowerIds = checkIds("flower", flowers, errs);
   const scentIds = checkIds("scent", scents, errs);
@@ -281,7 +303,9 @@ export function validate({ flowers, scents, vocab, lessons = [], routine = null,
   errs.push(...validateItalian(italian, { vocab, flowerIds, scentIds }));
   checkFileSubjects("data/howto.json", howto, errs);
   checkFileSubjects("data/coding.json", coding, errs);
-  errs.push(...validateLessons([...lessons, ...howto, ...coding], { scentIds, stages: vocab.stages, subjects: vocab.subjects }));
+  checkFileSubjects("data/itstudy.json", itstudy, errs);
+  checkFileSubjects("data/exam.json", exam, errs);
+  errs.push(...validateLessons([...lessons, ...howto, ...coding, ...itstudy, ...exam], { scentIds, stages: vocab.stages, subjects: vocab.subjects }));
   if (routine) {
     const vocalIds = new Set(lessons.filter((l) => l.subject === "보컬").map((l) => l.id));
     errs.push(...validateRoutine(routine, { slots: vocab.slots, vocalIds, scentIds }));
@@ -302,6 +326,8 @@ function main() {
     italian: loadOptional("italian.json"),
     howto: loadOptional("howto.json"),
     coding: loadOptional("coding.json"),
+    itstudy: loadOptional("itstudy.json"),
+    exam: loadOptional("exam.json"),
   });
   if (errs.length) {
     for (const e of errs) console.error(e);

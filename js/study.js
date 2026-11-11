@@ -1,4 +1,4 @@
-// Pure rendering for the lesson books (향 공부, 음악 공부, 프로그램 사용법, 코딩 강의): every function returns an HTML string.
+// Pure rendering for the lesson books (향 공부, 음악 공부, 프로그램 사용법, 코딩 강의, 이탈리아어 공부, 시험 공부): every function returns an HTML string.
 import { esc, runningHead } from "./render.js";
 import { STUDIES, studyOf } from "./parts.js";
 
@@ -92,6 +92,8 @@ export function renderMusicIndex(lessons, { subjects, stages }) {
   return renderVolumeIndex(lessons, { subjects, stages, vol: MUSIC, routine: true });
 }
 
+const LETTERS = ["A", "B", "C", "D", "E"];
+
 function keys(combo) {
   return String(combo ?? "").split("+").map((k) => `<kbd>${esc(k.trim())}</kbd>`).join("+");
 }
@@ -109,6 +111,20 @@ function block(b, scentIds) {
   }
   if (b.type === "code") {
     return `<figure class="code"><pre data-lang="${esc(b.lang)}"><code>${esc(b.text)}</code></pre>${b.caption ? `<figcaption>${inline(b.caption, scentIds)}${cite(b.cites)}</figcaption>` : cite(b.cites)}</figure>`;
+  }
+  if (b.type === "it") {
+    // An Italian sentence with its Korean meaning underneath.
+    return `<p class="it-line"><span lang="it">${inline(b.it, scentIds)}</span><span class="ko">${inline(b.ko, scentIds)}</span>${cite(b.cites)}</p>`;
+  }
+  if (b.type === "terms") {
+    // Words to know: Italian on the left, Korean on the right.
+    return `<dl class="terms">${(b.items || []).map((t) => `<dt lang="it">${inline(t.it, scentIds)}</dt><dd>${inline(t.ko, scentIds)}</dd>`).join("")}</dl>${cite(b.cites)}`;
+  }
+  if (b.type === "quiz") {
+    // A multiple-choice question as in the exam: the answer stays folded until opened.
+    const lang = b.lang ? ` lang="${esc(b.lang)}"` : "";
+    const letter = LETTERS[b.answer - 1] || "";
+    return `<div class="quiz"><p class="quiz-q"${lang}><span class="as">문제 </span>${inline(b.q, scentIds)}</p><ol class="choices" type="A"${lang}>${(b.choices || []).map((t) => `<li>${inline(t, scentIds)}</li>`).join("")}</ol><details><summary>정답과 풀이</summary><p><b>정답 ${esc(letter)}.</b> ${inline(b.explain, scentIds)}${cite(b.cites)}</p></details></div>`;
   }
   return `<p>${inline(b.text, scentIds)}${cite(b.cites)}</p>`;
 }

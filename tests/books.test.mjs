@@ -34,6 +34,8 @@ test("every book has a label, a data file and a cloth colour; subjects belong to
   assert.equal(studyOf("포토샵"), "howto");
   assert.equal(studyOf("파이썬"), "coding");
   assert.equal(studyOf("향"), "study");
+  assert.equal(studyOf("기하와 표현"), "exam");
+  assert.equal(studyOf("이탈리아어 독해"), "itstudy");
   assert.equal(studyOf("없는 과목"), null);
 });
 
@@ -118,6 +120,55 @@ test("new blocks are checked: empty steps, keyless shortcut, langless code, odd 
   assert.ok(with1({ type: "code", text: "x", cites: [1] }).some((e) => e.includes("no lang")));
   assert.ok(with1({ type: "p", text: "`a", cites: [1] }).some((e) => e.includes("malformed")));
   assert.deepEqual(with1({ type: "code", lang: "py", text: "print(1)" }).filter((e) => !e.includes("never cited")), []);
+});
+
+const quiz = (over = {}) => ({
+  type: "quiz", lang: "it", q: "Quanti lati ha un **triangolo**?", choices: ["Due", "Tre", "Quattro"], answer: 2,
+  explain: "triangolo는 삼각형, lato는 변. 변은 세 개(tre).", cites: [1], ...over,
+});
+const examLesson = (blocks) => howto({ id: "geo-1", subject: "기하와 표현", version: undefined, sections: [{ heading: "연습 문제", blocks }] });
+
+test("quiz renders question and lettered choices in Italian, with the answer folded away", () => {
+  const html = renderLesson(examLesson([quiz()]), { prev: null, next: null, needs: [], scentIds, vol: vol("exam") });
+  assert.match(html, /<p class="quiz-q" lang="it"><span class="as">문제 <\/span>Quanti lati ha un <b>triangolo<\/b>\?<\/p>/);
+  assert.match(html, /<ol class="choices" type="A" lang="it"><li>Due<\/li><li>Tre<\/li><li>Quattro<\/li><\/ol>/);
+  assert.match(html, /<details><summary>정답과 풀이<\/summary><p><b>정답 B\.<\/b> triangolo는 삼각형[^<]*<sup class="cite">\[1\]<\/sup><\/p><\/details>/);
+  assert.match(html, /href="#\/exam">시험 공부<\/a>/);
+});
+
+test("Italian lines and word lists render with lang=it next to the Korean", () => {
+  const html = renderLesson(examLesson([
+    { type: "it", it: "Il **cubo** ha sei facce.", ko: "정육면체는 면이 여섯 개예요.", cites: [1] },
+    { type: "terms", items: [{ it: "faccia", ko: "면" }, { it: "spigolo", ko: "모서리" }], cites: [1] },
+  ]), { prev: null, next: null, needs: [], scentIds, vol: vol("exam") });
+  assert.match(html, /<p class="it-line"><span lang="it">Il <b>cubo<\/b> ha sei facce\.<\/span><span class="ko">정육면체는 면이 여섯 개예요\.<\/span><sup class="cite">\[1\]<\/sup><\/p>/);
+  assert.match(html, /<dl class="terms"><dt lang="it">faccia<\/dt><dd>면<\/dd><dt lang="it">spigolo<\/dt><dd>모서리<\/dd><\/dl><sup class="cite">\[1\]<\/sup>/);
+});
+
+test("it and terms blocks need both languages and cites", () => {
+  const v2 = { ...vocab, subjects: [...vocab.subjects, "기하와 표현"] };
+  const go = (b) => validate({ flowers: [], scents: [], vocab: v2, exam: [examLesson([b])] });
+  assert.deepEqual(go({ type: "it", it: "Ciao.", ko: "안녕.", cites: [1] }), []);
+  assert.ok(go({ type: "it", it: "Ciao.", cites: [1] }).some((e) => e.includes("needs both it and ko")));
+  assert.ok(go({ type: "it", it: "Ciao.", ko: "안녕." }).some((e) => e.includes("no cites")));
+  assert.deepEqual(go({ type: "terms", items: [{ it: "lato", ko: "변" }], cites: [1] }), []);
+  assert.ok(go({ type: "terms", items: [], cites: [1] }).some((e) => e.includes("no items")));
+  assert.ok(go({ type: "terms", items: [{ it: "lato" }], cites: [1] }).some((e) => e.includes("needs both it and ko")));
+});
+
+test("quiz is checked: question, 2–5 choices, answer in range, explain, cites; exam subjects stay in their file", () => {
+  const v2 = { ...vocab, subjects: [...vocab.subjects, "기하와 표현", "이탈리아어 문법"] };
+  const go = (b, key = "exam") => validate({ flowers: [], scents: [], vocab: v2, [key]: [examLesson([b])] });
+  assert.deepEqual(go(quiz()), []);
+  assert.ok(go(quiz({ q: "" })).some((e) => e.includes("no question")));
+  assert.ok(go(quiz({ choices: ["Uno"] })).some((e) => e.includes("2 to 5 choices")));
+  assert.ok(go(quiz({ answer: 4 })).some((e) => e.includes("quiz answer")));
+  assert.ok(go(quiz({ answer: 0 })).some((e) => e.includes("quiz answer")));
+  assert.ok(go(quiz({ explain: " " })).some((e) => e.includes("no explain")));
+  assert.ok(go(quiz({ cites: [] })).some((e) => e.includes("no cites")));
+  assert.ok(go(quiz({ choices: ["Due", "**Tre"] })).some((e) => e.includes("malformed")));
+  assert.ok(go(quiz(), "itstudy").some((e) => e.includes("data/itstudy.json")));
+  assert.ok(go(quiz(), "howto").some((e) => e.includes("data/howto.json")));
 });
 
 test("icon: a valid PNG, cloth corners, a spine above the shelf", () => {

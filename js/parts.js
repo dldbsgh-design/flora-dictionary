@@ -44,6 +44,15 @@ export const STUDIES = {
     label: "코딩 강의", data: "data/coding.json", optional: true, color: "#3F4B58",
     subjects: ["HTML과 CSS", "자바스크립트", "파이썬"],
   },
+  // Entrance-exam books (Politecnico di Milano TOLD + Italian B2). Each has its own file so two daily runs never touch the same one.
+  itstudy: {
+    label: "이탈리아어 공부", data: "data/itstudy.json", optional: true, color: "#5E6B2F",
+    subjects: ["이탈리아어 문법", "이탈리아어 독해"],
+  },
+  exam: {
+    label: "시험 공부", data: "data/exam.json", optional: true, color: "#8A3B2E",
+    subjects: ["디자인사·미술사", "기하와 표현", "일반 상식", "논리"],
+  },
 };
 
 /** The study book that owns a lesson subject, as its key ("study", "music", …); null if none. */

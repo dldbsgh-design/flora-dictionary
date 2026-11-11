@@ -1,12 +1,12 @@
 // Service worker: lets the dictionary open offline once it has been opened online.
 // Pages, code and data: network first (new content shows up at once), the saved copy when offline.
 // Photos and fonts: the saved copy first (they never change), fetched once and kept.
-const CACHE = "dictionary-v1";
+const CACHE = "dictionary-v2";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "css/paper.css",
   "js/app.js", "js/logic.js", "js/parts.js", "js/render.js", "js/study.js",
   "data/vocab.json", "data/flowers.json", "data/scents.json", "data/italian.json",
-  "data/lessons.json", "data/howto.json", "data/coding.json", "data/routine.json",
+  "data/lessons.json", "data/howto.json", "data/coding.json", "data/itstudy.json", "data/exam.json", "data/routine.json",
   "icons/icon-192.png", "icons/apple-touch-icon.png",
 ];
 const WAIT_MS = 3000;

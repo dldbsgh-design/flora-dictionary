@@ -1,0 +1,90 @@
+[
+  {
+    "id": "geo-polygons",
+    "no": 1,
+    "subject": "기하와 표현",
+    "stage": "입문",
+    "title": "다각형의 이탈리아어 — poligono, lato, vertice, angolo",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "Che cosa chiede il test — 시험이 묻는 것",
+        "blocks": [
+          { "type": "p", "text": "TOLD의 첫 영역은 **기하와 표현**(Geometria e rappresentazione)이에요. 12문제를 20분 안에 풀어요. 학교 페이지는 이 영역의 범위를 이렇게 적었어요.", "cites": [12, 14] },
+          { "type": "it", "it": "Fondamenti di geometria analitica ed euclidea.", "ko": "해석 기하와 유클리드 기하의 기초.", "cites": [12] },
+          { "type": "p", "text": "그 밖에 여러 가지 논리적 추론이 필요한 추상적인 문제, 그래프·그림·도상 읽기, 시각적 표현의 기초도 범위에 들어가요.", "cites": [12] },
+          { "type": "p", "text": "학교는 이 영역을 위한 무료 온라인 강의 「Geometria e Rappresentazione per il Design」을 pok.polimi.it에 열어 두었어요. 이탈리아어 강의이고 2주짜리예요. 1주는 기하(La geometria), 2주는 표현(La rappresentazione)이에요.", "cites": [13] },
+          { "type": "p", "text": "시험장에서는 자, 컴퍼스, 각도기, 계산기를 쓸 수 없어요. 학교가 주는 흰 종이 두 장과 볼펜만 쓸 수 있으니, 도형 문제는 머릿속과 손 계산으로 풀 수 있어야 해요.", "cites": [14] }
+        ]
+      },
+      {
+        "heading": "Il poligono — 다각형",
+        "blocks": [
+          { "type": "it", "it": "Un poligono è la parte di piano delimitata da una linea spezzata chiusa.", "ko": "다각형은 닫힌 꺾은선으로 둘러싸인 평면의 부분이에요.", "cites": [2] },
+          { "type": "p", "text": "**다각형**(poligono)은 세 개 이상의 선분으로 둘러싸인 평평한 도형이에요. 선분들은 닫힌 줄을 이루고, 서로 엇갈리지 않아요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "다각형을 이루는 선분을 **변**(lato), 이웃한 두 변이 만나는 점을 **꼭짓점**(vertice)이라고 해요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "트레카니 사전에 따르면 이웃한 두 변이 만드는 각이 다각형의 **각**(angolo), 더 정확히는 안쪽 각(내각)이에요.", "cites": [1] },
+          { "type": "terms", "items": [
+            { "it": "poligono (남성, 복수 poligoni)", "ko": "다각형" },
+            { "it": "lato (남성, 복수 lati)", "ko": "변" },
+            { "it": "vertice (남성, 복수 vertici)", "ko": "꼭짓점" },
+            { "it": "angolo (남성, 복수 angoli)", "ko": "각, 모서리" }
+          ], "cites": [3, 4, 5, 6, 7] }
+        ]
+      },
+      {
+        "heading": "I nomi — 변의 수로 짓는 이름",
+        "blocks": [
+          { "type": "p", "text": "다각형의 이름은 변의 수로 정해져요. 다각형에서는 변의 수, 꼭짓점의 수, 각의 수가 모두 같아요.", "cites": [1] },
+          { "type": "terms", "items": [
+            { "it": "triangolo", "ko": "삼각형 — 변 3개 (tre)" },
+            { "it": "quadrilatero", "ko": "사각형 — 변 4개 (quattro)" },
+            { "it": "pentagono", "ko": "오각형 — 변 5개 (cinque)" },
+            { "it": "esagono", "ko": "육각형 — 변 6개 (sei)" },
+            { "it": "ettagono", "ko": "칠각형 — 변 7개 (sette)" },
+            { "it": "ottagono", "ko": "팔각형 — 변 8개 (otto)" },
+            { "it": "decagono", "ko": "십각형 — 변 10개 (dieci)" }
+          ], "cites": [2, 8, 9, 10, 11] },
+          { "type": "p", "text": "같은 도형에 다른 이름도 있어요. 이탈리아어 위키백과에는 삼각형을 trigono·trilatero로, 사각형을 tetragono·quadrangolo로도 부른다고 적혀 있어요. 보기에 낯선 이름이 나와도 당황하지 마세요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "Il poligono regolare — 정다각형",
+        "blocks": [
+          { "type": "it", "it": "Un poligono regolare ha tutti i lati e tutti gli angoli uguali.", "ko": "정다각형은 변의 길이가 모두 같고 각의 크기도 모두 같아요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "변만 같거나 각만 같으면 정다각형이 아니에요. 예를 들어 직사각형은 네 각이 모두 같지만 변의 길이가 다르니 정다각형이 아니에요. 정삼각형과 정사각형(quadrato)은 정다각형이에요.", "cites": [1, 2] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "실제 시험처럼 문제와 보기를 이탈리아어로 냈어요. 숫자 낱말(tre, quattro, cinque …)은 이탈리아어 사전의 숫자 묶음에서도 볼 수 있어요.", "cites": [2] },
+          { "type": "quiz", "lang": "it", "q": "Quanti lati ha un esagono?", "choices": ["Quattro", "Cinque", "Sei", "Otto", "Dieci"], "answer": 3, "explain": "esagono는 육각형이라 변(lati)이 **6개**(sei)예요.", "cites": [2, 11] },
+          { "type": "quiz", "lang": "it", "q": "Come si chiama il punto in comune a due lati consecutivi?", "choices": ["Lato", "Vertice", "Angolo", "Diagonale", "Poligono"], "answer": 2, "explain": "이웃한 두 변(due lati consecutivi)이 만나는 점은 **꼭짓점**(vertice)이에요.", "cites": [1, 2] },
+          { "type": "quiz", "lang": "it", "q": "Un poligono con cinque lati si chiama…", "choices": ["triangolo", "quadrilatero", "pentagono", "esagono", "ottagono"], "answer": 3, "explain": "변이 5개(cinque)인 다각형은 **pentagono**(오각형)예요.", "cites": [2, 10] },
+          { "type": "quiz", "lang": "it", "q": "Quale di queste figure è un poligono regolare?", "choices": ["Un rettangolo con due lati lunghi e due lati corti", "Un quadrato", "Un triangolo con tre lati diversi", "Un cerchio", "Una linea spezzata aperta"], "answer": 2, "explain": "**정사각형**(quadrato)은 변과 각이 모두 같아서 정다각형이에요. 긴 변과 짧은 변이 있는 직사각형, 세 변이 다른 삼각형은 아니에요. 원(cerchio)은 선분으로 둘러싸이지 않았고, 열린 꺾은선은 도형을 둘러싸지 않으니 다각형이 아니에요.", "cites": [1, 2] },
+          { "type": "quiz", "lang": "it", "q": "In un poligono, il numero dei lati è uguale al numero dei…", "choices": ["vertici", "diagonali", "colori", "punti interni", "piani"], "answer": 1, "explain": "다각형에서는 변의 수와 **꼭짓점**(vertici)의 수가 같아요. 각의 수도 같아요.", "cites": [1] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://www.treccani.it/vocabolario/poligono1/", "title": "Treccani Vocabolario — poligono" },
+      { "n": 2, "url": "https://it.wikipedia.org/wiki/Poligono", "title": "Wikipedia (italiano) — Poligono" },
+      { "n": 3, "url": "https://it.wiktionary.org/wiki/poligono", "title": "Wikizionario — poligono" },
+      { "n": 4, "url": "https://en.wiktionary.org/wiki/poligono", "title": "Wiktionary — poligono" },
+      { "n": 5, "url": "https://en.wiktionary.org/wiki/lato", "title": "Wiktionary — lato" },
+      { "n": 6, "url": "https://en.wiktionary.org/wiki/vertice", "title": "Wiktionary — vertice" },
+      { "n": 7, "url": "https://en.wiktionary.org/wiki/angolo", "title": "Wiktionary — angolo" },
+      { "n": 8, "url": "https://en.wiktionary.org/wiki/triangolo", "title": "Wiktionary — triangolo" },
+      { "n": 9, "url": "https://en.wiktionary.org/wiki/quadrilatero", "title": "Wiktionary — quadrilatero" },
+      { "n": 10, "url": "https://en.wiktionary.org/wiki/pentagono", "title": "Wiktionary — pentagono" },
+      { "n": 11, "url": "https://en.wiktionary.org/wiki/esagono", "title": "Wiktionary — esagono" },
+      { "n": 12, "url": "https://www.polimi.it/futuri-studenti/test-e-ammissione/laurea/design/in-cosa-consiste-il-told-e-come-prepararsi", "title": "Politecnico di Milano — TOLD Design: struttura, contenuti e preparazione (2026/27)" },
+      { "n": 13, "url": "https://www.pok.polimi.it/course/view.php?id=153", "title": "POK Polimi — Geometria e Rappresentazione per il Design (무료 온라인 강의)" },
+      { "n": 14, "url": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/Design_LT/Guida_test_told_26_ita.pdf", "title": "Politecnico di Milano — Guida test TOLD (2025-11-17)" }
+    ],
+    "written": "2026-11-11",
+    "checked": "2026-11-11"
+  }
+]
