@@ -1344,5 +1344,933 @@
       "https://sprachenzentrum.univie.ac.at/fileadmin/user_upload/PDF/GERS-Checklisten/Checklists_english/GERS_checklist_A1.pdf",
       "https://www.ucc.ie/en/splaslang/cefrlevels/"
     ]
+  },
+  {
+    "id": "essere",
+    "name": "essere",
+    "ipa": "ˈɛs.se.re",
+    "meanings": [
+      "~이다 (주어와 서술어를 잇는다)",
+      "있다, 존재하다"
+    ],
+    "note": "근과거 같은 복합 시제를 만드는 조동사로도 쓴다. 두 사전 모두 일부 자동사(예: andare)와 수동태·재귀 동사가 essere로 복합 시제를 만든다고 적고 있다 (Treccani는 \"많은 자동사\"라고 한다).",
+    "examples": [
+      {
+        "it": "la neve è bianca",
+        "ko": "눈은 하얗다"
+      },
+      {
+        "it": "Siamo qui.",
+        "ko": "우리는 여기 있어요."
+      }
+    ],
+    "related": [
+      "avere",
+      "stare"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/essere1/",
+      "https://en.wiktionary.org/wiki/essere",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "avere",
+    "name": "avere",
+    "ipa": "aˈve.re",
+    "meanings": [
+      "가지다, 가지고 있다"
+    ],
+    "note": "나이를 말할 때도 avere를 쓴다 (글자 그대로는 \"열일곱 해를 가지고 있다\"). Treccani는 모든 타동사와 대부분의 자동사가 avere로 근과거 같은 복합 시제를 만든다고 적고 있다.",
+    "examples": [
+      {
+        "it": "Ho una macchina.",
+        "ko": "나는 차가 있어요."
+      },
+      {
+        "it": "Ho diciassette anni.",
+        "ko": "나는 열일곱 살이에요."
+      }
+    ],
+    "related": [
+      "essere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/avere2/",
+      "https://en.wiktionary.org/wiki/avere",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "fare",
+    "name": "fare",
+    "ipa": "ˈfa.re",
+    "meanings": [
+      "하다",
+      "만들다"
+    ],
+    "note": "뜻이 아주 넓은 동사로, 뒤에 오는 말에 따라 여러 행동을 나타낸다고 Treccani는 설명한다.",
+    "examples": [
+      {
+        "it": "che cosa fai lì tutto solo?",
+        "ko": "거기서 혼자 뭐 하니?"
+      },
+      {
+        "it": "fare rumore",
+        "ko": "소음을 내다"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/fare2/",
+      "https://en.wiktionary.org/wiki/fare",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "andare",
+    "name": "andare",
+    "ipa": "anˈda.re",
+    "meanings": [
+      "가다"
+    ],
+    "note": "복합 시제는 essere로 만든다 (두 사전 모두). 현재형 vado처럼 몇몇 꼴에서는 and- 대신 vad- 줄기를 쓴다 (Treccani).",
+    "examples": [
+      {
+        "it": "andare a casa",
+        "ko": "집에 가다"
+      },
+      {
+        "it": "è questo il treno che va a Firenze?",
+        "ko": "이게 피렌체로 가는 기차인가요?"
+      }
+    ],
+    "related": [
+      "venire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/andare1/",
+      "https://en.wiktionary.org/wiki/andare",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "venire",
+    "name": "venire",
+    "ipa": "veˈni.re",
+    "meanings": [
+      "오다"
+    ],
+    "note": "Treccani는 andare가 말하는 사람에게서 멀어지는 움직임이라면 venire는 다가오는 움직임이라고 설명한다. 복합 시제는 essere로 만든다 (두 사전 모두).",
+    "examples": [
+      {
+        "it": "vieni con me",
+        "ko": "나랑 같이 와"
+      }
+    ],
+    "related": [
+      "andare"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/venire/",
+      "https://en.wiktionary.org/wiki/venire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "stare",
+    "name": "stare",
+    "ipa": "ˈsta.re",
+    "meanings": [
+      "머무르다, 그대로 있다",
+      "(몸이나 형편이) 어떠하다",
+      "(stare + 제룬디오) ~하고 있다"
+    ],
+    "note": "복합 시제는 essere로 만든다 (Wiktionary).",
+    "examples": [
+      {
+        "it": "come stai?",
+        "ko": "어떻게 지내?"
+      },
+      {
+        "it": "cosa stai facendo?",
+        "ko": "뭐 하고 있어?"
+      }
+    ],
+    "related": [
+      "essere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/stare/",
+      "https://en.wiktionary.org/wiki/stare",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "dare",
+    "name": "dare",
+    "ipa": "ˈda.re",
+    "meanings": [
+      "주다"
+    ],
+    "note": "현재형 3인칭 단수는 악센트를 붙여 dà로 쓴다 (두 사전의 활용표).",
+    "examples": [
+      {
+        "it": "dammi un bicchiere d’acqua",
+        "ko": "물 한 잔 줘"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dare2/",
+      "https://en.wiktionary.org/wiki/dare",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "dire",
+    "name": "dire",
+    "ipa": "ˈdi.re",
+    "meanings": [
+      "말하다"
+    ],
+    "examples": [
+      {
+        "it": "io dico ciò che penso",
+        "ko": "나는 내가 생각하는 것을 말한다"
+      },
+      {
+        "it": "non ha detto una parola",
+        "ko": "그는 한마디도 하지 않았다"
+      }
+    ],
+    "related": [
+      "parlare"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dire/",
+      "https://en.wiktionary.org/wiki/dire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "sapere",
+    "name": "sapere",
+    "ipa": "saˈpe.re",
+    "meanings": [
+      "알다",
+      "(배워서) ~할 줄 알다",
+      "(~의) 맛이나 냄새가 나다"
+    ],
+    "note": "세 번째 뜻은 sapere di ~ 꼴로 쓴다 (예: questo pollo sa di rosmarino, 이 닭고기는 로즈메리 맛이 난다 — Wiktionary).",
+    "examples": [
+      {
+        "it": "sa l'indirizzo",
+        "ko": "그는 주소를 안다"
+      },
+      {
+        "it": "so nuotare",
+        "ko": "나는 수영할 줄 안다"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/sapere2/",
+      "https://en.wiktionary.org/wiki/sapere",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "potere",
+    "name": "potere",
+    "ipa": "poˈte.re",
+    "meanings": [
+      "~할 수 있다",
+      "~일 수도 있다 (가능성)"
+    ],
+    "note": "묻는 꼴(posso …?)로 허락을 구하거나 공손하게 부탁할 때 쓴다고 Treccani는 적고 있다.",
+    "examples": [
+      {
+        "it": "Lei lo può fare.",
+        "ko": "그녀는 그것을 할 수 있다."
+      },
+      {
+        "it": "posso entrare?",
+        "ko": "들어가도 될까요?"
+      }
+    ],
+    "related": [
+      "volere",
+      "dovere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/potere2/",
+      "https://en.wiktionary.org/wiki/potere",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "volere",
+    "name": "volere",
+    "ipa": "voˈle.re",
+    "meanings": [
+      "원하다, ~하고 싶다"
+    ],
+    "examples": [
+      {
+        "it": "chi vuole, ottiene",
+        "ko": "원하는 사람은 얻는다"
+      }
+    ],
+    "related": [
+      "potere",
+      "dovere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/volere2/",
+      "https://en.wiktionary.org/wiki/volere",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "dovere",
+    "name": "dovere",
+    "ipa": "doˈve.re",
+    "meanings": [
+      "~해야 한다",
+      "(돈이나 무엇을) 빚지다"
+    ],
+    "note": "조건법(dovrei, dovresti …)으로 쓰면 \"~하는 게 좋겠다\"는 뜻이 된다고 두 사전 모두 적고 있다.",
+    "examples": [
+      {
+        "it": "il cittadino deve pagare le tasse",
+        "ko": "시민은 세금을 내야 한다"
+      },
+      {
+        "it": "Dovresti fare i compiti.",
+        "ko": "너는 숙제를 하는 게 좋겠어."
+      }
+    ],
+    "related": [
+      "potere",
+      "volere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dovere2/",
+      "https://en.wiktionary.org/wiki/dovere",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "uscire",
+    "name": "uscire",
+    "ipa": "uʃˈʃi.re",
+    "meanings": [
+      "나가다, 밖으로 나오다",
+      "(책·신문 따위가) 나오다, 발행되다"
+    ],
+    "note": "복합 시제는 essere로 만든다 (두 사전 모두). 현재형은 esco, esci, esce처럼 줄기가 바뀐다.",
+    "examples": [
+      {
+        "it": "è uscito un nuovo romanzo di quello scrittore",
+        "ko": "그 작가의 새 소설이 나왔다"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/uscire/",
+      "https://en.wiktionary.org/wiki/uscire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "parlare",
+    "name": "parlare",
+    "ipa": "parˈla.re",
+    "meanings": [
+      "말하다, 이야기하다"
+    ],
+    "note": "언어 이름과 함께 쓰면 그 언어를 할 줄 안다는 뜻이 된다고 Treccani는 적고 있다.",
+    "examples": [
+      {
+        "it": "parla bene il tedesco",
+        "ko": "그는 독일어를 잘한다"
+      }
+    ],
+    "related": [
+      "dire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/parlare2/",
+      "https://en.wiktionary.org/wiki/parlare",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "prendere",
+    "name": "prendere",
+    "ipa": "ˈprɛn.de.re",
+    "meanings": [
+      "잡다, 집다",
+      "(교통수단을) 타다"
+    ],
+    "examples": [
+      {
+        "it": "prendere il treno",
+        "ko": "기차를 타다"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/prendere/",
+      "https://en.wiktionary.org/wiki/prendere",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "capire",
+    "name": "capire",
+    "ipa": "kaˈpi.re",
+    "meanings": [
+      "이해하다, 알아듣다"
+    ],
+    "note": "현재형은 io capisco, tu capisci처럼 -isc-가 들어간다.",
+    "examples": [
+      {
+        "it": "Capisci?",
+        "ko": "알겠어?"
+      },
+      {
+        "it": "capisco bene quello che dici",
+        "ko": "네 말을 잘 알겠다"
+      }
+    ],
+    "related": [
+      "finire",
+      "preferire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/capire/",
+      "https://en.wiktionary.org/wiki/capire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "finire",
+    "name": "finire",
+    "ipa": "fiˈni.re",
+    "meanings": [
+      "끝내다, 마치다",
+      "끝나다"
+    ],
+    "note": "\"끝내다\"일 때는 avere로(Wiktionary), \"끝나다\"일 때는 essere로(두 사전 모두) 복합 시제를 만든다. 현재형은 io finisco처럼 -isc-가 들어간다.",
+    "examples": [
+      {
+        "it": "la lezione è finita",
+        "ko": "수업이 끝났다"
+      }
+    ],
+    "related": [
+      "capire",
+      "preferire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/finire/",
+      "https://en.wiktionary.org/wiki/finire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "preferire",
+    "name": "preferire",
+    "ipa": "pre.feˈri.re",
+    "meanings": [
+      "더 좋아하다"
+    ],
+    "note": "현재형은 io preferisco처럼 -isc-가 들어간다. 단계는 자료마다 다르다: Kelly 낱말 목록은 A2, 시에나 외국인 대학과 사피엔차 대학의 A1 교재는 A1 단원에서 다룬다.",
+    "examples": [
+      {
+        "it": "Preferisci arance o mele?",
+        "ko": "오렌지가 좋아, 사과가 좋아?"
+      }
+    ],
+    "related": [
+      "capire",
+      "finire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/preferire/",
+      "https://en.wiktionary.org/wiki/preferire",
+      "https://dipartimento.unistrasi.it/public/articoli/480/A1%20UD6.pdf",
+      "https://elearning.uniroma1.it/mod/resource/view.php?id=685429",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "vedere",
+    "name": "vedere",
+    "ipa": "veˈde.re",
+    "meanings": [
+      "보다",
+      "만나다"
+    ],
+    "examples": [
+      {
+        "it": "lo vedi da questa distanza?",
+        "ko": "이 거리에서 그게 보여?"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/vedere/",
+      "https://en.wiktionary.org/wiki/vedere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "mettere",
+    "name": "mettere",
+    "ipa": "ˈmet.te.re",
+    "meanings": [
+      "놓다, 두다, 넣다",
+      "(옷이나 신발을) 입다, 신다"
+    ],
+    "examples": [
+      {
+        "it": "Perché metti le calze sulla sedia?",
+        "ko": "왜 양말을 의자 위에 두니?"
+      }
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/mettere/",
+      "https://en.wiktionary.org/wiki/mettere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "punto",
+    "name": "punto",
+    "ipa": "ˈpun.to",
+    "meanings": [
+      "(기하) 점",
+      "마침표",
+      "(경기의) 점수"
+    ],
+    "note": "Treccani는 기하의 점을 위치만 있고 크기가 없는 도형이라고 설명한다. 단계는 낱말 전체의 단계다 (Kelly 목록).",
+    "related": [
+      "linea"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "punti",
+    "topics": [
+      "기하"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/punto2/",
+      "https://en.wiktionary.org/wiki/punto",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "linea",
+    "name": "linea",
+    "ipa": "ˈli.ne.a",
+    "meanings": [
+      "선"
+    ],
+    "note": "Treccani는 기하의 선을 길이 방향으로만 뻗는 도형이라고 설명하고, 직선은 linea retta, 곡선은 linea curva라고 한다.",
+    "related": [
+      "punto",
+      "lunghezza"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "linee",
+    "topics": [
+      "기하"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/linea/",
+      "https://en.wiktionary.org/wiki/linea",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "lato",
+    "name": "lato",
+    "ipa": "ˈla.to",
+    "meanings": [
+      "옆, 쪽, 면",
+      "(기하) 변"
+    ],
+    "note": "Treccani와 이탈리아어 위키낱말사전은 다각형을 이루는 선분과 각을 이루는 반직선을 모두 lato라고 한다.",
+    "related": [
+      "vertice",
+      "angolo"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "lati",
+    "topics": [
+      "기하"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/lato2/",
+      "https://en.wiktionary.org/wiki/lato",
+      "https://it.wiktionary.org/wiki/lato",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "figura",
+    "name": "figura",
+    "ipa": "fiˈɡu.ra",
+    "meanings": [
+      "(기하) 도형"
+    ],
+    "note": "Treccani는 평면에 다 들어가는 도형을 figura piana, 공간으로 뻗는 입체 도형을 figura solida라고 한다. 단계는 낱말 전체의 단계다 (Kelly 목록).",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "figure",
+    "topics": [
+      "기하"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/figura/",
+      "https://en.wiktionary.org/wiki/figura",
+      "https://it.wiktionary.org/wiki/figura",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "area",
+    "name": "area",
+    "ipa": "ˈa.re.a",
+    "meanings": [
+      "(기하) 넓이, 면적",
+      "지역, 구역"
+    ],
+    "related": [
+      "superficie"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "aree",
+    "topics": [
+      "기하"
+    ],
+    "level": "A1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/area/",
+      "https://en.wiktionary.org/wiki/area",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "vertice",
+    "name": "vertice",
+    "ipa": "ˈvɛr.ti.t͡ʃe",
+    "meanings": [
+      "(기하) 꼭짓점",
+      "꼭대기, 정점",
+      "정상 회담"
+    ],
+    "note": "Treccani는 기하에서 다각형이나 각의 변이 만나는 점이라고 설명한다.",
+    "related": [
+      "lato",
+      "angolo"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "vertici",
+    "topics": [
+      "기하"
+    ],
+    "level": "A2",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/vertice/",
+      "https://en.wiktionary.org/wiki/vertice",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "superficie",
+    "name": "superficie",
+    "ipa": "su.perˈfi.t͡ʃe",
+    "meanings": [
+      "표면, 겉면"
+    ],
+    "note": "Wiktionary는 \"넓이\"라는 뜻도 싣고 있다.",
+    "related": [
+      "area"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "superfici",
+    "topics": [
+      "기하"
+    ],
+    "level": "A2",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/superficie/",
+      "https://en.wiktionary.org/wiki/superficie",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "angolo",
+    "name": "angolo",
+    "ipa": "ˈan.ɡo.lo",
+    "meanings": [
+      "(기하) 각",
+      "모서리, 귀퉁이"
+    ],
+    "note": "Treccani: 직각은 angolo retto(90°), 예각은 acuto, 둔각은 ottuso, 평각은 piatto(180°)라고 한다.",
+    "related": [
+      "lato",
+      "vertice"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "angoli",
+    "topics": [
+      "기하"
+    ],
+    "level": "B1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/angolo/",
+      "https://en.wiktionary.org/wiki/angolo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "raggio",
+    "name": "raggio",
+    "ipa": "ˈrad.d͡ʒo",
+    "meanings": [
+      "빛살, 광선",
+      "(기하) 반지름",
+      "(바퀴의) 살"
+    ],
+    "note": "Treccani는 기하의 반지름을 원이나 구의 중심과 둘레(겉면)의 한 점을 잇는 선분이라고 설명한다.",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "raggi",
+    "topics": [
+      "기하"
+    ],
+    "level": "B1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/raggio/",
+      "https://en.wiktionary.org/wiki/raggio",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "lunghezza",
+    "name": "lunghezza",
+    "ipa": "lunˈɡet.t͡sa",
+    "meanings": [
+      "길이"
+    ],
+    "examples": [
+      {
+        "it": "lunghezza d'onda",
+        "ko": "파장"
+      }
+    ],
+    "related": [
+      "linea"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "lunghezze",
+    "topics": [
+      "기하"
+    ],
+    "level": "B1",
+    "checked": "2026-11-13",
+    "sources": [
+      "https://www.treccani.it/vocabolario/lunghezza/",
+      "https://en.wiktionary.org/wiki/lunghezza",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
   }
 ]
