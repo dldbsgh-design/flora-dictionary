@@ -102,5 +102,444 @@
     ],
     "written": "2026-11-11",
     "checked": "2026-11-11"
+  },
+  {
+    "id": "polimi-design-story-reading",
+    "no": 2,
+    "subject": "이탈리아어 독해",
+    "stage": "입문",
+    "title": "폴리테크니코와 디자인 학교 — 짧은 글 읽기",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [
+      "told-guide-reading"
+    ],
+    "sections": [
+      {
+        "heading": "Prima di leggere — 읽기 전에",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TOLD의 글 이해(**Comprensione verbale**) 영역에서는 짧은 이탈리아어 글을 읽고, 글에 적힌 내용만으로 답을 골라요. 이번 글은 내가 지원할 학교, **폴리테크니코 디 밀라노**(Politecnico di Milano)와 그 안의 디자인 학교 이야기예요. 아래 지문은 학교 공식 페이지와 위키백과, 신문 기사의 내용을 쉬운 이탈리아어로 다시 쓴 거예요.",
+            "cites": [
+              1,
+              2,
+              4
+            ]
+          },
+          {
+            "type": "p",
+            "text": "먼저 낱말을 훑어보고, 지문을 이탈리아어로 한 번 읽은 다음, 한국어 뜻을 확인하세요.",
+            "cites": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Parole nuove — 새 낱말",
+        "blocks": [
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "nascere (è nato / è nata)",
+                "ko": "태어나다 — 여기서는 (학교·과정이) 생기다"
+              },
+              {
+                "it": "fondatore",
+                "ko": "세운 사람, 설립자"
+              },
+              {
+                "it": "all'inizio",
+                "ko": "처음에는"
+              },
+              {
+                "it": "iscritto (복수 iscritti)",
+                "ko": "등록한 학생"
+              },
+              {
+                "it": "corso di laurea",
+                "ko": "학위 과정 (대학의 학과 과정)"
+              },
+              {
+                "it": "disegno industriale",
+                "ko": "산업 디자인"
+              },
+              {
+                "it": "sede (복수 sedi)",
+                "ko": "(기관이) 자리 잡은 곳, 지점 — 여기서는 캠퍼스"
+              },
+              {
+                "it": "durare",
+                "ko": "(시간이) 걸리다, 이어지다"
+              },
+              {
+                "it": "circa",
+                "ko": "약, 대략"
+              }
+            ],
+            "cites": [
+              2,
+              5,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Il testo — 지문",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "Il Politecnico di Milano è nato il 29 novembre 1863.",
+            "ko": "폴리테크니코 디 밀라노는 1863년 11월 29일에 생겼어요.",
+            "cites": [
+              1,
+              2
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il fondatore è il matematico Francesco Brioschi.",
+            "ko": "세운 사람은 수학자 프란체스코 브리오스키예요.",
+            "cites": [
+              1,
+              2,
+              17
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "All'inizio la scuola si chiama Istituto Tecnico Superiore.",
+            "ko": "처음에 학교 이름은 '고등 기술 학교'(Istituto Tecnico Superiore)예요.",
+            "cites": [
+              1,
+              2
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Secondo il sito del Politecnico, nel primo anno gli iscritti sono una trentina.",
+            "ko": "폴리테크니코 누리집에 따르면, 첫해에 등록한 학생은 서른 명쯤이에요.",
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "it",
+            "it": "Nel 1993 il Politecnico apre un corso di laurea in Disegno industriale.",
+            "ko": "1993년에 폴리테크니코는 산업 디자인 학위 과정을 열어요.",
+            "cites": [
+              2,
+              3,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Secondo il giornale Il Giorno, è il primo corso di questo tipo in Italia.",
+            "ko": "신문 「일 조르노」(Il Giorno)에 따르면, 이탈리아에서 이런 과정은 이것이 처음이에요.",
+            "cites": [
+              4
+            ]
+          },
+          {
+            "type": "it",
+            "it": "Nel 2000 nasce una nuova facoltà per il design: oggi si chiama Scuola del Design.",
+            "ko": "2000년에 디자인을 위한 새 단과대학이 생겨요. 지금 이름은 '디자인 학교'(Scuola del Design)예요.",
+            "cites": [
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Secondo il sito della Scuola, oggi ci sono due sedi: Milano Bovisa e Lecco.",
+            "ko": "디자인 학교 누리집에 따르면, 지금 캠퍼스는 두 곳이에요. 밀라노 보비사와 레코예요.",
+            "cites": [
+              5
+            ]
+          },
+          {
+            "type": "it",
+            "it": "Secondo il Politecnico, il corso di Design del Prodotto Industriale è a Milano Bovisa e dura tre anni.",
+            "ko": "폴리테크니코에 따르면, 제품 디자인 과정(Design del Prodotto Industriale)은 밀라노 보비사에 있고 3년이 걸려요.",
+            "cites": [
+              7
+            ]
+          },
+          {
+            "type": "it",
+            "it": "Secondo Il Giorno, nel 2023 la Scuola del Design ha circa 4.500 studenti.",
+            "ko": "「일 조르노」에 따르면, 2023년에 디자인 학교의 학생은 약 4,500명이에요.",
+            "cites": [
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Note sul testo — 지문 더 알기",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "이 글의 출처들도 날짜를 **il 29 novembre 1863**처럼 '일 · 월 · 년' 순서로 쓰고, 큰 수에는 점을 찍어 **circa 4.500**처럼 적어요.",
+            "cites": [
+              1,
+              4
+            ]
+          },
+          {
+            "type": "p",
+            "text": "학교 이름 Istituto Tecnico Superiore는 학교 누리집에 적힌 이름이에요. 위키백과는 앞에 'Regio'(왕립)를 붙여 **Regio Istituto Tecnico Superiore**라고 적어요.",
+            "cites": [
+              1,
+              2,
+              19
+            ]
+          },
+          {
+            "type": "p",
+            "text": "**una trentina**는 '서른 개쯤'이라는 말이에요. 학교 페이지에는 첫해 등록생이 서른 명쯤이고, 그 밖에 청강생(uditori) 일곱 명이 있었다고 적혀 있어요.",
+            "cites": [
+              1,
+              18
+            ]
+          },
+          {
+            "type": "p",
+            "text": "1993년 과정은 처음에 건축 단과대학(Facoltà di Architettura) 안에서 시작했어요. 위키백과도 디자인 학교가 1993년부터 건축 학위의 한 갈래로 있었다고 적어요. 디자인 역사 자료(Design Philology)에 따르면, 이 단과대학은 'Terza Facoltà di Architettura'(제3 건축 단과대학)라고 불리다가 나중에 Facoltà del Design이 되었어요. 지금 이름은 Scuola del Design이에요.",
+            "cites": [
+              2,
+              3
+            ]
+          },
+          {
+            "type": "p",
+            "text": "보비사로 옮긴 해는 자료마다 달라요. 학교의 캠퍼스 페이지는 1993년에 보비사의 옛 공장 터를 건축과 디자인의 캠퍼스로 바꿨다고 적고, 디자인 역사 자료(Design Philology)는 산업 디자인 과정이 1997년에 보비사로 옮겼다고 적어요. 위키백과는 보비사 캠퍼스가 1989년에 문을 열었다고 적어요. 그래서 지문에는 날짜 없이 '지금 보비사에 있다'만 썼어요.",
+            "cites": [
+              2,
+              3,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "실제 시험처럼 **지문에 적힌 내용만으로** 답을 고르세요. 문제와 보기는 이탈리아어예요.",
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Secondo il testo, quando è nato il Politecnico di Milano?",
+            "choices": [
+              "Nel 1863",
+              "Nel 1865",
+              "Nel 1927",
+              "Nel 1993",
+              "Nel 2000"
+            ],
+            "answer": 1,
+            "explain": "첫 문장 \"Il Politecnico di Milano è nato il 29 novembre **1863**.\"에 답이 있어요. 1993은 산업 디자인 과정이 열린 해, 2000은 디자인 단과대학이 생긴 해예요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Chi è Francesco Brioschi?",
+            "choices": [
+              "Un designer di Lecco",
+              "Il fondatore del Politecnico",
+              "Un giornalista di Il Giorno",
+              "Uno studente del 1993",
+              "Il direttore della Scuola del Design"
+            ],
+            "answer": 2,
+            "explain": "둘째 문장 \"Il **fondatore** è il matematico Francesco Brioschi.\"에서 브리오스키는 학교를 **세운 사람**(fondatore)이에요. 지문에는 그가 디자이너나 기자라는 말이 없어요.",
+            "cites": [
+              1,
+              17
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Che cosa succede nel 1993?",
+            "choices": [
+              "Nasce il Politecnico",
+              "La scuola si chiama Istituto Tecnico Superiore",
+              "Il Politecnico apre un corso di laurea in Disegno industriale",
+              "La Scuola del Design ha 4.500 studenti",
+              "Nasce la sede di Lecco"
+            ],
+            "answer": 3,
+            "explain": "\"Nel **1993** il Politecnico apre un corso di laurea in Disegno industriale.\" 문장에 답이 있어요. 학생 4,500명은 2023년의 수이고, 레코 캠퍼스가 생긴 해는 지문에 없어요.",
+            "cites": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Dove sono le sedi della Scuola del Design?",
+            "choices": [
+              "A Roma e a Torino",
+              "Solo a Lecco",
+              "A Milano Bovisa e a Lecco",
+              "A Pavia e a Como",
+              "Solo in piazza Leonardo da Vinci"
+            ],
+            "answer": 3,
+            "explain": "\"Secondo il sito della Scuola, oggi ci sono due sedi: **Milano Bovisa e Lecco**.\" 문장에 답이 있어요. sede는 '(기관이) 자리 잡은 곳'이고, 여기서는 캠퍼스예요.",
+            "cites": [
+              5
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Secondo il testo, quale frase è vera?",
+            "choices": [
+              "Il corso di Design del Prodotto Industriale dura cinque anni.",
+              "Nel primo anno gli iscritti sono circa trenta.",
+              "La nuova facoltà per il design nasce nel 1863.",
+              "Francesco Brioschi è un designer.",
+              "Nel 2023 la Scuola del Design ha 30 studenti."
+            ],
+            "answer": 2,
+            "explain": "\"nel primo anno gli iscritti sono **una trentina**\"는 첫해 학생이 **서른 명쯤**(circa trenta)이라는 뜻이라 B가 맞아요. 제품 디자인 과정은 3년(tre anni), 디자인 단과대학은 2000년, 브리오스키는 수학자, 2023년 학생은 약 4,500명이에요.",
+            "cites": [
+              1,
+              4,
+              7
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://www.polimi.it/il-politecnico/il-politecnico-nella-storia/le-origini",
+        "title": "Politecnico di Milano — Le origini"
+      },
+      {
+        "n": 2,
+        "url": "https://it.wikipedia.org/wiki/Politecnico_di_Milano",
+        "title": "Wikipedia (it) — Politecnico di Milano"
+      },
+      {
+        "n": 3,
+        "url": "https://designphilology.polimi.it/en/percorsi/30",
+        "title": "Politecnico di Milano, Design Philology — The startup years"
+      },
+      {
+        "n": 4,
+        "url": "https://www.ilgiorno.it/milano/cronaca/trentanni-di-design-il-politecnico-festeggia-il-primo-corso-ditalia-e-otto-studenti-eccellenti-fafd8e43",
+        "title": "Il Giorno — Trent'anni di design, il Politecnico festeggia il primo corso d'Italia (2023-10-19)"
+      },
+      {
+        "n": 5,
+        "url": "https://www.design.polimi.it/",
+        "title": "Scuola del Design — Politecnico di Milano"
+      },
+      {
+        "n": 6,
+        "url": "https://www.polimi.it/il-politecnico/architetture-al-politecnico-di-milano/campus-bassini/campus-durando",
+        "title": "Politecnico di Milano — Campus Durando"
+      },
+      {
+        "n": 7,
+        "url": "https://www.polimi.it/formazione/corsi-di-laurea/dettaglio-corso/design-del-prodotto-industriale",
+        "title": "Politecnico di Milano — Design del Prodotto Industriale (corso di laurea)"
+      },
+      {
+        "n": 8,
+        "url": "https://www.treccani.it/vocabolario/laurea/",
+        "title": "Treccani — laurea"
+      },
+      {
+        "n": 9,
+        "url": "https://it.wikipedia.org/wiki/Disegno_industriale",
+        "title": "Wikipedia (it) — Disegno industriale"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wiktionary.org/wiki/nascere",
+        "title": "Wiktionary — nascere"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wiktionary.org/wiki/fondatore",
+        "title": "Wiktionary — fondatore"
+      },
+      {
+        "n": 12,
+        "url": "https://en.wiktionary.org/wiki/inizio",
+        "title": "Wiktionary — inizio"
+      },
+      {
+        "n": 13,
+        "url": "https://en.wiktionary.org/wiki/iscritto",
+        "title": "Wiktionary — iscritto"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wiktionary.org/wiki/sede",
+        "title": "Wiktionary — sede"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wiktionary.org/wiki/durare",
+        "title": "Wiktionary — durare"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wiktionary.org/wiki/circa",
+        "title": "Wiktionary — circa"
+      },
+      {
+        "n": 17,
+        "url": "https://it.wikipedia.org/wiki/Francesco_Brioschi",
+        "title": "Wikipedia (it) — Francesco Brioschi"
+      },
+      {
+        "n": 18,
+        "url": "https://en.wiktionary.org/wiki/trentina",
+        "title": "Wiktionary — trentina"
+      },
+      {
+        "n": 19,
+        "url": "https://en.wiktionary.org/wiki/regio",
+        "title": "Wiktionary — regio"
+      }
+    ],
+    "written": "2026-11-14",
+    "checked": "2026-11-14"
   }
 ]
