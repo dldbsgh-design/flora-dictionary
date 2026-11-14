@@ -220,5 +220,135 @@
     ],
     "written": "2026-11-13",
     "checked": "2026-11-13"
+  },
+  {
+    "id": "art-preistoria-egitto",
+    "no": 1,
+    "subject": "디자인사·미술사",
+    "stage": "입문",
+    "title": "선사 시대와 고대 이집트의 미술 — Val Camonica, piramidi, Museo Egizio",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "Che cosa chiede il test — 시험이 묻는 것",
+        "blocks": [
+          { "type": "p", "text": "TOLD에는 **디자인사·미술사**(Storia del design, storia dell'arte) 영역이 있고, 12문제가 나와요. 시간은 자료마다 달라요. 학교 웹 페이지는 20분, 안내서(2025-11-17 판)는 10분으로 적었어요. 시험 전에 새 안내서로 다시 확인하세요.", "cites": [1, 2] },
+          { "type": "p", "text": "안내서에 따르면 이 영역에서 적어도 **2문제**는 맞혀야 합격자 명단(graduatoria)에 들 수 있어요.", "cites": [2] },
+          { "type": "it", "it": "Le domande riguardano l'evoluzione dell'arte dall'antichità a oggi.", "ko": "학교 페이지에 따르면, 문제는 고대부터 오늘까지 미술이 어떻게 바뀌어 왔는지를 다뤄요.", "cites": [1] },
+          { "type": "p", "text": "학교 페이지는 사건과 인물을 아는 것뿐 아니라 **시간 순서에 맞게 놓는 힘**도 본다고 적었어요. 그래서 미술사는 시대 순서대로, 가장 오래된 선사 시대부터 시작해요.", "cites": [1] }
+        ]
+      },
+      {
+        "heading": "L'arte rupestre della Val Camonica — 발 카모니카의 바위 그림",
+        "blocks": [
+          { "type": "p", "text": "**선사 시대**(preistoria) 사람들은 바위에 그림을 새겼어요. 이것을 **바위 미술**(arte rupestre)이라고 해요. 이탈리아에서는 롬바르디아주의 **발 카모니카**(Val Camonica) 골짜기에 이런 그림이 아주 많아요. 이탈리아어 위키백과는 이곳을 세계에서 가장 큰 선사 시대 바위 그림 모음 가운데 하나라고 적었어요.", "cites": [3, 4] },
+          { "type": "it", "it": "La Val Camonica si trova in provincia di Brescia, in Lombardia.", "ko": "발 카모니카는 롬바르디아주 브레샤 현에 있어요.", "cites": [3, 4], "key": true },
+          { "type": "it", "it": "Nel 1979 l'arte rupestre della Val Camonica è diventata il primo sito UNESCO italiano.", "ko": "1979년, 발 카모니카의 바위 미술은 이탈리아의 첫 유네스코 세계 유산이 되었어요.", "cites": [3, 4], "key": true },
+          { "type": "p", "text": "그림의 수는 자료마다 달라요. 이탈리아어 위키백과에 따르면 유네스코가 처음 인정한 그림은 14만 개가 넘고, 그 뒤의 연구는 20만 개, 많게는 30만 개로 짐작해요.", "cites": [3] },
+          { "type": "p", "text": "새긴 시기도 자료마다 달라요. 이탈리아어 위키백과는 중석기 시대(mesolitico)부터 철기 시대(Età del ferro)까지 약 **8000년** 동안이라고 적었고, 이탈리아 관광청 페이지(italia.it)의 나콰네 공원 소개는 기원전 5천 년기부터 1천 년기까지, 신석기 시대(Neolitico)부터 철기 시대까지라고 적었어요. 두 자료 모두 끝은 **철기 시대**예요.", "cites": [3, 4], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 그림 대부분은 **마르텔리나 기법**(tecnica della martellina)으로 만들었고, 긁어서 새긴 것(graffito)은 더 적어요.", "cites": [3] }
+        ]
+      },
+      {
+        "heading": "La Rosa camuna — 카무나 장미",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 **카무나 장미**(Rosa camuna)는 발 카모니카에서 가장 유명한 바위 그림 가운데 하나예요. 네 팔을 가진 굽은 선이 아홉 개의 점 사이를 지나는 모양이에요.", "cites": [5] },
+          { "type": "it", "it": "Il simbolo della Regione Lombardia si ispira alle incisioni rupestri della Val Camonica.", "ko": "롬바르디아주의 상징은 발 카모니카의 바위 그림에서 따왔어요.", "cites": [5, 6], "key": true },
+          { "type": "p", "text": "이 상징을 오늘의 모양으로 다듬은 사람은 디자이너 네 명, **브루노 무나리**(Bruno Munari), **밥 노르다**(Bob Noorda), **로베르토 삼보네**(Roberto Sambonet), **피노 토발리아**(Pino Tovaglia)이고, 때는 **1975년**이에요. 선사 시대의 그림이 현대 그래픽 디자인으로 이어진 예라서, 미술사와 디자인사를 함께 기억하기 좋아요.", "cites": [5, 6], "key": true }
+        ]
+      },
+      {
+        "heading": "Le regole dell'arte egizia — 이집트 미술의 규칙",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 고대 이집트 미술은 종교와 장례 전통에 깊이 이어져 있었어요. 그리고 사람을 그리는 정해진 규칙(convenzioni)이 있었어요.", "cites": [7] },
+          { "type": "it", "it": "Nella pittura egizia l'occhio e le spalle sono rappresentati di fronte.", "ko": "이집트 그림에서 눈과 어깨는 앞모습으로 그려요.", "cites": [7, 8], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 얼굴은 **옆모습**(di profilo)인데 눈은 **앞모습**(di fronte)이고, 어깨와 가슴은 앞모습, 골반은 4분의 3 방향, 다리는 옆모습이에요. 지오팝(Geopop) 기사는 몸의 모든 부분이 잘 보이게 하려는 것이었다고 설명해요.", "cites": [7, 8] },
+          { "type": "analogy", "text": "비유하자면, 한 사람을 여러 방향에서 찍은 사진 조각을 붙여 한 장으로 만든 것과 같아요. 부분마다 가장 잘 보이는 방향을 고른 거예요.", "cites": [7, 8] },
+          { "type": "it", "it": "Le persone più importanti sono disegnate più grandi.", "ko": "더 중요한 사람은 더 크게 그려요.", "cites": [7, 8], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 이집트 사람들은 몸의 부분 사이 비율을 정확히 맞추려고 **기하학적 격자**(reticoli geometrici)를 썼고, 고왕국 시대 조각에는 사람 몸을 만드는 **비율의 규칙**(canone di proporzioni)이 있었어요.", "cites": [7] }
+        ]
+      },
+      {
+        "heading": "Le piramidi di Giza — 기자의 피라미드",
+        "blocks": [
+          { "type": "it", "it": "Le piramidi erano tombe, per lo più dei faraoni.", "ko": "피라미드는 무덤이었고, 대부분 파라오의 무덤이었어요.", "cites": [9, 11], "key": true },
+          { "type": "p", "text": "가장 유명한 피라미드는 카이로 가까운 **기자**(Giza)에 있는 세 개로, **쿠푸**(Cheope), **카프레**(Chefren), **멘카우레**(Micerino)의 피라미드예요. 이탈리아어 이름을 기억해 두세요.", "cites": [9, 10, 11], "key": true },
+          { "type": "p", "text": "쿠푸의 피라미드는 셋 가운데 가장 커요. 쿠푸는 **제4왕조**(IV dinastia)의 파라오예요. 이탈리아어 위키백과는 쿠푸의 피라미드를 기원전 2560년쯤 지었다고 적었어요. 트레카니 백과사전에 따르면 이집트의 첫 피라미드는 제4왕조 초(기원전 27세기)에 생겼고, 그 전에 사카라(Saqqara)의 계단식 피라미드(기원전 2650년) 같은 시도가 있었으며, 기자의 피라미드는 제4왕조의 첫 피라미드보다 조금 뒤예요.", "cites": [9, 10, 11], "key": true },
+          { "type": "p", "text": "높이는 자료마다 달라요. 이탈리아어 위키백과는 처음 높이를 약 146.6m, 지금을 138.8m로 적었고, 트레카니 백과사전은 지금 높이를 136m로 적었어요.", "cites": [10, 11] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 쿠푸의 피라미드는 고대 세계 7대 불가사의(sette meraviglie) 가운데 가장 오래되었고, 지금까지 거의 그대로 남은 유일한 것이에요.", "cites": [11] }
+        ]
+      },
+      {
+        "heading": "Il Museo Egizio di Torino — 토리노 이집트 박물관",
+        "blocks": [
+          { "type": "p", "text": "토리노(Torino)의 **이집트 박물관**(Museo Egizio)은 이집트 유물을 아주 많이 가진 박물관이에요.", "cites": [12, 13] },
+          { "type": "it", "it": "Il Museo Egizio di Torino è nato nel 1824.", "ko": "토리노 이집트 박물관은 1824년에 생겼어요.", "cites": [12, 13], "key": true },
+          { "type": "p", "text": "베르나르디노 드로베티(Bernardino Drovetti)가 모은 유물을 왕 **카를로 펠리체**(Carlo Felice)가 사들이면서 박물관이 시작되었어요. 박물관 누리집은 이곳을 이집트 문화만 다루는 세계에서 **가장 오래된 박물관**이라고 소개해요.", "cites": [12, 13], "key": true },
+          { "type": "p", "text": "소장품은 약 **4만 점**(circa 40.000 reperti)이에요. 박물관 누리집에 따르면 그 가운데 약 3,300점을 전시실에서 볼 수 있어요.", "cites": [12, 13] }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          { "type": "terms", "items": [
+            { "it": "preistoria (여성)", "ko": "선사 시대" },
+            { "it": "incisione (여성)", "ko": "새김, 새긴 그림" },
+            { "it": "rupestre", "ko": "바위의, 바위에 있는" },
+            { "it": "roccia (여성)", "ko": "바위" },
+            { "it": "profilo (남성)", "ko": "옆모습 (di profilo = 옆모습으로)" },
+            { "it": "frontale", "ko": "앞쪽의, 정면의" }
+          ], "cites": [14, 15, 16, 17, 18, 19] },
+          { "type": "terms", "items": [
+            { "it": "piramide (여성)", "ko": "피라미드" },
+            { "it": "tomba (여성)", "ko": "무덤" },
+            { "it": "faraone (남성)", "ko": "파라오" },
+            { "it": "canone (남성)", "ko": "규칙, 기준" },
+            { "it": "museo (남성)", "ko": "박물관" },
+            { "it": "reperto (남성)", "ko": "(발굴된) 유물" }
+          ], "cites": [20, 21, 22, 23, 24, 25] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "실제 시험처럼 문제와 보기를 이탈리아어로 냈어요.", "cites": [1, 2] },
+          { "type": "quiz", "lang": "it", "q": "Quale fu il primo sito italiano riconosciuto dall'UNESCO, nel 1979?", "choices": ["Il centro storico di Roma", "L'area archeologica di Pompei", "L'arte rupestre della Val Camonica", "Venezia e la sua laguna", "Il centro storico di Firenze"], "answer": 3, "explain": "1979년 이탈리아의 첫 유네스코 세계 유산이 된 곳은 **발 카모니카의 바위 미술**(arte rupestre della Val Camonica)이에요.", "cites": [3, 4] },
+          { "type": "quiz", "lang": "it", "q": "In quale regione si trova la Val Camonica?", "choices": ["Piemonte", "Lombardia", "Veneto", "Toscana", "Sicilia"], "answer": 2, "explain": "발 카모니카는 브레샤 현, **롬바르디아**(Lombardia)주에 있어요. 그래서 바위 그림 카무나 장미(Rosa camuna)가 롬바르디아주의 상징이 되었어요.", "cites": [3, 4, 5, 6] },
+          { "type": "quiz", "lang": "it", "q": "Nella pittura egizia, come è rappresentato di solito l'occhio?", "choices": ["Di profilo", "Di fronte", "Chiuso", "Di spalle", "Non è rappresentato"], "answer": 2, "explain": "얼굴은 옆모습(di profilo)이어도 눈은 **앞모습**(di fronte)으로 그려요. 어깨도 앞모습이에요.", "cites": [7, 8] },
+          { "type": "quiz", "lang": "it", "q": "A che cosa servivano le piramidi dell'antico Egitto?", "choices": ["Erano case per il popolo", "Erano mercati", "Erano tombe, per lo più dei faraoni", "Erano fortezze militari", "Erano scuole"], "answer": 3, "explain": "피라미드는 **무덤**(tombe)이었고, 대부분 파라오(faraoni)의 무덤이었어요. 기자에는 쿠푸(Cheope), 카프레(Chefren), 멘카우레(Micerino)의 피라미드가 있어요.", "cites": [9, 10, 11] },
+          { "type": "quiz", "lang": "it", "q": "In quale anno è nato il Museo Egizio di Torino?", "choices": ["1724", "1824", "1861", "1900", "1946"], "answer": 2, "explain": "토리노 이집트 박물관(Museo Egizio)은 **1824년**에 생겼어요. 왕 카를로 펠리체가 드로베티의 수집품을 사들인 해예요.", "cites": [12, 13] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://www.polimi.it/futuri-studenti/test-e-ammissione/laurea/design/in-cosa-consiste-il-told-e-come-prepararsi", "title": "Politecnico di Milano — TOLD Design: struttura, contenuti e preparazione (2026/27)" },
+      { "n": 2, "url": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/Design_LT/Guida_test_told_26_ita.pdf", "title": "Politecnico di Milano — Guida test TOLD (2025-11-17)" },
+      { "n": 3, "url": "https://it.wikipedia.org/wiki/Incisioni_rupestri_della_Val_Camonica", "title": "Wikipedia (italiano) — Incisioni rupestri della Val Camonica" },
+      { "n": 4, "url": "https://www.italia.it/it/lombardia/brescia/parco-nazionale-delle-incisioni-rupestri-di-naquane", "title": "Italia.it (ENIT) — Parco Nazionale delle Incisioni Rupestri di Naquane" },
+      { "n": 5, "url": "https://it.wikipedia.org/wiki/Rosa_camuna", "title": "Wikipedia (italiano) — Rosa camuna" },
+      { "n": 6, "url": "https://www.milanofree.it/milano/tradizioni/bandiera-della-lombardia-cose-la-rosa-camuna-e-quando-e-diventata-ufficiale.html", "title": "MilanoFree — Bandiera della Lombardia: cos'è la Rosa Camuna" },
+      { "n": 7, "url": "https://it.wikipedia.org/wiki/Arte_egizia", "title": "Wikipedia (italiano) — Arte egizia" },
+      { "n": 8, "url": "https://www.geopop.it/perche-gli-egizi-disegnavano-le-persone-di-profilo/", "title": "Geopop — Perché gli Egizi disegnavano le persone di profilo" },
+      { "n": 9, "url": "https://www.treccani.it/enciclopedia/piramide/", "title": "Treccani Enciclopedia — piramide" },
+      { "n": 10, "url": "https://www.treccani.it/enciclopedia/giza/", "title": "Treccani Enciclopedia — Giza" },
+      { "n": 11, "url": "https://it.wikipedia.org/wiki/Piramide_di_Cheope", "title": "Wikipedia (italiano) — Piramide di Cheope" },
+      { "n": 12, "url": "https://www.museoegizio.it/scopri/storia/", "title": "Museo Egizio — Storia" },
+      { "n": 13, "url": "https://it.wikipedia.org/wiki/Museo_egizio_(Torino)", "title": "Wikipedia (italiano) — Museo egizio (Torino)" },
+      { "n": 14, "url": "https://en.wiktionary.org/wiki/preistoria", "title": "Wiktionary — preistoria" },
+      { "n": 15, "url": "https://en.wiktionary.org/wiki/incisione", "title": "Wiktionary — incisione" },
+      { "n": 16, "url": "https://en.wiktionary.org/wiki/rupestre", "title": "Wiktionary — rupestre" },
+      { "n": 17, "url": "https://en.wiktionary.org/wiki/roccia", "title": "Wiktionary — roccia" },
+      { "n": 18, "url": "https://en.wiktionary.org/wiki/profilo", "title": "Wiktionary — profilo" },
+      { "n": 19, "url": "https://en.wiktionary.org/wiki/frontale", "title": "Wiktionary — frontale" },
+      { "n": 20, "url": "https://en.wiktionary.org/wiki/piramide", "title": "Wiktionary — piramide" },
+      { "n": 21, "url": "https://en.wiktionary.org/wiki/tomba", "title": "Wiktionary — tomba" },
+      { "n": 22, "url": "https://en.wiktionary.org/wiki/faraone", "title": "Wiktionary — faraone" },
+      { "n": 23, "url": "https://en.wiktionary.org/wiki/canone", "title": "Wiktionary — canone" },
+      { "n": 24, "url": "https://en.wiktionary.org/wiki/museo", "title": "Wiktionary — museo" },
+      { "n": 25, "url": "https://en.wiktionary.org/wiki/reperto", "title": "Wiktionary — reperto" }
+    ],
+    "written": "2026-11-14",
+    "checked": "2026-11-14"
   }
 ]
