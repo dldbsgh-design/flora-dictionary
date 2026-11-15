@@ -573,5 +573,317 @@
     ],
     "written": "2026-11-08",
     "checked": "2026-11-08"
+  },
+  {
+    "id": "html-document-structure",
+    "no": 2,
+    "subject": "HTML과 CSS",
+    "stage": "입문",
+    "title": "HTML 태그와 문서 구조",
+    "version": "HTML Living Standard",
+    "needs": [
+      "web-page-parts"
+    ],
+    "sections": [
+      {
+        "heading": "요소 안에 요소 넣기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              2
+            ],
+            "text": "앞 글에서 HTML은 **요소**로 이루어지고, 요소는 여는 태그와 닫는 태그로 내용을 감싼다는 것을 봤어요. 이번 글에서는 요소를 쓸 때 지켜야 하는 규칙과, 모든 HTML 문서에 넣어야 하는 **뼈대**를 살펴볼게요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              2,
+              3
+            ],
+            "text": "요소는 다른 요소 안에 들어갈 수 있어요. MDN은 이것을 **중첩**(nesting)이라고 불러요. web.dev는 `<html>`이 `<head>`와 `<body>`를 감싸고 있으니 `<html>`을 **부모**(parent), 그 안의 두 요소를 **자식**(child)이라고 불러요. 같은 방식으로 보면 아래 예에서는 `<p>`가 부모이고 `<strong>`이 자식이에요."
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "`<strong>` 요소가 `<p>` 요소 안에 통째로 들어가 있어요.",
+            "cites": [
+              1,
+              2
+            ],
+            "text": "<p>라벤더는 <strong>보라색</strong> 꽃이에요.</p>"
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              2
+            ],
+            "text": "중첩할 때는 태그가 서로 **겹치면 안 돼요**. 안에 들어간 요소는 부모 안에서 시작해서 부모 안에서 끝나야 해요. web.dev는 태그를 연 순서의 반대로 닫아야 한다고 설명해요. 즉 나중에 연 태그를 먼저 닫아요. MDN은 태그가 겹치면 브라우저가 글쓴이의 뜻을 짐작해야 하고, 그 짐작 때문에 예상하지 못한 결과가 나올 수 있다고 말해요."
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "잘못된 예예요. `<strong>`을 `<p>` 안에서 열었는데, `</p>`로 부모를 먼저 닫아 버렸어요.",
+            "text": "<p>라벤더는 <strong>보라색 꽃이에요.</p></strong>"
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              2
+            ],
+            "text": "큰 상자 안에 작은 상자를 넣었다면, 작은 상자의 뚜껑을 먼저 닫아야 큰 상자의 뚜껑을 닫을 수 있어요. 태그도 마찬가지로 안쪽(나중에 연 것)을 먼저 닫고 바깥쪽을 나중에 닫아요."
+          }
+        ]
+      },
+      {
+        "heading": "태그를 쓸 때 알아 둘 규칙",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              2,
+              6
+            ],
+            "text": "HTML 명세(HTML의 공식 규칙을 적은 문서)는 태그 이름이 **대소문자를 구분하지 않는다**고 정해요. 그래서 `<P>`와 `<p>`는 같은 태그예요. web.dev도 같은 설명을 하면서, 읽기 쉽도록 소문자로 쓰기를 권해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              2,
+              6
+            ],
+            "text": "앞 글에서 본 `<img>`처럼 태그 하나로만 이루어진 요소가 있어요. 이런 요소를 **빈 요소**(void element)라고 해요. MDN과 web.dev는 빈 요소가 안에 다른 내용을 담을 수 없다고 설명하고, HTML 명세는 빈 요소에는 닫는 태그를 쓰면 안 된다고 정해요. 명세에 나오는 빈 요소에는 그림을 넣는 `<img>`, 줄을 바꾸는 `<br>`, 그리고 아래에서 볼 `<meta>`와 `<link>` 등이 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              6
+            ],
+            "text": "빈 요소를 `<br />`처럼 끝에 빗금(`/`)을 붙여 쓰는 경우도 있어요. MDN은 이것이 틀린 것은 아니지만 꼭 필요하지는 않다고 설명하고, HTML 명세도 이 빗금에는 아무 효과가 없다고 적어요. 이 강의의 예시에서는 빗금을 붙여 쓰지만, 붙이지 않아도 똑같이 동작해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "web.dev에 따르면 `</li>`처럼 몇몇 닫는 태그는 생략해도 규칙에 어긋나지 않아요. 하지만 web.dev는 이것이 좋은 습관은 아니라고 말해요. 닫는 태그가 없으면 브라우저가 요소가 어디서 끝나는지 짐작해야 하고, 그 짐작이 틀릴 수 있기 때문이에요. 처음 배울 때는 닫는 태그를 빠짐없이 쓰는 편이 안전해요."
+          }
+        ]
+      },
+      {
+        "heading": "HTML 문서의 뼈대",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              3
+            ],
+            "text": "HTML 문서는 정해진 뼈대 위에 내용을 채워 만들어요. MDN과 web.dev는 모두 아래와 비슷한 기본 구조를 보여 줘요. 한 줄씩 무슨 뜻인지 차례로 볼게요."
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "HTML 문서의 기본 뼈대예요. `<head>`와 `<body>`가 `<html>` 안에 나란히 들어 있어요.",
+            "cites": [
+              1,
+              3
+            ],
+            "text": "<!doctype html>\n<html lang=\"ko\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>오늘의 꽃</title>\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body>\n    <h1>오늘의 꽃</h1>\n    <p>라벤더는 보라색 꽃이에요.</p>\n  </body>\n</html>"
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              5,
+              6
+            ],
+            "text": "맨 첫 줄 `<!doctype html>`은 **문서 형식 선언**(doctype)이에요. 요소가 아니라 문서 맨 앞에 붙이는 표시예요. HTML 명세는 이것을 꼭 있어야 하는 머리말이라고 하고, 빠뜨리면 브라우저가 일부 명세와 맞지 않는 방식으로 화면을 그리는 경우가 많다고 설명해요. MDN에 따르면 이 방식은 **쿼크 모드**(quirks mode)라고 부르는데, 웹 표준이 널리 쓰이기 전에 만든 옛날 사이트를 위해 옛 브라우저의 동작을 흉내 내는 방식이에요. web.dev는 문서 형식 선언이 브라우저에게 **표준 모드**를 쓰라고 알려 준다고 설명해요. MDN에 따르면 표준 모드(no-quirks mode)는 브라우저가 지금의 HTML과 CSS 명세에 적힌 대로 동작하는 방식이에요. MDN은 `<!doctype html>`이 가장 간단하고 현재 HTML 표준이 권하는 형태이며, 문서의 맨 처음, 다른 어떤 내용보다 앞에 두라고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6,
+              3
+            ],
+            "text": "같은 선언을 `<!DOCTYPE html>`처럼 대문자로 쓴 예도 자주 볼 수 있어요. web.dev의 예시가 이렇게 써요. HTML 명세에 따르면 이 선언의 글자는 대소문자를 가리지 않으므로 두 가지는 같은 뜻이에요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3
+            ],
+            "text": "`<html>` 요소는 페이지의 모든 내용을 감싸요. MDN과 web.dev는 이 요소를 **루트 요소**(root element), 즉 맨 바깥의 뿌리가 되는 요소라고 불러요. web.dev는 `<html>`이 `<head>`와 `<body>`의 부모라고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3,
+              4
+            ],
+            "text": "`<html>`에 붙은 `lang` 속성은 페이지의 주된 **언어**를 알려 줘요. MDN은 언어를 정해 두면 검색 엔진이 페이지를 더 잘 색인(정리)할 수 있고, 화면의 글을 소리로 읽어 주는 **화면 낭독기**(screen reader)에도 도움이 된다고 설명해요. 예를 들어 같은 글자로 쓰는 낱말이라도 언어에 따라 발음이 다르기 때문이에요. MDN과 web.dev는 페이지의 일부만 다른 언어라면 그 부분을 감싼 요소에 따로 `lang`을 붙일 수 있다고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "head와 body",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              4
+            ],
+            "text": "`<html>` 안은 크게 두 부분으로 나뉘어요. **`<head>`**에는 페이지를 보는 사람에게 보여 주는 내용이 아니라, 페이지에 대한 정보가 들어가요. web.dev는 이것을 **메타데이터**(metadata)라고 부르고, MDN은 `<head>`가 페이지를 불러왔을 때 브라우저 화면에 나타나지 않는 부분이라고 설명해요. 반대로 **`<body>`**에는 글, 그림, 영상처럼 화면에 보이는 모든 내용이 들어가요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              4
+            ],
+            "text": "`<meta charset=\"utf-8\" />`은 문서의 **문자 인코딩**을 정해요. 문자 인코딩은 MDN의 설명으로는 문서에서 쓸 수 있는 글자의 모음을 정하는 것이에요. MDN은 UTF-8이 사람이 쓰는 거의 모든 언어의 글자를 담고 있어서 모든 페이지에 설정하는 것이 좋다고 하고, 인코딩이 맞지 않으면 글자가 깨져 보일 수 있다고 설명해요. web.dev는 이 줄을 `<head>`의 첫 요소로, `<title>`보다 앞에 두라고 권해요. 그래야 브라우저가 제목과 나머지 문서를 제대로 보여 줄 수 있다고 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              4
+            ],
+            "text": "`<title>`은 페이지의 **제목**이에요. MDN과 web.dev에 따르면 이 제목은 브라우저 탭에 나타나요. MDN은 페이지를 즐겨찾기에 넣을 때 이름으로도 쓰인다고 설명해요. 페이지 안에 크게 보이는 `<h1>` 제목과는 달라요. MDN은 `<h1>`은 화면에 나타나는 내용의 제목이고, `<title>`은 문서 전체를 나타내는 메타데이터라고 구분해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "`<meta name=\"viewport\" content=\"width=device-width\" />`는 휴대전화처럼 작은 화면을 위한 설정이에요. web.dev에 따르면 이 줄은 내용의 너비를 화면의 너비에 맞추라는 뜻이고, 화면 크기에 맞춰 보이는 페이지를 만드는 데 꼭 필요해요. web.dev는 문자 인코딩, 제목, 그리고 이 viewport 설정을 항상 넣으라고 권해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3,
+              4
+            ],
+            "text": "CSS 파일을 불러오는 `<link>`는 `<head>` 안에 넣어요. MDN과 web.dev 모두 스타일은 `<head>`에 두라고 해요. JavaScript 파일을 불러오는 `<script>`는 자료마다 조금 달라요. MDN은 앞 글의 예처럼 `defer`를 붙여 `<head>`에 넣으라고 하지만, web.dev는 `<head>` 대신 문서 끝에 두는 경우도 많다고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "빈칸, 들여쓰기, 주석",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "MDN에 따르면 HTML은 거의 모든 요소 안에서 빈칸이나 줄바꿈이 여러 개 이어져 있어도 화면에는 한 칸으로 줄여서 보여 줘요. 그래서 위의 뼈대처럼 안쪽 요소를 몇 칸 들여 써도 화면 모양은 바뀌지 않아요. 들여쓰기는 주로 코드를 읽기 쉽게 하려는 것이에요. MDN은 안에 들어간 요소마다 두 칸씩 더 들여 쓰는 방식을 쓴다고 말해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3
+            ],
+            "text": "`<!--`와 `-->` 사이에 쓴 글은 **주석**(comment)이에요. MDN에 따르면 브라우저는 주석을 무시하기 때문에 페이지를 보는 사람에게는 보이지 않아요. MDN은 주석이 코드가 어떻게 동작하는지 설명하는 메모를 남기는 데 쓰인다고 하고, web.dev도 주석 안의 내용은 화면에 나타나지 않는다고 설명해요."
+          },
+          {
+            "type": "code",
+            "lang": "html",
+            "caption": "화면에는 첫 번째 문단만 보이고, 주석으로 감싼 아래 두 줄은 보이지 않아요.",
+            "text": "<p>라벤더는 보라색 꽃이에요.</p>\n<!-- 사진은 다음 글에서 넣을 거예요 -->\n<!-- <p>이 문단은 보이지 않아요.</p> -->"
+          },
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "그렇다면 화면에 `<p>`라는 글자 자체를 보여 주고 싶을 때는 어떻게 할까요? MDN에 따르면 `<`, `>`, `&`, 따옴표 같은 글자는 HTML에서 특별한 뜻이 있어서, 글자로 보여 주려면 **문자 참조**를 써야 해요. 문자 참조는 `&`로 시작해서 `;`로 끝나고, 예를 들어 `<`는 `&lt;`, `>`는 `&gt;`, `&`는 `&amp;`, 큰따옴표 `\"`는 `&quot;`로 써요. MDN은 문서의 인코딩이 UTF-8이라면 그 밖의 기호는 문자 참조 없이 그대로 써도 된다고 설명해요."
+          }
+        ]
+      },
+      {
+        "heading": "이 사전 사이트의 뼈대",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              3
+            ],
+            "text": "지금 보고 있는 이 사전 사이트의 `index.html`도 같은 뼈대로 시작해요. 첫 줄은 `<!doctype html>`이고, 그다음 `<html lang=\"ko\">`로 페이지의 언어를 정해요. `<head>` 안의 첫 요소는 `<meta charset=\"utf-8\">`이고, 이어서 viewport 설정과 `<title>포트폴리오</title>`가 나와요. 그래서 처음 표지를 열면 브라우저 탭에 '포트폴리오'라는 제목이 보여요. 다만 이 사이트는 다른 쪽으로 넘어갈 때마다 JavaScript(`js/app.js`)가 탭 제목을 새로 정해서, 지금 이 글을 볼 때는 탭에 글 제목과 책 이름 뒤로 '포트폴리오'가 붙어 보여요. 이 파일은 빈 요소 끝에 빗금을 붙이지 않았는데, 앞에서 본 것처럼 붙여도 안 붙여도 같은 뜻이에요."
+          }
+        ]
+      },
+      {
+        "heading": "정리",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              2,
+              3,
+              6
+            ],
+            "text": "정리하면, 요소는 다른 요소 안에 중첩할 수 있지만 태그가 서로 겹치지 않게 안쪽부터 닫아야 해요. `<img>`, `<meta>` 같은 빈 요소는 닫는 태그를 쓰지 않아요. HTML 문서는 `<!doctype html>`로 시작하고, 루트 요소 `<html>` 안에 페이지 정보를 담는 `<head>`와 화면에 보이는 내용을 담는 `<body>`가 들어가요. 다음 글에서는 `<body>` 안에 글과 링크, 그림을 넣는 요소를 살펴볼게요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax",
+        "title": "Basic HTML syntax — MDN"
+      },
+      {
+        "n": 2,
+        "url": "https://web.dev/learn/html/overview",
+        "title": "Overview of HTML — web.dev"
+      },
+      {
+        "n": 3,
+        "url": "https://web.dev/learn/html/document-structure",
+        "title": "Document structure — web.dev"
+      },
+      {
+        "n": 4,
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata",
+        "title": "What's in the head? Web page metadata — MDN"
+      },
+      {
+        "n": 5,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode",
+        "title": "Quirks mode and standards mode — MDN"
+      },
+      {
+        "n": 6,
+        "url": "https://html.spec.whatwg.org/multipage/syntax.html",
+        "title": "HTML Living Standard — 13 The HTML syntax (WHATWG)"
+      }
+    ],
+    "written": "2026-11-16",
+    "checked": "2026-11-16"
   }
 ]
