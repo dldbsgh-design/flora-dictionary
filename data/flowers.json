@@ -2993,5 +2993,241 @@
     },
     "sources": ["https://en.wikipedia.org/wiki/Myrtus_communis", "https://ja.wikipedia.org/wiki/ギンバイカ", "https://ko.wikipedia.org/wiki/도금양과", "https://greensnap.co.jp/columns/myrtle_language"],
     "checked": "2026-11-01"
+  },
+  {
+    "id": "chimonanthus-praecox",
+    "name": "납매",
+    "latin": "Chimonanthus praecox",
+    "aka": [
+      "Wintersweet",
+      "Japanese allspice",
+      "ロウバイ (蠟梅)"
+    ],
+    "family": "받침꽃과",
+    "origin": "중국",
+    "note": "잎이 없는 가지에 향기로운 노란 꽃이 약간 아래를 향해 핀다. 꽃의 바깥쪽은 옅은 노란색이고 안쪽은 짙은 자주색이다. 보통 1~2월에 피며, 이름은 '섣달에 피는 매화'라는 뜻이다.",
+    "colors": [
+      "노랑",
+      "자주"
+    ],
+    "seasons": [
+      "겨울"
+    ],
+    "moods": [
+      "고요함",
+      "따뜻함",
+      "소박함"
+    ],
+    "meanings": [
+      {
+        "text": "자애 (慈しみ)",
+        "region": "일본",
+        "sources": [
+          "https://coloria.jp/magazine/articles/4gqdG",
+          "https://www.veltra.com/jp/yokka/article/how-to-grow-carolina-allspice/"
+        ]
+      },
+      {
+        "text": "그윽함 (ゆかしさ)",
+        "region": "일본",
+        "sources": [
+          "https://coloria.jp/magazine/articles/4gqdG",
+          "https://www.veltra.com/jp/yokka/article/how-to-grow-carolina-allspice/"
+        ]
+      },
+      {
+        "text": "선도 (先導)",
+        "region": "일본",
+        "sources": [
+          "https://coloria.jp/magazine/articles/4gqdG",
+          "https://www.veltra.com/jp/yokka/article/how-to-grow-carolina-allspice/"
+        ]
+      },
+      {
+        "text": "선견 (先見)",
+        "region": "일본",
+        "sources": [
+          "https://coloria.jp/magazine/articles/4gqdG",
+          "https://www.veltra.com/jp/yokka/article/how-to-grow-carolina-allspice/"
+        ]
+      }
+    ],
+    "pairs": [
+      "prunus-mume",
+      "narcissus"
+    ],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/chimonanthus-praecox.jpg",
+      "author": "Agunduz5",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chimonanthus_praecox_27.12.2023.jpg"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chimonanthus_praecox",
+      "https://ko.wikipedia.org/wiki/납매",
+      "https://coloria.jp/magazine/articles/4gqdG",
+      "https://www.veltra.com/jp/yokka/article/how-to-grow-carolina-allspice/",
+      "https://san-tatsu.jp/articles/294322/"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "sternbergia-lutea",
+    "name": "스테른베르기아",
+    "latin": "Sternbergia lutea",
+    "aka": [
+      "Winter daffodil",
+      "Autumn daffodil",
+      "Lily-of-the-field"
+    ],
+    "family": "수선화과",
+    "origin": "서지중해 발레아레스 제도에서 중앙아시아 타지키스탄까지",
+    "note": "원산지에서는 가을(9~11월)에 잎이 나고 곧이어 짙은 노란 꽃이 핀다. 꽃잎(화피) 6장은 길이 3~3.5cm이고 노란 수술 6개가 있다. 윤기 나는 초록 잎은 겨울 내내 남고, 여름에는 알뿌리로 쉰다.",
+    "colors": [
+      "노랑"
+    ],
+    "seasons": [
+      "가을"
+    ],
+    "moods": [
+      "명랑",
+      "따뜻함",
+      "생명력"
+    ],
+    "meanings": [],
+    "pairs": [],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/sternbergia-lutea.jpg",
+      "author": "Harlock81",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sternbergia_lutea_-_Orto_e_Museo_Botanico_di_Pisa_-_2024-09-30_17-19-27_002.jpg"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sternbergia_lutea"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "cyclamen-hederifolium",
+    "name": "아이비잎 시클라멘",
+    "latin": "Cyclamen hederifolium",
+    "aka": [
+      "Ivy-leaved cyclamen",
+      "Sowbread"
+    ],
+    "family": "앵초과",
+    "origin": "남프랑스, 스위스 남부, 이탈리아, 발칸반도 대부분, 그리스, 튀르키예 서부와 지중해 섬들",
+    "note": "늦여름에서 가을, 잎보다 먼저 꽃이 핀다(야생에서는 8~10월). 꽃잎 5장은 길이 1.2~2.5cm이고, 꽃 입구 쪽 꽃잎 밑부분의 가장자리가 바깥으로 젖혀져 귀 모양을 이룬다. 꽃은 대개 분홍색이며 흰 꽃도 있고, 가끔 달콤한 향이 난다.",
+    "colors": [
+      "분홍",
+      "보라",
+      "흰색"
+    ],
+    "seasons": [
+      "여름",
+      "가을"
+    ],
+    "moods": [
+      "섬세함",
+      "고요함",
+      "우수"
+    ],
+    "meanings": [],
+    "pairs": [],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/cyclamen-hederifolium.jpg",
+      "author": "Dominicus Johannes Bergsma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cyclamen_hederifolium_05-08-2020_(d.j.b.)_01.jpg"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cyclamen_hederifolium",
+      "https://www.cyclamen.org/plants/species/cyclamen-hederifolium/"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "arbutus-unedo",
+    "name": "스트로베리 트리",
+    "latin": "Arbutus unedo",
+    "aka": [
+      "Strawberry-tree",
+      "Corbezzolo",
+      "Killarney strawberry tree"
+    ],
+    "family": "진달래과",
+    "origin": "지중해 분지와 서유럽 (아일랜드에서 지중해까지)",
+    "note": "가을에 붉은빛이 도는 늘어진 꽃차례에 지름 6~8mm의 종 모양 꽃이 15~20송이씩 모여 피고, 꿀 같은 달콤한 향이 난다. 꽃은 대개 흰색이고 드물게 연분홍빛을 띤다. 열매는 이듬해 꽃이 필 무렵 빨갛게 익는다. 초록 잎, 흰 꽃, 빨간 열매가 이탈리아 국기를 떠올리게 해 이탈리아의 나라 나무로 불린다.",
+    "colors": [
+      "흰색",
+      "연분홍"
+    ],
+    "seasons": [
+      "가을"
+    ],
+    "moods": [
+      "따뜻함",
+      "소박함",
+      "생명력"
+    ],
+    "meanings": [],
+    "pairs": [],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/arbutus-unedo.jpg",
+      "author": "P.gibellini",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Arbutus_unedo_flowers.jpg"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arbutus_unedo",
+      "https://www.rhs.org.uk/plants/1473/arbutus-unedo/details"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "iris-unguicularis",
+    "name": "알제리아 아이리스",
+    "latin": "Iris unguicularis",
+    "aka": [
+      "Algerian iris",
+      "Iris stylosa"
+    ],
+    "family": "붓꽃과",
+    "origin": "알제리, 튀니지, 그리스, 튀르키예, 시리아 서부",
+    "note": "겨울에서 이른 봄에 연보라~보라 꽃이 피고, 아래로 처진 꽃잎(폴) 가운데에 노란 띠가 있다. 꽃에 향기가 있고 꽃통이 최대 20cm로 길다. 늘푸른 풀잎 같은 잎을 가진 뿌리줄기 식물로 키는 30cm쯤이다.",
+    "colors": [
+      "보라"
+    ],
+    "seasons": [
+      "겨울",
+      "봄"
+    ],
+    "moods": [
+      "고요함",
+      "우아함",
+      "맑음"
+    ],
+    "meanings": [],
+    "pairs": [],
+    "scents": [],
+    "photo": {
+      "file": "images/flowers/iris-unguicularis.jpg",
+      "author": "Zeynel Cebeci",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Iris_unguicularis_-_Algerian_iris_09.jpg"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Iris_unguicularis"
+    ],
+    "checked": "2026-11-15"
   }
 ]

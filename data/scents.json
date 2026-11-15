@@ -922,5 +922,102 @@
     },
     "sources": ["https://premierepeau.com/ko/pages/glossary-terms/coffee-absolute", "https://www.thegoodscentscompany.com/data/ab1604601.html"],
     "checked": "2026-11-01"
+  },
+  {
+    "id": "evernyl",
+    "name": "에버닐",
+    "nameEn": "Evernyl (Veramoss)",
+    "material": "메틸 2,4-다이하이드록시-3,6-다이메틸벤조에이트(아트라르산 메틸)의 합성 에스터. 오크모스(Evernia prunastri)에도 들어 있는 성분으로, 오크모스를 대신해 쓰인다",
+    "family": "이끼",
+    "notes": [
+      "베이스"
+    ],
+    "description": "건조한 오크모스 향에 페놀릭하고 흙 같으며 우디하고 파우더리한 느낌이 있고, 오래된 종이, 숲의 먼지, 이끼(지의류)의 냄새를 떠올리게 한다.",
+    "moods": [
+      "고요함",
+      "그리움",
+      "단단함"
+    ],
+    "kind": "합성",
+    "pairs": [
+      "oakmoss"
+    ],
+    "flowers": [],
+    "photo": null,
+    "sources": [
+      "https://www.scentspiracy.com/fragrance-ingredients/p/evernyl",
+      "https://fraterworks.com/products/veramoss"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "isobutyl-quinoline",
+    "name": "이소부틸 퀴놀린",
+    "nameEn": "6-Isobutyl quinoline (IBQ)",
+    "material": "6-이소부틸 퀴놀린. 자연에는 존재하지 않는 합성 향료",
+    "family": "레더",
+    "notes": [
+      "베이스"
+    ],
+    "description": "건조하고 가죽 같으며 따뜻한 향에 담배와 잉크 같은 느낌, 동물적이고 우디한 뉘앙스가 있다.",
+    "moods": [
+      "강렬함",
+      "단단함",
+      "관능"
+    ],
+    "kind": "합성",
+    "pairs": [],
+    "flowers": [],
+    "photo": null,
+    "sources": [
+      "https://www.scentspiracy.com/fragrance-ingredients/p/6-isobutyl-quinoline"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "ethyl-maltol",
+    "name": "에틸 말톨",
+    "nameEn": "Ethyl maltol",
+    "material": "합성 향료. 과자류의 향미료로도 흔히 쓰이며, 구르망 향수를 만드는 데 쓰인다",
+    "family": "구르망",
+    "notes": [],
+    "description": "달콤한 설탕과 캐러멜 같은 향에 잼 같은 딸기 느낌이 있어 솜사탕을 떠올리게 한다.",
+    "moods": [
+      "장난스러움",
+      "명랑",
+      "따뜻함"
+    ],
+    "kind": "합성",
+    "pairs": [],
+    "flowers": [],
+    "photo": null,
+    "sources": [
+      "https://www.scentspiracy.com/fragrance-ingredients/p/ethylmaltol",
+      "https://en.wikipedia.org/wiki/Ethyl_maltol"
+    ],
+    "checked": "2026-11-15"
+  },
+  {
+    "id": "helional",
+    "name": "헬리오날",
+    "nameEn": "Helional",
+    "material": "IFF가 개발한 합성 플로럴-그린 알데하이드. 피페로날(헬리오트로핀)과 프로판알로 만든다",
+    "family": "아쿠아틱",
+    "notes": [],
+    "description": "신선하고 물기 어린 멜론 같은 첫인상에 달콤한 헬리오트로프·시클라멘 같은 꽃 향, 갓 벤 건초와 부드러운 아몬드·아니스 느낌이 있다.",
+    "moods": [
+      "맑음",
+      "투명함",
+      "새벽"
+    ],
+    "kind": "합성",
+    "pairs": [],
+    "flowers": [],
+    "photo": null,
+    "sources": [
+      "https://www.scentspiracy.com/fragrance-ingredients/p/helional",
+      "https://en.wikipedia.org/wiki/Helional"
+    ],
+    "checked": "2026-11-15"
   }
 ]
