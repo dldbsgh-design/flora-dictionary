@@ -463,5 +463,463 @@
     ],
     "written": "2026-11-16",
     "checked": "2026-11-16"
+  },
+  {
+    "id": "design-rivoluzione-industriale-1851",
+    "no": 2,
+    "subject": "디자인사·미술사",
+    "stage": "입문",
+    "title": "산업 혁명과 디자인의 시작 — rivoluzione industriale, Crystal Palace, sedia n. 14",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "Che cosa studiamo — 무엇을 배우나",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "디자인사는 폴리테크니코 디 밀라노의 무료 온라인 강의 「Introduzione alla Storia del Design」의 주차 순서를 따라가요. 강의 페이지에 따르면 이 강의는 **1차 산업 혁명부터 오늘까지**의 디자인을 다루고, **수공업적 구상**(concezione artigianale)에서 **산업 생산**(produzione industriale)으로 넘어가는 흐름을 봐요.",
+            "cites": [1]
+          },
+          {
+            "type": "p",
+            "text": "강의 페이지에 따르면 1주 차(Week 1)의 제목은 「Dalla rivoluzione Industriale alla Deutsche Werkbund」이고, 1750년부터 1910년까지를 다뤄요. 배울 내용에는 산업 혁명의 조건, **1851년 런던의 첫 만국 박람회**, 영국의 미술 공예 운동(Arts and Crafts)이 있어요. 오늘은 그 첫 부분, 산업 혁명과 1851년 박람회를 공부해요.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "heading": "La rivoluzione industriale — 산업 혁명",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "**산업 혁명**(rivoluzione industriale)은 새 기술 때문에 물건을 만드는 방식과 사회가 크게 바뀐 일이에요. 트레카니 백과사전은 새로운 기술이 자리 잡으면서 생산 구조와 사회 구조가 바뀐 것이라고 정의해요.",
+            "cites": [3]
+          },
+          {
+            "type": "it",
+            "it": "La rivoluzione industriale è cominciata in Gran Bretagna nel Settecento.",
+            "ko": "산업 혁명은 18세기(Settecento)에 영국에서 시작되었어요.",
+            "cites": [2, 3],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "시작 때는 자료마다 조금 달라요. 이탈리아어 위키백과는 시작한 날을 딱 정할 수 없다고 하면서 **18세기 후반**부터라고 적었고, 트레카니 백과사전은 **18세기 마지막 몇십 년부터 19세기 전반** 사이라고 적었어요. 두 자료 모두 **영국**(위키백과는 Gran Bretagna, 트레카니는 Inghilterra)에서 시작했다고 해요.",
+            "cites": [2, 3],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "James Watt ha perfezionato la macchina a vapore.",
+            "ko": "제임스 와트는 증기 기관(macchina a vapore)을 더 좋게 고쳤어요.",
+            "cites": [2, 3],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "이탈리아어 위키백과는 산업 혁명의 핵심 발명을 **증기 기관**이라고 적었어요. 트레카니 백과사전에 따르면 와트는 1765년부터 1781년 사이에 증기 기관을 발명하고 다듬었어요. 두 자료 모두 기계화가 먼저 닿은 곳을 **옷감 산업**(settore tessile)으로 적었어요.",
+            "cites": [2, 3],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il lavoro è passato gradualmente dall'artigianato al sistema di fabbrica.",
+            "ko": "이탈리아어 위키백과에 따르면, 일은 수공업에서 공장(fabbrica) 체계로 조금씩 옮겨 갔어요.",
+            "cites": [2]
+          },
+          {
+            "type": "p",
+            "text": "이탈리아어 위키백과는 **2차 산업 혁명**(seconda rivoluzione industriale)을 보통 **1870년**부터로 본다고 적었어요. 디자인 강의가 말하는 '1차 산업 혁명'은 그 앞의 시기예요.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "heading": "La Grande Esposizione del 1851 — 1851년 런던 대박람회",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "Nel 1851 a Londra, in Hyde Park, si è aperta la Grande Esposizione.",
+            "ko": "1851년 런던의 하이드 파크에서 대박람회(Grande Esposizione)가 열렸어요.",
+            "cites": [4, 6, 7],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "문을 연 날은 **1851년 5월 1일**이에요. 박람회를 앞장서 이끈 사람은 빅토리아 여왕의 남편 **앨버트 공**(principe Alberto)이고, **헨리 콜**(Henry Cole)도 함께 일했어요. 빅토리아 앤드 앨버트 박물관(V&A)은 헨리 콜이 뒤에 V&A의 첫 관장이 되었다고 적었어요.",
+            "cites": [4, 6, 7, 8],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "방문객은 **600만 명이 넘었어요**. V&A 글은 34개 나라에서 온 약 14,000명의 출품자가 10만 점이 넘는 물건을 보여 주었다고 적었고, 히스토리 히트(History Hit) 글은 출품자를 약 15,000명으로 적었어요. 출품자 수는 자료마다 달라요.",
+            "cites": [6, 7, 8],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "V&A 글에 따르면 박람회가 끝난 뒤 전문가들이 고른 물건 244점을 사들였고, 이것이 1857년에 문을 연 V&A의 첫 소장품의 바탕이 되었어요. 산업 시대의 물건을 모아 보여 주는 일이 디자인 박물관으로 이어진 예예요.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "heading": "Il Crystal Palace — 수정궁",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "박람회 건물은 **수정궁**(Crystal Palace)이라고 불렸어요. 설계한 사람은 **조지프 팩스턴**(Joseph Paxton)이에요. 이탈리아어 위키백과에 따르면 이 이름은 잡지 『펀치』(Punch)가 붙였어요.",
+            "cites": [4, 5, 6, 7],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Joseph Paxton era un costruttore di serre.",
+            "ko": "조지프 팩스턴은 온실(serre)을 짓는 사람이었어요.",
+            "cites": [4, 5],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il Crystal Palace era fatto di ferro e vetro.",
+            "ko": "수정궁은 철과 유리(ferro e vetro)로 지었어요.",
+            "cites": [4, 5, 7, 8],
+            "key": true
+          },
+          {
+            "type": "analogy",
+            "text": "비유하자면, 수정궁은 아주 커다란 온실과 같아요. 히스토리 히트 글에 따르면 팩스턴의 설계는 그가 데번셔 공작을 위해 지은 온실을 바탕으로 했어요.",
+            "cites": [4, 5, 7]
+          },
+          {
+            "type": "p",
+            "text": "수정궁은 공장에서 미리 만든 **조립식 부품**(elementi prefabbricati)으로 지었어요. 그래서 빨리 세우고, 뜯어서 다시 세울 수 있었어요. 지은 기간은 자료마다 달라요. 이탈리아어 위키백과는 **4개월**, 포커스(Focus.it) 기사는 **9개월**이라고 적었어요.",
+            "cites": [4, 5, 7, 8],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "박람회가 끝난 뒤 수정궁은 뜯겨서 런던 남쪽 **시드넘**(Sydenham)에 다시 세워졌어요. 그리고 **1936년 11월 30일** 불에 타 없어졌어요.",
+            "cites": [4, 5, 7, 8],
+            "key": true
+          }
+        ]
+      },
+      {
+        "heading": "La sedia n. 14 di Thonet — 토네트의 14번 의자",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "트레카니 백과사전에 따르면 **미하엘 토네트**(Michael Thonet, 1796–1871)는 가구를 디자인하고 만든 사람이에요. 가구 장인(ebanista)으로 배웠고, 1830년부터 의자를 만들려고 **구부린 나무**(legno curvato)를 실험했고, 빈(Vienna)에 자리 잡아 1849년에 공장을 열었어요. 트레카니는 그의 **표준화된 생산**(produzione standardizzata) 덕분에 그의 가구가 현대 디자인의 이른 예가 되었다고 적었어요.",
+            "cites": [10]
+          },
+          {
+            "type": "it",
+            "it": "La sedia n. 14 è fatta di legno curvato a vapore.",
+            "ko": "14번 의자는 증기로 구부린 나무로 만들어요.",
+            "cites": [9, 11, 12],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "14번 의자가 나온 해는 보통 **1859년**이에요. 다만 이탈리아어 위키백과는 정보 칸에는 1859년, 본문에는 1860년이라고 적어서 두 해가 함께 보여요. 이탈리아어로는 **카페 의자**, **비스트로 의자**(sedia da bistrot)라고도 불러요.",
+            "cites": [9, 11, 12],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "영어 위키백과에 따르면 이 의자는 증기로 구부린 나무 6조각, 나사 10개, 너트 2개로 되어 있어요. 너도밤나무(beech)로 만들었다는 점은 V&A 소장품 기록도 같아요.",
+            "cites": [11, 12]
+          },
+          {
+            "type": "p",
+            "text": "이 의자는 **분해해서 보낼 수 있었어요.** V&A 소장품 기록에 따르면 가로세로 1미터 크기의 작은 상자 하나에 의자 36개를 넣었고, 토네트 가구는 **대량 생산**과 **분해된 상태로 배송**을 함께 해낸 첫 가구였어요.",
+            "cites": [11, 12],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "많이 팔린 것으로도 유명해요. 영어 위키백과는 1859년부터 1930년까지 **5천만 개**가 팔렸다고 적었고, V&A 기록은 1860년대부터 1930년대까지 약 5천만 개가 만들어졌다고 '전해진다'고 적었어요.",
+            "cites": [11, 12],
+            "key": true
+          }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "artigianato (남성)",
+                "ko": "수공업, 공예"
+              },
+              {
+                "it": "fabbrica (여성)",
+                "ko": "공장"
+              },
+              {
+                "it": "macchina (여성)",
+                "ko": "기계"
+              },
+              {
+                "it": "vapore (남성)",
+                "ko": "증기"
+              },
+              {
+                "it": "serie (여성)",
+                "ko": "시리즈, 연속, 한 벌"
+              },
+              {
+                "it": "esposizione (여성)",
+                "ko": "전시, 박람회"
+              }
+            ],
+            "cites": [13, 14, 15, 16, 17, 18]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "vetro (남성)",
+                "ko": "유리"
+              },
+              {
+                "it": "ghisa (여성)",
+                "ko": "주철 (녹여서 부어 만든 쇠)"
+              },
+              {
+                "it": "prefabbricato",
+                "ko": "미리 만든, 조립식의"
+              },
+              {
+                "it": "sedia (여성)",
+                "ko": "의자"
+              },
+              {
+                "it": "legno (남성)",
+                "ko": "나무 (재료)"
+              },
+              {
+                "it": "curvare",
+                "ko": "구부리다, 휘다"
+              }
+            ],
+            "cites": [19, 20, 21, 22, 23, 24]
+          }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "실제 시험처럼 문제와 보기를 이탈리아어로 냈어요.",
+            "cites": [1]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "In quale paese è cominciata la rivoluzione industriale?",
+            "choices": [
+              "Italia",
+              "Francia",
+              "Gran Bretagna",
+              "Germania",
+              "Spagna"
+            ],
+            "answer": 3,
+            "explain": "산업 혁명(rivoluzione industriale)은 18세기 **영국**(Gran Bretagna)에서 시작되었어요. 트레카니는 Inghilterra라고 적었어요.",
+            "cites": [2, 3]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Chi ha progettato il Crystal Palace?",
+            "choices": [
+              "William Morris",
+              "Joseph Paxton",
+              "Henry Cole",
+              "James Watt",
+              "Michael Thonet"
+            ],
+            "answer": 2,
+            "explain": "수정궁(Crystal Palace)을 설계한 사람은 온실을 짓던 **조지프 팩스턴**(Joseph Paxton)이에요. 헨리 콜(Henry Cole)은 박람회를 함께 이끈 사람이고, 건물을 설계하지는 않았어요.",
+            "cites": [4, 5, 6, 7]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "In quale anno si è aperta la Grande Esposizione di Londra?",
+            "choices": [
+              "1789",
+              "1815",
+              "1851",
+              "1867",
+              "1900"
+            ],
+            "answer": 3,
+            "explain": "런던 대박람회(Grande Esposizione)는 **1851년** 5월 1일 하이드 파크에서 열렸어요.",
+            "cites": [4, 6, 7]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Di quali materiali era fatto il Crystal Palace?",
+            "choices": [
+              "Pietra e marmo",
+              "Ferro e vetro",
+              "Legno e paglia",
+              "Mattoni e cemento",
+              "Plastica e alluminio"
+            ],
+            "answer": 2,
+            "explain": "수정궁은 **철과 유리**(ferro e vetro)로 지었어요. 포커스 기사는 주철(ghisa)과 유리라고 적었어요.",
+            "cites": [4, 7, 8]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quale tecnica ha usato Michael Thonet per la sedia n. 14?",
+            "choices": [
+              "Il legno curvato a vapore",
+              "La plastica stampata",
+              "Il tubo d'acciaio piegato",
+              "Il marmo scolpito",
+              "Il vetro soffiato"
+            ],
+            "answer": 1,
+            "explain": "14번 의자(sedia n. 14)는 **증기로 구부린 나무**(legno curvato a vapore)로 만들어요.",
+            "cites": [9, 11, 12]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://www.pok.polimi.it/course/view.php?id=115",
+        "title": "Politecnico di Milano (POK) — Introduzione alla Storia del Design"
+      },
+      {
+        "n": 2,
+        "url": "https://it.wikipedia.org/wiki/Rivoluzione_industriale",
+        "title": "Wikipedia (italiano) — Rivoluzione industriale"
+      },
+      {
+        "n": 3,
+        "url": "https://www.treccani.it/enciclopedia/rivoluzione-industriale/",
+        "title": "Treccani Enciclopedia — rivoluzione industriale"
+      },
+      {
+        "n": 4,
+        "url": "https://it.wikipedia.org/wiki/Crystal_Palace_(palazzo)",
+        "title": "Wikipedia (italiano) — Crystal Palace (palazzo)"
+      },
+      {
+        "n": 5,
+        "url": "https://www.treccani.it/enciclopedia/joseph-paxton/",
+        "title": "Treccani Enciclopedia — Paxton, Joseph"
+      },
+      {
+        "n": 6,
+        "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851",
+        "title": "Victoria and Albert Museum — The Great Exhibition of 1851"
+      },
+      {
+        "n": 7,
+        "url": "https://www.historyhit.com/what-was-the-great-exhibition-and-why-was-it-so-significant/",
+        "title": "History Hit — What Was The Great Exhibition and Why Was It So Significant?"
+      },
+      {
+        "n": 8,
+        "url": "https://www.focus.it/cultura/curiosita/come-fu-possibile-costruire-il-crystal-palace-meraviglia-dell-ingegneria-vittoriana-in-tempi-record",
+        "title": "Focus.it — Come fu possibile costruire il Crystal Palace"
+      },
+      {
+        "n": 9,
+        "url": "https://it.wikipedia.org/wiki/Sedia_n._14",
+        "title": "Wikipedia (italiano) — Sedia n. 14"
+      },
+      {
+        "n": 10,
+        "url": "https://www.treccani.it/enciclopedia/michael-thonet/",
+        "title": "Treccani Enciclopedia — Thonet, Michael"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wikipedia.org/wiki/No._14_chair",
+        "title": "Wikipedia (English) — No. 14 chair"
+      },
+      {
+        "n": 12,
+        "url": "https://collections.vam.ac.uk/item/O1249163",
+        "title": "Victoria and Albert Museum Collections — Chair, model no. 14"
+      },
+      {
+        "n": 13,
+        "url": "https://en.wiktionary.org/wiki/artigianato",
+        "title": "Wiktionary — artigianato"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wiktionary.org/wiki/fabbrica",
+        "title": "Wiktionary — fabbrica"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wiktionary.org/wiki/macchina",
+        "title": "Wiktionary — macchina"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wiktionary.org/wiki/vapore",
+        "title": "Wiktionary — vapore"
+      },
+      {
+        "n": 17,
+        "url": "https://en.wiktionary.org/wiki/serie",
+        "title": "Wiktionary — serie"
+      },
+      {
+        "n": 18,
+        "url": "https://en.wiktionary.org/wiki/esposizione",
+        "title": "Wiktionary — esposizione"
+      },
+      {
+        "n": 19,
+        "url": "https://en.wiktionary.org/wiki/vetro",
+        "title": "Wiktionary — vetro"
+      },
+      {
+        "n": 20,
+        "url": "https://en.wiktionary.org/wiki/ghisa",
+        "title": "Wiktionary — ghisa"
+      },
+      {
+        "n": 21,
+        "url": "https://en.wiktionary.org/wiki/prefabbricato",
+        "title": "Wiktionary — prefabbricato"
+      },
+      {
+        "n": 22,
+        "url": "https://en.wiktionary.org/wiki/sedia",
+        "title": "Wiktionary — sedia"
+      },
+      {
+        "n": 23,
+        "url": "https://en.wiktionary.org/wiki/legno",
+        "title": "Wiktionary — legno"
+      },
+      {
+        "n": 24,
+        "url": "https://en.wiktionary.org/wiki/curvare",
+        "title": "Wiktionary — curvare"
+      }
+    ],
+    "written": "2026-11-16",
+    "checked": "2026-11-16"
   }
 ]
