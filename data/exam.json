@@ -921,5 +921,106 @@
     ],
     "written": "2026-11-16",
     "checked": "2026-11-16"
+  },
+  {
+    "id": "geo-triangoli",
+    "no": 2,
+    "subject": "기하와 표현",
+    "stage": "입문",
+    "title": "삼각형의 이탈리아어 — triangolo, isoscele, scaleno, ipotenusa",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["geo-polygons"],
+    "sections": [
+      {
+        "heading": "Il triangolo — 삼각형",
+        "blocks": [
+          { "type": "it", "it": "Un triangolo è un poligono con tre lati e tre angoli.", "ko": "삼각형은 변이 세 개, 각이 세 개인 다각형이에요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "**삼각형**(triangolo)은 한 줄로 놓이지 않은 세 점을 세 선분으로 이은 평평한 도형이에요. 세 점이 꼭짓점(vertici), 세 선분이 변(lati)이에요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "트레카니 사전은 삼각형이 변의 수가 가장 적은 다각형이라고 덧붙여요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "I lati — 변으로 나누기",
+        "blocks": [
+          { "type": "p", "text": "변의 길이로 삼각형을 세 가지로 나눠요. 세 변이 모두 같으면 **정삼각형**(equilatero), 두 변이 같으면 **이등변 삼각형**(isoscele), 세 변이 모두 다르면 **부등변 삼각형**(scaleno)이에요.", "cites": [1, 2, 3], "key": true },
+          { "type": "it", "it": "In un triangolo scaleno tutti i lati sono diversi.", "ko": "부등변 삼각형에서는 세 변이 모두 달라요.", "cites": [1, 3], "key": true },
+          { "type": "p", "text": "트레카니 사전과 이탈리아어 위키백과의 정삼각형 문서는 정삼각형을 이등변 삼각형의 특별한 경우로 봐요. 세 변이 같으면 '두 변이 같다'는 조건도 채우기 때문이에요. 다만 트레카니 사전은 예전의 용어 쓰임은 조금 달랐다고 적었어요.", "cites": [2, 5] },
+          { "type": "p", "text": "정삼각형은 세 변이 같으니 세 내각도 모두 같아요.", "cites": [1, 19], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과와 영어 위키백과에 따르면 정삼각형의 한 각은 **60°**예요. 아래에서 볼 '세 내각의 합은 180°' 규칙으로 180 ÷ 3 = 60을 해 봐도 같아요. 두 위키백과는 정삼각형을 변이 셋인 정다각형(poligono regolare)이라고도 적었어요.", "cites": [1, 5, 18] },
+          { "type": "p", "text": "트레카니 백과사전에 따르면 삼각형에서 두 변이 같으면 그 변들과 마주 보는 두 각도 같아요. 그래서 이등변 삼각형은 두 각의 크기가 같아요.", "cites": [3] },
+          { "type": "it", "it": "Se due lati sono uguali, anche gli angoli opposti sono uguali.", "ko": "(트레카니 백과사전) 두 변이 같으면 마주 보는 두 각도 같아요.", "cites": [3] }
+        ]
+      },
+      {
+        "heading": "Gli angoli — 각으로 나누기",
+        "blocks": [
+          { "type": "p", "text": "각의 크기로도 세 가지로 나눠요. 세 각이 모두 90°보다 작으면 **예각 삼각형**(acutangolo), 한 각이 90°(직각)이면 **직각 삼각형**(rettangolo), 한 각이 90°보다 크면 **둔각 삼각형**(ottusangolo)이에요.", "cites": [1, 2, 3], "key": true },
+          { "type": "p", "text": "트레카니 사전은 직각 삼각형을 '직각 하나와 예각 둘', 둔각 삼각형을 '둔각 하나와 예각 둘'로 적어요.", "cites": [2] },
+          { "type": "p", "text": "위크셔너리에 따르면 rettangolo는 명사로는 '직사각형', 형용사로는 '직각의'(right-angled)라는 뜻이에요.", "cites": [13] },
+          { "type": "it", "it": "Il lato opposto all'angolo retto si chiama ipotenusa.", "ko": "직각과 마주 보는 변을 빗변이라고 해요.", "cites": [1, 6], "key": true },
+          { "type": "p", "text": "직각 삼각형에서 직각을 만드는 두 변은 **cateti**(단수 cateto), 직각과 마주 보는 가장 긴 변은 **ipotenusa**(빗변)예요.", "cites": [1, 6, 7], "key": true }
+        ]
+      },
+      {
+        "heading": "Due regole — 꼭 알아 둘 두 규칙",
+        "blocks": [
+          { "type": "it", "it": "La somma degli angoli interni di un triangolo è 180°.", "ko": "삼각형의 세 안쪽 각(내각)을 더하면 180°예요.", "cites": [1, 3, 4], "key": true },
+          { "type": "p", "text": "평면 위의 삼각형이라면 어떤 삼각형이든 세 내각의 합은 **180°**, 곧 직각 두 개예요. 그래서 두 각을 알면 180°에서 빼서 나머지 한 각을 구할 수 있어요.", "cites": [1, 3, 4], "key": true },
+          { "type": "it", "it": "In un triangolo ogni lato è minore della somma degli altri due.", "ko": "삼각형에서 어느 변이든 나머지 두 변의 합보다 짧아요.", "cites": [1, 3], "key": true },
+          { "type": "p", "text": "이 규칙을 **삼각형 부등식**(disuguaglianza triangolare)이라고 해요. 세 길이 가운데 짧은 두 길이의 합이 가장 긴 길이보다 크지 않으면 삼각형이 만들어지지 않아요. 영어 위키백과는 합이 정확히 같을 때는 납작하게 눌린 '퇴화' 삼각형(degenerate triangle)이 된다고 설명해요.", "cites": [1, 3, 4], "key": true }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말 정리",
+        "blocks": [
+          { "type": "terms", "items": [
+            { "it": "triangolo (남성, 복수 triangoli)", "ko": "삼각형" },
+            { "it": "equilatero", "ko": "변의 길이가 모두 같은 (정삼각형의)" },
+            { "it": "isoscele", "ko": "이등변의" },
+            { "it": "scaleno", "ko": "부등변의, 세 변이 다른" },
+            { "it": "acutangolo", "ko": "세 각이 모두 예각인" },
+            { "it": "rettangolo", "ko": "직각의; 직사각형" },
+            { "it": "ottusangolo", "ko": "둔각의" },
+            { "it": "ipotenusa (여성)", "ko": "빗변" },
+            { "it": "cateto (남성, 복수 cateti)", "ko": "직각을 낀 변" },
+            { "it": "somma", "ko": "합" }
+          ], "cites": [2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "문제와 보기를 이탈리아어로 냈어요. 계산은 손으로 해 보세요.", "cites": [1] },
+          { "type": "quiz", "lang": "it", "q": "In un triangolo due angoli misurano 50° e 60°. Quanto misura il terzo angolo?", "choices": ["60°", "70°", "80°", "90°", "110°"], "answer": 2, "explain": "세 내각의 합(somma degli angoli interni)은 180°예요. 180 − 50 − 60 = **70°**예요.", "cites": [1, 3, 4] },
+          { "type": "quiz", "lang": "it", "q": "Un triangolo con tutti i lati diversi si chiama…", "choices": ["scaleno", "isoscele", "equilatero", "rettangolo", "ottusangolo"], "answer": 1, "explain": "세 변이 모두 다른 삼각형은 **scaleno**(부등변 삼각형)예요. 두 변이 같으면 isoscele, 세 변이 같으면 equilatero예요.", "cites": [1, 2, 3] },
+          { "type": "quiz", "lang": "it", "q": "In un triangolo rettangolo, come si chiama il lato opposto all'angolo retto?", "choices": ["cateto", "base", "altezza", "ipotenusa", "vertice"], "answer": 4, "explain": "직각(angolo retto)과 마주 보는 변은 **ipotenusa**(빗변)예요. 직각을 만드는 두 변은 cateti예요.", "cites": [1, 6, 7] },
+          { "type": "quiz", "lang": "it", "q": "Con quale terna di lunghezze si può costruire un triangolo?", "choices": ["1, 2, 4", "2, 3, 6", "3, 4, 5", "1, 1, 3", "2, 2, 5"], "answer": 3, "explain": "어느 변이든 나머지 두 변의 합(somma)보다 짧아야 해요. 가장 긴 변 5보다 나머지 두 변의 합 3 + 4 = 7이 크니 **3, 4, 5**는 돼요. 나머지는 1 + 2 = 3 < 4, 2 + 3 = 5 < 6, 1 + 1 = 2 < 3, 2 + 2 = 4 < 5라서 안 돼요.", "cites": [1, 3] },
+          { "type": "quiz", "lang": "it", "q": "Quanto misura ciascun angolo di un triangolo equilatero?", "choices": ["30°", "45°", "90°", "120°", "60°"], "answer": 5, "explain": "정삼각형(triangolo equilatero)은 세 각이 모두 같고 합이 180°라서 한 각은 180 ÷ 3 = **60°**예요.", "cites": [1, 3, 5, 18, 19] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://it.wikipedia.org/wiki/Triangolo", "title": "Wikipedia (italiano) — Triangolo" },
+      { "n": 2, "url": "https://www.treccani.it/vocabolario/triangolo/", "title": "Treccani Vocabolario — triangolo" },
+      { "n": 3, "url": "https://www.treccani.it/enciclopedia/triangolo/", "title": "Treccani Enciclopedia — triangolo" },
+      { "n": 4, "url": "https://en.wikipedia.org/wiki/Triangle", "title": "Wikipedia (English) — Triangle" },
+      { "n": 5, "url": "https://it.wikipedia.org/wiki/Triangolo_equilatero", "title": "Wikipedia (italiano) — Triangolo equilatero" },
+      { "n": 6, "url": "https://www.treccani.it/vocabolario/ipotenusa/", "title": "Treccani Vocabolario — ipotenusa" },
+      { "n": 7, "url": "https://www.treccani.it/vocabolario/cateto/", "title": "Treccani Vocabolario — cateto" },
+      { "n": 8, "url": "https://en.wiktionary.org/wiki/triangolo", "title": "Wiktionary — triangolo" },
+      { "n": 9, "url": "https://en.wiktionary.org/wiki/equilatero", "title": "Wiktionary — equilatero" },
+      { "n": 10, "url": "https://en.wiktionary.org/wiki/isoscele", "title": "Wiktionary — isoscele" },
+      { "n": 11, "url": "https://en.wiktionary.org/wiki/scaleno", "title": "Wiktionary — scaleno" },
+      { "n": 12, "url": "https://en.wiktionary.org/wiki/acutangolo", "title": "Wiktionary — acutangolo" },
+      { "n": 13, "url": "https://en.wiktionary.org/wiki/rettangolo", "title": "Wiktionary — rettangolo" },
+      { "n": 14, "url": "https://en.wiktionary.org/wiki/ottusangolo", "title": "Wiktionary — ottusangolo" },
+      { "n": 15, "url": "https://en.wiktionary.org/wiki/ipotenusa", "title": "Wiktionary — ipotenusa" },
+      { "n": 16, "url": "https://en.wiktionary.org/wiki/cateto", "title": "Wiktionary — cateto" },
+      { "n": 17, "url": "https://en.wiktionary.org/wiki/somma", "title": "Wiktionary — somma" },
+      { "n": 18, "url": "https://en.wikipedia.org/wiki/Equilateral_triangle", "title": "Wikipedia (English) — Equilateral triangle" },
+      { "n": 19, "url": "https://www.treccani.it/vocabolario/equilatero/", "title": "Treccani Vocabolario — equilatero" }
+    ],
+    "written": "2026-11-17",
+    "checked": "2026-11-17"
   }
 ]
