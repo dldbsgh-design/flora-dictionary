@@ -541,5 +541,644 @@
     ],
     "written": "2026-11-14",
     "checked": "2026-11-14"
+  },
+  {
+    "id": "it-alfabeto-pronuncia",
+    "no": 1,
+    "subject": "이탈리아어 문법",
+    "stage": "입문",
+    "title": "알파벳과 발음 — 글자 21개와 읽는 법",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "L'alfabeto italiano — 이탈리아어 알파벳",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "이탈리아어 알파벳은 **21글자**예요. 모음 글자 5개와 자음 글자 16개로 되어 있어요.",
+            "cites": [
+              1,
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "L'alfabeto italiano ha 21 lettere.",
+            "ko": "이탈리아어 알파벳에는 글자가 21개 있어요.",
+            "cites": [
+              1,
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Le vocali sono cinque: a, e, i, o, u.",
+            "ko": "모음은 a, e, i, o, u 다섯 개예요.",
+            "cites": [
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "글자마다 이탈리아어 이름이 있어요. 트레카니에 따르면 앞의 글자들은 a, bi, ci, di, e, effe로 읽어요. 아래 표는 이탈리아어 위키백과의 표를 옮긴 거예요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "A a",
+                "ko": "a"
+              },
+              {
+                "it": "B b",
+                "ko": "bi"
+              },
+              {
+                "it": "C c",
+                "ko": "ci"
+              },
+              {
+                "it": "D d",
+                "ko": "di"
+              },
+              {
+                "it": "E e",
+                "ko": "e"
+              },
+              {
+                "it": "F f",
+                "ko": "effe"
+              },
+              {
+                "it": "G g",
+                "ko": "gi"
+              },
+              {
+                "it": "H h",
+                "ko": "acca"
+              },
+              {
+                "it": "I i",
+                "ko": "i"
+              },
+              {
+                "it": "L l",
+                "ko": "elle"
+              },
+              {
+                "it": "M m",
+                "ko": "emme"
+              },
+              {
+                "it": "N n",
+                "ko": "enne"
+              },
+              {
+                "it": "O o",
+                "ko": "o"
+              },
+              {
+                "it": "P p",
+                "ko": "pi"
+              },
+              {
+                "it": "Q q",
+                "ko": "cu"
+              },
+              {
+                "it": "R r",
+                "ko": "erre"
+              },
+              {
+                "it": "S s",
+                "ko": "esse"
+              },
+              {
+                "it": "T t",
+                "ko": "ti"
+              },
+              {
+                "it": "U u",
+                "ko": "u"
+              },
+              {
+                "it": "V v",
+                "ko": "vu 또는 vi"
+              },
+              {
+                "it": "Z z",
+                "ko": "zeta"
+              }
+            ],
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "p",
+            "text": "**j, k, w, x, y** 다섯 글자는 이탈리아어 알파벳 21글자에 들지 않아요. 주로 외국 말이나 외국 이름을 적을 때 써요. 이탈리아어 위키백과는 이 글자들을 **lettere straniere**(외국 글자)라고 불러요.",
+            "cites": [
+              1,
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "J j",
+                "ko": "i lunga"
+              },
+              {
+                "it": "K k",
+                "ko": "cappa"
+              },
+              {
+                "it": "W w",
+                "ko": "vi doppia 또는 vu doppia"
+              },
+              {
+                "it": "X x",
+                "ko": "ics"
+              },
+              {
+                "it": "Y y",
+                "ko": "ipsilon"
+              }
+            ],
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "lettera (복수 lettere)",
+                "ko": "글자 (알파벳의 한 글자)"
+              },
+              {
+                "it": "vocale (복수 vocali)",
+                "ko": "모음"
+              },
+              {
+                "it": "consonante (복수 consonanti)",
+                "ko": "자음"
+              }
+            ],
+            "cites": [
+              12,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "C e G: suono duro e suono dolce — 딱딱한 소리와 부드러운 소리",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "**c**와 **g**는 뒤에 오는 글자에 따라 소리가 두 가지예요. **a, o, u**나 자음 앞에서는 딱딱한 소리(**suono duro**, c는 /k/, g는 /ɡ/)가 나요. **e, i** 앞에서는 부드러운 소리(**suono dolce**, c는 /tʃ/, g는 /dʒ/)가 나요.",
+            "cites": [
+              1,
+              2,
+              3,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Davanti a e e i, la c e la g hanno un suono dolce.",
+            "ko": "e와 i 앞에서 c와 g는 부드러운 소리가 나요.",
+            "cites": [
+              1,
+              3,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "gallo",
+                "ko": "수탉 — g + a, 딱딱한 소리"
+              },
+              {
+                "it": "giallo",
+                "ko": "노란색 — gi, 부드러운 소리"
+              },
+              {
+                "it": "china",
+                "ko": "먹물 (India ink) — ch, 딱딱한 소리"
+              },
+              {
+                "it": "Cina",
+                "ko": "중국 — c + i, 부드러운 소리"
+              }
+            ],
+            "cites": [
+              4
+            ]
+          },
+          {
+            "type": "p",
+            "text": "**e, i** 앞에서 딱딱한 소리를 내고 싶으면 **h**를 넣어 **ch**, **gh**로 써요. Focus Junior의 예: chele, chitarra, streghe, maghi.",
+            "cites": [
+              3,
+              4,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "반대로 **a, o, u** 앞에서 부드러운 소리를 내고 싶으면 **i**를 넣어 **ci**, **gi**로 써요. 이때 i는 따로 소리 나지 않아요. 예: ciò, giù.",
+            "cites": [
+              2,
+              3,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "ghiro",
+                "ko": "겨울잠쥐 (dormouse) — gh, 딱딱한 소리"
+              },
+              {
+                "it": "giro",
+                "ko": "한 바퀴, 여행 — gi, 부드러운 소리"
+              }
+            ],
+            "cites": [
+              4
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "suono",
+                "ko": "소리"
+              },
+              {
+                "it": "duro",
+                "ko": "딱딱한, 단단한"
+              },
+              {
+                "it": "dolce",
+                "ko": "(소리가) 부드러운"
+              }
+            ],
+            "cites": [
+              5,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Gn, gli, sc — 글자 여럿이 소리 하나",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "**gn**은 모든 모음 앞에서 /ɲ/ 소리 하나를 나타내요. 예: ogni(각각의), sognare(꿈꾸다).",
+            "cites": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "**gli**(a, e, o, u 앞)와 **gl**(i 앞)은 /ʎ/ 소리 하나를 나타내요. 예: aglio(마늘).",
+            "cites": [
+              1,
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "위키백과에 따르면 **sc**(e, i 앞)와 **sci**(a, o, u 앞)는 /ʃ/ 소리를 나타내요. 예: sciare. 같은 글자라도 a 앞의 sc는 /sk/로 읽어서, 영어 위키백과는 scalo(/ˈskalo/)와 scialo(/ˈʃalo/)를 비교해요.",
+            "cites": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "ogni",
+                "ko": "각각의"
+              },
+              {
+                "it": "sognare",
+                "ko": "꿈꾸다"
+              },
+              {
+                "it": "aglio",
+                "ko": "마늘"
+              }
+            ],
+            "cites": [
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "La h e le doppie — 소리 없는 h와 겹자음",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "La lettera h non ha suono.",
+            "ko": "h라는 글자는 소리가 없어요.",
+            "cites": [
+              1,
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "트레카니에 따르면 h는 소리를 나타내지 않는 **표시 글자**예요. 위키백과에 따르면 h는 ch, gh에 쓰이고, 동사 avere(가지다)의 형태 ho, hai, ha, hanno를 o(또는), anno(해) 같은 다른 낱말과 구별해 줘요.",
+            "cites": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "ho",
+                "ko": "avere(가지다)의 현재형"
+              },
+              {
+                "it": "o",
+                "ko": "또는"
+              },
+              {
+                "it": "hanno",
+                "ko": "avere(가지다)의 현재형"
+              },
+              {
+                "it": "anno",
+                "ko": "해, 년"
+              },
+              {
+                "it": "muto / muta",
+                "ko": "(글자가) 소리 나지 않는"
+              }
+            ],
+            "cites": [
+              4,
+              7
+            ]
+          },
+          {
+            "type": "p",
+            "text": "같은 자음이 두 번 겹친 **겹자음**(**doppie**)은 하나일 때보다 **더 길게** 읽어요. 겹자음이 있느냐 없느냐로 뜻이 달라지는 낱말이 많아요.",
+            "cites": [
+              1,
+              3,
+              6
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Le doppie si pronunciano più lunghe.",
+            "ko": "겹자음은 더 길게 소리 내요.",
+            "cites": [
+              1,
+              6
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "이탈리아어 위키백과에 따르면 겹자음은 낱말의 맨 앞에는 오지 않아요.",
+            "cites": [
+              3
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "caro",
+                "ko": "소중한, 비싼"
+              },
+              {
+                "it": "carro",
+                "ko": "수레"
+              }
+            ],
+            "cites": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "문제와 보기를 이탈리아어로 냈어요. 답을 고른 뒤 **정답과 풀이**를 눌러 확인하세요.",
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quante lettere ha l'alfabeto italiano?",
+            "choices": [
+              "5",
+              "16",
+              "21",
+              "24",
+              "26"
+            ],
+            "answer": 3,
+            "explain": "이탈리아어 알파벳(alfabeto italiano)은 **21**글자(lettere)예요. 5는 모음 수, 16은 자음 수예요. j, k, w, x, y는 외국 글자라 21에 들지 않아요.",
+            "cites": [
+              1,
+              2,
+              4
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quale lettera non ha suono?",
+            "choices": [
+              "a",
+              "c",
+              "g",
+              "h",
+              "z"
+            ],
+            "answer": 4,
+            "explain": "**h**(acca)는 소리가 없어요(non ha suono). ch, gh에서 c와 g를 딱딱하게 읽게 하거나, ho와 o처럼 낱말을 구별하는 데 써요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "In quale parola la g ha un suono dolce?",
+            "choices": [
+              "gallo",
+              "ghiro",
+              "giro",
+              "gamba",
+              "gorilla"
+            ],
+            "answer": 3,
+            "explain": "**giro**는 g 뒤에 i가 와서 부드러운 소리(suono dolce)예요. gallo, gamba, gorilla는 g 뒤에 a, o가 와서, ghiro는 gh라서 딱딱한 소리(suono duro)예요.",
+            "cites": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quale gruppo di lettere si usa per il suono duro /k/ davanti a e e i?",
+            "choices": [
+              "ci",
+              "ch",
+              "gn",
+              "gl",
+              "sc"
+            ],
+            "answer": 2,
+            "explain": "e, i 앞에서 딱딱한 /k/ 소리는 **ch**로 써요(예: chitarra). ci는 부드러운 소리, gn은 /ɲ/, gl(i 앞)은 /ʎ/, sc(e, i 앞)는 /ʃ/예요.",
+            "cites": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quale coppia di parole si distingue solo per una consonante doppia?",
+            "choices": [
+              "caro – carro",
+              "gallo – giallo",
+              "ghiro – giro",
+              "ho – o",
+              "china – Cina"
+            ],
+            "answer": 1,
+            "explain": "**caro**(소중한, 비싼)와 **carro**(수레)는 r 하나와 겹자음 rr(consonante doppia)만 달라요. 나머지 짝은 i나 h가 더해져서 달라요.",
+            "cites": [
+              4,
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://it.wikipedia.org/wiki/Alfabeto_italiano",
+        "title": "Wikipedia (it) — Alfabeto italiano"
+      },
+      {
+        "n": 2,
+        "url": "https://www.treccani.it/enciclopedia/alfabeto_(Enciclopedia-dell'Italiano)/",
+        "title": "Treccani, Enciclopedia dell'Italiano — alfabeto"
+      },
+      {
+        "n": 3,
+        "url": "https://it.wikipedia.org/wiki/Ortografia_della_lingua_italiana",
+        "title": "Wikipedia (it) — Ortografia della lingua italiana"
+      },
+      {
+        "n": 4,
+        "url": "https://en.wikipedia.org/wiki/Italian_orthography",
+        "title": "Wikipedia (en) — Italian orthography"
+      },
+      {
+        "n": 5,
+        "url": "https://www.focusjunior.it/scuola/scuola-primaria-suoni-delle-lettere-c-e-g/",
+        "title": "Focus Junior — I suoni delle lettere C e G (2018-07-11)"
+      },
+      {
+        "n": 6,
+        "url": "https://lavocedinewyork.com/arts/lingua-italiana/2017/03/15/attenti-alle-doppie-la-trappola-della-lingua-italiana",
+        "title": "La Voce di New York — Attenti alle doppie (2017-03-15)"
+      },
+      {
+        "n": 7,
+        "url": "https://en.wiktionary.org/wiki/muto",
+        "title": "Wiktionary — muto"
+      },
+      {
+        "n": 8,
+        "url": "https://en.wiktionary.org/wiki/vocale",
+        "title": "Wiktionary — vocale"
+      },
+      {
+        "n": 9,
+        "url": "https://en.wiktionary.org/wiki/consonante",
+        "title": "Wiktionary — consonante"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wiktionary.org/wiki/duro",
+        "title": "Wiktionary — duro"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wiktionary.org/wiki/dolce",
+        "title": "Wiktionary — dolce"
+      },
+      {
+        "n": 12,
+        "url": "https://en.wiktionary.org/wiki/lettera",
+        "title": "Wiktionary — lettera"
+      }
+    ],
+    "written": "2026-11-18",
+    "checked": "2026-11-18"
   }
 ]
