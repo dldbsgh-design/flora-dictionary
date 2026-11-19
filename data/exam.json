@@ -1022,5 +1022,143 @@
     ],
     "written": "2026-11-17",
     "checked": "2026-11-17"
+  },
+  {
+    "id": "gk-costituzione-istituzioni",
+    "no": 2,
+    "subject": "일반 상식",
+    "stage": "입문",
+    "title": "헌법과 국가 기관 — Costituzione, Parlamento, Presidente, Governo",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["gk-repubblica-1946"],
+    "sections": [
+      {
+        "heading": "Che cosa chiede il test — 시험이 묻는 것",
+        "blocks": [
+          { "type": "p", "text": "학교 페이지는 일반 상식 영역이 역사·기술·과학·**정치**·사회의 '오늘날'에 관한 상식을 묻는다고 적었어요. 지난 글에서 1948년 1월 1일에 헌법이 효력을 얻었다고 배웠죠. 이번에는 그 헌법이 어떻게 짜여 있고, 나라를 움직이는 기관(의회·대통령·정부·헌법 재판소)이 무엇인지 봐요.", "cites": [20, 1] },
+          { "type": "p", "text": "헌법 조문은 하원(Camera dei deputati)이 펴낸 헌법 전문 PDF(2023년 개정까지 반영)로 확인했어요. 지금 누가 그 자리에 있는지는 **2026-11-19**에 확인한 내용이에요. 시험 전에 다시 확인하세요.", "cites": [1] }
+        ]
+      },
+      {
+        "heading": "La Costituzione — 헌법의 짜임",
+        "blocks": [
+          { "type": "p", "text": "이탈리아 헌법(**Costituzione**)은 **139개 조항**(articoli)으로 되어 있어요.", "cites": [1, 2, 3], "key": true },
+          { "type": "p", "text": "헌법은 크게 세 부분이에요. 제1~12조는 **기본 원칙**(Principi fondamentali), 제13~54조는 제1부 **시민의 권리와 의무**(Diritti e doveri dei cittadini), 제55~139조는 제2부 **공화국의 조직**(Ordinamento della Repubblica)이에요.", "cites": [1, 2], "key": true },
+          { "type": "it", "it": "L'Italia è una Repubblica democratica, fondata sul lavoro.", "ko": "이탈리아는 노동에 기초한 민주 공화국이에요. (헌법 제1조의 첫 문장)", "cites": [1, 2], "key": true },
+          { "type": "it", "it": "La sovranità appartiene al popolo.", "ko": "주권은 국민에게 있어요. (헌법 제1조)", "cites": [1] },
+          { "type": "p", "text": "제2부에는 여섯 개의 장(Titolo)이 있어요. 순서대로 **의회**(Il Parlamento), **공화국 대통령**(Il Presidente della Repubblica), **정부**(Il Governo), **사법부**(La magistratura), **주·도·시**(Le Regioni, le Province, i Comuni), **헌법 보장**(Garanzie costituzionali)이에요.", "cites": [1, 2], "key": true },
+          { "type": "p", "text": "헌법의 마지막 조항인 제139조는 공화국이라는 나라의 형태(la forma repubblicana)는 헌법을 고쳐서 바꿀 수 없다고 정해요. 이탈리아어 위키백과에 따르면 이 공화국은 1946년 국민 투표로 태어났어요.", "cites": [1, 2] }
+        ]
+      },
+      {
+        "heading": "I tre poteri — 세 권력",
+        "blocks": [
+          { "type": "p", "text": "트레카니 백과사전에 따르면 **권력 분립**(separazione dei poteri)은 나라의 기본 일을 법을 만드는 일(legislativa), 법을 집행하는 일(esecutiva), 재판하는 일(giudiziaria)로 나누어 서로 독립된 기관에 맡기는 원칙이에요. 트레카니는 세 권력을 서로 독립된 기관에 나누어 맡기는 생각이 몽테스키외(Montesquieu)에게서 비롯된다고 적었어요.", "cites": [19] },
+          { "type": "p", "text": "이탈리아어 위키백과는 이탈리아에서 입법권은 **의회**(Parlamento), 행정권은 **정부**(Governo), 사법권은 **사법부**(magistratura)가 맡는다고 정리해요.", "cites": [2] },
+          { "type": "it", "it": "Le due Camere fanno insieme le leggi.", "ko": "두 의회가 함께 법을 만들어요. (헌법 제70조: 입법 기능은 두 의회가 함께 행사)", "cites": [1, 4], "key": true }
+        ]
+      },
+      {
+        "heading": "Il Parlamento — 의회",
+        "blocks": [
+          { "type": "it", "it": "Il Parlamento è composto dalla Camera dei deputati e dal Senato della Repubblica.", "ko": "의회는 하원(Camera dei deputati)과 상원(Senato della Repubblica)으로 이루어져요.", "cites": [1, 4], "key": true },
+          { "type": "p", "text": "지금 하원 의원(deputati)은 **400명**(그중 8명은 해외 선거구 Estero), 선거로 뽑는 상원 의원(senatori)은 **200명**(그중 4명은 해외 선거구)이에요.", "cites": [1, 4, 5], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 이 숫자는 **2020년 9월 20~21일** 국민 투표에서 찬성 69.96%로 확정된 개헌으로 줄어든 것이에요. 하원은 630석에서 400석으로, 상원은 315석에서 200석으로 줄었고, 2022년 9월 25일 선거로 뽑힌 제19대 의회(XIX legislatura)부터 적용되었어요.", "cites": [4, 5] },
+          { "type": "p", "text": "하원과 상원은 둘 다 **5년** 동안 일하도록 뽑혀요.", "cites": [1, 4], "key": true },
+          { "type": "p", "text": "헌법 제56조와 제58조에 따르면 하원 의원은 25세 이상, 상원 의원은 40세 이상이면 뽑힐 수 있어요.", "cites": [1] },
+          { "type": "p", "text": "두 의회는 같은 힘을 가져요. 이탈리아어 위키백과는 이를 '완전한 양원제'(**bicameralismo perfetto**)라고 불러요. 그래서 법은 두 의회를 모두 통과해야 하고, 정부도 두 의회 모두의 신임을 받아야 해요.", "cites": [1, 4] },
+          { "type": "p", "text": "건물도 알아 두세요. 하원은 로마의 **몬테치토리오 궁**(Palazzo Montecitorio)에, 상원은 **마다마 궁**(Palazzo Madama)에 있어요.", "cites": [4, 16, 17, 18], "key": true }
+        ]
+      },
+      {
+        "heading": "Il Presidente della Repubblica — 대통령",
+        "blocks": [
+          { "type": "it", "it": "Il Presidente della Repubblica è il Capo dello Stato e rappresenta l'unità nazionale.", "ko": "공화국 대통령은 국가 원수이고, 나라의 하나 됨을 대표해요. (헌법 제87조)", "cites": [1, 6], "key": true },
+          { "type": "it", "it": "Il Presidente della Repubblica è eletto per sette anni.", "ko": "공화국 대통령은 7년 임기로 뽑혀요. (헌법 제85조)", "cites": [1, 6], "key": true },
+          { "type": "p", "text": "대통령은 국민이 직접 뽑지 않아요. **두 의회가 함께 모인 자리**(Parlamento in seduta comune)에서 뽑고, 각 주(Regione)의 대표 3명(발레다오스타 Valle d'Aosta는 1명)도 함께 투표해요. 처음 세 번의 투표에서는 3분의 2, 그다음부터는 과반수(maggioranza assoluta)를 얻으면 뽑혀요.", "cites": [1, 6], "key": true },
+          { "type": "p", "text": "**50세 이상**의 시민이면 대통령으로 뽑힐 수 있어요.", "cites": [1, 6], "key": true },
+          { "type": "p", "text": "대통령이 머무는 곳은 로마의 **퀴리날레 궁**(Palazzo del Quirinale)이에요. 트레카니 백과사전에 따르면 1948년부터 대통령의 자리예요.", "cites": [6, 10], "key": true },
+          { "type": "p", "text": "지금(2026-11-19 확인) 대통령은 **세르조 마타렐라**(Sergio Mattarella)예요. 2015년에 처음 뽑혔고 2022년에 다시 뽑혀 두 번째 임기를 보내고 있어요.", "cites": [6, 7, 8, 9], "key": true },
+          { "type": "p", "text": "대통령궁의 역대 대통령 목록은 첫 번째 엔리코 데 니콜라(1948)부터 마타렐라까지 12명을 보여 줘요. 데 니콜라는 지난 글에서 본 그 사람이에요.", "cites": [7, 9] }
+        ]
+      },
+      {
+        "heading": "Il Governo — 정부",
+        "blocks": [
+          { "type": "it", "it": "Il Governo è composto dal Presidente del Consiglio e dai ministri.", "ko": "정부는 총리(Presidente del Consiglio)와 장관들(ministri)로 이루어져요. (헌법 제92조)", "cites": [1, 11], "key": true },
+          { "type": "p", "text": "총리와 장관들이 함께 모이면 **각료 회의**(Consiglio dei ministri)예요. 총리는 **대통령이 임명**하고, 장관은 총리가 제안하면 대통령이 임명해요.", "cites": [1, 11], "key": true },
+          { "type": "it", "it": "Il Governo deve avere la fiducia delle due Camere.", "ko": "정부는 두 의회의 신임(fiducia)을 받아야 해요. (헌법 제94조)", "cites": [1, 11], "key": true },
+          { "type": "p", "text": "새 정부는 만들어진 뒤 **10일 안에** 두 의회에 나가 신임 투표를 받아요.", "cites": [1, 11], "key": true },
+          { "type": "p", "text": "총리가 일하는 곳은 로마의 **키지 궁**(Palazzo Chigi)이에요. 정부 누리집은 이곳이 1961년부터 정부의 자리라고 적었어요.", "cites": [11, 12], "key": true },
+          { "type": "p", "text": "지금(2026-11-19 확인) 총리는 **조르자 멜로니**(Giorgia Meloni)예요. **2022년 10월 22일** 선서(giuramento)하고 일을 시작했어요. 정부 누리집에 따르면 이탈리아 역사에서 처음으로 이 자리에 오른 여성이에요.", "cites": [11, 12, 13], "key": true }
+        ]
+      },
+      {
+        "heading": "La Corte costituzionale — 헌법 재판소",
+        "blocks": [
+          { "type": "p", "text": "**헌법 재판소**(Corte costituzionale)는 법이 헌법에 맞는지 살펴요. 재판관은 **15명**이고, 3분의 1(5명)씩 대통령, 두 의회가 함께 모인 자리, 최고 법원들이 뽑아요.", "cites": [1, 14], "key": true },
+          { "type": "p", "text": "재판관의 임기는 **9년**이고, 다시 임명될 수 없어요.", "cites": [1, 14], "key": true },
+          { "type": "p", "text": "헌법 재판소는 로마 퀴리날레 광장의 **콘술타 궁**(Palazzo della Consulta)에 있어요. 첫 공개 심리는 **1956년 4월 23일**에 열렸어요. 이탈리아어 위키백과에 따르면 건물 이름을 따서 헌법 재판소를 그냥 '콘술타'(la Consulta)라고도 불러요.", "cites": [14, 15], "key": true }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          { "type": "terms", "items": [{ "it": "parlamento (남성)", "ko": "의회" }, { "it": "senato (남성)", "ko": "상원" }, { "it": "deputato (남성, 여성 deputata)", "ko": "하원 의원" }, { "it": "senatore (남성, 여성 senatrice)", "ko": "상원 의원" }, { "it": "legge (여성)", "ko": "법, 법률" }, { "it": "sovranità (여성)", "ko": "주권" }, { "it": "popolo (남성)", "ko": "국민" }], "cites": [21, 22, 23, 24, 25, 26, 27] },
+          { "type": "terms", "items": [{ "it": "governo (남성)", "ko": "정부" }, { "it": "ministro (남성)", "ko": "장관" }, { "it": "fiducia (여성)", "ko": "신뢰, 신임" }, { "it": "potere (남성)", "ko": "권력, 힘" }, { "it": "legislativo", "ko": "입법의 (potere legislativo = 입법권)" }, { "it": "esecutivo", "ko": "행정의, 집행의 (potere esecutivo = 행정권)" }, { "it": "giudiziario", "ko": "사법의, 재판의 (potere giudiziario = 사법권)" }, { "it": "giudice (남성·여성)", "ko": "재판관, 판사" }, { "it": "mandato (남성)", "ko": "위임, 임무; 임기 (대통령의 7년 임기도 mandato)" }], "cites": [28, 29, 30, 31, 32, 33, 34, 35, 36, 19, 6] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "문제와 보기를 이탈리아어로 냈어요. 학교 페이지에 따르면 시험은 객관식(risposta multipla)이에요.", "cites": [20] },
+          { "type": "quiz", "lang": "it", "q": "Quanti articoli ha la Costituzione italiana?", "choices": ["12", "54", "100", "139", "150"], "answer": 4, "explain": "헌법(Costituzione)의 조항(articoli)은 **139개**예요. 12는 기본 원칙(Principi fondamentali)의 마지막 조항, 54는 제1부의 마지막 조항이라서 헷갈리기 쉬워요.", "cites": [1, 2, 3] },
+          { "type": "quiz", "lang": "it", "q": "Per quanti anni è eletto il Presidente della Repubblica?", "choices": ["Cinque", "Sei", "Sette", "Nove", "Dieci"], "answer": 3, "explain": "대통령(Presidente della Repubblica)의 임기는 **7년**(sette anni)이에요. 5년(cinque)은 의회, 9년(nove)은 헌법 재판관의 임기예요.", "cites": [1, 6] },
+          { "type": "quiz", "lang": "it", "q": "Quanti deputati ha oggi la Camera dei deputati?", "choices": ["200", "400", "315", "630", "945"], "answer": 2, "explain": "하원 의원(deputati)은 2020년 개헌 뒤 **400명**(quattrocento)이에요. 630은 그 전의 숫자, 200은 지금의 상원 의원(senatori) 수예요.", "cites": [1, 4, 5] },
+          { "type": "quiz", "lang": "it", "q": "Quale palazzo di Roma è la sede del Governo italiano?", "choices": ["Palazzo Montecitorio", "Palazzo Madama", "Palazzo del Quirinale", "Palazzo della Consulta", "Palazzo Chigi"], "answer": 5, "explain": "정부(Governo)의 자리는 **키지 궁**(Palazzo Chigi)이에요. 몬테치토리오는 하원, 마다마는 상원, 퀴리날레는 대통령, 콘술타는 헌법 재판소의 건물이에요.", "cites": [4, 6, 11, 12, 14] },
+          { "type": "quiz", "lang": "it", "q": "Chi nomina il Presidente del Consiglio dei ministri?", "choices": ["Il Presidente della Repubblica", "Il Senato della Repubblica", "La Camera dei deputati", "La Corte costituzionale", "I cittadini con un referendum"], "answer": 1, "explain": "총리(Presidente del Consiglio dei ministri)를 임명(nomina)하는 사람은 **대통령**(Presidente della Repubblica)이에요. 그다음 정부는 두 의회의 신임(fiducia)을 받아야 해요.", "cites": [1, 11] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://conoscere.camera.it/sites/conoscere/files/2024-07/Costituzione_22_ottobre_2023.pdf", "title": "Camera dei deputati — Costituzione della Repubblica italiana (testo aggiornato, PDF)" },
+      { "n": 2, "url": "https://it.wikipedia.org/wiki/Costituzione_della_Repubblica_Italiana", "title": "Wikipedia (italiano) — Costituzione della Repubblica Italiana" },
+      { "n": 3, "url": "https://giovani.camera.it/node/510", "title": "Camera dei deputati (giovani) — La Costituzione della Repubblica italiana" },
+      { "n": 4, "url": "https://it.wikipedia.org/wiki/Parlamento_italiano", "title": "Wikipedia (italiano) — Parlamento italiano" },
+      { "n": 5, "url": "https://it.wikipedia.org/wiki/Referendum_costituzionale_in_Italia_del_2020", "title": "Wikipedia (italiano) — Referendum costituzionale in Italia del 2020" },
+      { "n": 6, "url": "https://it.wikipedia.org/wiki/Presidente_della_Repubblica_Italiana", "title": "Wikipedia (italiano) — Presidente della Repubblica Italiana" },
+      { "n": 7, "url": "https://it.wikipedia.org/wiki/Sergio_Mattarella", "title": "Wikipedia (italiano) — Sergio Mattarella" },
+      { "n": 8, "url": "https://www.quirinale.it/", "title": "Presidenza della Repubblica — sito ufficiale (2026-11-19 확인)" },
+      { "n": 9, "url": "https://presidenti.quirinale.it/", "title": "Presidenza della Repubblica — I Presidenti dal 1948" },
+      { "n": 10, "url": "https://www.treccani.it/enciclopedia/quirinale/", "title": "Treccani Enciclopedia — Quirinale" },
+      { "n": 11, "url": "https://it.wikipedia.org/wiki/Governo_della_Repubblica_Italiana", "title": "Wikipedia (italiano) — Governo della Repubblica Italiana" },
+      { "n": 12, "url": "https://www.governo.it/it/il-governo", "title": "Governo italiano — Il Governo (2026-11-19 확인)" },
+      { "n": 13, "url": "https://governo.it/it/node/20703", "title": "Governo italiano — Giorgia Meloni" },
+      { "n": 14, "url": "https://it.wikipedia.org/wiki/Corte_costituzionale_della_Repubblica_Italiana", "title": "Wikipedia (italiano) — Corte costituzionale della Repubblica Italiana" },
+      { "n": 15, "url": "https://www.turismoroma.it/it/luoghi/palazzo-della-consulta", "title": "Turismo Roma — Palazzo della Consulta" },
+      { "n": 16, "url": "https://turismoroma.it/it/luoghi/palazzo-madama-sede-del-senato-della-repubblica", "title": "Turismo Roma — Palazzo Madama (Sede del Senato della Repubblica)" },
+      { "n": 17, "url": "https://it.wikipedia.org/wiki/Palazzo_Montecitorio", "title": "Wikipedia (italiano) — Palazzo Montecitorio" },
+      { "n": 18, "url": "https://www.camera.it/leg19/1", "title": "Camera dei deputati — XIX Legislatura, home page" },
+      { "n": 19, "url": "https://www.treccani.it/enciclopedia/separazione-dei-poteri/", "title": "Treccani Enciclopedia — separazione dei poteri" },
+      { "n": 20, "url": "https://www.polimi.it/futuri-studenti/test-e-ammissione/laurea/design/in-cosa-consiste-il-told-e-come-prepararsi", "title": "Politecnico di Milano — TOLD Design: struttura, contenuti e preparazione (2026/27)" },
+      { "n": 21, "url": "https://en.wiktionary.org/wiki/parlamento", "title": "Wiktionary — parlamento" },
+      { "n": 22, "url": "https://en.wiktionary.org/wiki/senato", "title": "Wiktionary — senato" },
+      { "n": 23, "url": "https://en.wiktionary.org/wiki/deputato", "title": "Wiktionary — deputato" },
+      { "n": 24, "url": "https://en.wiktionary.org/wiki/senatore", "title": "Wiktionary — senatore" },
+      { "n": 25, "url": "https://en.wiktionary.org/wiki/legge", "title": "Wiktionary — legge" },
+      { "n": 26, "url": "https://en.wiktionary.org/wiki/sovranit%C3%A0", "title": "Wiktionary — sovranità" },
+      { "n": 27, "url": "https://en.wiktionary.org/wiki/popolo", "title": "Wiktionary — popolo" },
+      { "n": 28, "url": "https://en.wiktionary.org/wiki/governo", "title": "Wiktionary — governo" },
+      { "n": 29, "url": "https://en.wiktionary.org/wiki/ministro", "title": "Wiktionary — ministro" },
+      { "n": 30, "url": "https://en.wiktionary.org/wiki/fiducia", "title": "Wiktionary — fiducia" },
+      { "n": 31, "url": "https://en.wiktionary.org/wiki/potere", "title": "Wiktionary — potere" },
+      { "n": 32, "url": "https://en.wiktionary.org/wiki/legislativo", "title": "Wiktionary — legislativo" },
+      { "n": 33, "url": "https://en.wiktionary.org/wiki/esecutivo", "title": "Wiktionary — esecutivo" },
+      { "n": 34, "url": "https://en.wiktionary.org/wiki/giudiziario", "title": "Wiktionary — giudiziario" },
+      { "n": 35, "url": "https://en.wiktionary.org/wiki/giudice", "title": "Wiktionary — giudice" },
+      { "n": 36, "url": "https://en.wiktionary.org/wiki/mandato", "title": "Wiktionary — mandato" }
+    ],
+    "written": "2026-11-19",
+    "checked": "2026-11-19"
   }
 ]
