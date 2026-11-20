@@ -1180,5 +1180,440 @@
     ],
     "written": "2026-11-18",
     "checked": "2026-11-18"
+  },
+  {
+    "id": "compasso-doro-reading",
+    "no": 3,
+    "subject": "이탈리아어 독해",
+    "stage": "입문",
+    "title": "콤파소 도로 — 이탈리아 디자인 상 읽기",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [
+      "polimi-design-story-reading"
+    ],
+    "sections": [
+      {
+        "heading": "Prima di leggere — 읽기 전에",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "이번 지문은 이탈리아 디자인 상 **콤파소 도로**(Compasso d'Oro, '황금 컴퍼스')예요. 이탈리아어 위키백과는 이 상을 세계에서 가장 오래되고 권위 있는 산업 디자인 상이라고 소개해요. 디자인사 문제에도 나올 수 있는 이름이라 미리 알아 두면 좋아요.",
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "p",
+            "text": "아래 지문은 위키백과, ADI 디자인 박물관 누리집, 리나센테 기록 보관소의 내용을 쉬운 이탈리아어로 다시 쓴 거예요. 낱말을 먼저 훑어보고, 이탈리아어로 한 번 읽은 다음 한국어 뜻을 확인하세요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Parole nuove — 새 낱말",
+        "blocks": [
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "premio (복수 premi)",
+                "ko": "상"
+              },
+              {
+                "it": "sostegno",
+                "ko": "지원, 도움"
+              },
+              {
+                "it": "magazzino (복수 magazzini)",
+                "ko": "창고 — 여기서는 백화점"
+              },
+              {
+                "it": "scopo",
+                "ko": "목적"
+              },
+              {
+                "it": "valorizzare",
+                "ko": "가치를 높이다, 돋보이게 하다"
+              },
+              {
+                "it": "grafico",
+                "ko": "(사람) 그래픽 작가"
+              },
+              {
+                "it": "disegnare",
+                "ko": "그리다, 디자인하다"
+              },
+              {
+                "it": "ispirarsi a",
+                "ko": "~에서 영감을 얻다"
+              },
+              {
+                "it": "compasso",
+                "ko": "컴퍼스 (원을 그리는 도구)"
+              },
+              {
+                "it": "associazione",
+                "ko": "협회, 모임"
+              },
+              {
+                "it": "collezione",
+                "ko": "소장품 모음, 컬렉션"
+              },
+              {
+                "it": "storico (여성형 storica)",
+                "ko": "역사의, 역사적인"
+              }
+            ],
+            "cites": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Il testo — 지문",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "Il Compasso d'Oro è un premio di design.",
+            "ko": "콤파소 도로는 디자인 상이에요.",
+            "cites": [
+              1,
+              2
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il premio nasce nel 1954, con il sostegno dei magazzini la Rinascente.",
+            "ko": "이 상은 1954년에 백화점 리나센테의 지원으로 생겨요.",
+            "cites": [
+              1,
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "L'idea è di Gio Ponti e Alberto Rosselli.",
+            "ko": "아이디어를 낸 사람은 조 폰티와 알베르토 로셀리예요.",
+            "cites": [
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Lo scopo del premio è valorizzare la qualità del design italiano.",
+            "ko": "이 상의 목적은 이탈리아 디자인의 수준을 돋보이게 하는 거예요.",
+            "cites": [
+              1,
+              2
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il grafico Albe Steiner disegna l'immagine del premio: si ispira a un compasso.",
+            "ko": "그래픽 작가 알베 스타이너가 상의 이미지를 디자인해요. 컴퍼스에서 영감을 얻었어요.",
+            "cites": [
+              1,
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Oggi il premio è dell'ADI, l'Associazione per il Disegno Industriale.",
+            "ko": "지금 이 상은 산업 디자인 협회 ADI의 것이에요.",
+            "cites": [
+              1,
+              2
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Secondo l'ADI, il premio si assegna ogni due anni.",
+            "ko": "ADI에 따르면, 이 상은 2년마다 줘요.",
+            "cites": [
+              2
+            ]
+          },
+          {
+            "type": "it",
+            "it": "La collezione storica del premio è all'ADI Design Museum, in piazza Compasso d'Oro 1, a Milano.",
+            "ko": "이 상의 역사 컬렉션은 밀라노 콤파소 도로 광장 1번지의 ADI 디자인 박물관에 있어요.",
+            "cites": [
+              2,
+              4
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Secondo Wikipedia, il museo apre al pubblico il 26 maggio 2021.",
+            "ko": "위키백과에 따르면, 박물관은 2021년 5월 26일에 사람들에게 문을 열어요.",
+            "cites": [
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Note sul testo — 지문 더 알기",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "아이디어를 낸 사람은 자료마다 조금 달라요. ADI 박물관 누리집과 리나센테 기록 보관소는 **조 폰티와 알베르토 로셀리**를 적고, 이탈리아어 위키백과는 조 폰티만 적어요. 리나센테 기록 보관소는 보를레티(Borletti)와 브루스티오(Brustio)가 강하게 밀어 주었다고 적어요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "p",
+            "text": "상이 ADI로 넘어간 해도 자료마다 달라요. 리나센테 기록 보관소와 ADI 박물관 누리집은 1959년에 상을 여는 일을 ADI에 맡겼다고 적어요. ADI 박물관 누리집은 1967년에 ADI가 상을 완전히 가졌다고도 적어요. 위키백과는 1964년에 리나센테의 후원이 끝나고 상이 완전히 ADI로 넘어갔다고 적어요. 그래서 지문에는 '지금은 ADI의 상'이라고만 썼어요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "p",
+            "text": "상을 주는 간격도 자료에 따라 달라요. ADI 박물관 누리집은 2년마다라고 적어요. 위키백과는 한 곳에서 '2년마다(예전에는 3년마다)'라고 적고, 다른 곳에서는 '3년마다 국제 심사단이 고른다'고 적어요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "p",
+            "text": "알베 스타이너는 상의 **시각 이미지**(로고)를 만들었어요. 위키백과는 상으로 주는 물건(컴퍼스 모양)을 건축가 마르코 차누소(Marco Zanuso)와 알베르토 로셀리가 만들었다고도 적어요. 위키백과는 이 컴퍼스가 아달베르트 괴링거(Adalbert Goeringer)의 컴퍼스에서, ADI 박물관 누리집은 상의 시각 이미지가 괴링거의 황금 컴퍼스에서 영감을 얻었다고 적어요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "p",
+            "text": "ADI 박물관 누리집에 따르면, 2004년에 이탈리아 문화부가 콤파소 도로 역사 컬렉션을 '예외적인 예술적·역사적 가치'가 있다고 선언했어요.",
+            "cites": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "실제 시험처럼 **지문에 적힌 내용만으로** 답을 고르세요. 문제와 보기는 이탈리아어예요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Secondo il testo, in che anno nasce il Compasso d'Oro?",
+            "choices": [
+              "Nel 1863",
+              "Nel 1954",
+              "Nel 1964",
+              "Nel 2004",
+              "Nel 2021"
+            ],
+            "answer": 2,
+            "explain": "둘째 문장 \"Il premio nasce nel **1954**, con il sostegno dei magazzini la Rinascente.\"에 답이 있어요. 2021은 박물관이 문을 연 해예요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Di chi è l'idea del premio?",
+            "choices": [
+              "Di Albe Steiner",
+              "Del Comune di Milano",
+              "Di Gio Ponti e Alberto Rosselli",
+              "Dell'ADI Design Museum",
+              "Di un giornale di Milano"
+            ],
+            "answer": 3,
+            "explain": "셋째 문장 \"L'idea è di **Gio Ponti e Alberto Rosselli**.\"에 답이 있어요. 알베 스타이너는 상의 이미지를 디자인한 사람이에요.",
+            "cites": [
+              2,
+              3
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Qual è lo scopo del premio?",
+            "choices": [
+              "Vendere mobili nei magazzini",
+              "Valorizzare la qualità del design italiano",
+              "Costruire un museo a Milano",
+              "Insegnare il disegno ai bambini",
+              "Premiare i migliori studenti del Politecnico"
+            ],
+            "answer": 2,
+            "explain": "넷째 문장 \"Lo **scopo** del premio è **valorizzare la qualità del design italiano**.\"에 답이 있어요. scopo는 '목적'이에요.",
+            "cites": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Che cosa fa Albe Steiner?",
+            "choices": [
+              "Disegna l'immagine del premio",
+              "Apre l'ADI Design Museum",
+              "Fonda la Rinascente",
+              "Assegna il premio ogni anno",
+              "Scrive su Wikipedia"
+            ],
+            "answer": 1,
+            "explain": "다섯째 문장 \"Il grafico Albe Steiner **disegna l'immagine del premio**: si ispira a un compasso.\"에 답이 있어요. grafico는 여기서 '그래픽 작가'예요.",
+            "cites": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Secondo il testo, quale frase è vera?",
+            "choices": [
+              "Il premio si assegna ogni anno.",
+              "Il museo apre al pubblico nel 1954.",
+              "La collezione storica del premio è a Milano.",
+              "L'ADI è un grande magazzino.",
+              "Il premio si ispira a un museo."
+            ],
+            "answer": 3,
+            "explain": "\"La collezione storica del premio è all'ADI Design Museum, in piazza Compasso d'Oro 1, **a Milano**.\" 문장 때문에 C가 맞아요. 지문에서 ADI는 상을 2년마다(ogni due anni) 준다고 하고, 박물관은 2021년에 열고, ADI는 협회(associazione)이고, 이미지는 컴퍼스에서 영감을 얻었어요.",
+            "cites": [
+              1,
+              2,
+              4
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://it.wikipedia.org/wiki/Compasso_d%27Oro",
+        "title": "Wikipedia (it) — Compasso d'Oro"
+      },
+      {
+        "n": 2,
+        "url": "https://adidesignmuseum.org/en/il-premio-compasso-doro",
+        "title": "ADI Design Museum — The ADI Compasso d'Oro Award"
+      },
+      {
+        "n": 3,
+        "url": "https://archives.rinascente.it/en/paths/gli-anni-d-oro-1954-1957/cronologia",
+        "title": "Rinascente Archives — Towards the Compasso d'Oro (cronologia 1954–1957)"
+      },
+      {
+        "n": 4,
+        "url": "https://it.wikipedia.org/wiki/ADI_Design_Museum",
+        "title": "Wikipedia (it) — ADI Design Museum"
+      },
+      {
+        "n": 5,
+        "url": "https://en.wiktionary.org/wiki/premio",
+        "title": "Wiktionary — premio"
+      },
+      {
+        "n": 6,
+        "url": "https://en.wiktionary.org/wiki/sostegno",
+        "title": "Wiktionary — sostegno"
+      },
+      {
+        "n": 7,
+        "url": "https://en.wiktionary.org/wiki/magazzino",
+        "title": "Wiktionary — magazzino"
+      },
+      {
+        "n": 8,
+        "url": "https://en.wiktionary.org/wiki/scopo",
+        "title": "Wiktionary — scopo"
+      },
+      {
+        "n": 9,
+        "url": "https://en.wiktionary.org/wiki/valorizzare",
+        "title": "Wiktionary — valorizzare"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wiktionary.org/wiki/grafico",
+        "title": "Wiktionary — grafico"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wiktionary.org/wiki/disegnare",
+        "title": "Wiktionary — disegnare"
+      },
+      {
+        "n": 12,
+        "url": "https://en.wiktionary.org/wiki/ispirarsi",
+        "title": "Wiktionary — ispirarsi"
+      },
+      {
+        "n": 13,
+        "url": "https://en.wiktionary.org/wiki/compasso",
+        "title": "Wiktionary — compasso"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wiktionary.org/wiki/associazione",
+        "title": "Wiktionary — associazione"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wiktionary.org/wiki/collezione",
+        "title": "Wiktionary — collezione"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wiktionary.org/wiki/storico",
+        "title": "Wiktionary — storico"
+      }
+    ],
+    "written": "2026-11-20",
+    "checked": "2026-11-20"
   }
 ]
