@@ -2272,5 +2272,971 @@
       "https://ssharoff.github.io/kelly/",
       "https://ssharoff.github.io/kelly/it_m3.xls"
     ]
+  },
+  {
+    "id": "leggere",
+    "name": "leggere",
+    "ipa": "ˈlɛd.d͡ʒe.re",
+    "meanings": [
+      "읽다"
+    ],
+    "examples": [
+      {
+        "it": "Lorenzo legge il giornale.",
+        "ko": "로렌초는 신문을 읽는다."
+      }
+    ],
+    "note": "Wiktionary는 근과거 같은 복합 시제를 avere로 만든다고 적고 있다. Treccani는 타동사(v. tr.)라고만 적는다.",
+    "related": [
+      "scrivere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/leggere/",
+      "https://en.wiktionary.org/wiki/leggere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "scrivere",
+    "name": "scrivere",
+    "ipa": "ˈskri.ve.re",
+    "meanings": [
+      "쓰다, 글을 쓰다",
+      "(낱말의) 철자를 쓰다"
+    ],
+    "examples": [
+      {
+        "it": "scrivere una lettera",
+        "ko": "편지를 쓰다"
+      },
+      {
+        "it": "saper leggere e scrivere",
+        "ko": "읽고 쓸 줄 알다"
+      }
+    ],
+    "note": "Treccani는 saper leggere e scrivere(읽고 쓸 줄 알다)를 초등 수준의 교육을 받았다는 뜻으로 풀이한다.",
+    "related": [
+      "leggere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/scrivere/",
+      "https://en.wiktionary.org/wiki/scrivere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "vivere",
+    "name": "vivere",
+    "ipa": "ˈvi.ve.re",
+    "meanings": [
+      "살다, 살아 있다",
+      "(어떤 삶이나 때를) 살다, 겪다"
+    ],
+    "examples": [
+      {
+        "it": "mangiare per vivere e non vivere per mangiare",
+        "ko": "살기 위해 먹고, 먹기 위해 살지 않는다 (속담)"
+      }
+    ],
+    "note": "복합 시제의 조동사는 사전마다 다르게 적는다. Treccani는 essere, 일부 뜻에서는 avere라고 하고, Wiktionary는 avere 또는 (전통적으로, 일부 뜻에서, 지금은 덜 흔하게) essere라고 한다.",
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/vivere/",
+      "https://en.wiktionary.org/wiki/vivere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "lavorare",
+    "name": "lavorare",
+    "ipa": "la.voˈra.re",
+    "meanings": [
+      "일하다"
+    ],
+    "examples": [
+      {
+        "it": "ho lavorato fino a tarda notte",
+        "ko": "나는 밤늦게까지 일했다"
+      }
+    ],
+    "note": "Treccani는 기계나 공장이 '돌아가다, 가동하다'라는 뜻으로도 쓴다고 적고 있다.",
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/lavorare/",
+      "https://en.wiktionary.org/wiki/lavorare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "aprire",
+    "name": "aprire",
+    "ipa": "aˈpri.re",
+    "meanings": [
+      "열다"
+    ],
+    "examples": [
+      {
+        "it": "aprire la porta",
+        "ko": "문을 열다"
+      }
+    ],
+    "note": "Treccani는 chiudere(닫다)의 반대말이라고 적고 있다. 과거분사는 aperto.",
+    "related": [
+      "chiudere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/aprire/",
+      "https://en.wiktionary.org/wiki/aprire",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "chiudere",
+    "name": "chiudere",
+    "ipa": "ˈkju.de.re",
+    "meanings": [
+      "닫다",
+      "(가게·학교 등의) 문을 닫다, 영업을 멈추다"
+    ],
+    "examples": [
+      {
+        "it": "Non dimenticare di chiudere il gas prima di uscire.",
+        "ko": "나가기 전에 가스 잠그는 것을 잊지 마."
+      },
+      {
+        "it": "chiudere a chiave",
+        "ko": "열쇠로 잠그다"
+      }
+    ],
+    "note": "반대말은 aprire. 과거분사는 chiuso.",
+    "related": [
+      "aprire"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/chiudere/",
+      "https://en.wiktionary.org/wiki/chiudere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "cercare",
+    "name": "cercare",
+    "ipa": "t͡ʃerˈka.re",
+    "meanings": [
+      "찾다",
+      "(cercare di + 동사 원형) ~하려고 애쓰다"
+    ],
+    "examples": [
+      {
+        "it": "cercare la chiave di casa",
+        "ko": "집 열쇠를 찾다"
+      },
+      {
+        "it": "chi cerca trova",
+        "ko": "찾는 사람이 찾아낸다 (속담)"
+      }
+    ],
+    "related": [
+      "trovare"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/cercare/",
+      "https://en.wiktionary.org/wiki/cercare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "trovare",
+    "name": "trovare",
+    "ipa": "troˈva.re",
+    "meanings": [
+      "찾아내다, 발견하다",
+      "(우연히) 보게 되다, 마주치다",
+      "(andare·venire a trovare) 찾아가 보다, 방문하다"
+    ],
+    "examples": [
+      {
+        "it": "vieni a trovarmi più spesso",
+        "ko": "더 자주 나를 보러 와"
+      }
+    ],
+    "note": "Treccani는 trovare를 찾던 것을 만나거나 손에 넣는 일로 풀이한다. 찾는 행동 자체는 cercare.",
+    "related": [
+      "cercare"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/trovare/",
+      "https://en.wiktionary.org/wiki/trovare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "pensare",
+    "name": "pensare",
+    "ipa": "penˈsa.re",
+    "meanings": [
+      "생각하다",
+      "(사람을) 생각하다, 떠올리다"
+    ],
+    "examples": [
+      {
+        "it": "Ti ho pensato.",
+        "ko": "네 생각을 했어."
+      }
+    ],
+    "note": "Treccani는 ti penso가 상대의 모습을 마음속에 생생하게 떠올린다는 뜻이고, penso a te는 그보다 일반적인 말이라고 구별한다.",
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/pensare/",
+      "https://en.wiktionary.org/wiki/pensare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "conoscere",
+    "name": "conoscere",
+    "ipa": "koˈnoʃ.ʃe.re",
+    "meanings": [
+      "(사람·장소·사물을) 알다",
+      "겪다, 경험하다",
+      "알아보다"
+    ],
+    "examples": [
+      {
+        "it": "nelle disgrazie si conoscono i veri amici",
+        "ko": "어려울 때 진짜 친구를 알아본다"
+      }
+    ],
+    "note": "과거분사는 conosciuto.",
+    "related": [
+      "sapere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "자주 쓰는 동사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/conoscere/",
+      "https://en.wiktionary.org/wiki/conoscere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "disegno",
+    "name": "disegno",
+    "ipa": "diˈzeɲ.ɲo",
+    "meanings": [
+      "그림, 소묘 (선으로 그린 그림)",
+      "무늬, 도안",
+      "계획, 의도"
+    ],
+    "examples": [
+      {
+        "it": "disegno a matita",
+        "ko": "연필 그림"
+      },
+      {
+        "it": "carta da disegno",
+        "ko": "도화지"
+      }
+    ],
+    "note": "Treccani는 disegno industriale(산업 디자인)를 영어로 industrial design이라고도 한다고 적고 있다. Wiktionary는 전통 발음으로 diˈseɲ.ɲo도 싣는다.",
+    "related": [
+      "disegnare"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "disegni",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/disegno/",
+      "https://en.wiktionary.org/wiki/disegno",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "disegnare",
+    "name": "disegnare",
+    "ipa": "di.zeɲˈɲa.re",
+    "meanings": [
+      "(선으로) 그리다",
+      "디자인하다, 설계하다"
+    ],
+    "examples": [
+      {
+        "it": "disegnare un fiore",
+        "ko": "꽃을 그리다"
+      }
+    ],
+    "note": "Treccani는 '설계하다'라는 뜻이 영어 design의 영향으로 생긴 쓰임이라고 적고 있다.",
+    "related": [
+      "disegno",
+      "dipingere"
+    ],
+    "pos": "동사",
+    "topics": [
+      "그리기"
+    ],
+    "level": "B1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/disegnare/",
+      "https://en.wiktionary.org/wiki/disegnare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "tratto",
+    "name": "tratto",
+    "ipa": "ˈtrat.to",
+    "meanings": [
+      "(연필·펜·붓의) 획, 선"
+    ],
+    "examples": [
+      {
+        "it": "cancellare con un tratto di penna",
+        "ko": "펜으로 한 획 그어 지우다"
+      }
+    ],
+    "note": "Treccani는 연필·펜·붓을 한 번 움직이는 것과 그렇게 그은 선을 tratto라고 풀이한다.",
+    "related": [
+      "linea",
+      "disegno"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "tratti",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/tratto2/",
+      "https://en.wiktionary.org/wiki/tratto",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "ombra",
+    "name": "ombra",
+    "ipa": "ˈom.bra",
+    "meanings": [
+      "그늘, 그림자"
+    ],
+    "examples": [
+      {
+        "it": "a mano a mano che cala il sole, le ombre si allungano",
+        "ko": "해가 질수록 그림자가 길어진다"
+      }
+    ],
+    "note": "Treccani는 그림에서 형체에 입체감을 주려고 칠하는 어두운 톤도 ombre라고 한다고 적고 있다 (luci e ombre, 빛과 그림자).",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "ombre",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/ombra1/",
+      "https://en.wiktionary.org/wiki/ombra",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "immagine",
+    "name": "immagine",
+    "ipa": "imˈma.d͡ʒi.ne",
+    "meanings": [
+      "상(像), 모습, 이미지"
+    ],
+    "note": "Treccani는 거울이나 물에 비친 모습, 사진에 찍힌 모습, 그림·조각으로 나타낸 모습, 회사나 사람이 사람들에게 보이는 이미지까지 이 낱말로 풀이한다.",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "immagini",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/immagine/",
+      "https://en.wiktionary.org/wiki/immagine",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "quadro",
+    "name": "quadro",
+    "ipa": "ˈkwa.dro",
+    "meanings": [
+      "그림, 회화 (틀에 넣은 그림)",
+      "네모, 네모 칸",
+      "(상황 등의) 개요, 모습"
+    ],
+    "examples": [
+      {
+        "it": "quadro a olio",
+        "ko": "유화"
+      },
+      {
+        "it": "una giacca a quadri",
+        "ko": "체크무늬 재킷"
+      }
+    ],
+    "note": "Wiktionary는 같은 뜻의 말로 dipinto를 든다.",
+    "related": [
+      "dipingere"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "quadri",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/quadro2/",
+      "https://en.wiktionary.org/wiki/quadro",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "foglio",
+    "name": "foglio",
+    "ipa": "ˈfɔʎ.ʎo",
+    "meanings": [
+      "(종이) 한 장, 낱장"
+    ],
+    "examples": [
+      {
+        "it": "un foglio di carta da disegno",
+        "ko": "도화지 한 장"
+      }
+    ],
+    "related": [
+      "disegno"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "fogli",
+    "topics": [
+      "그리기"
+    ],
+    "level": "B1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/foglio/",
+      "https://en.wiktionary.org/wiki/foglio",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "forma",
+    "name": "forma",
+    "ipa": "ˈfor.ma",
+    "meanings": [
+      "모양, 형태",
+      "틀, 거푸집"
+    ],
+    "examples": [
+      {
+        "it": "forma circolare",
+        "ko": "둥근 모양"
+      }
+    ],
+    "related": [
+      "figura"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "forme",
+    "topics": [
+      "그리기"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/forma/",
+      "https://en.wiktionary.org/wiki/forma",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "prospettiva",
+    "name": "prospettiva",
+    "ipa": "pros.petˈti.va",
+    "meanings": [
+      "원근법",
+      "전망, 앞날의 가능성"
+    ],
+    "examples": [
+      {
+        "it": "non avere prospettive",
+        "ko": "앞날이 보이지 않다"
+      }
+    ],
+    "note": "Treccani는 원근법을 실제 물체를 눈으로 볼 때와 비슷한 평면 그림으로 그리는 규칙을 다루는 기하학(도법 기하)의 한 분야라고 풀이한다.",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "prospettive",
+    "topics": [
+      "그리기",
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/prospettiva1/",
+      "https://en.wiktionary.org/wiki/prospettiva",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "dipingere",
+    "name": "dipingere",
+    "ipa": "diˈpin.d͡ʒe.re",
+    "meanings": [
+      "(물감으로) 그림을 그리다",
+      "칠하다",
+      "(말로) 묘사하다"
+    ],
+    "examples": [
+      {
+        "it": "dipingere un paesaggio",
+        "ko": "풍경을 그리다"
+      }
+    ],
+    "note": "Treccani 풀이로 보면 disegnare는 연필·펜 등의 선으로, dipingere는 색(물감)으로 그린다. 과거분사는 dipinto.",
+    "related": [
+      "disegnare",
+      "quadro"
+    ],
+    "pos": "동사",
+    "topics": [
+      "그리기"
+    ],
+    "level": "B2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/dipingere/",
+      "https://en.wiktionary.org/wiki/dipingere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "museo",
+    "name": "museo",
+    "ipa": "muˈzɛ.o",
+    "meanings": [
+      "박물관, 미술관"
+    ],
+    "examples": [
+      {
+        "it": "è roba da museo",
+        "ko": "박물관에나 있을 물건이다 (낡았다는 뜻)"
+      }
+    ],
+    "note": "Treccani는 예술 작품이나 역사·과학적 가치가 있는 물건을 모은 것, 또 그것을 보관하는 건물이라고 풀이한다. da museo는 농담이나 낮춰 말할 때 '시대에 뒤떨어진'이라는 뜻으로 쓴다.",
+    "related": [
+      "arte",
+      "esposizione"
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "musei",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/museo/",
+      "https://en.wiktionary.org/wiki/museo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "profilo",
+    "name": "profilo",
+    "ipa": "proˈfi.lo",
+    "meanings": [
+      "윤곽, 윤곽선",
+      "옆얼굴, 옆모습",
+      "(사람에 대한) 짧은 소개"
+    ],
+    "examples": [
+      {
+        "it": "il profilo delle montagne",
+        "ko": "산의 윤곽"
+      },
+      {
+        "it": "fotografare di profilo",
+        "ko": "옆모습으로 사진을 찍다"
+      }
+    ],
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "profili",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/profilo/",
+      "https://en.wiktionary.org/wiki/profilo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "esposizione",
+    "name": "esposizione",
+    "ipa": "es.po.zitˈt͡sjo.ne",
+    "meanings": [
+      "전시회, 박람회",
+      "진열, 전시",
+      "(빛 등에) 쬠, 노출",
+      "설명"
+    ],
+    "examples": [
+      {
+        "it": "esposizione universale",
+        "ko": "만국 박람회"
+      }
+    ],
+    "note": "Treccani는 esposizione universale를 여러 나라의 산업가·상인·예술가가 참가하는 박람회라고 풀이한다.",
+    "related": [
+      "museo"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "esposizioni",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/esposizione/",
+      "https://en.wiktionary.org/wiki/esposizione",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "serie",
+    "name": "serie",
+    "ipa": "ˈsɛ.rje",
+    "meanings": [
+      "연속, 잇따름, 시리즈",
+      "(스포츠의) 리그 등급"
+    ],
+    "examples": [
+      {
+        "it": "produzione in serie",
+        "ko": "대량 생산"
+      }
+    ],
+    "note": "단수와 복수의 꼴이 같다. Treccani는 produzione in serie를 하나의 본보기와 똑같은 물건을 많이 만드는 생산이라고 풀이한다.",
+    "related": [
+      "produzione",
+      "industria"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "serie",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/serie/",
+      "https://en.wiktionary.org/wiki/serie",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "industria",
+    "name": "industria",
+    "ipa": "inˈdus.trja",
+    "meanings": [
+      "산업, 공업"
+    ],
+    "examples": [
+      {
+        "it": "la crisi dell'industria chimica",
+        "ko": "화학 산업의 위기"
+      }
+    ],
+    "note": "Wiktionary는 inˈdus.tri.a라는 발음도 싣는다.",
+    "related": [
+      "produzione",
+      "serie"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "industrie",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/industria/",
+      "https://en.wiktionary.org/wiki/industria",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "produzione",
+    "name": "produzione",
+    "ipa": "pro.dutˈt͡sjo.ne",
+    "meanings": [
+      "생산, 제작",
+      "생산량",
+      "(영화·공연 등의) 제작"
+    ],
+    "examples": [
+      {
+        "it": "terreno adatto alla produzione di caffè",
+        "ko": "커피 생산에 알맞은 땅"
+      }
+    ],
+    "related": [
+      "industria",
+      "serie"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "produzioni",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/produzione/",
+      "https://en.wiktionary.org/wiki/produzione",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "arte",
+    "name": "arte",
+    "ipa": "ˈar.te",
+    "meanings": [
+      "예술, 미술"
+    ],
+    "examples": [
+      {
+        "it": "opera d'arte",
+        "ko": "예술 작품"
+      },
+      {
+        "it": "arte barocca",
+        "ko": "바로크 예술"
+      }
+    ],
+    "note": "Treccani는 회화·조각·건축·음악·시 등으로 나뉘는 문화적 산물을 가리킨다고 풀이한다.",
+    "related": [
+      "artista",
+      "opera"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "arti",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/arte/",
+      "https://en.wiktionary.org/wiki/arte",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "opera",
+    "name": "opera",
+    "ipa": "ˈɔ.pe.ra",
+    "meanings": [
+      "일, 활동",
+      "작품",
+      "오페라"
+    ],
+    "examples": [
+      {
+        "it": "opere d'arte",
+        "ko": "예술 작품들"
+      }
+    ],
+    "note": "Treccani는 opere d'arte에 그림·조각·건축물 등이 들어간다고 적고 있다.",
+    "related": [
+      "arte"
+    ],
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "opere",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A1",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/opera/",
+      "https://en.wiktionary.org/wiki/opera",
+      "https://it.wiktionary.org/wiki/opera",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "artista",
+    "name": "artista",
+    "ipa": "arˈtis.ta",
+    "meanings": [
+      "예술가"
+    ],
+    "examples": [
+      {
+        "it": "gli artisti del Rinascimento",
+        "ko": "르네상스의 예술가들"
+      }
+    ],
+    "note": "남성·여성 모두 쓰는 명사다 (Treccani: s. m. e f.). 복수는 남성 artisti, 여성 artiste.",
+    "related": [
+      "arte"
+    ],
+    "pos": "명사",
+    "plural": "artisti",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/artista/",
+      "https://en.wiktionary.org/wiki/artista",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
+  },
+  {
+    "id": "stile",
+    "name": "stile",
+    "ipa": "ˈsti.le",
+    "meanings": [
+      "양식, 스타일"
+    ],
+    "examples": [
+      {
+        "it": "stile dorico",
+        "ko": "도리스 양식"
+      }
+    ],
+    "note": "Treccani는 미술에서 stile를 한 예술가나 유파의 특징 전체라고 풀이하고, 문학에서는 글의 표현 방식(문체)을 가리킨다고 적고 있다.",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "stili",
+    "topics": [
+      "미술사와 디자인사"
+    ],
+    "level": "A2",
+    "checked": "2026-11-20",
+    "sources": [
+      "https://www.treccani.it/vocabolario/stile/",
+      "https://en.wiktionary.org/wiki/stile",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ]
   }
 ]
