@@ -1160,5 +1160,131 @@
     ],
     "written": "2026-11-19",
     "checked": "2026-11-19"
+  },
+  {
+    "id": "art-grecia",
+    "no": 3,
+    "subject": "디자인사·미술사",
+    "stage": "입문",
+    "title": "고대 그리스 미술 — ordini, Paestum, Doriforo, Bronzi di Riace",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["art-preistoria-egitto"],
+    "sections": [
+      {
+        "heading": "L'arte greca: dove e quando — 그리스 미술은 어디서, 언제",
+        "blocks": [
+          { "type": "p", "text": "앞 글의 이집트 다음은 **고대 그리스**예요. 이탈리아어 위키백과에 따르면 **그리스 미술**(arte greca)은 그리스어를 쓰던 사람들의 미술이고, 그 땅에는 그리스 반도와 섬들뿐 아니라 **남이탈리아**와 시칠리아 같은 섬에 세운 식민 도시도 들어가요.", "cites": [1] },
+          { "type": "it", "it": "La Magna Grecia è l'insieme delle colonie greche dell'Italia meridionale.", "ko": "마그나 그라이키아(Magna Grecia, '큰 그리스')는 남이탈리아에 있던 그리스 식민 도시들을 묶어 부르는 이름이에요.", "cites": [2, 3], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과는 그리스 사람들이 이 땅에 **기원전 8세기**부터 식민 도시를 세웠다고 적었어요. 그래서 이탈리아에서도 그리스 신전과 조각을 볼 수 있어요. 이 글은 그 가운데 이탈리아에 있는 작품을 먼저 다뤄요.", "cites": [3] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 그리스 미술은 양식에 따라 흔히 네 시기로 나눠요. 기원전 1100년쯤 시작된 첫 시기 다음에 **아르카익**(arcaico), **고전기**(classico), **헬레니즘**(ellenistico) 시기가 이어져요. 페르시아 전쟁(guerre persiane)이 아르카익과 고전기의 경계이고, 알렉산드로스 대왕(Alessandro Magno, 기원전 336~323년 재위)의 시대가 고전기와 헬레니즘의 경계예요. 같은 글은 시기 사이에 뚜렷한 선이 있지는 않았다고도 적었어요.", "cites": [1] },
+          { "type": "it", "it": "Tra i periodi dell'arte greca ci sono l'arcaico, il classico e l'ellenistico.", "ko": "그리스 미술의 시기 가운데에는 아르카익, 고전기, 헬레니즘이 있어요.", "cites": [1] }
+        ]
+      },
+      {
+        "heading": "Gli ordini architettonici — 건축의 세 양식",
+        "blocks": [
+          { "type": "it", "it": "I tre ordini architettonici greci sono il dorico, lo ionico e il corinzio.", "ko": "그리스 건축의 세 양식(ordini)은 도리스식, 이오니아식, 코린트식이에요.", "cites": [4, 5], "key": true },
+          { "type": "p", "text": "**건축 양식**(ordine architettonico)은 기둥과 그 위에 얹힌 수평 부분(**trabeazione**, 엔타블러처)을 하나로 묶은 짜임이에요. 트레카니 백과사전과 이탈리아어 위키백과 모두 이렇게 설명해요. 두 자료 모두 이 양식이 그리스에서 로마, 르네상스로 이어졌다고 적었고, 트레카니 백과사전은 이 양식이 19세기까지 서양 건축의 기본 언어였다고 적었어요.", "cites": [4, 5], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 기둥은 **base**(주춧대), **fusto**(기둥 몸), **capitello**(기둥머리)로, 엔타블러처는 **architrave**, **fregio**, **cornice**로 이루어져요. 양식마다 부분 사이의 비율 규칙(canoni)이 달라요.", "cites": [4] },
+          { "type": "p", "text": "같은 위키백과 글에 따르면 도리스식은 그리스 본토와 **마그나 그라이키아**에서, 이오니아식은 소아시아(지금의 튀르키예)의 그리스 도시에서 더 많이 쓰였어요. 코린트식 기둥머리의 첫 예는 바사이(Bassae)의 아폴론 신전에 있고, 고대 로마의 건축가 비트루비우스(Vitruvio)는 건축가 칼리마코스(Callimaco)가 **아칸서스**(acanto) 잎에 둘러싸인 바구니를 보고 이 기둥머리를 생각해 냈다고 전해요.", "cites": [4] }
+        ]
+      },
+      {
+        "heading": "I templi di Paestum — 파에스툼의 신전",
+        "blocks": [
+          { "type": "p", "text": "**파에스툼**(Paestum)은 캄파니아주 살레르노 현에 있는 마그나 그라이키아의 옛 도시예요. 그리스 사람들은 이 도시를 **포세이도니아**(Poseidonia)라고 불렀어요.", "cites": [6, 7], "key": true },
+          { "type": "it", "it": "A Paestum ci sono tre grandi templi greci di ordine dorico.", "ko": "파에스툼에는 도리스식의 큰 그리스 신전이 세 채 있어요.", "cites": [6, 7], "key": true },
+          { "type": "p", "text": "세 신전은 흔히 **'바실리카'**(Basilica), **'넵투누스 신전'**(Tempio di Nettuno), **아테나 신전**(Tempio di Atena)이라고 불러요. 트레카니 백과사전은 이 신전들이 기원전 6~5세기에 지어졌고, 마그나 그라이키아에서 가장 잘 남은 건축 무리이며, 이탈리아에서 도리스식 건축이 발전한 세 단계를 보여 준다고 적었어요.", "cites": [6, 7], "key": true },
+          { "type": "p", "text": "이름과 실제 모신 신은 달라요. 트레카니 백과사전은 '바실리카'를 헤라 제1신전(Heraion I), '넵투누스 신전'을 헤라 제2신전(Heraion II)으로 적었어요. 이탈리아어 위키백과는 '넵투누스 신전'이 어느 신의 신전인지는 아직 확실하지 않고(헤라, 제우스, 아폴론 가운데 하나로 봄), 넵투누스라는 이름은 18~19세기 학자들의 잘못이라고 적었어요. 아테나 신전은 **케레스 신전**(Tempio di Cerere)이라는 이름으로도 불렸다는 점은 두 자료가 같아요.", "cites": [6, 7] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 '넵투누스 신전'은 파에스툼에서 가장 큰 신전이고, 기원전 460년쯤 지어졌으며, 가장 잘 남은 그리스 신전 가운데 하나예요. 아테나 신전은 기원전 500년쯤 지은 가장 작은 신전으로, 바깥 기둥은 도리스식이고 안쪽(cella)의 기둥은 이오니아식이에요.", "cites": [6, 8] },
+          { "type": "p", "text": "트레카니 백과사전에 따르면 파에스툼에는 안쪽에 그림이 그려진 **'다이빙하는 사람의 무덤'**(Tomba del Tuffatore, 기원전 480~470년)도 있어요. 이탈리아 관광청 누리집(italia.it)도 이 무덤의 그리스 그림을 꼭 볼 것으로 꼽았어요.", "cites": [7, 10] },
+          { "type": "p", "text": "유네스코 누리집에 따르면 파에스툼은 **1998년** '칠렌토와 발로 디 디아노 국립 공원, 파에스툼과 벨리아 유적, 파둘라 수도원'이라는 이름으로 세계 유산 목록에 올랐어요.", "cites": [9] }
+        ]
+      },
+      {
+        "heading": "La scultura: dal kouros al Doriforo — 조각: 쿠로스에서 도리포로스까지",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 **쿠로스**(kouros, 복수 kouroi, '소년')는 아르카익 시기의 그리스 조각으로, 기원전 7세기 중반에 생겼어요. 벗은 남자가 똑바로 서 있는 모습이고, 처음에는 **이집트 조각**의 영향을 받았어요. 앞 글에서 본 이집트 미술의 규칙을 떠올려 보세요.", "cites": [11] },
+          { "type": "it", "it": "Il kouros è la statua di un giovane nudo, in piedi.", "ko": "쿠로스는 벗은 채 서 있는 젊은 남자의 조각상이에요.", "cites": [11] },
+          { "type": "p", "text": "**도리포로스**(Doriforo)는 조각가 **폴리클레이토스**(Policleto)의 작품이에요. 만든 때는 자료마다 조금 달라요. 이탈리아어 위키백과는 원작을 기원전 450년쯤, 트레카니 백과사전은 기원전 440년쯤으로 적었어요. 트레카니에 따르면 폴리클레이토스는 이 조각에 자기가 생각한 남자 몸의 **이상적인 아름다움의 규칙**(canone)을 담았어요.", "cites": [12, 13], "key": true },
+          { "type": "it", "it": "Doriforo significa «portatore di lancia».", "ko": "도리포로스는 '창을 든 사람'이라는 뜻이에요.", "cites": [12, 13], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 원작은 **청동**(bronzo)이었고, 지금은 로마 시대 복제본들로 알려져 있어요. 그 가운데 가장 좋은 로마 시대 복제본은 **폼페이**에서 1797년에 나왔고, 지금 **나폴리 국립 고고학 박물관**(Museo archeologico nazionale di Napoli)에 있어요. 같은 글은 폴리클레이토스가 머리를 키의 **8분의 1**로 하는 식으로 몸의 비율을 정했다고 적었어요.", "cites": [12] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 도리포로스는 **키아스모스**(chiasmo)라는 자세의 대표 예예요. 한쪽 다리는 힘을 주고 반대쪽 팔도 힘을 주며, 나머지 팔다리는 쉬는 자세예요. 이 말은 그리스 글자 χ(키)처럼 엇갈린다는 뜻에서 왔고, 영어 등에서는 이탈리아어 낱말 **contrapposto**로 부른다고 해요. 같은 자료는 이 자세 덕분에 쿠로스의 굳은 모습에서 벗어났다고 설명해요.", "cites": [12, 14] },
+          { "type": "it", "it": "Nel chiasmo una gamba è tesa e l'altra è rilassata.", "ko": "키아스모스 자세에서는 한쪽 다리는 힘을 주고, 다른 쪽 다리는 쉬어요.", "cites": [12, 14] }
+        ]
+      },
+      {
+        "heading": "I Bronzi di Riace — 리아체의 청동상",
+        "blocks": [
+          { "type": "p", "text": "**리아체의 청동상**(Bronzi di Riace)은 기원전 5세기 그리스의 **청동 조각상 두 점**이에요. 칼라브리아주 리아체(Riace) 앞바다에서 1972년에 건져 올렸고, 지금은 **레조칼라브리아 국립 고고학 박물관**(Museo archeologico nazionale di Reggio Calabria)에 있어요.", "cites": [15, 16, 17], "key": true },
+          { "type": "it", "it": "I Bronzi di Riace sono stati trovati in mare nel 1972.", "ko": "리아체의 청동상은 1972년 바다에서 발견되었어요.", "cites": [15, 16], "key": true },
+          { "type": "it", "it": "Oggi i Bronzi sono nel Museo archeologico nazionale di Reggio Calabria.", "ko": "지금 청동상은 레조칼라브리아 국립 고고학 박물관에 있어요.", "cites": [15, 16, 17], "key": true },
+          { "type": "p", "text": "이 조각들이 소중한 까닭은 로마 시대의 복제본이 아니라 **그리스 원작**(originali)이라는 점이에요. 이탈리아어 위키백과에 따르면 고대 청동상은 대부분 사라지거나 녹여서 다시 썼기 때문에, 유명한 그리스 원작 가운데 많은 수는 도리포로스처럼 로마 대리석 복제본을 통해 주로 알려져 있어요.", "cites": [15, 16, 17], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 두 조각은 '젊은이'라 불리는 A상과 '노인'이라 불리는 B상이고, 수염이 있는 벗은 남자가 서 있는 모습이에요. 실제 사람보다 조금 커요. 발견한 날은 1972년 8월 16일이고, 잠수하던 스테파노 마리오티니(Stefano Mariottini)가 바다 밑에서 처음 보았다고 해요. 다만 같은 글은 누가 먼저 발견했는지를 두고 재판이 있었다고도 적었어요.", "cites": [15] },
+          { "type": "p", "text": "누가, 언제 만들었는지는 자료마다 달라요. 이탈리아어 위키백과는 A상을 기원전 460년쯤, B상을 430년쯤으로 보고 만든 사람과 출신지를 두고 학자들의 의견이 모이지 않았다고 적었어요. 트레카니 백과사전은 페이디아스(Fidia)나 그 무리가 만든 아테네의 원작이라고 하면서, 두 상을 같은 때(기원전 458~450년)로 보는 학자와 A상 460/450년, B상 430/410년으로 나누어 보는 학자가 있다고 적었어요.", "cites": [15, 16] }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          { "type": "terms", "items": [
+            { "it": "tempio (남성, 복수 templi)", "ko": "신전" },
+            { "it": "colonna (여성)", "ko": "기둥" },
+            { "it": "capitello (남성)", "ko": "기둥머리" },
+            { "it": "trabeazione (여성)", "ko": "엔타블러처 (기둥 위 수평 부분)" },
+            { "it": "scultura (여성)", "ko": "조각, 조각 작품" }
+          ], "cites": [18, 19, 20, 21, 22] },
+          { "type": "terms", "items": [
+            { "it": "statua (여성)", "ko": "조각상" },
+            { "it": "bronzo (남성, 복수 bronzi)", "ko": "청동, 청동 작품" },
+            { "it": "marmo (남성)", "ko": "대리석" },
+            { "it": "copia (여성)", "ko": "복제본, 사본 (반대말 originale)" },
+            { "it": "lancia (여성)", "ko": "창" }
+          ], "cites": [23, 24, 25, 26, 27] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "실제 시험처럼 문제와 보기를 이탈리아어로 냈어요.", "cites": [4, 15] },
+          { "type": "quiz", "lang": "it", "q": "Quali sono i tre ordini architettonici greci?", "choices": ["Dorico, ionico e corinzio", "Romanico, gotico e barocco", "Tuscanico, composito e gotico", "Dorico, romanico e barocco", "Ionico, gotico e liberty"], "answer": 1, "explain": "그리스 건축의 세 양식(ordini)은 **도리스식, 이오니아식, 코린트식**(dorico, ionico e corinzio)이에요.", "cites": [4, 5] },
+          { "type": "quiz", "lang": "it", "q": "Di quale ordine sono i tre grandi templi greci di Paestum?", "choices": ["Ionico", "Corinzio", "Dorico", "Composito", "Tuscanico"], "answer": 3, "explain": "파에스툼의 세 신전은 **도리스식**(dorico)이에요. 트레카니 백과사전은 이 신전들이 이탈리아 도리스식 건축의 세 단계를 보여 준다고 적었어요.", "cites": [6, 7] },
+          { "type": "quiz", "lang": "it", "q": "Che cosa significa la parola «Doriforo»?", "choices": ["Lanciatore del disco", "Portatore di lancia", "Guerriero a cavallo", "Re di Sparta", "Giovane che corre"], "answer": 2, "explain": "도리포로스(Doriforo)는 **'창을 든 사람'**(portatore di lancia)이라는 뜻이에요. 폴리클레이토스(Policleto)의 작품이에요.", "cites": [12, 13] },
+          { "type": "quiz", "lang": "it", "q": "In quale anno sono stati trovati in mare i Bronzi di Riace?", "choices": ["1797", "1824", "1946", "1972", "1998"], "answer": 4, "explain": "리아체의 청동상(Bronzi di Riace)은 **1972년** 바다(in mare)에서 발견되었어요. 1797년은 폼페이에서 도리포로스 복제본이 나온 해, 1998년은 파에스툼이 유네스코 세계 유산이 된 해예요.", "cites": [9, 12, 15, 16] },
+          { "type": "quiz", "lang": "it", "q": "Dove sono conservati oggi i Bronzi di Riace?", "choices": ["Nel Museo archeologico nazionale di Napoli", "Nel Museo Egizio di Torino", "Nella Galleria degli Uffizi a Firenze", "Nei Musei Vaticani", "Nel Museo archeologico nazionale di Reggio Calabria"], "answer": 5, "explain": "청동상은 **레조칼라브리아 국립 고고학 박물관**(Museo archeologico nazionale di Reggio Calabria)에 있어요. 나폴리 국립 고고학 박물관에는 도리포로스의 복제본이 있어요.", "cites": [12, 15, 16, 17] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://it.wikipedia.org/wiki/Arte_greca", "title": "Wikipedia (italiano) — Arte greca" },
+      { "n": 2, "url": "https://www.treccani.it/enciclopedia/magna-grecia/", "title": "Treccani Enciclopedia — Magna Grecia" },
+      { "n": 3, "url": "https://it.wikipedia.org/wiki/Magna_Grecia", "title": "Wikipedia (italiano) — Magna Grecia" },
+      { "n": 4, "url": "https://it.wikipedia.org/wiki/Ordine_architettonico", "title": "Wikipedia (italiano) — Ordine architettonico" },
+      { "n": 5, "url": "https://www.treccani.it/enciclopedia/ordine-architettonico/", "title": "Treccani Enciclopedia — Ordine architettonico" },
+      { "n": 6, "url": "https://it.wikipedia.org/wiki/Paestum", "title": "Wikipedia (italiano) — Paestum" },
+      { "n": 7, "url": "https://www.treccani.it/enciclopedia/paestum/", "title": "Treccani Enciclopedia — Paestum" },
+      { "n": 8, "url": "https://it.wikipedia.org/wiki/Tempio_di_Nettuno_(Paestum)", "title": "Wikipedia (italiano) — Tempio di Nettuno (Paestum)" },
+      { "n": 9, "url": "https://whc.unesco.org/en/list/842", "title": "UNESCO World Heritage Centre — Cilento and Vallo di Diano National Park with the Archeological Sites of Paestum and Velia, and the Certosa di Padula" },
+      { "n": 10, "url": "https://www.italia.it/it/campania/parco-archeologico-di-paestum-e-velia", "title": "Italia.it (ENIT) — Parco Archeologico di Paestum e Velia" },
+      { "n": 11, "url": "https://it.wikipedia.org/wiki/Kouros", "title": "Wikipedia (italiano) — Kouros" },
+      { "n": 12, "url": "https://it.wikipedia.org/wiki/Doriforo", "title": "Wikipedia (italiano) — Doriforo" },
+      { "n": 13, "url": "https://www.treccani.it/enciclopedia/doriforo/", "title": "Treccani Enciclopedia — doriforo" },
+      { "n": 14, "url": "https://it.wikipedia.org/wiki/Chiasmo_(scultura)", "title": "Wikipedia (italiano) — Chiasmo (scultura)" },
+      { "n": 15, "url": "https://it.wikipedia.org/wiki/Bronzi_di_Riace", "title": "Wikipedia (italiano) — Bronzi di Riace" },
+      { "n": 16, "url": "https://www.treccani.it/enciclopedia/riace/", "title": "Treccani Enciclopedia — Riace" },
+      { "n": 17, "url": "https://www.italia.it/it/calabria/reggio-calabria/museo-archeologico-nazionale-di-reggio-calabria", "title": "Italia.it (ENIT) — Museo Archeologico Nazionale di Reggio Calabria" },
+      { "n": 18, "url": "https://en.wiktionary.org/wiki/tempio", "title": "Wiktionary — tempio" },
+      { "n": 19, "url": "https://en.wiktionary.org/wiki/colonna", "title": "Wiktionary — colonna" },
+      { "n": 20, "url": "https://en.wiktionary.org/wiki/capitello", "title": "Wiktionary — capitello" },
+      { "n": 21, "url": "https://en.wiktionary.org/wiki/trabeazione", "title": "Wiktionary — trabeazione" },
+      { "n": 22, "url": "https://en.wiktionary.org/wiki/scultura", "title": "Wiktionary — scultura" },
+      { "n": 23, "url": "https://en.wiktionary.org/wiki/statua", "title": "Wiktionary — statua" },
+      { "n": 24, "url": "https://en.wiktionary.org/wiki/bronzo", "title": "Wiktionary — bronzo" },
+      { "n": 25, "url": "https://en.wiktionary.org/wiki/marmo", "title": "Wiktionary — marmo" },
+      { "n": 26, "url": "https://en.wiktionary.org/wiki/copia", "title": "Wiktionary — copia" },
+      { "n": 27, "url": "https://en.wiktionary.org/wiki/lancia", "title": "Wiktionary — lancia" }
+    ],
+    "written": "2026-11-21",
+    "checked": "2026-11-21"
   }
 ]
