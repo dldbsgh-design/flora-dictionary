@@ -598,5 +598,310 @@
     ],
     "written": "2026-11-14",
     "checked": "2026-11-14"
+  },
+  {
+    "id": "cadcraft-interface",
+    "no": 1,
+    "subject": "캐드",
+    "stage": "입문",
+    "title": "CAD란 무엇일까, CADCraft 화면 둘러보기",
+    "version": "CADCraft 0.20.1 (2026년 11월 12일 GitHub 공개, 개발 중인 프리알파 버전)",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "이 글이 기준으로 삼은 버전",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              8,
+              4
+            ],
+            "text": "이 글은 **CADCraft 0.20.1**을 기준으로 썼어요. CADCraft의 GitHub 공개 기록에 따르면 이 버전은 2026년 11월 12일에 나왔고, ArtCraft의 CADCraft 소개 페이지도 지금 버전을 0.20.1로 적고 있어요. 메뉴와 단추 이름은 공식 자료에 적힌 그대로 영어로 적었어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3,
+              4
+            ],
+            "text": "CADCraft는 아직 만들어지고 있는 프로그램이에요. ArtCraft 소개 페이지는 '개발 중'(In development), GitHub 설명서는 '초기 개발 단계'(early development), Craft Wiki는 **프리알파**(pre-alpha) 단계라고 적고 있어요. Craft Wiki에 따르면 많은 명령이 작동하지만 아직 빠진 기능도 있어서, 중요한 도면은 사본을 따로 두라고 권해요. 그래서 버전이 바뀌면 이 글의 화면 설명도 달라질 수 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "CAD란 무엇일까",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              6,
+              7
+            ],
+            "text": "**CAD**는 '컴퓨터 지원 설계'(computer-aided design)의 줄임말이에요. 위키백과는 CAD를 디자인을 만들고, 고치고, 분석하고, 더 낫게 다듬는 일에 컴퓨터를 쓰는 것이라고 설명해요. Autodesk도 CAD를 설계하고, 도면을 그리고, 기술 문서를 만드는 기술이라고 설명하고, 손으로 그리던 제도 방식을 디지털 방식으로 바꾼 것이라고 해요. 두 곳 모두 '컴퓨터 지원 설계와 제도'라는 뜻의 **CADD**라는 이름도 함께 쓴다고 적고 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "위키백과에 따르면 CAD로는 평면(2D)에서 선과 도형을 그릴 수도 있고, 입체(3D) 공간에서 곡선, 면, 덩어리를 만들 수도 있어요. 또 손으로 그리는 기술 도면처럼, CAD로 만든 결과물도 재료, 치수 같은 정보를 정해진 약속에 맞게 전해야 한다고 해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              7
+            ],
+            "text": "제도판 위에서 자와 연필로 그리던 도면을, 이제 컴퓨터 화면 위에서 그리는 것이라고 생각하면 돼요."
+          }
+        ]
+      },
+      {
+        "heading": "CADCraft는 어떤 프로그램일까",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3
+            ],
+            "text": "CADCraft는 ArtCraft 팀이 만드는 오픈 소스 CAD 프로그램이에요. Craft Wiki와 GitHub 설명서에 따르면 Windows, macOS, Linux, FreeBSD에서 돌아가고, 웹 브라우저에서도 쓸 수 있어요. 쓰는 방식은 **명령줄**(command line)에 `LINE`(선), `CIRCLE`(원) 같은 명령을 입력하고 화면에서 점을 클릭하는 것이 중심이에요. 두 자료 모두 계정이 없어도 쓸 수 있다고 적고 있어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              3
+            ],
+            "text": "다만 CADCraft가 3D까지 다루는지는 공식 자료끼리 말이 달라요. GitHub 설명서는 CADCraft를 2D와 3D CAD 프로그램이라고 소개하지만, Craft Wiki는 지금은 2D로만 그릴 수 있고 3D 모델링은 아직 없다고 적고 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "화면을 이루는 부분들",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              2,
+              3
+            ],
+            "text": "Craft Wiki에 따르면 CADCraft를 켜면 비어 있는 새 도면이 열리고, 그 둘레에 네 가지가 있어요. 왼쪽의 **Tool Sets**(도구 모음)에는 그리기, 해치(빗금 채우기), 블록, 편집, 글자, 치수에 쓰는 단추가 있어요. 오른쪽에는 **Layers**(레이어)와 **Properties**(속성) 패널이 있어요. 그리기 영역 아래쪽에는 명령을 입력하는 **명령줄**이 있고, 맨 아래에는 **상태 표시줄**(status bar)이 있어요. 상태 표시줄에는 `Model` 탭과 레이아웃 탭, 그리고 제도를 돕는 켜고 끄는 단추들이 있어요. GitHub 설명서의 화면 사진 설명도 왼쪽에 Tool Sets, 오른쪽에 Layers와 Properties, 아래쪽에 명령줄이 있다고 적고 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "GitHub 설명서에 따르면 가운데의 그리기 영역에는 격자와 축이 보이고, 마우스 휠, 가운데 단추를 누른 채 끌기, 터치패드를 두 손가락으로 오므리고 벌리기로 화면을 옮기거나 확대·축소할 수 있어요. 또 그리기 영역 위에서는 보통의 마우스 화살표 대신 CADCraft가 그리는 **십자선 커서**(crosshair)가 나타나요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "Craft Wiki에 따르면 도면 탭 옆에는 **Start** 탭도 있어요. 여기서 도면을 열거나, 새 도면이나 미터 단위 새 도면을 만들거나, 최근 파일을 다시 열 수 있어요. 새 도면은 인치 단위로 시작하니, 밀리미터로 시작하고 싶다면 Start 탭에서 `New (metric)`을 고르거나 `Tools > Options > Open and Save`에서 `Units of new drawings`를 바꾸라고 안내해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              2,
+              3
+            ],
+            "text": "제도 책상을 떠올려 보세요. 가운데 펼친 넓은 종이가 그리기 영역이고, 왼쪽에 둔 도구 상자가 Tool Sets예요. 오른쪽의 Layers와 Properties 패널은 그림의 설정을 살펴보고 고치는 곳이고, 아래쪽 명령줄은 할 일을 글로 적어 건네는 자리예요."
+          }
+        ]
+      },
+      {
+        "heading": "명령줄로 첫 도형 그려 보기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              2,
+              3
+            ],
+            "text": "CADCraft에서는 명령줄이 가장 중요한 도구예요. Craft Wiki와 GitHub 설명서에 따르면 대부분의 명령에는 짧은 줄임말이 있고, 명령이 다음에 할 일을 물을 때는 고를 수 있는 선택지를 대괄호 `[ ]` 안에 보여 줘요. Craft Wiki에 따르면 선택지는 그 이름의 대문자 글자를 입력하거나 직접 클릭해서 고를 수 있어요. 줄임말의 예로 Craft Wiki는 `l`(LINE), `c`(CIRCLE), `z`(ZOOM)를 들어요."
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              2,
+              3
+            ],
+            "items": [
+              "명령줄을 클릭하거나, 그냥 글자를 입력하기 시작합니다.",
+              "`line 0,0 @10,0 @0,5 c`를 입력하고 Enter 키를 누릅니다. 닫힌 삼각형이 그려집니다.",
+              "`circle 5,2 1`을 입력하고 Enter 키를 누릅니다. 원이 그려집니다.",
+              "`zoom e`를 입력하고 Enter 키를 누릅니다. 도면 전체가 화면에 맞게 보입니다."
+            ]
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              2,
+              3
+            ],
+            "text": "Craft Wiki의 설명에 따르면 첫 명령은 0,0에서 시작해 오른쪽으로 10, 위로 5만큼 선을 긋고, 마지막의 `c`로 도형을 닫아요. 여기서 `@`는 '바로 앞에 찍은 점에서부터'라는 뜻이에요. `@10,0`은 X 방향으로 10만큼, `@5<45`는 45도 방향으로 5만큼 떨어진 점이에요. 두 번째 명령은 중심이 5,2이고 반지름이 1인 원을 그려요. GitHub 설명서도 같은 명령으로 닫힌 삼각형과 원을 그리고, `zoom e`로 도면 전체를 보는 예를 들어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "Craft Wiki에 따르면 명령을 입력하지 않고 Tool Sets에서 도구를 클릭한 다음, 그리기 영역에서 점을 클릭해 그릴 수도 있어요."
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "Esc",
+            "text": "실행 중인 명령 취소하기",
+            "cites": [
+              2,
+              9
+            ]
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "Enter",
+            "text": "마지막 명령 다시 실행하기 (Space 키를 눌러도 같아요)",
+            "cites": [
+              2,
+              3
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "Craft Wiki에 따르면 마우스 오른쪽 단추를 눌렀을 때 나오는 메뉴의 맨 위 `Repeat`로도 마지막 명령을 다시 실행할 수 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "완성된 예시 도면 둘러보기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "빈 도면만 보면 감이 잘 오지 않을 수 있어요. Craft Wiki의 시작 안내는 먼저 완성된 도면을 둘러보고 싶다면 예시 도면을 열어 보라고 해요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              2
+            ],
+            "items": [
+              "메뉴에서 `Help`를 고릅니다.",
+              "`Open Sample Drawing`을 고릅니다. 예시 도면이 열립니다."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "패널 옮기기와 처음 배치로 되돌리기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "GitHub 설명서에 따르면 Tool Sets, Layers, Properties 패널은 다시 묶거나, 나누거나, 프로그램 창 안에 띄워 두거나, 닫았다가 다시 열 수 있어요. 하지만 가운데의 그리기 영역은 늘 보이고, 닫을 수 없어요. 패널 위쪽 머리 부분을 끌어 원하는 가장자리나 다른 패널의 머리 쪽에 놓으면 자리를 옮길 수 있고, 머리 부분의 메뉴에는 `Float panel`, `Move to group`, `Close panel`이 있어요. 배치가 헝클어지면 `Reset Panel Layout`으로 처음 배치로 되돌릴 수 있다고 해요. 다만 `Reset Panel Layout`이 어느 메뉴에 있는지는 공식 자료에 아직 설명이 없어요."
+          }
+        ]
+      },
+      {
+        "heading": "화면 글자를 한국어로 바꾸기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              5
+            ],
+            "text": "CADCraft의 언어 설명서에 따르면 화면 글자를 한국어로 바꿀 수 있고, 바꾸면 프로그램을 다시 켜지 않아도 바로 적용돼요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              5
+            ],
+            "items": [
+              "메뉴에서 `Edit > Interface Language`를 고릅니다.",
+              "목록에서 `한국어`를 고릅니다."
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              5,
+              3
+            ],
+            "text": "같은 설명서에 따르면 한국어 화면을 쓰려면 컴퓨터에 한글을 모두 표시할 수 있는 글꼴이 있어야 해요. 웹 버전은 한국어 글꼴을 담고 있지 않아서, 한국어를 골라도 화면이 영어로 남아요. 또 한국어 번역은 AI의 도움을 받아 만들었고, 한국어 원어민의 교정은 아직 남은 일이라고 밝히고 있어요. 이 글은 공식 자료가 영어로 쓰여 있어서, 메뉴 이름을 영어로 적었어요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://craft.wiki/apps/cadcraft/overview/",
+        "title": "Craft Wiki — CADCraft (개요)"
+      },
+      {
+        "n": 2,
+        "url": "https://craft.wiki/apps/cadcraft/getting-started/",
+        "title": "Craft Wiki — CADCraft: Getting started"
+      },
+      {
+        "n": 3,
+        "url": "https://github.com/storytold/cadcraft/blob/v0.20.1/README.md",
+        "title": "CADCraft GitHub — README (v0.20.1)"
+      },
+      {
+        "n": 4,
+        "url": "https://getartcraft.com/apps/cadcraft",
+        "title": "ArtCraft — CADCraft 소개 페이지"
+      },
+      {
+        "n": 5,
+        "url": "https://github.com/storytold/cadcraft/blob/v0.20.1/docs/localization.md",
+        "title": "CADCraft GitHub — Interface languages (v0.20.1)"
+      },
+      {
+        "n": 6,
+        "url": "https://en.wikipedia.org/wiki/Computer-aided_design",
+        "title": "Wikipedia — Computer-aided design"
+      },
+      {
+        "n": 7,
+        "url": "https://www.autodesk.com/solutions/cad-software",
+        "title": "Autodesk — What is CAD software?"
+      },
+      {
+        "n": 8,
+        "url": "https://github.com/storytold/cadcraft/releases/tag/v0.20.1",
+        "title": "CADCraft GitHub — Release v0.20.1"
+      },
+      {
+        "n": 9,
+        "url": "https://github.com/storytold/cadcraft/blob/v0.20.1/docs/ui-parity.md",
+        "title": "CADCraft GitHub — UI parity (v0.20.1)"
+      }
+    ],
+    "written": "2026-11-21",
+    "checked": "2026-11-21"
   }
 ]
