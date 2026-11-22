@@ -1286,5 +1286,103 @@
     ],
     "written": "2026-11-21",
     "checked": "2026-11-21"
+  },
+  {
+    "id": "logic-proposizioni-negazione",
+    "no": 2,
+    "subject": "논리",
+    "stage": "입문",
+    "title": "명제와 부정 — proposizione, negazione, tutti, nessuno",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["logic-insiemi-venn"],
+    "sections": [
+      {
+        "heading": "Che cosa chiede il test — 시험이 묻는 것",
+        "blocks": [
+          { "type": "p", "text": "폴리테크니코 학교 페이지에 따르면 TOLD의 **논리**(Logica) 영역은 말이나 기호로 된 문제로 추상적인 추론 능력을 봐요. 명제의 가정과 결론 찾기, 필요 조건·충분 조건, 추론의 오류도 범위에 들어가요. 이 모든 것의 바탕이 **명제**(proposizione)와 그 **부정**(negazione)이라서 오늘은 이것부터 공부해요.", "cites": [1] },
+          { "type": "p", "text": "폴리테크니코 코모 캠퍼스의 논리 수업 자료는 목표 가운데 하나로 '양화사(tutti, esiste 같은 말)가 든 문장의 부정을 알아보고 바꿀 줄 아는 것'을 적어 두었어요.", "cites": [4] }
+        ]
+      },
+      {
+        "heading": "La proposizione — 명제",
+        "blocks": [
+          { "type": "p", "text": "논리학에서 **명제**(proposizione)는 뜻이 있는 문장으로, 언제나 **참**(vero, V)이거나 **거짓**(falso, F) 둘 중 하나의 값을 가져요. 이 값을 **진리값**(valore di verità)이라고 해요.", "cites": [2, 3, 4], "key": true },
+          { "type": "it", "it": "Una proposizione è sempre vera oppure falsa.", "ko": "명제는 언제나 참이거나 거짓이에요.", "cites": [2, 3, 4], "key": true },
+          { "type": "p", "text": "트레카니 사전의 예를 보면 «2 + 2 = 3»은 명제(거짓인 명제)이지만, «4 + 3»과 «x < 5»는 명제가 아니에요. 폴리테크니코 코모 캠퍼스 자료에 따르면 x 같은 변수가 든 문장은 변수의 값을 모두 정해야 참이나 거짓인 명제가 돼요.", "cites": [2, 4] },
+          { "type": "it", "it": "«2 + 2 = 3» è una proposizione falsa.", "ko": "«2 + 2 = 3»은 거짓인 명제예요.", "cites": [2] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 참인지 거짓인지 정할 수 있는 문장을 **평서문**(enunciato dichiarativo)이라고 하고, 질문·명령·기도 같은 문장은 여기에 들지 않아요.", "cites": [3] },
+          { "type": "p", "text": "트레카니 사전에 따르면 하나의 성질만 말하는 명제는 **단순 명제**(proposizione semplice), 여러 단순 명제를 **연결사**(connettivo)로 이은 명제는 **합성 명제**(proposizione composta)예요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "La negazione — 부정 (non)",
+        "blocks": [
+          { "type": "p", "text": "명제 p의 **부정**(negazione)은 ¬p라고 써요. p가 참이면 ¬p는 거짓이고, p가 거짓이면 ¬p는 참이에요. 곧 진리값을 정반대로 뒤집어요.", "cites": [4, 5, 6], "key": true },
+          { "type": "p", "text": "폴리테크니코 코모 캠퍼스 자료에서는 부정 연결사를 'non'이라고 불러요.", "cites": [4] },
+          { "type": "it", "it": "Se p è vera, ¬p è falsa; se p è falsa, ¬p è vera.", "ko": "p가 참이면 ¬p는 거짓이고, p가 거짓이면 ¬p는 참이에요.", "cites": [4, 5, 6], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 부정은 ¬p 말고도 ~p, p 위에 줄을 그은 모양 등 여러 기호로 써요.", "cites": [5] },
+          { "type": "p", "text": "트레카니 사전에 따르면 이탈리아어에서 부정을 만드는 말에는 no, non, né, nessuno 등이 있어요. 시험 문제에서 이런 말이 나오면 문장의 진리값이 뒤집히는지 잘 봐야 해요.", "cites": [6] }
+        ]
+      },
+      {
+        "heading": "E, o — 그리고, 또는 (congiunzione, disgiunzione)",
+        "blocks": [
+          { "type": "p", "text": "두 명제를 '**그리고**'(e)로 이은 **연언**(congiunzione, 기호 ∧)은 두 명제가 **모두** 참일 때만 참이고, 나머지 경우는 모두 거짓이에요.", "cites": [4, 7], "key": true },
+          { "type": "it", "it": "p ∧ q è vera solo se p e q sono entrambe vere.", "ko": "p ∧ q는 p와 q가 둘 다 참일 때만 참이에요.", "cites": [4, 7], "key": true },
+          { "type": "p", "text": "두 명제를 '**또는**'(o)으로 이은 **선언**(disgiunzione, 기호 ∨)은 두 명제 가운데 **적어도 하나**가 참이면 참이고, 둘 다 거짓일 때만 거짓이에요. 이것을 '포함하는 또는'(disgiunzione inclusiva)이라고 하고, 라틴어 vel의 뜻이에요.", "cites": [4, 8], "key": true },
+          { "type": "it", "it": "p ∨ q è falsa solo se p e q sono entrambe false.", "ko": "p ∨ q는 p와 q가 둘 다 거짓일 때만 거짓이에요.", "cites": [4, 8], "key": true },
+          { "type": "p", "text": "폴리테크니코 코모 캠퍼스 자료에 따르면 '또는'에는 다른 뜻도 있어요. 둘 가운데 **하나만** 참일 때 참이 되는 '배타적인 또는'(disgiunzione esclusiva)으로, 라틴어 aut의 뜻이에요. 이 자료에서 연결사 'o'는 포함하는 뜻(vel)으로 써요.", "cites": [4] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 연언은 집합의 **교집합**, 선언은 **합집합**과 같은 성질을 가져요. 지난 시간에 배운 벤 다이어그램으로 떠올리면 쉬워요.", "cites": [7, 8] }
+        ]
+      },
+      {
+        "heading": "Le leggi di De Morgan — 드 모르간의 법칙",
+        "blocks": [
+          { "type": "p", "text": "'그리고'나 '또는'으로 이은 명제를 부정하면 **연결사가 서로 바뀌어요**. 이것을 **드 모르간의 법칙**(leggi di De Morgan)이라고 해요.", "cites": [4, 9], "key": true },
+          { "type": "it", "it": "¬(p ∧ q) equivale a ¬p ∨ ¬q", "ko": "'p 그리고 q'의 부정은 'p가 아니다 또는 q가 아니다'와 같아요.", "cites": [4, 9], "key": true },
+          { "type": "it", "it": "¬(p ∨ q) equivale a ¬p ∧ ¬q", "ko": "'p 또는 q'의 부정은 'p가 아니다 그리고 q가 아니다'와 같아요.", "cites": [4, 9], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과의 진리표 증명을 보면, p와 q가 둘 다 거짓인 한 경우에만 ¬(p ∨ q)와 ¬p ∧ ¬q가 함께 참이고 나머지 세 경우에는 둘 다 거짓이에요. 그래서 두 식은 언제나 같은 진리값을 가져요.", "cites": [9] }
+        ]
+      },
+      {
+        "heading": "Tutti, esiste, nessuno — 모든, 어떤, 아무도 (양화사의 부정)",
+        "blocks": [
+          { "type": "p", "text": "'모든'처럼 범위를 정하는 말을 **양화사**(quantificatore)라고 해요. **전칭 양화사**(quantificatore universale, ∀)는 '모든 ~에 대해'(per ogni), **존재 양화사**(quantificatore esistenziale, ∃)는 '적어도 하나가 있다'(esiste almeno un)로 읽어요.", "cites": [4, 10], "key": true },
+          { "type": "p", "text": "'모두 그렇다'의 부정은 '**그렇지 않은 것이 적어도 하나 있다**'예요. 이탈리아어 위키백과의 예로 '모든 수가 짝수라는 것은 거짓이다'는 '짝수가 아닌 수가 있다'와 같아요.", "cites": [4, 10], "key": true },
+          { "type": "it", "it": "¬(∀x p(x)) equivale a ∃x ¬p(x)", "ko": "'모든 x가 p이다'의 부정은 'p가 아닌 x가 적어도 하나 있다'와 같아요.", "cites": [4, 10], "key": true },
+          { "type": "p", "text": "가장 흔한 실수는 '모두 그렇다'의 부정을 '**아무도** 그렇지 않다'로 고르는 것이에요. 폴리테크니코 코모 캠퍼스 자료는 이 점을 예로 들어 분명히 적었어요.", "cites": [4] },
+          { "type": "it", "it": "La negazione di «Tutti i lombardi sono milanesi» non è «Nessun lombardo è milanese», ma «Esistono dei lombardi che non sono milanesi».", "ko": "'롬바르디아 사람은 모두 밀라노 사람이다'의 부정은 '어떤 롬바르디아 사람도 밀라노 사람이 아니다'가 아니라 '밀라노 사람이 아닌 롬바르디아 사람이 있다'예요.", "cites": [4] },
+          { "type": "p", "text": "반대로 '적어도 하나 있다'의 부정은 '**모두 아니다**', 곧 '**아무것도 없다**'예요. 이탈리아어 위키백과의 예로 '짝수인 수는 없다'는 '모든 수가 짝수가 아니다'와 같아요. 폴리테크니코 코모 캠퍼스 자료의 예로 '베네토 사람인 롬바르디아 사람이 있다'의 부정은 '베네토 사람인 롬바르디아 사람은 아무도 없다'예요.", "cites": [4, 10], "key": true },
+          { "type": "it", "it": "¬(∃x p(x)) equivale a ∀x ¬p(x)", "ko": "'p인 x가 있다'의 부정은 '모든 x가 p가 아니다'와 같아요.", "cites": [4, 10], "key": true },
+          { "type": "p", "text": "폴리테크니코 코모 캠퍼스 자료에는 반대 방향의 예도 있어요. '이탈리아 사람 중 불교 신자는 아무도 없다'(Nessun italiano è buddista)의 부정은 '불교 신자인 이탈리아 사람이 있다'예요.", "cites": [4] },
+          { "type": "terms", "items": [{ "it": "proposizione", "ko": "명제" }, { "it": "valore di verità", "ko": "진리값" }, { "it": "vero / falso", "ko": "참 / 거짓" }, { "it": "negazione (non)", "ko": "부정 (¬)" }, { "it": "connettivo", "ko": "연결사 (non, e, o …)" }, { "it": "congiunzione (e)", "ko": "연언, '그리고' (∧)" }, { "it": "disgiunzione (o)", "ko": "선언, '또는' (∨)" }, { "it": "quantificatore", "ko": "양화사" }, { "it": "per ogni", "ko": "모든 ~에 대해 (∀)" }, { "it": "esiste almeno un", "ko": "적어도 하나 있다 (∃)" }, { "it": "nessuno", "ko": "아무도 (~ 않다)" }], "cites": [2, 4, 5, 6, 7, 8, 10] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "학교 페이지에 따르면 TOLD는 객관식(risposta multipla) 문제로 되어 있어요. 여기서는 문제와 보기를 이탈리아어로 냈고, 정답은 하나예요.", "cites": [1] },
+          { "type": "quiz", "lang": "it", "q": "Quale delle seguenti espressioni è una proposizione?", "choices": ["4 + 3", "x < 5", "2 + 2 = 3", "Chiudi la porta!", "Che ore sono?"], "answer": 3, "explain": "**명제**(proposizione)는 참이나 거짓을 정할 수 있어야 해요. «2 + 2 = 3»은 거짓이지만 거짓이라고 정할 수 있으니 명제예요. 트레카니 사전에 따르면 «4 + 3»과 «x < 5»는 명제가 아니에요. 명령(Chiudi la porta!)과 질문(Che ore sono?)도 참·거짓을 정할 수 없어요.", "cites": [2, 3] },
+          { "type": "quiz", "lang": "it", "q": "Qual è la negazione della proposizione «Tutti i lombardi sono milanesi»?", "choices": ["Nessun lombardo è milanese", "Esistono dei lombardi che non sono milanesi", "Tutti i milanesi sono lombardi", "Tutti i lombardi sono veneti", "Esiste un milanese che è lombardo"], "answer": 2, "explain": "'모두(tutti) 그렇다'의 **부정**(negazione)은 '그렇지 않은 것이 적어도 하나 있다'예요. 그래서 정답은 «Esistono dei lombardi che non sono milanesi»예요. A(Nessun …)는 '아무도 아니다'라는 뜻이라 틀려요. 이것이 폴리테크니코 자료가 경고한 흔한 실수예요. C, D, E는 원래 문장과 다른 내용을 말할 뿐 부정이 아니에요.", "cites": [4, 10] },
+          { "type": "quiz", "lang": "it", "q": "Siano p vera e q falsa. Quale delle seguenti proposizioni è vera?", "choices": ["p ∧ q", "¬p", "p ∨ q", "¬p ∨ q", "¬(p ∨ q)"], "answer": 3, "explain": "하나씩 따져요. A: p ∧ q는 둘 다 참이어야 하는데 q가 거짓이라 거짓. B: p가 참이니 ¬p는 거짓. C: p ∨ q는 적어도 하나가 참이면 참이니 **참**. D: ¬p도 거짓, q도 거짓이라 ¬p ∨ q는 거짓. E: p ∨ q가 참이니 그 부정은 거짓. 정답은 C(**disgiunzione**)예요.", "cites": [4, 5, 7, 8] },
+          { "type": "quiz", "lang": "it", "q": "Qual è la negazione della proposizione «Esiste un numero pari»?", "choices": ["Esiste un numero che non è pari", "Nessun numero è pari", "Tutti i numeri sono pari", "Esistono almeno due numeri pari", "Qualche numero è pari"], "answer": 2, "explain": "'적어도 하나 있다'(esiste)의 **부정**은 '모두 아니다', 곧 '아무것도 없다'(**nessuno**)예요. 이탈리아어 위키백과의 예처럼 '짝수인 수는 없다'는 '모든 수가 짝수가 아니다'와 같으니 정답은 «Nessun numero è pari»예요. A는 '짝수가 아닌 수가 있다'라서 원래 문장과 함께 참일 수 있으니 부정이 아니에요.", "cites": [4, 10] },
+          { "type": "quiz", "lang": "it", "q": "Qual è la negazione della proposizione «Marco studia e lavora»?", "choices": ["Marco non studia e non lavora", "Marco non studia o non lavora", "Marco studia o lavora", "Marco studia ma non lavora", "Marco lavora e non studia"], "answer": 2, "explain": "**드 모르간의 법칙**(leggi di De Morgan)에 따라 ¬(p ∧ q)는 ¬p ∨ ¬q예요. 부정하면 'e'(그리고)가 'o'(또는)로 바뀌니 정답은 «Marco non studia o non lavora»예요. A는 둘 다 안 한다는 뜻이라 너무 강하고, C는 원래 문장이 참일 때 함께 참이라 부정이 될 수 없어요. D와 E는 가능한 경우 중 하나만 말해서 부정과 같지 않아요.", "cites": [4, 9] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://www.polimi.it/futuri-studenti/test-e-ammissione/laurea/design/in-cosa-consiste-il-told-e-come-prepararsi", "title": "Politecnico di Milano — TOLD Design: struttura, contenuti e preparazione (2026/27)" },
+      { "n": 2, "url": "https://www.treccani.it/vocabolario/proposizione/", "title": "Treccani Vocabolario — proposizione" },
+      { "n": 3, "url": "https://it.wikipedia.org/wiki/Proposizione_(logica)", "title": "Wikipedia (italiano) — Proposizione (logica)" },
+      { "n": 4, "url": "https://www.polo-como.polimi.it/uploads/media/Logica_01.pdf", "title": "Politecnico di Milano, Polo di Como — Sesto modulo: Logica (PDF)" },
+      { "n": 5, "url": "https://it.wikipedia.org/wiki/Negazione_(matematica)", "title": "Wikipedia (italiano) — Negazione (matematica)" },
+      { "n": 6, "url": "https://www.treccani.it/vocabolario/negazione/", "title": "Treccani Vocabolario — negazione" },
+      { "n": 7, "url": "https://it.wikipedia.org/wiki/Congiunzione_logica", "title": "Wikipedia (italiano) — Congiunzione logica" },
+      { "n": 8, "url": "https://it.wikipedia.org/wiki/Disgiunzione_logica", "title": "Wikipedia (italiano) — Disgiunzione logica" },
+      { "n": 9, "url": "https://it.wikipedia.org/wiki/Leggi_di_De_Morgan", "title": "Wikipedia (italiano) — Leggi di De Morgan" },
+      { "n": 10, "url": "https://it.wikipedia.org/wiki/Quantificatore", "title": "Wikipedia (italiano) — Quantificatore" }
+    ],
+    "written": "2026-11-22",
+    "checked": "2026-11-22"
   }
 ]
