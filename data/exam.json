@@ -1384,5 +1384,547 @@
     ],
     "written": "2026-11-22",
     "checked": "2026-11-22"
+  },
+  {
+    "id": "design-arts-and-crafts",
+    "no": 4,
+    "subject": "디자인사·미술사",
+    "stage": "입문",
+    "title": "미술 공예 운동 — Arts and Crafts, William Morris, John Ruskin",
+    "version": "TOLD 디자인 2026/27",
+    "needs": [
+      "design-rivoluzione-industriale-1851"
+    ],
+    "sections": [
+      {
+        "heading": "Che cosa studiamo — 무엇을 배우나",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "지난 디자인사 글에서는 산업 혁명과 1851년 런던 대박람회를 배웠어요. 강의 페이지에 따르면 1주 차(「Dalla rivoluzione Industriale alla Deutsche Werkbund」)에서 다루는 주제에는 **영국의 미술 공예 운동**(le Art&Crafts inglesi)이 들어 있어요. 오늘은 그 운동을 공부해요.",
+            "cites": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Il movimento Arts and Crafts — 미술 공예 운동",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "**미술 공예 운동**(Arts and Crafts)은 산업화에 맞서 **수공업**(artigianato)의 가치를 다시 높이려 한 운동이에요. 트레카니 백과사전은 이 운동이 압도적인 산업 생산에 맞서 수공업을 다시 평가하려 했다고 적었고, 이탈리아어 위키백과는 19세기 후반의 빠른 산업화에 대한 예술가와 지식인의 반응이라고 적었어요.",
+            "cites": [
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il movimento Arts and Crafts voleva rivalutare l'artigianato contro la produzione industriale.",
+            "ko": "미술 공예 운동은 산업 생산에 맞서 수공업(artigianato)의 가치를 다시 높이려 했어요.",
+            "cites": [
+              2,
+              3
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "Il movimento è nato in Gran Bretagna alla fine dell'Ottocento.",
+            "ko": "이 운동은 19세기(Ottocento) 말 영국에서 생겨났어요.",
+            "cites": [
+              2,
+              4,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "시작 시기는 자료마다 조금 달라요. 이탈리아어 위키백과는 **1880년**에 영국에서 생겨났다고 적었고, V&A(빅토리아 앤드 앨버트 박물관)는 **19세기 후반** 영국에서 시작했으며 기계 생산에 대한 걱정은 1840년 무렵부터 있었다고 적었어요. 영어 위키백과는 대략 **1880~1920년**의 운동으로 봐요.",
+            "cites": [
+              2,
+              4,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "이름은 1887년 런던에서 만들어진 **미술 공예 전시 협회**(Arts and Crafts Exhibition Society)에서 왔어요. V&A에 따르면 첫 회장은 월터 크레인(Walter Crane)이었어요. 협회의 첫 전시는 **1888년**에 열렸어요.",
+            "cites": [
+              3,
+              4,
+              5
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "1851년 대박람회와도 이어져요. V&A에 따르면 이 협회는 대박람회에서 보인 지나친 장식을 거부했어요. 영어 위키백과도 개혁가들이 1851년 박람회를 장식이 지나치고 재료를 잘 모른다고 비판했다고 적었어요.",
+            "cites": [
+              4,
+              5
+            ],
+            "key": true
+          }
+        ]
+      },
+      {
+        "heading": "John Ruskin — 존 러스킨",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "**존 러스킨**(John Ruskin, 1819–1900)은 영국의 미술 비평가이자 사회 개혁가예요. 이탈리아어 위키백과는 그를 미술 공예 운동의 창시자 가운데 한 사람으로 적었고, V&A는 운동에 큰 영향을 준 사람으로 적었어요.",
+            "cites": [
+              4,
+              9,
+              10
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "트레카니 백과사전에 따르면 러스킨의 책 『베네치아의 돌』(The Stones of Venice, 1851–53) 안의 장 「고딕의 본질」(The nature of gothic)은 **윌리엄 모리스**에게 큰 영향을 주었어요. 이탈리아어 위키백과는 러스킨이 이 글에서 산업 노동이 사람을 비인간적으로 만든다고 비판했다고 적었어요.",
+            "cites": [
+              9,
+              10
+            ],
+            "key": true
+          },
+          {
+            "type": "it",
+            "it": "John Ruskin ha criticato il lavoro industriale.",
+            "ko": "이탈리아어 위키백과에 따르면, 존 러스킨은 산업 노동(lavoro industriale)을 비판했어요.",
+            "cites": [
+              9,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "William Morris — 윌리엄 모리스",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "William Morris è nato nel 1834 ed è morto nel 1896.",
+            "ko": "윌리엄 모리스는 1834년에 태어나 1896년에 죽었어요.",
+            "cites": [
+              4,
+              6,
+              7
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "**윌리엄 모리스**(William Morris)는 런던 동쪽 월섬스토(Walthamstow)에서 태어났어요. 트레카니 백과사전은 그를 시인, 예술가, 사회 운동가로 소개하고, 그의 생각이 미술 공예 운동에 **기본이 되었다**(fondamentali)고 적었어요. 영어 위키백과는 그를 이 운동의 가장 큰 인물로 적었어요.",
+            "cites": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "V&A에 따르면 모리스는 손으로 만드는 생산을 옹호했어요. 1851년 가족과 런던에 갔을 때, 16살이던 모리스는 취향을 이유로 대박람회장에 들어가기를 거부했어요. 또 V&A는 그가 분업과 공장 제도에는 반대했지만 기계 자체에 반대한 것은 아니었다고 적었어요.",
+            "cites": [
+              4,
+              8
+            ]
+          },
+          {
+            "type": "p",
+            "text": "이탈리아어 위키백과에 따르면 모리스는 영국 초기 사회주의자 가운데 한 사람이었고, 1884년에 사회주의 동맹(Socialist League)을 세웠어요.",
+            "cites": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "La Red House — 레드 하우스",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "La Red House è stata progettata dall'architetto Philip Webb.",
+            "ko": "레드 하우스는 건축가 필립 웹(Philip Webb)이 설계했어요.",
+            "cites": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "**레드 하우스**(Red House)는 모리스가 살려고 친구인 건축가 **필립 웹**에게 맡긴 집이에요. 트레카니 백과사전과 이탈리아어 위키백과는 **1859년**에 웹이 지었다고 적었고, 영어 위키백과는 **1860년**에 완성되었다고 적었어요. V&A에 따르면 모리스와 아내 제인은 1860년에 이사했어요.",
+            "cites": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "트레카니 백과사전에 따르면 모리스는 이 집의 세부와 장식을 직접 궁리했어요. 이탈리아어 위키백과는 집을 꾸미는 일 뒤에 모리스의 회사가 생겼다고 적었어요.",
+            "cites": [
+              2,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "La ditta di Morris — 모리스의 회사",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "Nel 1861 Morris ha fondato una ditta con alcuni amici.",
+            "ko": "1861년 모리스는 친구 몇 명과 회사(ditta)를 세웠어요.",
+            "cites": [
+              6,
+              7,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "회사 이름은 **모리스, 마셜, 포크너 회사**(Morris, Marshall, Faulkner & Co.)예요. 트레카니 백과사전에 따르면 이 회사는 옷감, 도자기, **스테인드글라스**(vetrate)를 만들었고, V&A는 벽화, 자수 걸개, 교회 장식도 만들었다고 적었어요. 이탈리아어 위키백과의 「Arts and Crafts」 항목은 이름을 짧게 「Morris, Marshall & Co.」로 적었어요.",
+            "cites": [
+              2,
+              6,
+              7,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "V&A에 따르면 **1875년** 회사가 이름과 구조를 바꾸어 **모리스 회사**(Morris & Company)가 되었고, 모리스 혼자 대표가 되었어요. V&A는 모리스의 첫 **벽지**(carta da parati)가 영국의 정원과 산울타리에서 영감을 받았다고 적었어요.",
+            "cites": [
+              8
+            ]
+          },
+          {
+            "type": "p",
+            "text": "한계도 있었어요. 트레카니 백과사전에 따르면 손으로 만드는 일은 비용이 높아서, 그의 물건은 소수만 살 수 있었고 산업과 합쳐지기 어려웠어요.",
+            "cites": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "La Kelmscott Press — 켈름스콧 출판사",
+        "blocks": [
+          {
+            "type": "it",
+            "it": "Nel 1891 Morris ha fondato la Kelmscott Press.",
+            "ko": "1891년 모리스는 켈름스콧 출판사(Kelmscott Press)를 세웠어요.",
+            "cites": [
+              6,
+              8
+            ],
+            "key": true
+          },
+          {
+            "type": "p",
+            "text": "V&A에 따르면 켈름스콧 출판사는 중세 방식으로 책을 찍고 엮었고, 모리스가 **활자체**, 머리글자, 테두리를 디자인했어요. 만든 책의 수는 자료마다 달라요. V&A는 **66권**, 이탈리아어 위키백과는 **53권**이라고 적었어요. V&A에 따르면 그림이 든 초서(Chaucer) 책은 모리스가 죽기 몇 달 전인 1896년에 나왔어요.",
+            "cites": [
+              6,
+              8
+            ],
+            "key": true
+          }
+        ]
+      },
+      {
+        "heading": "L'influenza — 영향",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "트레카니 백과사전에 따르면 미술 공예 운동은 응용 미술과 건축에 큰 영향을 주었고, **아르누보**(Art Nouveau)가 생기고 퍼지는 데 도왔어요. V&A는 유럽에서 이 운동의 정직함이 **모더니즘**을 일으키는 계기가 되었다고 적었어요.",
+            "cites": [
+              3,
+              4
+            ]
+          },
+          {
+            "type": "p",
+            "text": "이탈리아어 위키백과에 따르면 많은 사람이 모리스를 **근대 운동**(Movimento Moderno)과 **산업 디자인**의 아버지 가운데 한 사람으로 여겨요. 다음 디자인사 글에서는 강의 순서에 따라 아르누보(이탈리아에서는 Liberty)를 배울 예정이에요.",
+            "cites": [
+              1,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "movimento (남성)",
+                "ko": "운동, 움직임"
+              },
+              {
+                "it": "artigiano (남성)",
+                "ko": "장인, 수공업자"
+              },
+              {
+                "it": "decorazione (여성)",
+                "ko": "장식"
+              },
+              {
+                "it": "tessuto (남성)",
+                "ko": "옷감, 천"
+              }
+            ],
+            "cites": [
+              11,
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "type": "terms",
+            "items": [
+              {
+                "it": "vetrata (여성)",
+                "ko": "스테인드글라스 창"
+              },
+              {
+                "it": "carta da parati (여성)",
+                "ko": "벽지"
+              },
+              {
+                "it": "ditta (여성)",
+                "ko": "회사, 상회"
+              },
+              {
+                "it": "libro (남성)",
+                "ko": "책"
+              }
+            ],
+            "cites": [
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "강의가 이탈리아어로 진행되니, 문제와 보기도 이탈리아어로 냈어요.",
+            "cites": [
+              1
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Chi è la figura principale del movimento Arts and Crafts?",
+            "choices": [
+              "Joseph Paxton",
+              "William Morris",
+              "Michael Thonet",
+              "James Watt",
+              "Henry Cole"
+            ],
+            "answer": 2,
+            "explain": "미술 공예 운동(Arts and Crafts)의 가장 큰 인물은 **윌리엄 모리스**(William Morris)예요. 트레카니는 그의 생각이 운동에 기본(fondamentali)이 되었다고 적었어요.",
+            "cites": [
+              5,
+              7
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Che cosa voleva rivalutare il movimento Arts and Crafts?",
+            "choices": [
+              "La produzione in serie",
+              "La plastica",
+              "L'artigianato",
+              "La fotografia",
+              "Il cemento armato"
+            ],
+            "answer": 3,
+            "explain": "이 운동은 산업 생산에 맞서 **수공업**(artigianato)의 가치를 다시 높이려(rivalutare) 했어요.",
+            "cites": [
+              2,
+              3
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Chi ha progettato la Red House di William Morris?",
+            "choices": [
+              "Philip Webb",
+              "John Ruskin",
+              "Walter Crane",
+              "Joseph Paxton",
+              "Henry Cole"
+            ],
+            "answer": 1,
+            "explain": "레드 하우스(Red House)는 모리스의 친구인 건축가 **필립 웹**(Philip Webb)이 설계했어요.",
+            "cites": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "Quale critico ha avuto grande influenza su William Morris?",
+            "choices": [
+              "Michael Thonet",
+              "James Watt",
+              "Joseph Paxton",
+              "John Ruskin",
+              "Walter Crane"
+            ],
+            "answer": 4,
+            "explain": "미술 비평가(critico) **존 러스킨**(John Ruskin)의 글 「고딕의 본질」은 모리스에게 큰 영향을 주었어요.",
+            "cites": [
+              9,
+              10
+            ]
+          },
+          {
+            "type": "quiz",
+            "lang": "it",
+            "q": "In quale anno Morris ha fondato la Kelmscott Press?",
+            "choices": [
+              "1851",
+              "1861",
+              "1875",
+              "1891",
+              "1900"
+            ],
+            "answer": 4,
+            "explain": "켈름스콧 출판사(Kelmscott Press)는 **1891년**에 세워졌어요. 1861년은 첫 회사, 1875년은 모리스 회사(Morris & Company)로 바뀐 해예요.",
+            "cites": [
+              6,
+              8
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://www.pok.polimi.it/course/view.php?id=115",
+        "title": "Politecnico di Milano (POK) — Introduzione alla Storia del Design"
+      },
+      {
+        "n": 2,
+        "url": "https://it.wikipedia.org/wiki/Arts_and_Crafts",
+        "title": "Wikipedia (italiano) — Arts and Crafts"
+      },
+      {
+        "n": 3,
+        "url": "https://www.treccani.it/enciclopedia/arts-and-crafts/",
+        "title": "Treccani Enciclopedia — Arts and Crafts"
+      },
+      {
+        "n": 4,
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+        "title": "Victoria and Albert Museum — Arts and Crafts: an introduction"
+      },
+      {
+        "n": 5,
+        "url": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+        "title": "Wikipedia (English) — Arts and Crafts movement"
+      },
+      {
+        "n": 6,
+        "url": "https://it.wikipedia.org/wiki/William_Morris",
+        "title": "Wikipedia (italiano) — William Morris"
+      },
+      {
+        "n": 7,
+        "url": "https://www.treccani.it/enciclopedia/william-morris/",
+        "title": "Treccani Enciclopedia — Morris, William"
+      },
+      {
+        "n": 8,
+        "url": "https://www.vam.ac.uk/articles/introducing-william-morris",
+        "title": "Victoria and Albert Museum — Introducing William Morris"
+      },
+      {
+        "n": 9,
+        "url": "https://it.wikipedia.org/wiki/John_Ruskin",
+        "title": "Wikipedia (italiano) — John Ruskin"
+      },
+      {
+        "n": 10,
+        "url": "https://www.treccani.it/enciclopedia/john-ruskin/",
+        "title": "Treccani Enciclopedia — Ruskin, John"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wiktionary.org/wiki/movimento",
+        "title": "Wiktionary — movimento"
+      },
+      {
+        "n": 12,
+        "url": "https://en.wiktionary.org/wiki/artigiano",
+        "title": "Wiktionary — artigiano"
+      },
+      {
+        "n": 13,
+        "url": "https://en.wiktionary.org/wiki/decorazione",
+        "title": "Wiktionary — decorazione"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wiktionary.org/wiki/tessuto",
+        "title": "Wiktionary — tessuto"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wiktionary.org/wiki/vetrata",
+        "title": "Wiktionary — vetrata"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wiktionary.org/wiki/carta_da_parati",
+        "title": "Wiktionary — carta da parati"
+      },
+      {
+        "n": 17,
+        "url": "https://en.wiktionary.org/wiki/ditta",
+        "title": "Wiktionary — ditta"
+      },
+      {
+        "n": 18,
+        "url": "https://en.wiktionary.org/wiki/libro",
+        "title": "Wiktionary — libro"
+      }
+    ],
+    "written": "2026-11-23",
+    "checked": "2026-11-23"
   }
 ]
