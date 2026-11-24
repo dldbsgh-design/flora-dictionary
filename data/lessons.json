@@ -7267,5 +7267,608 @@
     ],
     "written": "2026-11-23",
     "checked": "2026-11-23"
+  },
+  {
+    "id": "bandlab-first-steps",
+    "no": 6,
+    "subject": "작곡",
+    "stage": "입문",
+    "title": "BandLab 처음 써 보기: Windows 브라우저에서 첫 녹음과 내려받기",
+    "needs": [
+      "garageband-first-steps",
+      "sound-pitch-beat-rhythm",
+      "scales-and-keys"
+    ],
+    "sections": [
+      {
+        "heading": "들어가며",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              5,
+              6,
+              7,
+              24
+            ],
+            "text": "지난 글에서는 아이패드의 GarageBand를 처음 열어 보았어요. 이번 글에서는 Windows 컴퓨터의 인터넷 브라우저에서 쓰는 **BandLab**(밴드랩)을 처음 써 볼게요. 새 프로젝트를 만드는 방법, 루프를 하나 넣어 보는 방법, 컴퓨터 키보드로 가상 악기를 연주하는 방법, 메트로놈과 템포와 키를 정하는 방법, 목소리를 녹음하는 방법, 저장하고 소리 파일로 내려받는 방법을 차례로 살펴봐요. 이 글의 설명은 BandLab 공식 도움말(BandLab Help Center)을 바탕으로 했어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              15,
+              19
+            ],
+            "text": "BandLab 도움말과 영어판 위키백과는 모두 BandLab이 지원하는 언어 목록에서 한국어를 'Android only'(안드로이드 앱에서만)로 적고 있어요. 그래서 이 글에서는 Windows 브라우저에 나오는 단추 이름을 영어 그대로 적고, 뜻을 함께 풀어 둘게요. 또 도움말 글마다 고친 날짜가 적혀 있으니, 나중에 화면이 이 글과 조금 다를 수 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "이 글에서는 BandLab에 들어 있는 AI 기능(곡의 아이디어를 자동으로 만들어 주는 기능 같은 것)은 다루지 않아요. 음을 하나하나 직접 고르고 연주하는 방법만 살펴볼게요."
+          }
+        ]
+      },
+      {
+        "heading": "BandLab은 어떤 서비스일까요",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              1,
+              19,
+              21
+            ],
+            "text": "BandLab에서 음악을 만드는 곳을 **Studio**(스튜디오)라고 불러요. BandLab 도움말에 따르면 BandLab Studio는 클라우드 기반의 DAW로, 브라우저나 휴대폰에서 음악을 녹음하고 편집하고 섞을 수 있어요. 영어판 위키백과도 BandLab을 온라인 DAW라고 설명하고, 웹 브라우저 안에서 또는 iOS와 안드로이드용 앱으로 쓸 수 있다고 해요. **DAW**(디지털 오디오 워크스테이션)는 지난 글에서 배운 말로, 영어판 위키백과에 따르면 오디오 파일을 녹음하고 편집하고 만들어 내는 데 쓰는 전자 기기나 응용 소프트웨어예요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              14,
+              2
+            ],
+            "text": "여기서 '클라우드 기반'이라는 말이 중요해요. BandLab 도움말에 따르면 BandLab은 클라우드 기반 앱이라서 만든 것이 모두 온라인에 저장돼요. 새 프로젝트를 시작하는 것은 인터넷 없이도 할 수 있지만, 악기와 소리를 내려받거나 저장하거나 공개하려면 인터넷에 연결되어 있어야 한다고 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              19,
+              20,
+              3,
+              17
+            ],
+            "text": "값은 어떨까요? 영어판 위키백과는 BandLab을 **프리미엄**(freemium) 방식의 서비스라고 분류해요. 영어판 위키백과의 프리미엄 항목에 따르면 프리미엄은 기본 제품이나 서비스는 무료로 주고, 기능을 넓혀 주는 추가 기능이나 서비스에는 돈을 받는 가격 방식이에요. BandLab 도움말도 구독(subscription)으로 관리하는 **멤버십**(BandLab Membership)이 있다고 안내해요. 예를 들어 멤버십이 있으면 한 프로젝트의 트랙 수 한도가 늘어난다고 해요. 이 글에서는 무료로 쓸 수 있는 기능만 다뤄요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3,
+              1
+            ],
+            "text": "BandLab 도움말에 따르면 한 프로젝트에는 트랙을 16개까지 둘 수 있고, 길이는 최대 15분이에요. 멤버십이 있으면 트랙을 32개까지 둘 수 있지만 15분 한도는 그대로라고 해요. 트랙은 지난 글의 GarageBand에서도 나온 말이에요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              17,
+              18
+            ],
+            "text": "미리 알아 둘 점이 하나 있어요. BandLab 도움말의 'Changes to BandLab Studio Access' 글에 따르면 일부 지역에서는 웹, iOS, 안드로이드에서 Studio를 쓰려면 멤버십이 있어야 해요. 이 글이 연결해 둔 BandLab의 일본용 보충 약관에는 2026년 11월 18일부터 일본에서는 Studio를 쓰려면 멤버십이 필요하다고 적혀 있어요. 이 글에서 확인한 자료에는 한국에 대한 안내는 없었어요. 같은 도움말에 따르면 멤버십이 없어도 이미 만든 프로젝트는 계정에 그대로 남고, 믹스다운과 스템(뒤에서 설명해요)은 내려받을 수 있다고 해요."
+          }
+        ]
+      },
+      {
+        "heading": "시작하기 전에: 브라우저, 인터넷, 계정",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              2,
+              19
+            ],
+            "text": "BandLab 도움말에 따르면 웹에서는 www.bandlab.com에 들어가서 BandLab을 쓰고, 최신 버전의 Google Chrome에서 쓰기를 권해요. 최소 조건은 최신 버전의 Chrome이나 Firefox, 또는 Chromium 기반 브라우저를 돌릴 수 있는 컴퓨터라고 해요. 영어판 위키백과의 최소 사양에도 Microsoft Edge, Google Chrome, Mozilla Firefox, 또는 Chromium 기반 브라우저를 돌릴 수 있는 컴퓨터라고 적혀 있어요. 두 자료가 꼽는 브라우저 목록은 조금 달라요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              13
+            ],
+            "text": "BandLab 도움말에 따르면 BandLab을 쓰려면 인터넷 연결이 필요하고, 저장이 잘 안 될 때를 대비해 되도록 튼튼하고 안정된 와이파이나 유선(LAN) 연결을 쓰기를 권해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              30
+            ],
+            "text": "BandLab은 계정에 로그인해서 써요. BandLab 도움말에 따르면 가입한 뒤에는 가입할 때 쓴 이메일 주소를 확인해야 계정을 쓸 수 있어요. 로그인하면 확인 메일이 자동으로 보내지고, 메일함에서 확인을 누르면 바로 BandLab에 로그인된다고 해요. 메일이 안 보이면 스팸함도 살펴보라고 안내해요."
+          }
+        ]
+      },
+      {
+        "heading": "새 프로젝트 만들기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "BandLab 도움말은 Studio에서 만드는 작업 하나하나를 **프로젝트**(project)라고 불러요. 같은 도움말에 따르면 웹에서 새 프로젝트를 만드는 방법은 두 단계예요. 첫째, BandLab 첫 화면의 오른쪽 위에 있는 'Create'(만들기) 단추를 눌러요. 둘째, 'New Project'(새 프로젝트)를 누르면 BandLab Studio가 열려요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              6
+            ],
+            "text": "BandLab 도움말에 따르면 새 프로젝트에 처음 들어가면 'New Track'(새 트랙) 창이 나타나서 첫 트랙을 고르게 해요. 목소리를 녹음하는 'Voice/Audio' 트랙, BandLab의 가상 악기로 녹음하는 'Instrument' 트랙을 고를 수 있고, 오디오 파일이나 MIDI 파일을 가져오거나 BandLab Sounds 라이브러리에서 소리를 넣을 수도 있어요. 나중에 트랙을 더 넣고 싶으면 트랙 위쪽의 'Add Track'(트랙 추가) 단추를 누르면 돼요."
+          }
+        ]
+      },
+      {
+        "heading": "첫 소리 넣어 보기: BandLab Sounds",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              24
+            ],
+            "text": "BandLab 도움말은 처음 시작할 때 소리 라이브러리에서 샘플을 하나 넣어 보기를 권해요. **BandLab Sounds**는 BandLab 도움말에 따르면 루프와 샘플 같은 소리 조각을 모아 둔 라이브러리로, 스타일별로 정리되어 있고 Studio 안에 바로 들어 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              24,
+              12
+            ],
+            "text": "BandLab 도움말에 따르면 넣는 방법은 이래요. 'New Track' 창의 오른쪽 아래에서 'BandLab Sounds'를 눌러요. 그러면 왼쪽에서 라이브러리를 둘러볼 수 있어요. 간단한 드럼 루프나 피아노 루프처럼 마음에 드는 샘플을 찾으면, 두 번 클릭하거나 프로젝트 안으로 끌어다 놓아요. 이미 만든 프로젝트에서는 단축키 L로 BandLab Sounds 창을 열고 닫을 수 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              25
+            ],
+            "text": "BandLab 도움말에 따르면 트랙 위에 놓인 소리 덩어리(도움말은 이것을 **리전**, region이라고 불러요)를 고른 다음 리전 오른쪽 위의 루프 아이콘을 오른쪽으로 끌면, 그 리전이 끊김 없이 되풀이돼요. 복사해서 붙여 넣지 않아도 길이를 늘릴 수 있는 방법이에요. 루프로 곡을 만드는 방법은 뒤의 루프 만들기 글에서 더 자세히 다룰게요."
+          }
+        ]
+      },
+      {
+        "heading": "가상 악기를 컴퓨터 키보드로 연주하기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "BandLab 도움말에 따르면 **가상 악기**(Virtual Instruments)는 샘플과 신시사이저로 실제 악기를 흉내 내서, 진짜 악기가 없어도 음악을 만들 수 있게 해 줘요. BandLab에는 드럼, 피아노, 신시사이저, 기타, 오케스트라 소리 같은 가상 악기가 370개 넘게 있다고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "BandLab 도움말에 따르면 순서는 이래요. 새 프로젝트라면 'New Track' 창에서 'Instruments'를 고르고, 이미 있는 프로젝트라면 'Add Track'을 누른 뒤 'Virtual Instruments'를 골라요. 악기 목록에서 가상 악기를 하나 고른 다음, 컴퓨터 키보드나 연결한 MIDI 기기로 연주해요. 준비가 되면 녹음 단추를 눌러 녹음을 시작해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              22
+            ],
+            "text": "여기서 **MIDI**(미디)라는 말이 나와요. 영어판 위키백과에 따르면 MIDI는 여러 전자 악기와 컴퓨터, 관련 오디오 기기를 연결해 음악을 연주하고 편집하고 녹음하게 해 주는 기술 표준이에요. 건반이나 단추를 누를 때마다 음높이, 타이밍, 세기 같은 음악적 지시가 담긴 MIDI 정보로 바뀌어요. MIDI는 소리 자체가 아니라 음에 대한 정보를 기록하기 때문에, 피아노로 연주한 MIDI 녹음을 나중에 기타나 플루트 같은 다른 소리로 바꿀 수 있다고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "컴퓨터 키보드로 연주하게 해 주는 기능을 BandLab 도움말은 **Musical Typing**(뮤지컬 타이핑)이라고 불러요. 컴퓨터 키보드를 MIDI 건반처럼 써서 가상 악기를 연주하게 해 주는 기능이에요. 같은 도움말에 따르면 'Octave -/+' 단추로 연주할 수 있는 음 전체를 위아래로 옮길 수 있고(1편에서 배운 옥타브예요), 키보드의 Shift 키를 누르면 'Sustain' 표시에 불이 들어오면서 그다음에 치는 음이 길게 이어진다고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "BandLab 도움말에 따르면 가상 악기에는 **아르페지에이터**(Arpeggiator)도 있어요. 들어오는 음을 차례로 하나씩 연주해 주는 기능으로, 가상 피아노 옆에서 켜고 Up, Down, Up-Down, Down-Up, Random 가운데 패턴을 골라요. 'Rate'로는 음이 연주되는 빠르기를, 'Note Length'로는 음 하나의 길이를 정해요. 지난 글의 GarageBand 아르페지에이터와 같은 생각의 기능이에요. 또 **Smart Chord**(스마트 코드)는 음 하나를 누르면 화음 전체를 연주해 주는 기능이라고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              6
+            ],
+            "text": "BandLab 도움말에 따르면 대부분의 악기는 소리를 조절하는 값이 정해져 있고, 값을 바꿀 수 있는 'Membership Instruments'는 멤버십이 있어야 조절할 수 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "메트로놈, 템포, 키 정하기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              7,
+              12
+            ],
+            "text": "녹음하기 전에 메트로놈을 켜 두면 좋아요. BandLab 도움말은 녹음하면서 따라갈 일정한 박이 있도록 먼저 **메트로놈**을 켜라고 권해요. 메트로놈 단추는 Studio 위쪽 도구 막대에 있고, 단축키 M으로도 켜고 끌 수 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              7
+            ],
+            "text": "BandLab 도움말에 따르면 Studio의 transport bar라는 도구 막대 왼쪽 위에서 메트로놈 아이콘 옆의 아래쪽 화살표를 누르면 템포, 메트로놈 소리, 메트로놈 음량을 정할 수 있어요. 같은 도움말에 따르면 BandLab의 메트로놈은 40BPM부터 240BPM까지만 지원해요. BPM은 1편에서 배운 1분당 박 수예요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              8
+            ],
+            "text": "BandLab 도움말에 따르면 키(조)는 Studio 위쪽에서 박자표(Time Signature) 도구 막대 옆에 있는 'Key' 설정을 눌러 바꿔요. 원하는 키를 고른 다음, 이미 있는 리전들을 모두 그 키로 옮길지(transpose), 아니면 프로젝트의 키만 새로 정할지 골라요. 키를 바꾸면 오디오 트랙과 MIDI 트랙이 모두 영향을 받고, 템포는 그대로 둔 채 고른 만큼 음이 위아래로 옮겨진다고 해요. 2편에서 배운 조를 여기서 정하는 거예요."
+          }
+        ]
+      },
+      {
+        "heading": "목소리 녹음하기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1
+            ],
+            "text": "BandLab 도움말에 따르면 웹에서 목소리를 녹음하는 순서는 이래요. 트랙 위쪽의 'Add Track' 단추를 누르고, 'New Track' 창에서 'Voice/Audio'를 골라요. 악기나 마이크를 컴퓨터에 연결한 다음, 왼쪽 아래의 'AutoPitch' 탭에서 쓸 마이크나 악기를 'Input Device'(입력 장치)로 고르고 'Input Channels'(입력 채널)를 골라요. 그다음 'Input Level'(입력 레벨) 표시를 보고 Studio에 소리가 들어오고 있는지 확인해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              1,
+              12
+            ],
+            "text": "소리가 들어오는 것을 확인했으면 녹음 단추를 눌러요. BandLab 도움말에 따르면 녹음 전에 입력 장치와 채널이 제대로 설정되었는지, 소리가 들어오는지 한 번 더 확인하라고 해요. 단축키로는 R이 녹음 시작과 멈춤, 스페이스 바가 재생과 멈춤, Enter가 재생 위치를 프로젝트 맨 앞으로 옮기는 키예요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              9,
+              10
+            ],
+            "text": "마이크에 대해 알아 둘 점이 있어요. BandLab 도움말의 'Connecting Instruments and Microphones' 글은 BandLab에 악기나 마이크를 연결하려면 USB 마이크나 오디오 인터페이스가 필요하다고 설명해요. USB 마이크는 오디오 인터페이스 없이 컴퓨터의 USB 단자에 바로 꽂을 수 있다고 해요. 이 글에서 확인한 BandLab 도움말에는 노트북에 달린 마이크를 쓰는 방법이 따로 적혀 있지 않았어요. 이 글은 장비를 새로 사라고 권하지 않아요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              10
+            ],
+            "text": "소리가 들어오지 않을 때 확인할 것도 BandLab 도움말에 나와 있어요. Windows 컴퓨터에서는 작업 표시줄의 스피커 아이콘을 오른쪽 클릭해 소리 설정을 열고, '입력'(Input)에서 쓸 장치를 골라요. 도움말은 브라우저를 열기 전에 운영 체제가 장치를 알아보는지 먼저 확인하라고 해요. 또 주소창 옆의 자물쇠나 슬라이더 아이콘을 눌러 '마이크'(Microphone)가 '허용'(Allow)으로 되어 있는지 확인하라고 안내해요. 다른 탭이나 프로그램이 마이크를 쓰고 있지 않은지도 살펴보라고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              11,
+              10
+            ],
+            "text": "녹음하면서 내 목소리를 실시간으로 듣는 기능을 **모니터링**(Monitoring)이라고 해요. BandLab 도움말에 따르면 헤드폰이나 이어폰을 연결하고, 'Voice/Audio' 트랙이라면 AutoPitch 패널에서 'Monitoring'을 눌러 켜고 꺼요. 도움말은 스피커 소리가 마이크로 다시 새어 들어가지 않도록 헤드폰이나 이어폰을 쓰라고 해요. 또 블루투스는 지연과 연결 문제 때문에 녹음에는 어렵다며, 녹음할 때는 유선 기기를 권해요."
+          }
+        ]
+      },
+      {
+        "heading": "녹음 고치기: MIDI 편집기와 피아노 롤",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              23
+            ],
+            "text": "가상 악기로 녹음한 것은 MIDI 리전으로 남아서, 음을 하나하나 고칠 수 있어요. BandLab 도움말에 따르면 MIDI 리전을 두 번 클릭하거나 오른쪽 클릭한 뒤 'Edit'를 고르면 **MIDI 편집기**(MIDI Editor)가 열려요. Studio 아래쪽의 MIDI Editor 탭을 열어도 돼요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              23
+            ],
+            "text": "BandLab 도움말에 따르면 MIDI 편집기 안의 **피아노 롤**(piano roll)은 MIDI 음을 만들고 고치는 화면이에요. 가로 방향은 시간, 세로 방향은 음높이를 나타내고, 음은 막대 모양으로 보여요. 막대를 옮기거나 길이를 바꿀 수 있어요. 위쪽의 숫자는 지금 보고 있는 마디를 알려 주고, 마디를 몇 칸으로 나눌지는 프로젝트의 박자표에 따라 정해진다고 해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              23
+            ],
+            "text": "피아노 롤은 가로로 시간이 흐르고 세로로 음높이가 쌓인 모눈종이와 같아요. 막대를 어느 높이, 어느 자리에 얼마나 길게 그리느냐가 곧 어떤 음을 언제 얼마 동안 소리 낼지를 정해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              23
+            ],
+            "text": "BandLab 도움말에 따르면 음을 직접 그려 넣을 수도 있어요. MIDI 편집기 왼쪽의 연필 아이콘(그리기 도구)을 누르고 격자 위에 음을 놓거나 지우면 돼요. 연필 없이 격자를 두 번 클릭해도 음을 놓거나 지울 수 있고, 음의 끝을 끌어 길이를 늘려요. 'Smart View'를 켜면 고른 음계에 속하는 줄만 보여서 화음이나 멜로디를 그리기 쉬워진다고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              23,
+              12
+            ],
+            "text": "박에서 조금 어긋나게 친 음은 **퀀타이즈**(Quantize)로 바로잡을 수 있어요. BandLab 도움말에 따르면 퀀타이즈는 고른 음들을 정한 음표 단위(1/4, 1/8, 1/16 등)의 시간 격자에 자동으로 맞춰 주는 기능이에요. 음을 고르고 오른쪽 클릭해 'Quantize'를 고른 다음 단위를 정해요. 단축키는 Q예요."
+          }
+        ]
+      },
+      {
+        "heading": "저장하기와 공개 범위",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              12,
+              13
+            ],
+            "text": "BandLab 도움말에 따르면 웹 Studio에서는 Ctrl + S가 저장(Save Revision) 단축키예요. 도움말은 작업을 잃지 않도록 작업하는 동안, 그리고 Studio를 나가기 전에 되도록 자주 저장하라고 강하게 권해요. 저장이 안 될 때는 앱을 지우거나 브라우저를 닫지 말고 도움말의 순서를 따르라고 해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              5,
+              12
+            ],
+            "text": "저장한 프로젝트는 **Library**(라이브러리)에서 찾아요. BandLab 도움말에 따르면 웹 화면 위쪽 탐색 막대의 Library 아이콘을 누르면 내 프로젝트들이 보여요. 실행 취소는 Ctrl + Z예요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              16
+            ],
+            "text": "내 곡을 누가 들을 수 있는지도 알아 둘게요. BandLab 도움말에 따르면 프로젝트를 비공개(private)로 저장하면 나만 볼 수 있고, 공개(public)하면 BandLab의 모든 사람이 들을 수 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "소리 파일로 내려받기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              5,
+              17
+            ],
+            "text": "BandLab 도움말에 따르면 BandLab은 프로젝트를 클라우드에 저장하지만, 트랙을 내 기기로 내려받을 수도 있어요. 내려받는 것은 두 가지예요. **믹스다운**(Mixdown)은 프로젝트 전체를 하나로 담은 오디오 파일이고, **스템**(Stems)은 프로젝트를 이루는 트랙 하나하나를 말해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              17,
+              5
+            ],
+            "text": "믹스다운은 여러 악기가 함께 연주한 곡을 한 개의 녹음으로 받는 것이고, 스템은 같은 곡을 악기별로 따로따로 받는 것과 같아요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              5
+            ],
+            "text": "BandLab 도움말에 따르면 Studio에서 믹스다운을 내려받으려면 Studio 왼쪽 위의 프로젝트 메뉴를 누르고, 'Project' > 'Download' > 'Mixdown As'를 고른 다음 원하는 형식을 골라요. Library에서 곡을 고르고 'Download' 단추를 눌러도 돼요. 트랙을 따로 받으려면 'Project' > 'Download' > 'Tracks'를 고르고 M4A와 WAV 가운데 형식을 골라요. 같은 도움말에 따르면 프로젝트의 일부 구간만 내보내는 것은 아직 지원하지 않아요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              4,
+              19
+            ],
+            "text": "어떤 형식으로 받을 수 있는지는 자료마다 달라요. BandLab 공식 도움말의 형식 표에는 웹에서 믹스다운을 M4A(128/192kbps)와 16비트 44.1kHz WAV로, 트랙 하나는 MIDI와 WAV로 내보낼 수 있다고 적혀 있고, MP3는 내보내기 목록에 없어요. 반면 영어판 위키백과의 BandLab 항목에는 웹 Studio가 MIDI, 128/192/320kbit/s MP3, 16비트 WAV로 내보낼 수 있다고 적혀 있어요. 실제로 어떤 형식이 나오는지는 'Mixdown As' 메뉴에서 직접 확인해 보세요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              27,
+              28,
+              29
+            ],
+            "text": "두 형식의 뜻도 알아 둘게요. 영어판 위키백과에 따르면 **WAV**는 개인용 컴퓨터에 오디오를 저장하는 파일 형식 표준으로, Microsoft Windows에서 압축하지 않은 오디오에 주로 쓰는 형식이에요. **M4A**는 영어판 위키백과의 MP4 파일 형식 항목에 따르면 소리만 담은 MPEG-4 파일에 흔히 붙는 확장자예요. 참고로 **MP3**는 영어판 위키백과에 따르면 오디오를 나타내는 데 필요한 데이터 양을 크게 줄이도록 설계된 오디오 부호화 형식이에요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              4,
+              26
+            ],
+            "text": "반대로 다른 곳에서 만든 소리 파일을 BandLab으로 가져올 수도 있어요. BandLab 도움말에 따르면 웹 Studio는 MIDI, MP3, MP4, WAV, M4A, OGG 같은 형식을 가져올 수 있고, 새 프로젝트의 'New Track' 창 아래쪽 'Import Audio/MIDI' 단추를 누르거나 이미 있는 프로젝트에 파일을 끌어다 놓으면 돼요. 가져온 오디오 파일은 앞부분에 몇 초쯤 조용한 부분이 생길 수 있는데, 도움말은 이것이 파일 전체를 제대로 가져오기 위한 것이라고 설명해요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              31,
+              26
+            ],
+            "text": "지난 글에서 본 것처럼 Apple 사용 설명서에 따르면 GarageBand 프로젝트는 Windows에서 열 수 없지만, GarageBand 노래를 오디오 파일로 공유할 수는 있어요. 그래서 아이패드의 GarageBand와 Windows의 BandLab 사이에서 작업을 옮길 때는 소리 파일로 주고받는 방법을 생각해 볼 수 있어요. 구체적인 순서는 뒤의 루프 만들기 글에서 두 앱의 공식 도움말을 함께 보며 다룰게요."
+          }
+        ]
+      },
+      {
+        "heading": "정리",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              1,
+              19,
+              20,
+              3,
+              6,
+              7,
+              8,
+              23,
+              12,
+              5,
+              4
+            ],
+            "text": "정리해 볼게요. **BandLab**은 브라우저에서 쓰는 클라우드 기반 DAW이고, 음악을 만드는 곳을 **Studio**라고 불러요. 기본은 무료이고 구독으로 관리하는 **멤버십**이 따로 있는 **프리미엄** 방식이에요. 웹에서는 'Create' > 'New Project'로 새 **프로젝트**를 만들고, 'New Track' 창에서 'Voice/Audio', 'Instruments', **BandLab Sounds** 같은 트랙을 골라요. 가상 악기는 **Musical Typing**으로 컴퓨터 키보드를 건반처럼 써서 연주하고, 메트로놈 옆 화살표로 템포를, 'Key' 설정으로 키를 정해요. 녹음한 **MIDI** 리전은 **피아노 롤**에서 고치고, Ctrl + S로 자주 저장해요. 다 만든 곡은 'Project' > 'Download'에서 **믹스다운**이나 **스템**으로 내려받는데, 공식 도움말의 표에는 웹 믹스다운 형식으로 M4A와 WAV만 적혀 있어요. 다음 글부터는 기초 단계로 넘어가 곡의 구조를 살펴볼게요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002945153-Getting-Started-with-the-BandLab-Studio",
+        "title": "Getting Started with the BandLab Studio — BandLab Help Center (영어)"
+      },
+      {
+        "n": 2,
+        "url": "https://help.bandlab.com/hc/en-us/articles/900001558383-Supported-Platforms-and-System-Requirements",
+        "title": "Supported Platforms and System Requirements — BandLab Help Center (영어)"
+      },
+      {
+        "n": 3,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002945433-Track-and-Project-Duration-Limits",
+        "title": "Track and Project Duration Limits — BandLab Help Center (영어)"
+      },
+      {
+        "n": 4,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360036010533-Supported-Import-and-Export-File-Formats",
+        "title": "Supported Import and Export File Formats — BandLab Help Center (영어)"
+      },
+      {
+        "n": 5,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002959774-Downloading-Mixdowns-and-Tracks",
+        "title": "Downloading Mixdowns and Tracks — BandLab Help Center (영어)"
+      },
+      {
+        "n": 6,
+        "url": "https://help.bandlab.com/hc/en-us/articles/46380376077593-Using-BandLab-Virtual-Instruments",
+        "title": "Using BandLab Virtual Instruments — BandLab Help Center (영어)"
+      },
+      {
+        "n": 7,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002960274-Using-the-Metronome",
+        "title": "Using the Metronome — BandLab Help Center (영어)"
+      },
+      {
+        "n": 8,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002960254-Changing-your-Project-s-Key",
+        "title": "Changing your Project's Key — BandLab Help Center (영어)"
+      },
+      {
+        "n": 9,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002960114-Connecting-Instruments-and-Microphones",
+        "title": "Connecting Instruments and Microphones — BandLab Help Center (영어)"
+      },
+      {
+        "n": 10,
+        "url": "https://help.bandlab.com/hc/en-us/articles/56128195607449-Audio-Input-Issues",
+        "title": "Audio Input Issues — BandLab Help Center (영어)"
+      },
+      {
+        "n": 11,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002945233-Monitoring-your-Recording",
+        "title": "Monitoring your Recording — BandLab Help Center (영어)"
+      },
+      {
+        "n": 12,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360021363353-Studio-Keyboard-Shortcuts",
+        "title": "Studio Keyboard Shortcuts — BandLab Help Center (영어)"
+      },
+      {
+        "n": 13,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002945193-Saving-Issues",
+        "title": "Saving Issues — BandLab Help Center (영어)"
+      },
+      {
+        "n": 14,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360025765673-Using-BandLab-Offline",
+        "title": "Using BandLab Offline — BandLab Help Center (영어)"
+      },
+      {
+        "n": 15,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360021018773-Change-App-Language",
+        "title": "Change App Language — BandLab Help Center (영어)"
+      },
+      {
+        "n": 16,
+        "url": "https://help.bandlab.com/hc/en-us/articles/48041557586201-Who-can-access-my-music",
+        "title": "Who can access my music? — BandLab Help Center (영어)"
+      },
+      {
+        "n": 17,
+        "url": "https://help.bandlab.com/hc/en-us/articles/63415042774553-Changes-to-BandLab-Studio-Access",
+        "title": "Changes to BandLab Studio Access — BandLab Help Center (영어)"
+      },
+      {
+        "n": 18,
+        "url": "https://bandlabtechnologies.com/policies/bandlab-japan-supplemental-terms/",
+        "title": "BandLab – Japan Supplemental Terms — BandLab Technologies (영어·일본어)"
+      },
+      {
+        "n": 19,
+        "url": "https://en.wikipedia.org/wiki/BandLab",
+        "title": "BandLab — Wikipedia (영어)"
+      },
+      {
+        "n": 20,
+        "url": "https://en.wikipedia.org/wiki/Freemium",
+        "title": "Freemium — Wikipedia (영어)"
+      },
+      {
+        "n": 21,
+        "url": "https://en.wikipedia.org/wiki/Digital_audio_workstation",
+        "title": "Digital audio workstation — Wikipedia (영어)"
+      },
+      {
+        "n": 22,
+        "url": "https://en.wikipedia.org/wiki/MIDI",
+        "title": "MIDI — Wikipedia (영어)"
+      },
+      {
+        "n": 23,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360022659314-Editing-MIDI-Regions",
+        "title": "Editing MIDI Regions — BandLab Help Center (영어)"
+      },
+      {
+        "n": 24,
+        "url": "https://help.bandlab.com/hc/en-us/articles/360018942593-BandLab-Sounds",
+        "title": "BandLab Sounds — BandLab Help Center (영어)"
+      },
+      {
+        "n": 25,
+        "url": "https://help.bandlab.com/hc/en-us/articles/57252306473497-Looping-Regions-and-Setting-a-Playback-Cycle",
+        "title": "Looping Regions and Setting a Playback Cycle — BandLab Help Center (영어)"
+      },
+      {
+        "n": 26,
+        "url": "https://help.bandlab.com/hc/en-us/articles/900003008403-Importing-Audio-and-MIDI-Files",
+        "title": "Importing Audio and MIDI Files — BandLab Help Center (영어)"
+      },
+      {
+        "n": 27,
+        "url": "https://en.wikipedia.org/wiki/WAV",
+        "title": "WAV — Wikipedia (영어)"
+      },
+      {
+        "n": 28,
+        "url": "https://en.wikipedia.org/wiki/MP4_file_format",
+        "title": "MP4 file format — Wikipedia (영어)"
+      },
+      {
+        "n": 29,
+        "url": "https://en.wikipedia.org/wiki/MP3",
+        "title": "MP3 — Wikipedia (영어)"
+      },
+      {
+        "n": 30,
+        "url": "https://help.bandlab.com/hc/en-us/articles/115002945053-Confirm-your-email-address",
+        "title": "Confirm your email address — BandLab Help Center (영어)"
+      },
+      {
+        "n": 31,
+        "url": "https://support.apple.com/guide/garageband-ipad/share-songs-chs39284d66/ipados",
+        "title": "Share songs with GarageBand for iPad — Apple Support (영어)"
+      }
+    ],
+    "written": "2026-11-24",
+    "checked": "2026-11-24"
   }
 ]
