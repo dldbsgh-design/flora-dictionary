@@ -1615,5 +1615,276 @@
     ],
     "written": "2026-11-20",
     "checked": "2026-11-20"
+  },
+  {
+    "id": "it-nomi-genere-numero",
+    "no": 2,
+    "subject": "이탈리아어 문법",
+    "stage": "입문",
+    "title": "명사의 성과 수 — 남성·여성, 단수·복수",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["it-alfabeto-pronuncia"],
+    "sections": [
+      {
+        "heading": "Genere e numero — 성과 수",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 명사(**nome**)는 하나하나 **성**(genere)이 정해져 있어요. 성은 **남성**(maschile)과 **여성**(femminile) 두 가지예요. 이탈리아어 위키백과에 따르면 중성(neutro)은 없어요. 영어 위키백과는 옛날의 중성이 남성에 합쳐졌다고 설명해요.", "cites": [1, 4, 5], "key": true },
+          { "type": "p", "text": "명사는 **수**(numero)도 가져요. 하나를 말하는 **단수**(singolare)와 여럿을 말하는 **복수**(plurale)예요.", "cites": [2, 4], "key": true },
+          { "type": "it", "it": "Ogni nome ha un genere: maschile o femminile.", "ko": "모든 명사는 성이 있어요: 남성 또는 여성.", "cites": [1, 4], "key": true },
+          { "type": "it", "it": "Ogni nome ha anche un numero: singolare o plurale.", "ko": "모든 명사는 수도 있어요: 단수 또는 복수.", "cites": [2, 4], "key": true },
+          { "type": "terms", "items": [
+            { "it": "genere", "ko": "(문법) 성" },
+            { "it": "maschile", "ko": "남성의" },
+            { "it": "femminile", "ko": "여성의, (문법) 여성" },
+            { "it": "numero", "ko": "(문법) 수" },
+            { "it": "singolare", "ko": "(문법) 단수" },
+            { "it": "plurale", "ko": "복수" }
+          ], "cites": [27, 28, 29, 2, 30, 31] }
+        ]
+      },
+      {
+        "heading": "Le terminazioni -o, -a, -e — 끝 글자로 성 짐작하기",
+        "blocks": [
+          { "type": "p", "text": "명사의 끝 글자를 보면 성을 짐작할 수 있어요. **-o**로 끝나면 대개 남성, **-a**로 끝나면 대개 여성이에요. **-e**로 끝나는 명사는 남성도 있고 여성도 있어요. 트레카니의 표는 이것을 \"prevalente\"(주로 그렇다)라고 적어서, 예외가 있다는 것을 보여 줘요.", "cites": [1, 2, 3, 4], "key": true },
+          { "type": "it", "it": "I nomi in -o sono per lo più maschili.", "ko": "-o로 끝나는 명사는 대부분 남성이에요.", "cites": [1, 3, 4], "key": true },
+          { "type": "it", "it": "I nomi in -a sono per lo più femminili.", "ko": "-a로 끝나는 명사는 대부분 여성이에요.", "cites": [1, 3, 4], "key": true },
+          { "type": "it", "it": "I nomi in -e possono essere maschili o femminili.", "ko": "-e로 끝나는 명사는 남성일 수도, 여성일 수도 있어요.", "cites": [1, 2, 4], "key": true },
+          { "type": "p", "text": "아래 낱말은 트레카니의 표에 나오는 예예요. fiore(꽃)와 padre(아버지)는 -e로 끝나지만 남성이고, madre(어머니)와 volpe(여우)는 -e로 끝나는 여성이에요.", "cites": [1, 2] },
+          { "type": "terms", "items": [
+            { "it": "libro (m)", "ko": "책 — 남성" },
+            { "it": "ragazzo (m)", "ko": "소년 — 남성" },
+            { "it": "penna (f)", "ko": "깃털, 펜 — 여성" },
+            { "it": "scarpa (f)", "ko": "신발 — 여성" },
+            { "it": "fiore (m)", "ko": "꽃 — 남성" },
+            { "it": "padre (m)", "ko": "아버지 — 남성" },
+            { "it": "madre (f)", "ko": "어머니 — 여성" },
+            { "it": "volpe (f)", "ko": "여우 — 여성" }
+          ], "cites": [1, 6, 7, 8, 9, 10, 11, 12, 13] }
+        ]
+      },
+      {
+        "heading": "Il plurale — 복수 만들기",
+        "blocks": [
+          { "type": "p", "text": "복수는 끝 글자를 바꿔서 만들어요. 기본 규칙은 세 가지예요: **-o → -i**, **-a → -e**, **-e → -i**.", "cites": [2, 3, 4, 5], "key": true },
+          { "type": "terms", "items": [
+            { "it": "libro → libri", "ko": "책 → 책들 (-o → -i)" },
+            { "it": "scala → scale", "ko": "사다리, 계단 → 복수 (-a → -e)" },
+            { "it": "fiore → fiori", "ko": "꽃 → 꽃들 (-e → -i, 남성)" },
+            { "it": "luce → luci", "ko": "빛 → 빛들 (-e → -i, 여성)" }
+          ], "cites": [4, 6, 14, 10, 15] },
+          { "type": "it", "it": "Il plurale di libro è libri.", "ko": "libro(책)의 복수는 libri예요.", "cites": [2, 4], "key": true },
+          { "type": "it", "it": "Il plurale di scala è scale.", "ko": "scala(사다리, 계단)의 복수는 scale예요.", "cites": [3, 4, 14], "key": true },
+          { "type": "p", "text": "**-a**로 끝나는 **남성** 명사도 있어요. 이런 낱말은 복수가 **-i**예요. 예: **poeta → poeti**(시인), papa → papi.", "cites": [3, 4, 5, 16], "key": true },
+          { "type": "p", "text": "영어 위키백과에 따르면 **-ca**, **-ga**로 끝나는 낱말은 복수가 **-che**, **-ghe**예요. 예: amica → amiche(여자 친구). 1강에서 본 것처럼 e 앞에서 c를 딱딱한 소리로 읽으려면 h를 넣어 ch로 써요. 같은 글은 -co, -go로 끝나는 낱말의 복수는 규칙이 일정하지 않다고 적고 있어서, 이번에는 다루지 않아요.", "cites": [5] }
+        ]
+      },
+      {
+        "heading": "Nomi invariabili — 복수에서도 모양이 그대로",
+        "blocks": [
+          { "type": "p", "text": "단수와 복수의 모양이 같은 명사를 **invariabile**(변하지 않는)이라고 해요. 관사(il, la, i, le 같은 말)는 다음 차례에서 배워요.", "cites": [2, 3, 4, 32], "key": true },
+          { "type": "p", "text": "주요한 경우: ① 끝 모음에 **강세 표시**가 있는 낱말(città, virtù, caffè) ② **한 음절** 낱말(re) ③ **자음으로 끝나는** 외래어(bar, sport, film) ④ 강세 없는 **-i**로 끝나는 낱말(crisi).", "cites": [2, 3, 4, 5], "key": true },
+          { "type": "it", "it": "la città, le città", "ko": "도시 하나, 도시 여럿 — 명사 모양이 같아요.", "cites": [2, 4, 5], "key": true },
+          { "type": "it", "it": "il film, i film", "ko": "영화 하나, 영화 여럿 — 명사 모양이 같아요.", "cites": [3, 5], "key": true },
+          { "type": "terms", "items": [
+            { "it": "città (f)", "ko": "도시" },
+            { "it": "virtù (f)", "ko": "덕, 미덕" },
+            { "it": "caffè (m)", "ko": "커피, 카페" },
+            { "it": "re (m)", "ko": "왕" },
+            { "it": "film (m)", "ko": "영화" },
+            { "it": "crisi (f)", "ko": "위기" }
+          ], "cites": [17, 20, 18, 19, 21, 22] }
+        ]
+      },
+      {
+        "heading": "Eccezioni — 외워 둘 예외",
+        "blocks": [
+          { "type": "p", "text": "**mano**(손)는 -o로 끝나지만 **여성**이에요. 복수는 **mani**예요. 트레카니는 \"bianche mani\"(하얀 손들)라는 예로 복수에서도 여성이라는 것을 보여 줘요.", "cites": [3, 5, 23], "key": true },
+          { "type": "p", "text": "**uomo**(남자, 사람)의 복수는 **uomini**예요. 규칙을 따르지 않는 복수로, 라틴어 homo → homines에서 왔어요.", "cites": [3, 5, 24], "key": true },
+          { "type": "p", "text": "**uovo**(달걀)와 **braccio**(팔)는 단수가 남성인데 복수는 **-a**로 끝나는 여성이 돼요: le uova, le braccia. 영어 위키백과에 따르면 braccio는 \"i bracci\"라는 복수도 있어서, 진짜 팔에는 le braccia, 비유적인 뜻에는 i bracci를 써요.", "cites": [1, 2, 5, 25, 26], "key": true },
+          { "type": "it", "it": "l'uovo, le uova", "ko": "달걀 하나, 달걀 여럿", "cites": [1, 5, 25], "key": true },
+          { "type": "terms", "items": [
+            { "it": "mano → mani (f)", "ko": "손" },
+            { "it": "uomo → uomini (m)", "ko": "남자, 사람" },
+            { "it": "uovo → uova", "ko": "달걀 (단수 남성, 복수 여성)" },
+            { "it": "braccio → braccia", "ko": "팔 (단수 남성, 복수 여성)" }
+          ], "cites": [23, 24, 25, 26] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "문제와 보기를 이탈리아어로 냈어요. 답을 고른 뒤 **정답과 풀이**를 눌러 확인하세요.", "cites": [4] },
+          { "type": "quiz", "lang": "it", "q": "Qual è il plurale di «libro»?", "choices": ["libri", "libre", "libra", "librei", "libro"], "answer": 1, "explain": "-o로 끝나는 남성 명사는 복수가 -i예요. 그래서 libro(책)의 복수(plurale)는 **libri**예요.", "cites": [4, 5] },
+          { "type": "quiz", "lang": "it", "q": "Quale nome è femminile?", "choices": ["libro", "ragazzo", "fiore", "penna", "padre"], "answer": 4, "explain": "**penna**(펜)는 -a로 끝나는 여성(femminile) 명사예요. libro, ragazzo는 -o로 끝나는 남성이고, fiore, padre는 -e로 끝나지만 남성이에요.", "cites": [1, 8, 10, 11] },
+          { "type": "quiz", "lang": "it", "q": "Qual è il plurale di «la città»?", "choices": ["le citti", "le città", "le cittae", "i città", "le cittàs"], "answer": 2, "explain": "끝 모음에 강세가 있는 città(도시)는 변하지 않는(invariabile) 명사예요. 복수는 **le città**로, 명사 모양은 그대로이고 관사만 la → le로 바뀌어요.", "cites": [2, 4, 5] },
+          { "type": "quiz", "lang": "it", "q": "Quale nome è maschile anche se finisce in -a?", "choices": ["penna", "scala", "poeta", "scarpa", "luce"], "answer": 3, "explain": "**poeta**(시인)는 -a로 끝나지만 남성(maschile)이에요. 그래서 복수는 poeti예요. penna, scala, scarpa는 -a로 끝나는 여성, luce는 -e로 끝나는 여성이에요.", "cites": [3, 4, 16, 15] },
+          { "type": "quiz", "lang": "it", "q": "Qual è il plurale di «l'uovo»?", "choices": ["gli uovi", "le uova", "le uove", "gli uovo", "le uovi"], "answer": 2, "explain": "uovo(달걀)는 단수는 남성이지만 복수는 -a로 끝나는 여성이 돼요: **le uova**.", "cites": [1, 5, 25] }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://www.treccani.it/enciclopedia/genere_(Enciclopedia-dell'Italiano)/",
+        "title": "Treccani, Enciclopedia dell'Italiano — genere (Nicola Grandi, 2010)"
+      },
+      {
+        "n": 2,
+        "url": "https://www.treccani.it/enciclopedia/numero_(Enciclopedia-dell'Italiano)/",
+        "title": "Treccani, Enciclopedia dell'Italiano — numero (Nicola Grandi, 2011)"
+      },
+      {
+        "n": 3,
+        "url": "https://www.treccani.it/enciclopedia/plurale_(Enciclopedia-dell'Italiano)/",
+        "title": "Treccani, Enciclopedia dell'Italiano — plurale (Riccardo Cimaglia, 2011)"
+      },
+      {
+        "n": 4,
+        "url": "https://it.wikipedia.org/wiki/Grammatica_italiana",
+        "title": "Wikipedia (it) — Grammatica italiana"
+      },
+      {
+        "n": 5,
+        "url": "https://en.wikipedia.org/wiki/Italian_grammar",
+        "title": "Wikipedia (en) — Italian grammar"
+      },
+      {
+        "n": 6,
+        "url": "https://en.wiktionary.org/wiki/libro",
+        "title": "Wiktionary — libro"
+      },
+      {
+        "n": 7,
+        "url": "https://en.wiktionary.org/wiki/ragazzo",
+        "title": "Wiktionary — ragazzo"
+      },
+      {
+        "n": 8,
+        "url": "https://en.wiktionary.org/wiki/penna",
+        "title": "Wiktionary — penna"
+      },
+      {
+        "n": 9,
+        "url": "https://en.wiktionary.org/wiki/scarpa",
+        "title": "Wiktionary — scarpa"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wiktionary.org/wiki/fiore",
+        "title": "Wiktionary — fiore"
+      },
+      {
+        "n": 11,
+        "url": "https://en.wiktionary.org/wiki/padre",
+        "title": "Wiktionary — padre"
+      },
+      {
+        "n": 12,
+        "url": "https://en.wiktionary.org/wiki/madre",
+        "title": "Wiktionary — madre"
+      },
+      {
+        "n": 13,
+        "url": "https://en.wiktionary.org/wiki/volpe",
+        "title": "Wiktionary — volpe"
+      },
+      {
+        "n": 14,
+        "url": "https://en.wiktionary.org/wiki/scala",
+        "title": "Wiktionary — scala"
+      },
+      {
+        "n": 15,
+        "url": "https://en.wiktionary.org/wiki/luce",
+        "title": "Wiktionary — luce"
+      },
+      {
+        "n": 16,
+        "url": "https://en.wiktionary.org/wiki/poeta",
+        "title": "Wiktionary — poeta"
+      },
+      {
+        "n": 17,
+        "url": "https://en.wiktionary.org/wiki/citt%C3%A0",
+        "title": "Wiktionary — città"
+      },
+      {
+        "n": 18,
+        "url": "https://en.wiktionary.org/wiki/caff%C3%A8",
+        "title": "Wiktionary — caffè"
+      },
+      {
+        "n": 19,
+        "url": "https://en.wiktionary.org/wiki/re",
+        "title": "Wiktionary — re"
+      },
+      {
+        "n": 20,
+        "url": "https://en.wiktionary.org/wiki/virt%C3%B9",
+        "title": "Wiktionary — virtù"
+      },
+      {
+        "n": 21,
+        "url": "https://en.wiktionary.org/wiki/film",
+        "title": "Wiktionary — film"
+      },
+      {
+        "n": 22,
+        "url": "https://en.wiktionary.org/wiki/crisi",
+        "title": "Wiktionary — crisi"
+      },
+      {
+        "n": 23,
+        "url": "https://en.wiktionary.org/wiki/mano",
+        "title": "Wiktionary — mano"
+      },
+      {
+        "n": 24,
+        "url": "https://en.wiktionary.org/wiki/uomo",
+        "title": "Wiktionary — uomo"
+      },
+      {
+        "n": 25,
+        "url": "https://en.wiktionary.org/wiki/uovo",
+        "title": "Wiktionary — uovo"
+      },
+      {
+        "n": 26,
+        "url": "https://en.wiktionary.org/wiki/braccio",
+        "title": "Wiktionary — braccio"
+      },
+      {
+        "n": 27,
+        "url": "https://en.wiktionary.org/wiki/genere",
+        "title": "Wiktionary — genere"
+      },
+      {
+        "n": 28,
+        "url": "https://en.wiktionary.org/wiki/maschile",
+        "title": "Wiktionary — maschile"
+      },
+      {
+        "n": 29,
+        "url": "https://en.wiktionary.org/wiki/femminile",
+        "title": "Wiktionary — femminile"
+      },
+      {
+        "n": 30,
+        "url": "https://en.wiktionary.org/wiki/singolare",
+        "title": "Wiktionary — singolare"
+      },
+      {
+        "n": 31,
+        "url": "https://en.wiktionary.org/wiki/plurale",
+        "title": "Wiktionary — plurale"
+      },
+      {
+        "n": 32,
+        "url": "https://en.wiktionary.org/wiki/invariabile",
+        "title": "Wiktionary — invariabile"
+      }
+    ],
+    "written": "2026-11-25",
+    "checked": "2026-11-25"
   }
 ]
