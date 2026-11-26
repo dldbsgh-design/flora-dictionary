@@ -2558,5 +2558,140 @@
     ],
     "written": "2026-11-24",
     "checked": "2026-11-24"
+  },
+  {
+    "id": "gk-unione-europea",
+    "no": 3,
+    "subject": "일반 상식",
+    "stage": "입문",
+    "title": "유럽 연합 — Unione europea, Trattati di Roma, Maastricht, euro",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["gk-repubblica-1946","gk-costituzione-istituzioni"],
+    "sections": [
+      {
+        "heading": "Che cosa chiede il test — 시험이 묻는 것",
+        "blocks": [
+          { "type": "p", "text": "학교 페이지는 일반 상식 영역이 역사·기술·과학·**정치**·사회의 '오늘날'에 관한 상식을 묻는다고 적었어요. 지난 글에서 이탈리아의 헌법과 국가 기관을 봤죠. 이번에는 이탈리아가 처음부터 함께 만든 **유럽 연합**(Unione europea, 줄여서 **UE**)을 봐요.", "cites": [1,2] },
+          { "type": "p", "text": "지금 누가 그 자리에 있는지, 회원국이 몇 나라인지는 **2026-11-26**에 확인한 내용이에요. 시험 전에 다시 확인하세요.", "cites": [5,8,9] }
+        ]
+      },
+      {
+        "heading": "Le origini — 시작",
+        "blocks": [
+          { "type": "p", "text": "트레카니 백과사전에 따르면 알티에로 스피넬리(**Altiero Spinelli**)는 전쟁 중에 유럽 나라들의 연방만이 새 세계 대전을 막을 수 있다고 생각했고, 그 생각이 유배지(confino)에서 에르네스토 로시(Ernesto Rossi)와 함께 쓴 **벤토테네 선언**(Manifesto di Ventotene, **1941**)이 되었어요. 이탈리아어 위키백과는 지은이로 에우제니오 콜로르니(Eugenio Colorni)까지 세 사람을 들고, 1944년에 펴냈다고 적었어요.", "cites": [13,2], "key": true },
+          { "type": "p", "text": "**1950년 5월 9일**, 프랑스 외무 장관 로베르 쉬망(**Robert Schuman**)이 서유럽의 석탄·철강 산업을 하나로 묶자는 계획을 내놓았어요. 그래서 유럽 연합에서는 5월 9일을 '유럽의 날'(Giornata dell'Europa)로 기념해요.", "cites": [3,2], "key": true },
+          { "type": "it", "it": "Il 9 maggio si celebra la Giornata dell'Europa.", "ko": "5월 9일에는 유럽의 날을 기념해요.", "cites": [3,2], "key": true },
+          { "type": "p", "text": "**1951년 4월 18일**, 여섯 나라가 석탄과 철강 산업을 함께 관리하는 조약에 서명했어요. 이것이 **유럽 석탄 철강 공동체**(Comunità europea del carbone e dell'acciaio, **CECA**)예요. 이탈리아어 위키백과에 따르면 이 조약은 **파리**에서 서명했어요.", "cites": [3,11,2], "key": true },
+          { "type": "p", "text": "여섯 나라(i sei paesi fondatori)는 **독일, 프랑스, 이탈리아, 네덜란드, 벨기에, 룩셈부르크**예요. 영국은 처음 여섯 나라에 들지 않았어요.", "cites": [3,2], "key": true },
+          { "type": "it", "it": "L'Italia è uno dei sei paesi fondatori.", "ko": "이탈리아는 여섯 창립 국가 가운데 하나예요.", "cites": [3,2,5], "key": true }
+        ]
+      },
+      {
+        "heading": "I Trattati di Roma — 로마 조약 (1957)",
+        "blocks": [
+          { "type": "it", "it": "I Trattati di Roma sono stati firmati il 25 marzo 1957.", "ko": "로마 조약은 1957년 3월 25일에 서명되었어요.", "cites": [3,11,2], "key": true },
+          { "type": "p", "text": "여섯 나라는 협력을 다른 경제 분야로 넓혀 두 조약에 서명했어요. 하나는 **유럽 경제 공동체**(Comunità economica europea, **CEE**), 다른 하나는 **유럽 원자력 공동체**(**Euratom**)를 만들었어요. 두 공동체는 **1958년 1월 1일**부터 일을 시작했어요.", "cites": [3,11], "key": true },
+          { "type": "p", "text": "서명한 곳은 로마 캄피돌리오 언덕의 **오라치와 쿠리아치의 방**(Sala degli Orazi e Curiazi)이에요. 유럽 연합의 50주년 누리집은 이 방이 지금의 카피톨리니 박물관(Musei Capitolini) 안에 있다고 적었어요.", "cites": [11,12], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 이탈리아를 대표해 서명한 사람은 총리 안토니오 세니(Antonio Segni)와 외무 장관 가에타노 마르티노(Gaetano Martino)예요.", "cites": [11] }
+        ]
+      },
+      {
+        "heading": "Da CEE a UE — 공동체에서 연합으로",
+        "blocks": [
+          { "type": "p", "text": "**1992년 2월 7일** 네덜란드의 **마스트리흐트**(Maastricht)에서 유럽 연합 조약(trattato sull'Unione europea)에 서명했어요. 이 조약이 효력을 얻은 **1993년 11월 1일**에 유럽 연합이 공식으로 생겼어요.", "cites": [4,2], "key": true },
+          { "type": "it", "it": "Il trattato di Maastricht istituisce ufficialmente l'Unione europea.", "ko": "마스트리흐트 조약이 유럽 연합을 공식으로 세워요.", "cites": [4,2], "key": true },
+          { "type": "p", "text": "유럽 연합 누리집에 따르면 1993년 1월 1일에 **단일 시장**(mercato unico)이 생겼고, 사람·상품·서비스·자본이 자유롭게 오가는 '네 가지 자유'(quattro libertà)가 정해졌어요.", "cites": [4] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 지금의 짜임은 **2007년 리스본 조약**(trattato di Lisbona)으로 갖춰졌어요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "L'euro — 유로",
+        "blocks": [
+          { "type": "p", "text": "**1999년 1월 1일** 11개 나라에서 **유로**(euro)가 생겼어요. 처음에는 상거래와 금융 거래에만 썼어요. 이탈리아도 처음 11개 나라 가운데 하나예요.", "cites": [4,5,27], "key": true },
+          { "type": "p", "text": "지폐와 동전(banconote e monete)은 **2002년 1월**부터 12개 나라에서 돌기 시작했어요.", "cites": [7,27,2], "key": true },
+          { "type": "it", "it": "L'Italia fa parte della zona euro dal 1999.", "ko": "이탈리아는 1999년부터 유로 지역에 속해요.", "cites": [4,5,27], "key": true }
+        ]
+      },
+      {
+        "heading": "Gli Stati membri — 회원국",
+        "blocks": [
+          { "type": "p", "text": "지금(2026-11-26 확인) 회원국(Stati membri)은 **27개 나라**예요.", "cites": [5,2], "key": true },
+          { "type": "p", "text": "**영국**(Regno Unito)은 **2020년 1월 31일**에 유럽 연합을 떠났어요. 유럽 연합 누리집에 따르면 47년 동안 회원국이었어요.", "cites": [14,2], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 영국이 떠나는 일은 국민 투표 뒤에 이루어졌고, 이것을 **브렉시트**(Brexit)라고 불러요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "Le istituzioni — 기관",
+        "blocks": [
+          { "type": "p", "text": "**유럽 의회**(Parlamento europeo)는 유럽 연합의 법을 만드는 기관이에요. 시민들이 **5년마다** 직접 뽑고, 의원은 **720명**이에요. 시민이 직접 뽑는 첫 선거는 **1979년**이었어요.", "cites": [9,10], "key": true },
+          { "type": "it", "it": "Il Parlamento europeo è eletto dai cittadini ogni cinque anni.", "ko": "유럽 의회는 시민들이 5년마다 뽑아요.", "cites": [9,10], "key": true },
+          { "type": "p", "text": "유럽 의회가 일하는 곳은 프랑스의 **스트라스부르**(Strasburgo), 벨기에의 브뤼셀(Bruxelles), 룩셈부르크(Lussemburgo)예요. 이탈리아어 위키백과는 스트라스부르를 주된 자리(sede principale)로 적었어요.", "cites": [9,2] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 2024~2029년 의회에서 이탈리아의 의석은 **76석**이에요. 마지막 선거는 2024년 6월 6~9일에 있었어요.", "cites": [10,9] },
+          { "type": "p", "text": "**유럽 집행 위원회**(Commissione europea)는 새 법을 제안하고 결정을 집행해요. 회원국마다 한 명씩 **27명의 위원**(commissari)이 있고, 자리는 **브뤼셀**에 있어요.", "cites": [8,2], "key": true },
+          { "type": "it", "it": "La Commissione europea ha sede a Bruxelles.", "ko": "유럽 집행 위원회의 자리는 브뤼셀에 있어요.", "cites": [8,2], "key": true },
+          { "type": "p", "text": "지금(2026-11-26 확인) 집행 위원회 위원장은 **우르줄라 폰데어라이엔**(Ursula von der Leyen), 유럽 의회 의장은 **로베르타 메촐라**(Roberta Metsola)예요.", "cites": [8,9,2], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과는 유럽 이사회(Consiglio europeo) 의장을 안토니우 코스타(António Costa)로 적었고, 유럽 중앙은행(Banca centrale europea)은 프랑크푸르트(Francoforte sul Meno)에, 유럽 연합 사법 재판소(Corte di giustizia dell'Unione europea)는 룩셈부르크에 있다고 적었어요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "I simboli — 상징",
+        "blocks": [
+          { "type": "it", "it": "La bandiera europea ha 12 stelle dorate su uno sfondo blu.", "ko": "유럽 깃발에는 파란 바탕에 금빛 별 12개가 있어요.", "cites": [7,2], "key": true },
+          { "type": "p", "text": "유럽 연합 누리집은 별의 수가 회원국 수와 아무 관계가 없다고 적었어요. 이 깃발은 1955년에 유럽 평의회(Consiglio d'Europa)가 먼저 골랐고, 1985년에 유럽 공동체도 같은 깃발을 공식 상징으로 삼았어요.", "cites": [7] },
+          { "type": "p", "text": "노래(**inno**)는 베토벤의 **환희의 송가**(Inno alla gioia)이고, 구호(**motto**)는 \"**Unita nella diversità**\"(다양성 속의 통합)예요.", "cites": [6,2], "key": true },
+          { "type": "p", "text": "유럽 연합 누리집에 따르면 환희의 송가는 가사 없는 곡으로 1985년에 공식 노래가 되었고, 구호는 2000년에 정해졌어요.", "cites": [6] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 유럽 연합은 **2012년 노벨 평화상**(Premio Nobel per la pace)을 받았어요.", "cites": [2] }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          { "type": "terms", "items": [{"it": "unione (여성)", "ko": "연합, 결합"},{"it": "trattato (남성)", "ko": "조약"},{"it": "membro (남성)", "ko": "회원, 구성원 (Stato membro = 회원국)"},{"it": "fondatore (남성, 여성 fondatrice)", "ko": "창립자 (paesi fondatori = 창립 국가)"},{"it": "carbone (남성)", "ko": "석탄"},{"it": "acciaio (남성)", "ko": "강철, 철강"}], "cites": [15,16,17,18,19,20,3] },
+          { "type": "terms", "items": [{"it": "bandiera (여성)", "ko": "깃발"},{"it": "stella (여성)", "ko": "별"},{"it": "inno (남성)", "ko": "찬가, (나라 등의) 노래"},{"it": "moneta (여성)", "ko": "동전; 화폐 (moneta unica = 단일 화폐)"},{"it": "sede (여성)", "ko": "자리, 장소 (ha sede a … = …에 자리가 있다)"},{"it": "commissione (여성)", "ko": "위원회"}], "cites": [21,22,23,24,25,26,8,4] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "문제와 보기를 이탈리아어로 냈어요. 학교 페이지에 따르면 시험은 객관식(risposta multipla)이에요.", "cites": [1] },
+          { "type": "quiz", "lang": "it", "q": "In quale città sono stati firmati nel 1957 i trattati che hanno istituito la CEE?", "choices": ["Parigi", "Roma", "Maastricht", "Lisbona", "Bruxelles"], "answer": 2, "explain": "1957년 3월 25일, 유럽 경제 공동체(CEE)를 만든 조약은 **로마**(Roma)에서 서명했어요. 그래서 이름이 로마 조약(Trattati di Roma)이에요. 파리(Parigi)는 1951년 CECA 조약, 마스트리흐트는 1992년 유럽 연합 조약의 도시예요.", "cites": [3,11,4] },
+          { "type": "quiz", "lang": "it", "q": "Quale di questi paesi NON è uno dei sei paesi fondatori?", "choices": ["Italia", "Francia", "Belgio", "Regno Unito", "Lussemburgo"], "answer": 4, "explain": "여섯 창립 국가(paesi fondatori)는 독일·프랑스·이탈리아·네덜란드·벨기에·룩셈부르크예요. **영국**(Regno Unito)은 들지 않았고, 2020년 1월 31일에 유럽 연합을 떠났어요.", "cites": [3,14] },
+          { "type": "quiz", "lang": "it", "q": "Quante stelle ci sono sulla bandiera europea?", "choices": ["6", "12", "15", "27", "28"], "answer": 2, "explain": "유럽 깃발(bandiera europea)에는 금빛 별(stelle) **12개**(dodici)가 있어요. 별의 수는 회원국 수(27)와 관계가 없어요.", "cites": [7,2] },
+          { "type": "quiz", "lang": "it", "q": "Quale trattato ha istituito ufficialmente l'Unione europea?", "choices": ["Il trattato di Roma", "Il trattato di Parigi", "Il trattato di Maastricht", "Il trattato di Amsterdam", "Il trattato di Lisbona"], "answer": 3, "explain": "유럽 연합(Unione europea)을 공식으로 세운 것은 **마스트리흐트 조약**(trattato di Maastricht)이에요. 1992년에 서명하고 1993년 11월 1일에 효력을 얻었어요.", "cites": [4,2] },
+          { "type": "quiz", "lang": "it", "q": "Dove ha sede la Commissione europea?", "choices": ["Strasburgo", "Lussemburgo", "Francoforte", "Bruxelles", "Roma"], "answer": 4, "explain": "유럽 집행 위원회(Commissione europea)의 자리(sede)는 **브뤼셀**(Bruxelles)이에요. 스트라스부르(Strasburgo)는 유럽 의회가 모이는 곳이에요.", "cites": [8,9] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://www.polimi.it/futuri-studenti/test-e-ammissione/laurea/design/in-cosa-consiste-il-told-e-come-prepararsi", "title": "Politecnico di Milano — TOLD Design: struttura, contenuti e preparazione (2026/27)" },
+      { "n": 2, "url": "https://it.wikipedia.org/wiki/Unione_europea", "title": "Wikipedia (italiano) — Unione europea" },
+      { "n": 3, "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_it", "title": "Unione europea — Storia dell'Unione europea 1945-1959" },
+      { "n": 4, "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_it", "title": "Unione europea — Storia dell'Unione europea 1990-1999" },
+      { "n": 5, "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_it", "title": "Unione europea — Paesi dell'UE (2026-11-26 확인)" },
+      { "n": 6, "url": "https://european-union.europa.eu/principles-countries-history/symbols_it", "title": "Unione europea — Simboli" },
+      { "n": 7, "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_it", "title": "Unione europea — Bandiera dell'UE" },
+      { "n": 8, "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-commission_it", "title": "Unione europea — Commissione europea (2026-11-26 확인)" },
+      { "n": 9, "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-parliament_it", "title": "Unione europea — Parlamento europeo (2026-11-26 확인)" },
+      { "n": 10, "url": "https://it.wikipedia.org/wiki/Parlamento_europeo", "title": "Wikipedia (italiano) — Parlamento europeo" },
+      { "n": 11, "url": "https://it.wikipedia.org/wiki/Trattato_che_istituisce_la_Comunit%C3%A0_economica_europea", "title": "Wikipedia (italiano) — Trattato che istituisce la Comunità economica europea (Trattati di Roma)" },
+      { "n": 12, "url": "https://europa.eu/50/countries/italia/070302_it.htm", "title": "EUROPA — 50° anniversario del Trattato di Roma: esposizione della copia originale dei Trattati" },
+      { "n": 13, "url": "https://www.treccani.it/enciclopedia/altiero-spinelli/", "title": "Treccani Enciclopedia — Spinelli, Altiero" },
+      { "n": 14, "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2020-today_it", "title": "Unione europea — Storia dell'UE dal 2020 ad oggi" },
+      { "n": 15, "url": "https://en.wiktionary.org/wiki/unione", "title": "Wiktionary — unione" },
+      { "n": 16, "url": "https://en.wiktionary.org/wiki/trattato", "title": "Wiktionary — trattato" },
+      { "n": 17, "url": "https://en.wiktionary.org/wiki/membro", "title": "Wiktionary — membro" },
+      { "n": 18, "url": "https://en.wiktionary.org/wiki/fondatore", "title": "Wiktionary — fondatore" },
+      { "n": 19, "url": "https://en.wiktionary.org/wiki/carbone", "title": "Wiktionary — carbone" },
+      { "n": 20, "url": "https://en.wiktionary.org/wiki/acciaio", "title": "Wiktionary — acciaio" },
+      { "n": 21, "url": "https://en.wiktionary.org/wiki/bandiera", "title": "Wiktionary — bandiera" },
+      { "n": 22, "url": "https://en.wiktionary.org/wiki/stella", "title": "Wiktionary — stella" },
+      { "n": 23, "url": "https://en.wiktionary.org/wiki/inno", "title": "Wiktionary — inno" },
+      { "n": 24, "url": "https://en.wiktionary.org/wiki/moneta", "title": "Wiktionary — moneta" },
+      { "n": 25, "url": "https://en.wiktionary.org/wiki/sede", "title": "Wiktionary — sede" },
+      { "n": 26, "url": "https://en.wiktionary.org/wiki/commissione", "title": "Wiktionary — commissione" },
+      { "n": 27, "url": "https://it.wikipedia.org/wiki/Euro", "title": "Wikipedia (italiano) — Euro" }
+    ],
+    "written": "2026-11-26",
+    "checked": "2026-11-26"
   }
 ]
