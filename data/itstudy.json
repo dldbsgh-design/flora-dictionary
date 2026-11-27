@@ -1886,5 +1886,98 @@
     ],
     "written": "2026-11-25",
     "checked": "2026-11-25"
+  },
+  {
+    "id": "triennale-milano-reading",
+    "no": 4,
+    "subject": "이탈리아어 독해",
+    "stage": "입문",
+    "title": "트리엔날레 밀라노 — 디자인의 집 읽기",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["compasso-doro-reading"],
+    "sections": [
+      {
+        "heading": "Prima di leggere — 읽기 전에",
+        "blocks": [
+          { "type": "p", "text": "이번 지문은 밀라노의 **트리엔날레**(Triennale Milano)예요. 트리엔날레 공식 누리집은 스스로를 1923년부터 디자인·건축·예술을 알리는 국제 문화 기관이라고 소개해요.", "cites": [1, 3], "key": true },
+          { "type": "p", "text": "아래 지문은 트리엔날레 공식 누리집과 이탈리아어 위키백과의 내용을 쉬운 이탈리아어로 다시 쓴 거예요. 낱말을 먼저 훑어보고, 이탈리아어로 한 번 읽은 다음 한국어 뜻을 확인하세요.", "cites": [1, 2, 3, 4, 5] }
+        ]
+      },
+      {
+        "heading": "Parole nuove — 새 낱말",
+        "blocks": [
+          { "type": "terms", "items": [
+            { "it": "istituzione", "ko": "기관" },
+            { "it": "culturale", "ko": "문화의, 문화적인" },
+            { "it": "promuovere", "ko": "알리다, 널리 퍼뜨리다, 장려하다" },
+            { "it": "mostra", "ko": "전시회" },
+            { "it": "sede", "ko": "본거지, 본부가 있는 곳" },
+            { "it": "palazzo", "ko": "큰 건물, 궁전" },
+            { "it": "progettare", "ko": "설계하다" },
+            { "it": "inaugurare", "ko": "처음 문을 열다, 개관하다" },
+            { "it": "ingresso", "ko": "입구" },
+            { "it": "ospitare", "ko": "(안에) 두다, 맞아들이다" },
+            { "it": "organizzare", "ko": "열다, 준비하다, 조직하다" },
+            { "it": "esposizione", "ko": "전시, 박람회" }
+          ], "cites": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] }
+        ]
+      },
+      {
+        "heading": "Il testo — 지문",
+        "blocks": [
+          { "type": "it", "it": "La Triennale di Milano è un'istituzione culturale.", "ko": "트리엔날레 밀라노는 문화 기관이에요.", "cites": [1, 3], "key": true },
+          { "type": "it", "it": "Dal 1923 promuove il design, l'architettura e le arti.", "ko": "1923년부터 디자인, 건축, 예술을 알리고 있어요.", "cites": [1, 3], "key": true },
+          { "type": "it", "it": "Secondo Wikipedia, la prima mostra è a Monza, nel 1923.", "ko": "위키백과에 따르면, 첫 전시회는 1923년 몬차에서 열려요.", "cites": [3, 4] },
+          { "type": "it", "it": "Secondo Wikipedia, nel 1930 la mostra diventa «triennale»: si fa ogni tre anni.", "ko": "위키백과에 따르면, 1930년에 전시회는 '트리엔날레'가 돼요. 3년마다 열린다는 뜻이에요.", "cites": [3, 4] },
+          { "type": "it", "it": "La sede della Triennale è il Palazzo dell'Arte, a Milano.", "ko": "트리엔날레가 자리한 곳은 밀라노의 팔라초 델라르테(예술 궁전)예요.", "cites": [1, 3, 4], "key": true },
+          { "type": "it", "it": "L'architetto Giovanni Muzio progetta il palazzo.", "ko": "건축가 조반니 무치오가 이 건물을 설계해요.", "cites": [1, 3, 4], "key": true },
+          { "type": "it", "it": "Il palazzo è inaugurato nel 1933.", "ko": "이 건물은 1933년에 문을 열어요.", "cites": [1, 4], "key": true },
+          { "type": "it", "it": "L'ingresso principale è in viale Alemagna 6; secondo il sito della Triennale, c'è anche un ingresso dal Parco Sempione.", "ko": "정문은 알레마냐 거리 6번지에 있어요. 트리엔날레 누리집에 따르면, 셈피오네 공원 쪽에도 입구가 있어요.", "cites": [2, 4], "key": true },
+          { "type": "it", "it": "La Triennale ospita il Museo del Design Italiano.", "ko": "트리엔날레 안에는 이탈리아 디자인 박물관이 있어요.", "cites": [1, 5], "key": true },
+          { "type": "it", "it": "Ogni tre anni organizza l'Esposizione Internazionale, dedicata al design e all'architettura.", "ko": "3년마다 디자인과 건축을 다루는 국제 전시를 열어요.", "cites": [1, 3], "key": true }
+        ]
+      },
+      {
+        "heading": "Note sul testo — 지문 더 알기",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면, 첫 전시는 1923년 몬차의 **빌라 레알레**(Villa Reale)에서 열린 '장식 미술 국제 전시회'였고, 처음에는 2년마다 열렸어요. 트리엔날레 공식 누리집은 '1923년부터'라고만 적고 몬차는 적지 않아요. 그래서 지문에서는 몬차 이야기를 '위키백과에 따르면'으로 썼어요.", "cites": [1, 3, 4] },
+          { "type": "p", "text": "건물을 설계한 사람은 공식 누리집과 위키백과 본문 모두 **조반니 무치오**라고 적어요. 다만 위키백과의 팔라초 델라르테 문서 정보 상자에는 무치오와 함께 괄티에로 갈미나니(Gualtiero Galmanini)도 적혀 있어요.", "cites": [1, 4] },
+          { "type": "p", "text": "박물관 이름도 자료마다 달라요. 공식 누리집은 **Museo del Design Italiano**(이탈리아 디자인 박물관)라고 부르고, 이탈리아어 위키백과의 박물관 문서는 **Triennale Design Museum**이라는 이름으로 적어요. 위키백과에 따르면 이 박물관은 2007년에 문을 열었고, 이탈리아 디자인을 다룬 첫 박물관이에요.", "cites": [1, 3, 5] },
+          { "type": "p", "text": "위키백과에 따르면, 국제 전시는 1996년 뒤 20년 동안 쉬었다가 2016년에 다시 열렸어요. 그래서 3년마다라는 말이 1930년부터 한 번도 빠짐없이 이어졌다는 뜻은 아니에요.", "cites": [3] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "실제 시험처럼 **지문에 적힌 내용만으로** 답을 고르세요. 문제와 보기는 이탈리아어예요.", "cites": [1, 3] },
+          { "type": "quiz", "lang": "it", "q": "Secondo il testo, in che anno è inaugurato il Palazzo dell'Arte?", "choices": ["Nel 1923", "Nel 1930", "Nel 1933", "Nel 1954", "Nel 2016"], "answer": 3, "explain": "일곱째 문장 \"Il palazzo è inaugurato nel **1933**.\"에 답이 있어요. 1923은 트리엔날레가 시작한 해, 1930은 3년마다 열리게 된 해예요.", "cites": [1, 4] },
+          { "type": "quiz", "lang": "it", "q": "Chi progetta il Palazzo dell'Arte?", "choices": ["Gio Ponti", "Giovanni Muzio", "Albe Steiner", "Il Comune di Monza", "Il Politecnico di Milano"], "answer": 2, "explain": "여섯째 문장 \"L'architetto **Giovanni Muzio** progetta il palazzo.\"에 답이 있어요. progettare는 '설계하다'예요.", "cites": [1, 3, 4] },
+          { "type": "quiz", "lang": "it", "q": "Ogni quanto tempo la Triennale organizza l'Esposizione Internazionale?", "choices": ["Ogni anno", "Ogni due anni", "Ogni tre anni", "Ogni quattro anni", "Ogni dieci anni"], "answer": 3, "explain": "마지막 문장 \"**Ogni tre anni** organizza l'Esposizione Internazionale…\"에 답이 있어요. 이름 Triennale도 '3년마다'라는 뜻에서 왔어요(넷째 문장).", "cites": [1, 3, 4] },
+          { "type": "quiz", "lang": "it", "q": "Dov'è l'ingresso principale della Triennale?", "choices": ["In piazza Duomo", "In viale Alemagna 6", "A Monza", "In piazza Compasso d'Oro 1", "Nel Politecnico"], "answer": 2, "explain": "여덟째 문장 \"L'ingresso principale è **in viale Alemagna 6**…\"에 답이 있어요.", "cites": [2, 4] },
+          { "type": "quiz", "lang": "it", "q": "Secondo il testo, quale frase è vera?", "choices": ["La Triennale promuove solo la moda.", "Secondo Wikipedia, la prima mostra è a Monza.", "Il Palazzo dell'Arte è a Roma.", "L'Esposizione Internazionale è dedicata alla musica.", "La Triennale non ha un museo."], "answer": 2, "explain": "셋째 문장 \"Secondo Wikipedia, la prima mostra è **a Monza**, nel 1923.\"때문에 B가 맞아요. 지문에서 트리엔날레는 디자인·건축·예술을 알리고, 건물은 밀라노에 있고, 국제 전시는 디자인과 건축을 다루고, 이탈리아 디자인 박물관이 안에 있어요.", "cites": [1, 3, 4] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://triennale.org/chi-siamo", "title": "Triennale Milano — Chi siamo" },
+      { "n": 2, "url": "https://triennale.org/visita/organizza-la-tua-visita", "title": "Triennale Milano — Organizza la tua visita" },
+      { "n": 3, "url": "https://it.wikipedia.org/wiki/Triennale_di_Milano", "title": "Wikipedia (it) — Triennale di Milano" },
+      { "n": 4, "url": "https://it.wikipedia.org/wiki/Palazzo_dell%27Arte", "title": "Wikipedia (it) — Palazzo dell'Arte" },
+      { "n": 5, "url": "https://it.wikipedia.org/wiki/Triennale_Design_Museum", "title": "Wikipedia (it) — Triennale Design Museum" },
+      { "n": 6, "url": "https://en.wiktionary.org/wiki/istituzione", "title": "Wiktionary — istituzione" },
+      { "n": 7, "url": "https://en.wiktionary.org/wiki/culturale", "title": "Wiktionary — culturale" },
+      { "n": 8, "url": "https://en.wiktionary.org/wiki/promuovere", "title": "Wiktionary — promuovere" },
+      { "n": 9, "url": "https://en.wiktionary.org/wiki/mostra", "title": "Wiktionary — mostra" },
+      { "n": 10, "url": "https://en.wiktionary.org/wiki/sede", "title": "Wiktionary — sede" },
+      { "n": 11, "url": "https://en.wiktionary.org/wiki/palazzo", "title": "Wiktionary — palazzo" },
+      { "n": 12, "url": "https://en.wiktionary.org/wiki/progettare", "title": "Wiktionary — progettare" },
+      { "n": 13, "url": "https://en.wiktionary.org/wiki/inaugurare", "title": "Wiktionary — inaugurare" },
+      { "n": 14, "url": "https://en.wiktionary.org/wiki/ingresso", "title": "Wiktionary — ingresso" },
+      { "n": 15, "url": "https://en.wiktionary.org/wiki/ospitare", "title": "Wiktionary — ospitare" },
+      { "n": 16, "url": "https://en.wiktionary.org/wiki/organizzare", "title": "Wiktionary — organizzare" },
+      { "n": 17, "url": "https://en.wiktionary.org/wiki/esposizione", "title": "Wiktionary — esposizione" }
+    ],
+    "written": "2026-11-28",
+    "checked": "2026-11-28"
   }
 ]
