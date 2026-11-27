@@ -3238,5 +3238,867 @@
       "https://ssharoff.github.io/kelly/",
       "https://ssharoff.github.io/kelly/it_m3.xls"
     ]
+  },
+  {
+    "id": "colore",
+    "name": "colore",
+    "ipa": "koˈlo.re",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "colori",
+    "meanings": [
+      "색, 색깔",
+      "(칠하거나 물들이는 데 쓰는) 물감, 색 재료"
+    ],
+    "topics": [
+      "색"
+    ],
+    "level": "A1",
+    "sources": [
+      "https://www.treccani.it/vocabolario/colore/",
+      "https://en.wiktionary.org/wiki/colore",
+      "https://it.wiktionary.org/wiki/colore",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "bianco",
+    "name": "bianco",
+    "ipa": "ˈbjan.ko",
+    "pos": "형용사",
+    "meanings": [
+      "흰, 하얀"
+    ],
+    "note": "여성형 bianca, 복수 bianchi(남성)·bianche(여성). 남성 명사로 쓰면 '흰색'이다.",
+    "topics": [
+      "색"
+    ],
+    "level": "A1",
+    "related": [
+      "nero",
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/bianco1/",
+      "https://www.treccani.it/vocabolario/bianco2/",
+      "https://en.wiktionary.org/wiki/bianco",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "nero",
+    "name": "nero",
+    "ipa": "ˈne.ro",
+    "pos": "형용사",
+    "meanings": [
+      "검은, 까만"
+    ],
+    "note": "여성형 nera, 복수 neri(남성)·nere(여성). 남성 명사로 쓰면 '검은색'이다.",
+    "topics": [
+      "색"
+    ],
+    "level": "A1",
+    "related": [
+      "bianco",
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/nero1/",
+      "https://www.treccani.it/vocabolario/nero2/",
+      "https://en.wiktionary.org/wiki/nero",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "rosso",
+    "name": "rosso",
+    "ipa": "ˈros.so",
+    "pos": "형용사",
+    "meanings": [
+      "빨간, 붉은"
+    ],
+    "note": "여성형 rossa, 복수 rossi(남성)·rosse(여성). 남성 명사로 쓰면 '빨간색'이다.",
+    "topics": [
+      "색"
+    ],
+    "level": "A2",
+    "related": [
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/rosso/",
+      "https://en.wiktionary.org/wiki/rosso",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "verde",
+    "name": "verde",
+    "ipa": "ˈver.de",
+    "pos": "형용사",
+    "meanings": [
+      "초록색의, 녹색의",
+      "(과일·곡식 등이) 덜 익은"
+    ],
+    "note": "남성형과 여성형이 같고 복수는 verdi. 남성 명사로 쓰면 '초록색'이다.",
+    "topics": [
+      "색"
+    ],
+    "level": "A2",
+    "related": [
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/verde/",
+      "https://en.wiktionary.org/wiki/verde",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "giallo",
+    "name": "giallo",
+    "ipa": "ˈd͡ʒal.lo",
+    "pos": "형용사",
+    "meanings": [
+      "노란",
+      "(소설·이야기가) 추리물의"
+    ],
+    "examples": [
+      {
+        "it": "Mistero giallo.",
+        "ko": "범죄 미스터리."
+      }
+    ],
+    "note": "여성형 gialla, 복수 gialli(남성)·gialle(여성). 남성 명사로는 '노란색'과 '추리 소설'을 뜻한다. Treccani는 추리 소설은 보통 노란 표지로 나왔기 때문에 이탈리아에서 1930년대부터 libro giallo·romanzo giallo라고 불렀다고 적고 있다. Wiktionary는 Mondadori 출판사가 1929년부터 낸 추리 소설 시리즈의 노란 표지에서 온 뜻이라고 설명한다.",
+    "topics": [
+      "색"
+    ],
+    "level": "B1",
+    "related": [
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/giallo/",
+      "https://en.wiktionary.org/wiki/giallo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "blu",
+    "name": "blu",
+    "ipa": "ˈblu",
+    "pos": "형용사",
+    "meanings": [
+      "파란, 짙은 파란색의"
+    ],
+    "examples": [
+      {
+        "it": "abito blu",
+        "ko": "파란 옷"
+      }
+    ],
+    "note": "모양이 변하지 않는다. 남성 명사로는 '파란색'. Treccani는 일상어에서 azzurro는 더 옅은 파랑, blu는 더 짙은 파랑을 가리킨다고 설명한다.",
+    "topics": [
+      "색"
+    ],
+    "level": "B1",
+    "related": [
+      "azzurro",
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/blu/",
+      "https://en.wiktionary.org/wiki/blu",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "azzurro",
+    "name": "azzurro",
+    "ipa": "adˈd͡zur.ro",
+    "pos": "형용사",
+    "meanings": [
+      "하늘색의 (맑은 하늘빛 파랑)",
+      "(운동) 이탈리아 국가대표의"
+    ],
+    "examples": [
+      {
+        "it": "la squadra azzurra",
+        "ko": "이탈리아 대표팀"
+      }
+    ],
+    "note": "여성형 azzurra, 복수 azzurri(남성)·azzurre(여성). 명사로는 하늘색을 뜻하고, gli azzurri는 이탈리아 국가대표 선수들을 가리키기도 한다.",
+    "topics": [
+      "색"
+    ],
+    "level": "B1",
+    "related": [
+      "blu",
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/azzurro/",
+      "https://en.wiktionary.org/wiki/azzurro",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "grigio",
+    "name": "grigio",
+    "ipa": "ˈɡri.d͡ʒo",
+    "pos": "형용사",
+    "meanings": [
+      "회색의",
+      "칙칙한, 단조로운"
+    ],
+    "examples": [
+      {
+        "it": "giorni grigi",
+        "ko": "단조로운 나날"
+      }
+    ],
+    "note": "여성형 grigia, 남성 복수 grigi. 여성 복수는 grigie이고 grige라는 꼴도 있는데 사전마다 평가가 다르다 (Treccani는 두 꼴을 함께 적고, Wiktionary는 grige를 권하지 않는 꼴로 표시). 남성 명사로는 '회색'.",
+    "topics": [
+      "색"
+    ],
+    "level": "B2",
+    "related": [
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/grigio/",
+      "https://en.wiktionary.org/wiki/grigio",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "chiaro",
+    "name": "chiaro",
+    "ipa": "ˈkja.ro",
+    "pos": "형용사",
+    "meanings": [
+      "밝은",
+      "(색이) 연한, 옅은",
+      "분명한, 알기 쉬운"
+    ],
+    "note": "여성형 chiara, 복수 chiari(남성)·chiare(여성). Treccani는 색에 쓸 때 옅은 색조를 말하며 scuro(짙은) 등의 반대라고 적고 있다.",
+    "topics": [
+      "색"
+    ],
+    "level": "A1",
+    "related": [
+      "colore"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/chiaro/",
+      "https://en.wiktionary.org/wiki/chiaro",
+      "https://it.wiktionary.org/wiki/chiaro",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "materiale",
+    "name": "materiale",
+    "ipa": "ma.teˈrja.le",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "materiali",
+    "meanings": [
+      "재료, 자재",
+      "(어떤 일에 필요한) 용품, 장비"
+    ],
+    "note": "형용사로 쓰면 '물질의, 물질적인'이라는 뜻이 있다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "A1",
+    "related": [
+      "strumento"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/materiale/",
+      "https://en.wiktionary.org/wiki/materiale",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "strumento",
+    "name": "strumento",
+    "ipa": "struˈmen.to",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "strumenti",
+    "meanings": [
+      "도구, 기구",
+      "악기"
+    ],
+    "note": "악기는 strumento musicale라고 하며, strumenti만으로도 악기를 가리킨다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "A1",
+    "related": [
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/strumento/",
+      "https://en.wiktionary.org/wiki/strumento",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "carta",
+    "name": "carta",
+    "ipa": "ˈkar.ta",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "carte",
+    "meanings": [
+      "종이",
+      "지도"
+    ],
+    "examples": [
+      {
+        "it": "Riciclare la carta è molto importante.",
+        "ko": "종이를 재활용하는 것은 아주 중요하다."
+      }
+    ],
+    "note": "지도는 carta geografica라고도 한다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "A1",
+    "related": [
+      "foglio",
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/carta/",
+      "https://en.wiktionary.org/wiki/carta",
+      "https://it.wiktionary.org/wiki/carta",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "filo",
+    "name": "filo",
+    "ipa": "ˈfi.lo",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "fili",
+    "meanings": [
+      "실",
+      "가는 줄, 철사·전선",
+      "(칼 등의) 날"
+    ],
+    "note": "집합적으로 말할 때나 몇몇 관용 표현에서는 여성 복수 le fila도 쓴다. Wiktionary의 쓰임 설명은 더 좁아서, fila는 '실'의 관용적인 뜻에만 쓴다고 적고 있다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "A2",
+    "sources": [
+      "https://www.treccani.it/vocabolario/filo1/",
+      "https://en.wiktionary.org/wiki/filo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "oro",
+    "name": "oro",
+    "ipa": "ˈɔ.ro",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "ori",
+    "meanings": [
+      "금",
+      "금빛"
+    ],
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "A2",
+    "related": [
+      "ferro"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/oro/",
+      "https://en.wiktionary.org/wiki/oro",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "legno",
+    "name": "legno",
+    "ipa": "ˈleɲ.ɲo",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "legni",
+    "meanings": [
+      "나무, 목재",
+      "(복수 legni) 목관 악기"
+    ],
+    "examples": [
+      {
+        "it": "un pirata con una gamba di legno",
+        "ko": "나무 의족을 한 해적"
+      }
+    ],
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "B1",
+    "related": [
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/legno/",
+      "https://en.wiktionary.org/wiki/legno",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "pietra",
+    "name": "pietra",
+    "ipa": "ˈpjɛ.tra",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "pietre",
+    "meanings": [
+      "돌"
+    ],
+    "examples": [
+      {
+        "it": "una cava di pietra",
+        "ko": "채석장"
+      }
+    ],
+    "note": "Wiktionary는 e를 닫힌 소리로 읽는 ˈpje.tra도 함께 적고 있다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "B1",
+    "related": [
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/pietra/",
+      "https://en.wiktionary.org/wiki/pietra",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "tessuto",
+    "name": "tessuto",
+    "ipa": "tesˈsu.to",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "tessuti",
+    "meanings": [
+      "천, 직물",
+      "(생물) 조직"
+    ],
+    "note": "Treccani는 tessere(천을 짜다)의 과거분사에서 온 말이라고 적고 있다.",
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "B1",
+    "related": [
+      "filo",
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/tessuto/",
+      "https://en.wiktionary.org/wiki/tessuto",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "ferro",
+    "name": "ferro",
+    "ipa": "ˈfɛr.ro",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "ferri",
+    "meanings": [
+      "철, 쇠",
+      "쇠로 만든 도구"
+    ],
+    "topics": [
+      "재료와 도구"
+    ],
+    "level": "B1",
+    "related": [
+      "oro",
+      "materiale"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/ferro/",
+      "https://en.wiktionary.org/wiki/ferro",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "domanda",
+    "name": "domanda",
+    "ipa": "doˈman.da",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "domande",
+    "meanings": [
+      "질문",
+      "(기관에 내는) 신청, 신청서"
+    ],
+    "examples": [
+      {
+        "it": "quasi tutti vogliono porre almeno una domanda importante",
+        "ko": "거의 모두가 중요한 질문을 적어도 하나는 하고 싶어 한다"
+      }
+    ],
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "related": [
+      "risposta",
+      "quesito"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/domanda/",
+      "https://en.wiktionary.org/wiki/domanda",
+      "https://it.wiktionary.org/wiki/domanda",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "risposta",
+    "name": "risposta",
+    "ipa": "risˈpos.ta",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "risposte",
+    "meanings": [
+      "대답, 답"
+    ],
+    "note": "Wiktionary는 o를 닫힌 소리(risˈpos.ta)와 열린 소리(risˈpɔs.ta) 두 가지로 적고 있다.",
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "related": [
+      "domanda",
+      "rispondere"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/risposta/",
+      "https://en.wiktionary.org/wiki/risposta",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "rispondere",
+    "name": "rispondere",
+    "ipa": "risˈpon.de.re",
+    "pos": "동사",
+    "meanings": [
+      "대답하다, 답하다"
+    ],
+    "examples": [
+      {
+        "it": "gli chiesi dove stava andando ma non mi rispose",
+        "ko": "나는 그에게 어디 가느냐고 물었지만 그는 대답하지 않았다"
+      }
+    ],
+    "note": "조동사는 avere. 과거분사 risposto. '~에 대답하다'는 전치사 a와 함께 쓴다.",
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "related": [
+      "risposta",
+      "domanda"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/rispondere/",
+      "https://en.wiktionary.org/wiki/rispondere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "scegliere",
+    "name": "scegliere",
+    "ipa": "ˈʃeʎ.ʎe.re",
+    "pos": "동사",
+    "meanings": [
+      "고르다, 선택하다"
+    ],
+    "examples": [
+      {
+        "it": "ho già scelto il regalo da farti",
+        "ko": "너에게 줄 선물은 벌써 골랐어"
+      }
+    ],
+    "note": "현재 1인칭 scelgo, 과거분사 scelto. 조동사는 avere.",
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "sources": [
+      "https://www.treccani.it/vocabolario/scegliere/",
+      "https://en.wiktionary.org/wiki/scegliere",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "completare",
+    "name": "completare",
+    "ipa": "kom.pleˈta.re",
+    "pos": "동사",
+    "meanings": [
+      "(빠진 것을 채워) 완성하다",
+      "끝마치다"
+    ],
+    "topics": [
+      "시험"
+    ],
+    "level": "A2",
+    "related": [
+      "finire"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/completare/",
+      "https://en.wiktionary.org/wiki/completare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "indicare",
+    "name": "indicare",
+    "ipa": "in.diˈka.re",
+    "pos": "동사",
+    "meanings": [
+      "가리키다",
+      "나타내다, 알려 주다"
+    ],
+    "examples": [
+      {
+        "it": "gli indicò la porta",
+        "ko": "그에게 문을 가리켜 보였다"
+      }
+    ],
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "sources": [
+      "https://www.treccani.it/vocabolario/indicare/",
+      "https://en.wiktionary.org/wiki/indicare",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "frase",
+    "name": "frase",
+    "ipa": "ˈfra.ze",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "frasi",
+    "meanings": [
+      "문장",
+      "(음악) 악구"
+    ],
+    "note": "Treccani는 일상어에서 frase를 periodo(문장 단위), proposizione(절), locuzione(어구)와 같은 뜻으로 쓰기도 한다고 적고 있다.",
+    "topics": [
+      "시험"
+    ],
+    "level": "A2",
+    "related": [
+      "parola",
+      "testo"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/frase/",
+      "https://en.wiktionary.org/wiki/frase",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "parola",
+    "name": "parola",
+    "ipa": "paˈrɔ.la",
+    "pos": "명사",
+    "gender": "여성",
+    "plural": "parole",
+    "meanings": [
+      "낱말, 말",
+      "말하는 능력",
+      "(지키겠다는) 약속의 말"
+    ],
+    "examples": [
+      {
+        "it": "Ci vogliono fatti e non parole.",
+        "ko": "필요한 것은 말이 아니라 행동이다."
+      },
+      {
+        "it": "Ti do la mia parola d'onore.",
+        "ko": "내 명예를 걸고 약속할게."
+      }
+    ],
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "related": [
+      "frase",
+      "parlare"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/parola/",
+      "https://en.wiktionary.org/wiki/parola",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "testo",
+    "name": "testo",
+    "ipa": "ˈtɛs.to",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "testi",
+    "meanings": [
+      "글, 본문",
+      "(음악에 붙인) 가사"
+    ],
+    "note": "철자가 같은 다른 낱말로, 흙으로 구운 뚜껑이나 굽는 판을 가리키는 testo도 있다.",
+    "topics": [
+      "시험"
+    ],
+    "level": "A1",
+    "related": [
+      "frase",
+      "brano"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/testo3/",
+      "https://www.treccani.it/vocabolario/testo2/",
+      "https://en.wiktionary.org/wiki/testo",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "quesito",
+    "name": "quesito",
+    "ipa": "kweˈzi.to",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "quesiti",
+    "meanings": [
+      "질문, 문제"
+    ],
+    "examples": [
+      {
+        "it": "un teorema che potrebbe aiutare a risolvere alcuni dei quesiti più complessi dell'universo",
+        "ko": "우주에서 가장 복잡한 문제 몇 가지를 푸는 데 도움이 될 수 있는 정리"
+      }
+    ],
+    "note": "Treccani에 따르면 일상에서는 풀려면 논리적이거나 도덕적인 고민이 필요한 질문·문제(수학·대수·물리·철학 문제 등)에만 쓰고, 그냥 '질문'이라는 뜻으로 쓰는 것은 문어체이며 흔하지 않다.",
+    "topics": [
+      "시험"
+    ],
+    "level": "B1",
+    "related": [
+      "domanda",
+      "risposta"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/quesito2/",
+      "https://en.wiktionary.org/wiki/quesito",
+      "https://it.wiktionary.org/wiki/quesito",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
+  },
+  {
+    "id": "brano",
+    "name": "brano",
+    "ipa": "ˈbra.no",
+    "pos": "명사",
+    "gender": "남성",
+    "plural": "brani",
+    "meanings": [
+      "(글·음악 작품의) 한 대목",
+      "(뜯겨 나간) 조각"
+    ],
+    "topics": [
+      "시험"
+    ],
+    "level": "B1",
+    "related": [
+      "testo"
+    ],
+    "sources": [
+      "https://www.treccani.it/vocabolario/brano/",
+      "https://en.wiktionary.org/wiki/brano",
+      "https://it.wiktionary.org/wiki/brano",
+      "https://ssharoff.github.io/kelly/",
+      "https://ssharoff.github.io/kelly/it_m3.xls"
+    ],
+    "checked": "2026-11-28"
   }
 ]
