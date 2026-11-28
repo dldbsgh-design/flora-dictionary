@@ -903,5 +903,421 @@
     ],
     "written": "2026-11-21",
     "checked": "2026-11-21"
+  },
+  {
+    "id": "filmcraft-interface",
+    "no": 1,
+    "subject": "영상 편집",
+    "stage": "입문",
+    "title": "영상 편집이란 무엇일까, FilmCraft 화면 둘러보기",
+    "version": "FilmCraft 0.20.1 (2026년 11월 12일 GitHub 공개, 개발 중인 알파 버전)",
+    "needs": [],
+    "sections": [
+      {
+        "heading": "이 글이 기준으로 삼은 버전",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              5,
+              6
+            ],
+            "text": "이 글은 **FilmCraft 0.20.1**을 기준으로 썼어요. FilmCraft의 GitHub 공개 기록에 따르면 이 버전은 2026년 11월 12일에 나왔고, ArtCraft의 FilmCraft 소개 페이지도 버전을 0.20.1로 적고 있어요. 메뉴와 단추 이름은 공식 자료에 적힌 그대로 영어로 적었어요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              6,
+              4,
+              1
+            ],
+            "text": "FilmCraft는 아직 만들어지고 있는 프로그램이에요. ArtCraft 소개 페이지는 '개발 중'(In development), GitHub 설명서와 ArtCraft의 안내 사이트 Craft Wiki는 '알파'(alpha) 단계라고 적고 있어요. Craft Wiki에 따르면 편집, 색, 효과, 자막, 소리 섞기, 내보내기 같은 기능은 작동하지만 거친 부분이 있을 수 있어요. 특히 카메라로 찍은 큰 파일을 다룰 때, 그리고 macOS보다 시험을 덜 거친 Windows와 Linux에서 그럴 수 있어요. 그래서 중요한 프로젝트와 원본 파일은 사본을 따로 두라고 권해요. 버전이 바뀌면 이 글의 화면 설명도 달라질 수 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "영상 편집이란 무엇일까",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              9,
+              11
+            ],
+            "text": "**영상 편집**은 찍어 둔 장면들을 다듬고 순서를 정해 하나의 영상으로 만드는 작업이에요. 위키백과는 촬영한 영상을 후반 작업에서 배열하는 일이라고 설명하면서, 구간을 잘라 다듬기, 순서 바꾸기, 장면 전환과 특수 효과 넣기를 예로 들어요. Adobe의 설명에서도 클립의 순서를 바꾸고, 다듬고, 더 좋게 만드는 일이 영상 편집의 기본이에요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              14,
+              13
+            ],
+            "text": "**클립**(clip)은 편집에 쓰는 영상이나 소리 한 조각이에요. Apple의 Final Cut Pro 용어집은 가져온 비디오나 오디오 항목을 가리키는 말이라고 설명하고, 영상 편집 프로그램 OpenShot의 설명서는 트랙 위에 올려놓는 영상, 소리, 그림 항목이라고 설명해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              10,
+              14,
+              11,
+              1
+            ],
+            "text": "FilmCraft는 **비선형 편집**(non-linear editing) 프로그램이에요. 비선형 편집은 테이프처럼 앞에서부터 차례로 돌려 보지 않아도, 영상의 아무 곳이나 바로 찾아가 고칠 수 있는 방식이에요. 위키백과와 Apple 용어집에 따르면 이런 편집에서는 클립을 자르거나 고쳐도 원본 파일은 달라지지 않아요. Adobe도 타임라인에서 한 편집은 원본 파일을 바꾸지 않는다고 설명해요. 편집 프로그램은 원본을 그대로 두고, 무엇을 어떻게 편집했는지를 따로 기록해요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              10,
+              14
+            ],
+            "text": "원본 영상은 상자에 그대로 넣어 두고, 어느 부분을 어떤 순서로 보여 줄지 적은 쪽지만 고쳐 쓰는 것과 비슷해요."
+          }
+        ]
+      },
+      {
+        "heading": "타임라인, 트랙, 재생헤드",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              11,
+              13
+            ],
+            "text": "**타임라인**(timeline)은 클립을 늘어놓고 편집을 짜는 곳이에요. Adobe의 설명에 따르면 타임라인에는 영상과 소리 클립, 효과, 장면 전환이 처음부터 끝까지 시간 순서로 펼쳐져요. OpenShot 설명서는 왼쪽이 앞선 순간, 오른쪽이 나중 순간인 이야기로 생각하면 된다고 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              13,
+              11
+            ],
+            "text": "**트랙**(track)은 타임라인 안에서 클립을 담는 가로 층이에요. 트랙을 여러 개 쓰면 영상, 그림, 소리를 겹쳐 놓아 동시에 나오게 할 수 있어요. OpenShot 설명서에 따르면 위쪽 트랙의 그림이 아래쪽 트랙보다 앞에 보여요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              11,
+              14,
+              13
+            ],
+            "text": "**재생헤드**(playhead)는 타임라인에서 지금 보고 있는 위치를 알려 주는 선이에요. 이 선을 끌면 영상의 다른 순간으로 옮겨 갈 수 있어요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              13
+            ],
+            "text": "그림이 담긴 트랙은 사진을 위아래로 겹쳐 쌓아 놓은 것과 비슷해요. 위에 놓은 것이 앞에 보여요."
+          }
+        ]
+      },
+      {
+        "heading": "화면 맨 위: 탭과 메뉴",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "Craft Wiki에 따르면 FilmCraft를 켜면 **예시 프로젝트**(demo project)가 열려요. 내 파일을 가져오기 전에 화면을 먼저 둘러볼 수 있어요. 화면 위쪽에는 `Home` 단추와 탭 세 개가 있어요. `Import`는 영상이나 소리 같은 파일을 프로젝트로 가져오는 곳, `Edit`는 자르고 색을 손보고 소리를 섞는 곳, `Export`는 만든 영상을 파일로 내보내는 곳이에요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2
+            ],
+            "text": "같은 안내에 따르면 탭 옆에는 `File`, `Edit`, `Clip`, `Sequence`, `Markers`, `Graphics and Titles`, `View`, `Window`, `Help` 메뉴가 있어요. Mac에서는 이 메뉴들이 화면 맨 위의 메뉴 막대에 있어요. `Edit`라는 이름은 탭에도 있고 메뉴에도 있으니 헷갈리지 마세요."
+          }
+        ]
+      },
+      {
+        "heading": "Edit 탭을 이루는 패널",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              3,
+              4,
+              1
+            ],
+            "text": "Craft Wiki에 따르면 FilmCraft의 `Edit` 탭은 여러 **패널**(panel), 곧 화면을 이루는 부분들로 이루어져요. 그 안에는 Project 패널, Source 모니터와 Program 모니터, 타임라인, Effect Controls, 색을 보정하는 패널, 소리를 섞는 믹서 등이 있어요. GitHub 설명서와 Craft Wiki의 소개 글도 Source·Program 모니터와 여러 트랙을 쓰는 타임라인이 있다고 적고 있어요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              1
+            ],
+            "text": "**Project 패널**에는 가져온 파일이 나타나요. Craft Wiki에 따르면 FilmCraft는 원본 파일을 프로젝트 안으로 복사하지 않고, 파일이 있는 자리를 가리키기만 해요. 그래서 원본 파일을 다른 곳으로 옮기면 다음에 찾지 못하니 제자리에 두어야 해요."
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              12,
+              3,
+              7
+            ],
+            "text": "모니터는 영상을 보는 창이에요. Adobe의 편집 프로그램 Premiere 도움말에 따르면 **Source 모니터**는 클립 하나를 재생하며 넣을 부분을 준비하는 곳이고, **Program 모니터**는 지금 조립하고 있는 영상을 재생하는 곳이에요. FilmCraft에서는 Project 패널의 클립을 두 번 클릭하면 Source 모니터에서 열려요. FilmCraft의 모니터 설명 문서에 따르면 Source 모니터에서 재생해 보는 것만으로는 타임라인에 클립이 생기거나 프로젝트가 바뀌지 않아요."
+          },
+          {
+            "type": "analogy",
+            "cites": [
+              12,
+              7
+            ],
+            "text": "Source 모니터는 재료 하나를 미리 살펴보는 창이고, Program 모니터는 만들고 있는 결과물을 보는 창이라고 생각하면 돼요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              2,
+              12
+            ],
+            "text": "**시퀀스**(sequence)는 타임라인에서 순서대로 이어 놓으며 조립하고 있는 클립들이에요. Craft Wiki에 따르면 Project 패널에서 클립을 오른쪽 클릭해 `New Sequence From Clip`을 고르면 그 클립과 같은 설정의 시퀀스가 만들어져요. 이때 그림은 `V1` 같은 영상 트랙에, 소리는 `A1` 같은 소리 트랙에 놓여요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "Craft Wiki에 따르면 타임라인 왼쪽의 트랙 단추로는 클립이 어느 트랙에 들어갈지 정해요. **Effect Controls** 패널은 고른 클립에 걸린 효과를 모두 보여 줘요. 여기에는 위치, 크기, 회전 등을 다루는 `Motion`과, 불투명도 등을 다루는 `Opacity`도 들어 있어요."
+          }
+        ]
+      },
+      {
+        "heading": "예시 프로젝트를 재생해 보기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              2,
+              7
+            ],
+            "text": "화면의 자리를 알았다면 예시 프로젝트를 재생해 보세요. 재생에는 키보드를 쓸 수 있어요."
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "Space",
+            "text": "재생하고, 다시 누르면 멈추기",
+            "cites": [
+              2,
+              7
+            ]
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "L",
+            "text": "앞으로 재생하기",
+            "cites": [
+              2,
+              7
+            ]
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "J",
+            "text": "거꾸로 재생하기",
+            "cites": [
+              2,
+              7
+            ]
+          },
+          {
+            "type": "shortcut",
+            "key": true,
+            "keys": "K",
+            "text": "멈추기",
+            "cites": [
+              2,
+              7
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              7
+            ],
+            "text": "FilmCraft의 모니터 설명 문서에 따르면 Source 모니터를 선택한 상태에서 `L`이나 `J`를 다시 누를 때마다 속도가 두 배가 되고, 8배까지 빨라져요. 또 Source 모니터에서 재생을 시작하면 Program 모니터의 재생이 멈추고, 반대의 경우도 마찬가지라서 한 번에 한 모니터에서만 소리가 나요."
+          }
+        ]
+      },
+      {
+        "heading": "작업 공간 바꾸고 패널 옮기기",
+        "blocks": [
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              3,
+              4
+            ],
+            "text": "Craft Wiki에 따르면 **작업 공간**(workspace)은 어떤 한 가지 작업에 맞춰 패널 배치를 저장해 둔 것이에요. Craft Wiki는 `Editing`, `Assembly`, `Color`, `Effects`, `Audio`, `Captions and Graphics` 작업 공간을 적고 있고, GitHub 설명서는 이 가운데 앞의 다섯 가지를 적고 있어요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              3
+            ],
+            "items": [
+              "메뉴에서 `Window > Workspaces`를 고릅니다.",
+              "원하는 작업 공간을 고릅니다. 화면 오른쪽 위의 작업 공간 이름을 클릭해서 바꿀 수도 있어요."
+            ]
+          },
+          {
+            "type": "shortcut",
+            "keys": "Alt+Shift+1",
+            "mac": "Option+Shift+1",
+            "text": "Craft Wiki에 따르면 `Editing` 작업 공간으로 바꾸기",
+            "cites": [
+              3
+            ]
+          },
+          {
+            "type": "p",
+            "key": true,
+            "cites": [
+              3,
+              4
+            ],
+            "text": "패널은 원하는 자리로 옮겨 붙일 수 있어요. Craft Wiki에 따르면 어떤 패널이든 `Window` 메뉴에서 열고, 패널의 탭을 끌어서 다른 곳에 붙여요."
+          },
+          {
+            "type": "p",
+            "cites": [
+              3
+            ],
+            "text": "배치가 헝클어졌다면 Craft Wiki가 안내하는 대로 저장돼 있던 배치로 되돌릴 수 있어요. 내가 만든 배치를 따로 남기고 싶으면 같은 곳의 `Save as New Workspace…`를 써요."
+          },
+          {
+            "type": "steps",
+            "cites": [
+              3
+            ],
+            "items": [
+              "메뉴에서 `Window > Workspaces`를 고릅니다.",
+              "`Reset to Saved Layout`을 고릅니다."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "화면 글자를 한국어로 바꾸기",
+        "blocks": [
+          {
+            "type": "p",
+            "cites": [
+              8
+            ],
+            "text": "FilmCraft의 GitHub 현지화 문서에 따르면 언어 설정의 기본값은 `System Language`예요. 컴퓨터나 브라우저에 설정한 언어를 따르고, 맞는 언어가 없으면 영어로 보여 줘요. 직접 바꾸려면 아래 순서를 따라요. 바꾼 언어는 프로그램을 다시 켜도 유지돼요."
+          },
+          {
+            "type": "steps",
+            "key": true,
+            "cites": [
+              3,
+              8
+            ],
+            "items": [
+              "메뉴에서 `Edit > Language`를 고릅니다.",
+              "목록에서 `한국어`를 고릅니다."
+            ]
+          },
+          {
+            "type": "p",
+            "cites": [
+              3,
+              8
+            ],
+            "text": "Craft Wiki에 따르면 한국어 화면에는 컴퓨터에 한글 글꼴이 필요할 수 있고, 쓸 글꼴이 없으면 프로그램이 알려 주고 지금 언어를 그대로 둬요. GitHub 현지화 문서는 한국어 번역 상태를 '일부'(partial)로 적고 있어요. 이 글은 공식 안내가 영어로 쓰여 있어서 메뉴 이름을 영어로 적었어요."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "n": 1,
+        "url": "https://craft.wiki/apps/filmcraft/overview/",
+        "title": "Craft Wiki — FilmCraft (개요)"
+      },
+      {
+        "n": 2,
+        "url": "https://craft.wiki/apps/filmcraft/getting-started/",
+        "title": "Craft Wiki — FilmCraft: Getting started"
+      },
+      {
+        "n": 3,
+        "url": "https://craft.wiki/apps/filmcraft/workflows/",
+        "title": "Craft Wiki — FilmCraft: Workflows"
+      },
+      {
+        "n": 4,
+        "url": "https://github.com/storytold/filmcraft/blob/v0.20.1/README.md",
+        "title": "FilmCraft GitHub — README (v0.20.1)"
+      },
+      {
+        "n": 5,
+        "url": "https://github.com/storytold/filmcraft/releases/tag/v0.20.1",
+        "title": "FilmCraft GitHub — Release v0.20.1"
+      },
+      {
+        "n": 6,
+        "url": "https://getartcraft.com/apps/filmcraft",
+        "title": "ArtCraft — FilmCraft 소개 페이지"
+      },
+      {
+        "n": 7,
+        "url": "https://github.com/storytold/filmcraft/blob/v0.20.1/docs/monitors.md",
+        "title": "FilmCraft GitHub — Monitor view options (v0.20.1)"
+      },
+      {
+        "n": 8,
+        "url": "https://github.com/storytold/filmcraft/blob/v0.20.1/docs/localization-parity.md",
+        "title": "FilmCraft GitHub — Localization parity (v0.20.1)"
+      },
+      {
+        "n": 9,
+        "url": "https://en.wikipedia.org/wiki/Video_editing",
+        "title": "Wikipedia — Video editing"
+      },
+      {
+        "n": 10,
+        "url": "https://en.wikipedia.org/wiki/Non-linear_editing",
+        "title": "Wikipedia — Non-linear editing"
+      },
+      {
+        "n": 11,
+        "url": "https://www.adobe.com/creativecloud/video/discover/video-timeline.html",
+        "title": "Adobe — An introduction to the video timeline"
+      },
+      {
+        "n": 12,
+        "url": "https://helpx.adobe.com/premiere/desktop/get-started/source-and-program-monitor-adjustments/about-source-monitor-and-program-monitor.html",
+        "title": "Adobe 도움말 — Source and Program Monitor overview in Premiere"
+      },
+      {
+        "n": 13,
+        "url": "https://www.openshot.org/files/user-guide/timeline.html",
+        "title": "OpenShot 설명서 — Timeline"
+      },
+      {
+        "n": 14,
+        "url": "https://support.apple.com/ko-kr/guide/final-cut-pro/ver90ba496f/mac",
+        "title": "Apple 지원 — Final Cut Pro 용어집"
+      }
+    ],
+    "written": "2026-11-28",
+    "checked": "2026-11-28"
   }
 ]
