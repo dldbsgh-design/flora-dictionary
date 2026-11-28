@@ -2693,5 +2693,120 @@
     ],
     "written": "2026-11-26",
     "checked": "2026-11-26"
+  },
+  {
+    "id": "art-roma",
+    "no": 5,
+    "subject": "디자인사·미술사",
+    "stage": "입문",
+    "title": "고대 로마 미술 — arco, Pantheon, Colosseo, Ara Pacis, Colonna Traiana",
+    "version": "TOLD 디자인 2026/27",
+    "needs": ["art-grecia"],
+    "sections": [
+      {
+        "heading": "L'arte romana: tra Grecia e Roma — 로마 미술은 무엇인가",
+        "blocks": [
+          { "type": "p", "text": "앞 글의 그리스 다음은 **고대 로마**예요. 이탈리아어 위키백과에 따르면 **로마 미술**(arte romana)은 로마가 세워졌을 때부터 서로마 제국이 무너질 때까지 로마 문명의 미술이고, 로마 시만이 아니라 이탈리아의 다른 곳과 속주(province)의 미술도 들어가요.", "cites": [1] },
+          { "type": "p", "text": "같은 글에 따르면 로마는 그리스를 이긴 뒤 그리스 미술 작품을 전리품으로 로마에 가져왔어요. 로마의 시인 호라티우스(Orazio)는 이를 두고 정복당한 그리스가 거친 승리자를 사로잡았다(Graecia capta ferum victorem cepit)고 썼다고 해요.", "cites": [1] },
+          { "type": "p", "text": "이탈리아어 위키백과는 그리스 미술의 **복제본**(copie)을 많이 만든 것을 로마의 특징으로 꼽아요. 이 일은 기원전 2세기에 그리스 미술을 모으는 사람들이 늘면서 시작되었어요. 같은 글은 이 복제본 덕분에 그리스 작가들을 다시 알아볼 수 있게 되었다고 적었어요.", "cites": [1] },
+          { "type": "it", "it": "I Romani hanno fatto molte copie delle statue greche.", "ko": "로마 사람들은 그리스 조각상의 복제본을 많이 만들었어요.", "cites": [1] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 로마 미술은 아름다움만을 즐기려고 만든 것이 아니라, 늘 정치적·사회적·실용적인 목적이 있었어요. 아래의 건물과 기념물도 황제와 나라를 기리는 뜻을 담고 있어요.", "cites": [1] }
+        ]
+      },
+      {
+        "heading": "Arco, volta e calcestruzzo — 아치, 볼트, 콘크리트",
+        "blocks": [
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 **아치**(arco)는 두 기둥(piedritti) 위에 얹힌 굽은 모양의 구조이고, 보통 쐐기 모양으로 자른 돌(conci)로 쌓아요. 맨 가운데에서 아치를 닫는 돌을 **키스톤**(chiave di volta)이라고 불러요.", "cites": [2] },
+          { "type": "it", "it": "La pietra centrale che chiude l'arco si chiama chiave di volta.", "ko": "아치를 닫는 가운데 돌을 키스톤(chiave di volta)이라고 해요.", "cites": [2] },
+          { "type": "p", "text": "같은 글에 따르면 반원 아치(arco a tutto sesto)를 체계적으로 쓴 것은 로마 사람들이었고, 그들은 이것을 에트루리아 사람들(etruschi)에게서 배웠어요. 아치를 줄지어 가장 많이 쓴 곳은 **수도교**(acquedotti)예요. 또 **볼트**(volta, 둥근 천장)는 아치를 옆으로 밀거나 돌려서 얻는 모양이라고 설명해요.", "cites": [2] },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 **오푸스 카이멘티키움**(opus caementicium, 이탈리아어 opera cementizia)은 로마 사람들이 만들어 널리 쓴 건축 기술이에요. 석회에 화산재(**pozzolana**)를 섞어 만들었고, 특히 나폴리만 화산 지대의 화산재가 튼튼했다고 해요. 이 콘크리트(calcestruzzo) 덕분에 큰 둥근 지붕도 지을 수 있었어요.", "cites": [3] },
+          { "type": "it", "it": "L'opera cementizia è una tecnica edilizia inventata dai Romani.", "ko": "오푸스 카이멘티키움은 로마 사람들이 만든 건축 기술이에요.", "cites": [3] }
+        ]
+      },
+      {
+        "heading": "Il Pantheon — 판테온",
+        "blocks": [
+          { "type": "p", "text": "**판테온**(Pantheon)은 '모든 신의 (신전)'이라는 뜻이에요. 첫 신전은 **기원전 27년** 아우구스투스의 사위 **아그리파**(Marco Vipsanio Agrippa)가 지었고, 지금 모습은 황제 **하드리아누스**(Adriano)가 다시 지은 것이에요. 다시 지은 때는 자료마다 조금 달라요. 이탈리아어 위키백과는 112년쯤부터 128년쯤까지, 로마시 관광 누리집(Turismo Roma)은 118~125년으로 적었어요.", "cites": [4,5], "key": true },
+          { "type": "it", "it": "La forma attuale del Pantheon si deve all'imperatore Adriano.", "ko": "판테온의 지금 모습은 하드리아누스 황제 덕분이에요.", "cites": [4,5], "key": true },
+          { "type": "p", "text": "아그리파가 어느 신에게 바쳤는지는 자료마다 달라요. 트레카니 백과사전은 마르스, 베누스와 '모든 신'에게 바쳤다고 적었고, 이탈리아어 위키백과는 여신 키벨레(Cibele)와 모든 신에게 바쳤다고 적었어요.", "cites": [4,6] },
+          { "type": "p", "text": "판테온은 둥근 몸채에 코린트식 기둥이 선 현관(pronao)이 붙은 건물이에요. 몸채 위에는 **콘크리트**(calcestruzzo)로 만든 반구 모양의 **돔**(cupola)이 있고, 꼭대기에는 빛이 들어오는 둥근 구멍 **오쿨루스**(oculo)가 뚫려 있어요. 건물의 높이는 돔의 지름과 같아서 **43미터 남짓**이에요.", "cites": [4,5], "key": true },
+          { "type": "it", "it": "L'altezza del Pantheon è uguale al diametro della cupola.", "ko": "판테온의 높이는 돔의 지름과 같아요.", "cites": [4,5], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 판테온의 돔은 철근을 넣지 않은 콘크리트(calcestruzzo non armato) 돔 가운데 지금도 가장 커요. 돔 안쪽은 다섯 줄의 **격자 장식**(cassettoni)으로 꾸며져 있고, 한 줄에 28개씩이에요. 로마시 관광 누리집은 오쿨루스의 지름을 8.92미터로 적었어요.", "cites": [4,5] },
+          { "type": "p", "text": "판테온이 거의 그대로 남은 까닭은 교회가 되었기 때문이에요. 7세기 초(로마시 관광 누리집은 609년) 동로마 황제 포카스(Foca)가 교황 보니파시오 4세에게 건물을 주었고, 교황은 이곳을 **산타 마리아 아드 마르티레스**(Santa Maria ad Martyres) 교회로 만들었어요. 지금은 화가 **라파엘로**(Raffaello Sanzio)와 이탈리아 왕 비토리오 에마누엘레 2세의 무덤도 있어요.", "cites": [4,5], "key": true }
+        ]
+      },
+      {
+        "heading": "Il Colosseo — 콜로세움",
+        "blocks": [
+          { "type": "p", "text": "**콜로세움**(Colosseo)의 원래 이름은 **플라비우스 원형 극장**(Anfiteatro Flavio)이에요. 황제 **티투스**(Tito)가 **서기 80년**에 문을 열었어요. 공사를 시작한 해는 자료마다 달라요. 이탈리아어 위키백과는 베스파시아누스(Vespasiano)가 70년에, 트레카니 사전은 75년에 시작했다고 적었어요.", "cites": [7,8], "key": true },
+          { "type": "it", "it": "Il Colosseo è stato inaugurato dall'imperatore Tito nell'80 d.C.", "ko": "콜로세움은 서기 80년 티투스 황제가 문을 열었어요.", "cites": [7,8], "key": true },
+          { "type": "p", "text": "'콜로세오'라는 이름은 **중세**에 생겼어요. 이탈리아어 위키백과와 트레카니 백과사전 모두, 이 이름이 건물이 아주 크기 때문일 수도 있지만 **가까이 있던 네로 황제의 거대한 조각상**에서 왔을 가능성이 더 크다고 적었어요.", "cites": [7,8], "key": true },
+          { "type": "it", "it": "Il nome «Colosseo» viene probabilmente dalla statua colossale di Nerone.", "ko": "'콜로세오'라는 이름은 아마 네로의 거대한 조각상에서 왔을 거예요.", "cites": [7,8], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 콜로세움은 둘레 527미터의 타원형 건물이고, 관객을 5만~8만 7천 명쯤 넣을 수 있었다고 봐요. 검투사 경기 같은 공연에 쓰였어요. 같은 글은 이 건물에서 **아치와 볼트**(archi e volte)가 서로 단단하게 이어져 있다고 설명해요.", "cites": [7] }
+        ]
+      },
+      {
+        "heading": "Raccontare con il rilievo: Ara Pacis e Colonna Traiana — 부조로 이야기하기",
+        "blocks": [
+          { "type": "p", "text": "**아라 파키스**(Ara Pacis Augustae, '아우구스투스 평화의 제단')는 **평화**(Pax)의 여신에게 바친 **제단**(altare)이에요. 아우구스투스가 갈리아와 히스파니아(지금의 프랑스와 스페인)에서 돌아온 것을 기려 원로원(Senato)이 로마의 **캄푸스 마르티우스**(Campo Marzio)에 세우기로 했어요.", "cites": [9,10], "key": true },
+          { "type": "it", "it": "L'Ara Pacis è un altare dedicato alla Pace di Augusto.", "ko": "아라 파키스는 아우구스투스의 평화에 바친 제단이에요.", "cites": [9,10], "key": true },
+          { "type": "p", "text": "이탈리아어 위키백과에 따르면 원로원은 **기원전 13년** 7월 4일에 짓기로 정했고, 제단을 신에게 바친 날은 **기원전 9년** 1월 30일이에요.", "cites": [9] },
+          { "type": "p", "text": "제단을 둘러싼 벽의 바깥 장식은 **두 단**으로 나뉘어요. 아래 단은 **식물 무늬**(이탈리아어 위키백과에 따르면 아칸서스 덩굴 girali d'acanto), 위 단은 신화 장면과 **사람들의 행렬**이에요.", "cites": [9,13], "key": true },
+          { "type": "p", "text": "제단은 오랫동안 땅에 묻혀 있다가 16세기부터 조각이 조금씩 나왔고, **1938년**에 다시 맞추어 세워졌어요. 아라 파키스 박물관 누리집에 따르면 지금 제단을 품고 있는 박물관 건물은 미국 건축가 **리처드 마이어**(Richard Meier)의 설계이고, 이탈리아어 위키백과는 이 공사가 2006년에 끝났다고 적었어요.", "cites": [9,11,12] },
+          { "type": "p", "text": "**트라야누스 기둥**(Colonna Traiana)은 황제 **트라야누스**(Traiano)가 **다키아**(Dacia, 지금의 루마니아)를 정복한 것을 기리려고 **서기 113년**에 세운 기둥이에요. 부조가 기둥 몸에 **나선**처럼 감겨 올라가는 '나선 기둥'(colonna coclide) 가운데 처음 세워진 것이에요.", "cites": [14,15], "key": true },
+          { "type": "it", "it": "La Colonna Traiana racconta le campagne di Traiano in Dacia.", "ko": "트라야누스 기둥은 트라야누스의 다키아 원정을 이야기해요.", "cites": [14,15], "key": true },
+          { "type": "p", "text": "나선 부조의 길이는 **약 200미터**이고, 사람이 **약 2,500명** 새겨져 있어요. 감긴 횟수는 자료마다 달라요. 이탈리아어 위키백과는 24번, 로마시 관광 누리집은 23번으로 적었어요.", "cites": [14,15], "key": true },
+          { "type": "analogy", "text": "로마시 관광 누리집은 이 부조를 펼치면 **영화 필름**(pellicola cinematografica)처럼 이어진다고 비유해요. 한 장면 다음에 다음 장면이 이어지며 전쟁 이야기를 들려주는 셈이에요.", "cites": [15] },
+          { "type": "p", "text": "두 자료 모두 기둥 아래 받침에 트라야누스의 유골을 두었고, **1587년** 교황 식스토 5세(Sisto V) 때 꼭대기에 **성 베드로**(San Pietro) 조각상을 올렸다고 적었어요. 로마시 관광 누리집은 원래 꼭대기에 있던 트라야누스의 조각상이 중세에 사라졌을 것이라고 적었어요.", "cites": [14,15] }
+        ]
+      },
+      {
+        "heading": "Le parole — 낱말",
+        "blocks": [
+          { "type": "terms", "items": [{"it": "arco (남성, 복수 archi)", "ko": "아치"},{"it": "volta (여성)", "ko": "볼트, 둥근 천장"},{"it": "cupola (여성)", "ko": "돔, 둥근 지붕"},{"it": "calcestruzzo (남성)", "ko": "콘크리트"},{"it": "oculo (남성)", "ko": "(돔·벽의) 둥근 창, 둥근 구멍"}], "cites": [16,17,18,19,20] },
+          { "type": "terms", "items": [{"it": "anfiteatro (남성)", "ko": "원형 극장"},{"it": "altare (남성)", "ko": "제단"},{"it": "fregio (남성)", "ko": "프리즈, 띠 모양 장식"},{"it": "rilievo (남성)", "ko": "부조, 돋을새김"},{"it": "imperatore (남성)", "ko": "황제"}], "cites": [21,22,23,24,25] }
+        ]
+      },
+      {
+        "heading": "Esercizi — 연습 문제",
+        "blocks": [
+          { "type": "p", "text": "실제 시험처럼 문제와 보기를 이탈리아어로 냈어요.", "cites": [4,7,14] },
+          { "type": "quiz", "lang": "it", "q": "Quale imperatore ha fatto ricostruire il Pantheon nella forma attuale?", "choices": ["Augusto", "Nerone", "Adriano", "Traiano", "Tito"], "answer": 3, "explain": "판테온의 지금 모습은 **하드리아누스**(Adriano) 황제가 다시 지은 것이에요. 첫 신전은 기원전 27년 아그리파가 지었어요.", "cites": [4,5] },
+          { "type": "quiz", "lang": "it", "q": "Qual è il nome originale del Colosseo?", "choices": ["Anfiteatro Flavio", "Ara Pacis", "Foro di Traiano", "Santa Maria ad Martyres", "Campo Marzio"], "answer": 1, "explain": "콜로세움의 원래 이름은 **플라비우스 원형 극장**(Anfiteatro Flavio)이에요. '콜로세오'라는 이름은 중세에 생겼어요.", "cites": [7,8] },
+          { "type": "quiz", "lang": "it", "q": "In quale anno l'imperatore Tito ha inaugurato il Colosseo?", "choices": ["27 a.C.", "9 a.C.", "80 d.C.", "113 d.C.", "609 d.C."], "answer": 3, "explain": "티투스(Tito)는 **서기 80년**(80 d.C.)에 콜로세움을 열었어요. 기원전 27년은 아그리파의 첫 판테온, 기원전 9년은 아라 파키스를 바친 해, 113년은 트라야누스 기둥, 609년은 판테온이 교회가 된 해예요.", "cites": [5,7,8,9,14] },
+          { "type": "quiz", "lang": "it", "q": "Che cosa racconta il fregio a spirale della Colonna Traiana?", "choices": ["La fondazione di Roma", "Le campagne di Traiano in Dacia", "La vita di Raffaello", "La costruzione del Pantheon", "Il ritorno di Augusto dalla Gallia"], "answer": 2, "explain": "트라야누스 기둥의 나선 부조(fregio a spirale)는 **트라야누스의 다키아 원정**(campagne di Traiano in Dacia)을 들려줘요. 아우구스투스가 갈리아에서 돌아온 일은 아라 파키스와 이어져요.", "cites": [9,14,15] },
+          { "type": "quiz", "lang": "it", "q": "Che cosa c'è al centro della cupola del Pantheon?", "choices": ["Una statua di Augusto", "Un campanile", "Una colonna coclide", "Un'apertura circolare chiamata oculo", "Un altare dedicato alla Pace"], "answer": 4, "explain": "판테온 돔 꼭대기에는 빛이 들어오는 둥근 구멍 **오쿨루스**(oculo)가 있어요.", "cites": [4,5] }
+        ]
+      }
+    ],
+    "sources": [
+      { "n": 1, "url": "https://it.wikipedia.org/wiki/Arte_romana", "title": "Wikipedia (italiano) — Arte romana" },
+      { "n": 2, "url": "https://it.wikipedia.org/wiki/Arco_(architettura)", "title": "Wikipedia (italiano) — Arco (architettura)" },
+      { "n": 3, "url": "https://it.wikipedia.org/wiki/Opera_cementizia", "title": "Wikipedia (italiano) — Opera cementizia" },
+      { "n": 4, "url": "https://it.wikipedia.org/wiki/Pantheon_(Roma)", "title": "Wikipedia (italiano) — Pantheon (Roma)" },
+      { "n": 5, "url": "https://www.turismoroma.it/it/luoghi/pantheon", "title": "Turismo Roma — Pantheon" },
+      { "n": 6, "url": "https://www.treccani.it/enciclopedia/pantheon/", "title": "Treccani Enciclopedia — Pantheon" },
+      { "n": 7, "url": "https://it.wikipedia.org/wiki/Colosseo", "title": "Wikipedia (italiano) — Colosseo" },
+      { "n": 8, "url": "https://www.treccani.it/enciclopedia/colosseo/", "title": "Treccani Enciclopedia — Colosseo" },
+      { "n": 9, "url": "https://it.wikipedia.org/wiki/Ara_Pacis", "title": "Wikipedia (italiano) — Ara Pacis" },
+      { "n": 10, "url": "https://www.arapacis.it/it/gruppo-infopage/history-0", "title": "Museo dell'Ara Pacis — Storia" },
+      { "n": 11, "url": "https://www.arapacis.it/it/il_museo/il_ritrovamento", "title": "Museo dell'Ara Pacis — Il ritrovamento" },
+      { "n": 12, "url": "https://www.arapacis.it/it/sede/il_progetto_meier", "title": "Museo dell'Ara Pacis — Il progetto Meier" },
+      { "n": 13, "url": "https://www.arapacis.it/it/percorsi/esterno2", "title": "Museo dell'Ara Pacis — Esterno" },
+      { "n": 14, "url": "https://it.wikipedia.org/wiki/Colonna_Traiana", "title": "Wikipedia (italiano) — Colonna Traiana" },
+      { "n": 15, "url": "https://www.turismoroma.it/it/luoghi/colonna-traiana", "title": "Turismo Roma — Colonna Traiana" },
+      { "n": 16, "url": "https://en.wiktionary.org/wiki/arco", "title": "Wiktionary — arco" },
+      { "n": 17, "url": "https://en.wiktionary.org/wiki/volta", "title": "Wiktionary — volta" },
+      { "n": 18, "url": "https://en.wiktionary.org/wiki/cupola", "title": "Wiktionary — cupola" },
+      { "n": 19, "url": "https://en.wiktionary.org/wiki/calcestruzzo", "title": "Wiktionary — calcestruzzo" },
+      { "n": 20, "url": "https://en.wiktionary.org/wiki/oculo", "title": "Wiktionary — oculo" },
+      { "n": 21, "url": "https://en.wiktionary.org/wiki/anfiteatro", "title": "Wiktionary — anfiteatro" },
+      { "n": 22, "url": "https://en.wiktionary.org/wiki/altare", "title": "Wiktionary — altare" },
+      { "n": 23, "url": "https://en.wiktionary.org/wiki/fregio", "title": "Wiktionary — fregio" },
+      { "n": 24, "url": "https://en.wiktionary.org/wiki/rilievo", "title": "Wiktionary — rilievo" },
+      { "n": 25, "url": "https://en.wiktionary.org/wiki/imperatore", "title": "Wiktionary — imperatore" }
+    ],
+    "written": "2026-11-28",
+    "checked": "2026-11-28"
   }
 ]
